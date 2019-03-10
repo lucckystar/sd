@@ -1,0 +1,2807 @@
+---------------------------------------------------------------
+[ 2019-02-22T18:04:56+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014419s][吞吐率：69.35req/s] [内存消耗：1,833.13kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:04:57+08:00 ] 220.115.30.170 POST /index.php/api/user/user_attention_teacher.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_attention_teacher.html [运行时间：0.041332s][吞吐率：24.19req/s] [内存消耗：3,468.30kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_attention_teacher',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+)
+[ info ] [ RUN ] app\api\controller\User->user_attention_teacher[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001678s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001513s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = 'b0acc15a35bd1511e9e2cf5a17bb9850' LIMIT 1 [ RunTime:0.000992s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_attention` [ RunTime:0.001276s ]
+[ sql ] [ SQL ] SELECT `attention_id`,`user_teacher_id`,`teacher_portrait`,`teacher_name`,`teacher_master`,`teacher_level`,`teacher_intro` FROM `yw_attention` `a` LEFT JOIN `yw_user_teacher` `b` ON `a`.`fid`=`b`.`user_teacher_id` WHERE  `uid` = 4  AND `attention_identity` = 1 [ RunTime:0.000969s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:04:57+08:00 ] 220.115.30.170 POST /index.php/api/user/user_attention_teacher.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_attention_teacher.html [运行时间：0.041693s][吞吐率：23.98req/s] [内存消耗：3,468.30kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_attention_teacher',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+)
+[ info ] [ RUN ] app\api\controller\User->user_attention_teacher[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001370s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001314s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = 'b0acc15a35bd1511e9e2cf5a17bb9850' LIMIT 1 [ RunTime:0.001184s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_attention` [ RunTime:0.001108s ]
+[ sql ] [ SQL ] SELECT `attention_id`,`user_teacher_id`,`teacher_portrait`,`teacher_name`,`teacher_master`,`teacher_level`,`teacher_intro` FROM `yw_attention` `a` LEFT JOIN `yw_user_teacher` `b` ON `a`.`fid`=`b`.`user_teacher_id` WHERE  `uid` = 4  AND `attention_identity` = 1 [ RunTime:0.000798s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:04:58+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014589s][吞吐率：68.54req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:04:58+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014198s][吞吐率：70.43req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:04:58+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014337s][吞吐率：69.75req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:04:58+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.015452s][吞吐率：64.72req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:05:37+08:00 ] 220.115.30.170 POST /index.php/api/Common/dance_type_select.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Common/dance_type_select.html [运行时间：0.026419s][吞吐率：37.85req/s] [内存消耗：3,243.32kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Common',
+    2 => 'dance_type_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-length' => '0',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Common->dance_type_select[ /www/web/yuewu/public_html/application/api/controller/Common.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001360s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001079s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000811s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:05:37+08:00 ] 220.115.30.170 POST /index.php/api/index/index.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/index.html [运行时间：0.038597s][吞吐率：25.91req/s] [内存消耗：3,492.80kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'dance_type_id' => '1',
+  'order' => '1',
+  'seek' => '',
+  'district_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001670s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_district` [ RunTime:0.001115s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1  AND `district_id` = 1 LIMIT 1 [ RunTime:0.000819s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001130s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000808s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_banner` [ RunTime:0.001022s ]
+[ sql ] [ SQL ] SELECT `banner_content` FROM `yw_banner` [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1 [ RunTime:0.000875s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_information` [ RunTime:0.001032s ]
+[ sql ] [ SQL ] SELECT `information_content` FROM `yw_information` WHERE  `information_area` = 0 LIMIT 1 [ RunTime:0.000788s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001147s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = '1'  AND `a`.`file_false_delete` = 1  AND `file_name` LIKE '%%' ORDER BY `file_creattime` ASC [ RunTime:0.002001s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:05:38+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014287s][吞吐率：69.99req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:05:38+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014316s][吞吐率：69.85req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:05:41+08:00 ] 220.115.30.170 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.033088s][吞吐率：30.22req/s] [内存消耗：3,482.05kb] [文件加载：51]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001678s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001251s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_false_delete`,`user_status` FROM `yw_user` WHERE  `user_token` = 'b0acc15a35bd1511e9e2cf5a17bb9850' LIMIT 1 [ RunTime:0.000844s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001115s ]
+[ sql ] [ SQL ] SELECT `organization_id` FROM `yw_organization` WHERE  `user_id` = 4 LIMIT 1 [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_discounts` [ RunTime:0.001101s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_user_discounts` `a` LEFT JOIN `yw_user` `b` ON `a`.`user_id`=`b`.`user_id` WHERE  `a`.`user_id` = 4  AND `user_discounts_read_state` = 2 LIMIT 1 [ RunTime:0.001480s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:05:48+08:00 ] 220.115.30.170 POST /index.php/api/organization/organization_invitation_find.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/organization/organization_invitation_find.html [运行时间：0.031006s][吞吐率：32.25req/s] [内存消耗：3,583.77kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'organization',
+    2 => 'organization_invitation_find',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_invitation_find[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001479s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001292s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = 'b0acc15a35bd1511e9e2cf5a17bb9850' LIMIT 1 [ RunTime:0.000945s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_invitation` [ RunTime:0.001144s ]
+[ sql ] [ SQL ] SELECT `invitation_id`,`invitation_contact`,`invitation_phone`,`invitation_interview_site`,`invitation_interview_time`,`invitation_dance_type`,`invitation_age_demand`,`invitation_explain`,`invitation_organization_picture`,`invitation_organization_picture2` FROM `yw_invitation` `a` LEFT JOIN `yw_organization` `b` ON `a`.`invitation_organization_id`=`b`.`organization_id` LEFT JOIN `yw_user` `c` ON `b`.`user_id`=`c`.`user_id` WHERE  `c`.`user_id` = 4 LIMIT 1 [ RunTime:0.000856s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:05:49+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014747s][吞吐率：67.81req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:05:49+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014366s][吞吐率：69.61req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:05:49+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014345s][吞吐率：69.71req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:05:49+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014539s][吞吐率：68.78req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:05:50+08:00 ] 220.115.30.170 POST /index.php/api/organization/organization_teacher_manage.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/organization/organization_teacher_manage.html [运行时间：0.034701s][吞吐率：28.82req/s] [内存消耗：3,598.27kb] [文件加载：51]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'organization',
+    2 => 'organization_teacher_manage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_teacher_manage[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001403s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001255s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = 'b0acc15a35bd1511e9e2cf5a17bb9850' LIMIT 1 [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001126s ]
+[ sql ] [ SQL ] SELECT `organization_id` FROM `yw_organization` WHERE  `user_id` = 4 LIMIT 1 [ RunTime:0.000938s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization_teacher` [ RunTime:0.001198s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_organization_teacher` WHERE  `organization_id` = 1  AND `teacher_show` = 1 LIMIT 1 [ RunTime:0.001020s ]
+[ sql ] [ SQL ] SELECT `organization_teacher_id`,`teacher_name`,`teacher_master`,`teacher_intro`,`teacher_show` FROM `yw_organization_teacher` WHERE  `organization_id` = 1  AND `teacher_false_delete` = 1 [ RunTime:0.000960s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:05:51+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014488s][吞吐率：69.02req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:05:51+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014773s][吞吐率：67.69req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:05:51+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014470s][吞吐率：69.11req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:05:51+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014252s][吞吐率：70.17req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:05:52+08:00 ] 220.115.30.170 POST /index.php/api/organization/organization_teacher_manage.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/organization/organization_teacher_manage.html [运行时间：0.034272s][吞吐率：29.18req/s] [内存消耗：3,598.27kb] [文件加载：51]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'organization',
+    2 => 'organization_teacher_manage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_teacher_manage[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001673s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001276s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = 'b0acc15a35bd1511e9e2cf5a17bb9850' LIMIT 1 [ RunTime:0.000814s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001063s ]
+[ sql ] [ SQL ] SELECT `organization_id` FROM `yw_organization` WHERE  `user_id` = 4 LIMIT 1 [ RunTime:0.000978s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization_teacher` [ RunTime:0.001122s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_organization_teacher` WHERE  `organization_id` = 1  AND `teacher_show` = 1 LIMIT 1 [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT `organization_teacher_id`,`teacher_name`,`teacher_master`,`teacher_intro`,`teacher_show` FROM `yw_organization_teacher` WHERE  `organization_id` = 1  AND `teacher_false_delete` = 1 [ RunTime:0.000760s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:05:54+08:00 ] 220.115.30.170 POST /index.php/api/Common/dance_type_select.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Common/dance_type_select.html [运行时间：0.032565s][吞吐率：30.71req/s] [内存消耗：3,243.32kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Common',
+    2 => 'dance_type_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-length' => '0',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Common->dance_type_select[ /www/web/yuewu/public_html/application/api/controller/Common.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006812s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001237s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000926s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:05:54+08:00 ] 220.115.30.170 POST /index.php/api/user/user_attention_teacher.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_attention_teacher.html [运行时间：0.043240s][吞吐率：23.13req/s] [内存消耗：3,468.30kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_attention_teacher',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+)
+[ info ] [ RUN ] app\api\controller\User->user_attention_teacher[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006332s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001262s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = 'b0acc15a35bd1511e9e2cf5a17bb9850' LIMIT 1 [ RunTime:0.000942s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_attention` [ RunTime:0.001662s ]
+[ sql ] [ SQL ] SELECT `attention_id`,`user_teacher_id`,`teacher_portrait`,`teacher_name`,`teacher_master`,`teacher_level`,`teacher_intro` FROM `yw_attention` `a` LEFT JOIN `yw_user_teacher` `b` ON `a`.`fid`=`b`.`user_teacher_id` WHERE  `uid` = 4  AND `attention_identity` = 1 [ RunTime:0.001138s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:05:54+08:00 ] 220.115.30.170 POST /index.php/api/user/user_attention_teacher.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_attention_teacher.html [运行时间：0.044072s][吞吐率：22.69req/s] [内存消耗：3,468.30kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_attention_teacher',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+)
+[ info ] [ RUN ] app\api\controller\User->user_attention_teacher[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001459s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001313s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = 'b0acc15a35bd1511e9e2cf5a17bb9850' LIMIT 1 [ RunTime:0.000990s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_attention` [ RunTime:0.001299s ]
+[ sql ] [ SQL ] SELECT `attention_id`,`user_teacher_id`,`teacher_portrait`,`teacher_name`,`teacher_master`,`teacher_level`,`teacher_intro` FROM `yw_attention` `a` LEFT JOIN `yw_user_teacher` `b` ON `a`.`fid`=`b`.`user_teacher_id` WHERE  `uid` = 4  AND `attention_identity` = 1 [ RunTime:0.003462s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:05:54+08:00 ] 220.115.30.170 POST /index.php/api/index/index.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/index.html [运行时间：0.061209s][吞吐率：16.34req/s] [内存消耗：3,492.80kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'dance_type_id' => '1',
+  'order' => '1',
+  'seek' => '',
+  'district_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001581s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_district` [ RunTime:0.001313s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1  AND `district_id` = 1 LIMIT 1 [ RunTime:0.000919s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001084s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.001221s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_banner` [ RunTime:0.001829s ]
+[ sql ] [ SQL ] SELECT `banner_content` FROM `yw_banner` [ RunTime:0.000864s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1 [ RunTime:0.002390s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_information` [ RunTime:0.001868s ]
+[ sql ] [ SQL ] SELECT `information_content` FROM `yw_information` WHERE  `information_area` = 0 LIMIT 1 [ RunTime:0.000840s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001222s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = '1'  AND `a`.`file_false_delete` = 1  AND `file_name` LIKE '%%' ORDER BY `file_creattime` ASC [ RunTime:0.001007s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:05:54+08:00 ] 220.115.30.170 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.040446s][吞吐率：24.72req/s] [内存消耗：3,482.05kb] [文件加载：51]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001372s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001162s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_false_delete`,`user_status` FROM `yw_user` WHERE  `user_token` = 'b0acc15a35bd1511e9e2cf5a17bb9850' LIMIT 1 [ RunTime:0.000851s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001149s ]
+[ sql ] [ SQL ] SELECT `organization_id` FROM `yw_organization` WHERE  `user_id` = 4 LIMIT 1 [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_discounts` [ RunTime:0.001010s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_user_discounts` `a` LEFT JOIN `yw_user` `b` ON `a`.`user_id`=`b`.`user_id` WHERE  `a`.`user_id` = 4  AND `user_discounts_read_state` = 2 LIMIT 1 [ RunTime:0.000791s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:05:54+08:00 ] 220.115.30.170 POST /index.php/api/Common/dance_type_select.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Common/dance_type_select.html [运行时间：0.027649s][吞吐率：36.17req/s] [内存消耗：3,243.32kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Common',
+    2 => 'dance_type_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-length' => '0',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Common->dance_type_select[ /www/web/yuewu/public_html/application/api/controller/Common.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001400s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001086s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000712s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:05:54+08:00 ] 220.115.30.170 POST /index.php/api/index/index.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/index.html [运行时间：0.041913s][吞吐率：23.86req/s] [内存消耗：3,492.80kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'dance_type_id' => '1',
+  'order' => '1',
+  'seek' => '',
+  'district_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001319s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_district` [ RunTime:0.001232s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1  AND `district_id` = 1 LIMIT 1 [ RunTime:0.000847s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001108s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000798s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_banner` [ RunTime:0.000982s ]
+[ sql ] [ SQL ] SELECT `banner_content` FROM `yw_banner` [ RunTime:0.000854s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1 [ RunTime:0.000837s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_information` [ RunTime:0.001051s ]
+[ sql ] [ SQL ] SELECT `information_content` FROM `yw_information` WHERE  `information_area` = 0 LIMIT 1 [ RunTime:0.000804s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001137s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = '1'  AND `a`.`file_false_delete` = 1  AND `file_name` LIKE '%%' ORDER BY `file_creattime` ASC [ RunTime:0.001015s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:05:54+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.015686s][吞吐率：63.75req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:05:54+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014185s][吞吐率：70.50req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:05:54+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014251s][吞吐率：70.17req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:05:54+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014098s][吞吐率：70.93req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:05:56+08:00 ] 220.115.30.170 POST /index.php/api/organization/organization_teacher_manage.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/organization/organization_teacher_manage.html [运行时间：0.041708s][吞吐率：23.98req/s] [内存消耗：3,598.27kb] [文件加载：51]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'organization',
+    2 => 'organization_teacher_manage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_teacher_manage[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001569s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001255s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = 'b0acc15a35bd1511e9e2cf5a17bb9850' LIMIT 1 [ RunTime:0.000945s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001143s ]
+[ sql ] [ SQL ] SELECT `organization_id` FROM `yw_organization` WHERE  `user_id` = 4 LIMIT 1 [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization_teacher` [ RunTime:0.001085s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_organization_teacher` WHERE  `organization_id` = 1  AND `teacher_show` = 1 LIMIT 1 [ RunTime:0.000834s ]
+[ sql ] [ SQL ] SELECT `organization_teacher_id`,`teacher_name`,`teacher_master`,`teacher_intro`,`teacher_show` FROM `yw_organization_teacher` WHERE  `organization_id` = 1  AND `teacher_false_delete` = 1 [ RunTime:0.000773s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:05:58+08:00 ] 220.115.30.170 POST /index.php/api/user/user_attention_teacher.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_attention_teacher.html [运行时间：0.052522s][吞吐率：19.04req/s] [内存消耗：3,468.30kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_attention_teacher',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+)
+[ info ] [ RUN ] app\api\controller\User->user_attention_teacher[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007127s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001348s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = 'b0acc15a35bd1511e9e2cf5a17bb9850' LIMIT 1 [ RunTime:0.001002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_attention` [ RunTime:0.001157s ]
+[ sql ] [ SQL ] SELECT `attention_id`,`user_teacher_id`,`teacher_portrait`,`teacher_name`,`teacher_master`,`teacher_level`,`teacher_intro` FROM `yw_attention` `a` LEFT JOIN `yw_user_teacher` `b` ON `a`.`fid`=`b`.`user_teacher_id` WHERE  `uid` = 4  AND `attention_identity` = 1 [ RunTime:0.000932s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:05:58+08:00 ] 220.115.30.170 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.047217s][吞吐率：21.18req/s] [内存消耗：3,482.05kb] [文件加载：51]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001340s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001318s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_false_delete`,`user_status` FROM `yw_user` WHERE  `user_token` = 'b0acc15a35bd1511e9e2cf5a17bb9850' LIMIT 1 [ RunTime:0.000935s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001066s ]
+[ sql ] [ SQL ] SELECT `organization_id` FROM `yw_organization` WHERE  `user_id` = 4 LIMIT 1 [ RunTime:0.000932s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_discounts` [ RunTime:0.001119s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_user_discounts` `a` LEFT JOIN `yw_user` `b` ON `a`.`user_id`=`b`.`user_id` WHERE  `a`.`user_id` = 4  AND `user_discounts_read_state` = 2 LIMIT 1 [ RunTime:0.000820s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:05:58+08:00 ] 220.115.30.170 POST /index.php/api/Common/dance_type_select.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Common/dance_type_select.html [运行时间：0.062871s][吞吐率：15.91req/s] [内存消耗：3,243.32kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Common',
+    2 => 'dance_type_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-length' => '0',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Common->dance_type_select[ /www/web/yuewu/public_html/application/api/controller/Common.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001890s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001086s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.001013s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:05:58+08:00 ] 220.115.30.170 POST /index.php/api/user/user_attention_teacher.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_attention_teacher.html [运行时间：0.061106s][吞吐率：16.36req/s] [内存消耗：3,468.30kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_attention_teacher',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+)
+[ info ] [ RUN ] app\api\controller\User->user_attention_teacher[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004453s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001272s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = 'b0acc15a35bd1511e9e2cf5a17bb9850' LIMIT 1 [ RunTime:0.001086s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_attention` [ RunTime:0.001181s ]
+[ sql ] [ SQL ] SELECT `attention_id`,`user_teacher_id`,`teacher_portrait`,`teacher_name`,`teacher_master`,`teacher_level`,`teacher_intro` FROM `yw_attention` `a` LEFT JOIN `yw_user_teacher` `b` ON `a`.`fid`=`b`.`user_teacher_id` WHERE  `uid` = 4  AND `attention_identity` = 1 [ RunTime:0.001625s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:05:58+08:00 ] 220.115.30.170 POST /index.php/api/index/index.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/index.html [运行时间：0.080732s][吞吐率：12.39req/s] [内存消耗：3,492.80kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'dance_type_id' => '1',
+  'order' => '1',
+  'seek' => '',
+  'district_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001261s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_district` [ RunTime:0.001222s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1  AND `district_id` = 1 LIMIT 1 [ RunTime:0.001195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001355s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_banner` [ RunTime:0.001037s ]
+[ sql ] [ SQL ] SELECT `banner_content` FROM `yw_banner` [ RunTime:0.000713s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1 [ RunTime:0.000786s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_information` [ RunTime:0.001023s ]
+[ sql ] [ SQL ] SELECT `information_content` FROM `yw_information` WHERE  `information_area` = 0 LIMIT 1 [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001090s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = '1'  AND `a`.`file_false_delete` = 1  AND `file_name` LIKE '%%' ORDER BY `file_creattime` ASC [ RunTime:0.000970s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:05:58+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.015140s][吞吐率：66.05req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:05:58+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014370s][吞吐率：69.59req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:06:01+08:00 ] 220.115.30.170 POST /index.php/api/organization/organization_invitation_find.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/organization/organization_invitation_find.html [运行时间：0.031513s][吞吐率：31.73req/s] [内存消耗：3,583.77kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'organization',
+    2 => 'organization_invitation_find',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_invitation_find[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001465s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001268s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = 'b0acc15a35bd1511e9e2cf5a17bb9850' LIMIT 1 [ RunTime:0.000971s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_invitation` [ RunTime:0.001245s ]
+[ sql ] [ SQL ] SELECT `invitation_id`,`invitation_contact`,`invitation_phone`,`invitation_interview_site`,`invitation_interview_time`,`invitation_dance_type`,`invitation_age_demand`,`invitation_explain`,`invitation_organization_picture`,`invitation_organization_picture2` FROM `yw_invitation` `a` LEFT JOIN `yw_organization` `b` ON `a`.`invitation_organization_id`=`b`.`organization_id` LEFT JOIN `yw_user` `c` ON `b`.`user_id`=`c`.`user_id` WHERE  `c`.`user_id` = 4 LIMIT 1 [ RunTime:0.001094s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:06:03+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014707s][吞吐率：67.99req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:06:03+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014130s][吞吐率：70.77req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:06:04+08:00 ] 220.115.30.170 POST /index.php/api/organization/organization_invitation_find.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/organization/organization_invitation_find.html [运行时间：0.030702s][吞吐率：32.57req/s] [内存消耗：3,583.77kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'organization',
+    2 => 'organization_invitation_find',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_invitation_find[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001332s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001237s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = 'b0acc15a35bd1511e9e2cf5a17bb9850' LIMIT 1 [ RunTime:0.000886s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_invitation` [ RunTime:0.001163s ]
+[ sql ] [ SQL ] SELECT `invitation_id`,`invitation_contact`,`invitation_phone`,`invitation_interview_site`,`invitation_interview_time`,`invitation_dance_type`,`invitation_age_demand`,`invitation_explain`,`invitation_organization_picture`,`invitation_organization_picture2` FROM `yw_invitation` `a` LEFT JOIN `yw_organization` `b` ON `a`.`invitation_organization_id`=`b`.`organization_id` LEFT JOIN `yw_user` `c` ON `b`.`user_id`=`c`.`user_id` WHERE  `c`.`user_id` = 4 LIMIT 1 [ RunTime:0.000879s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:06:10+08:00 ] 220.115.30.170 POST /index.php/api/Upload/upload_image.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Upload/upload_image.html [运行时间：0.017440s][吞吐率：57.34req/s] [内存消耗：2,279.57kb] [文件加载：47]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Upload',
+    2 => 'upload_image',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '39',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'image' => 'okhttp3.RequestBody$3@e466c77',
+)
+[ info ] [ RUN ] app\api\controller\Upload->upload_image[ /www/web/yuewu/public_html/application/api/controller/Upload.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to a member function validate() on a non-object[/www/web/yuewu/public_html/application/api/controller/Upload.php:48]
+---------------------------------------------------------------
+[ 2019-02-22T18:06:10+08:00 ] 220.115.30.170 POST /index.php/api/organization/organization_invitation_find.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/organization/organization_invitation_find.html [运行时间：0.031610s][吞吐率：31.64req/s] [内存消耗：3,583.77kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'organization',
+    2 => 'organization_invitation_find',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_invitation_find[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001449s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001405s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = 'b0acc15a35bd1511e9e2cf5a17bb9850' LIMIT 1 [ RunTime:0.000867s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_invitation` [ RunTime:0.001222s ]
+[ sql ] [ SQL ] SELECT `invitation_id`,`invitation_contact`,`invitation_phone`,`invitation_interview_site`,`invitation_interview_time`,`invitation_dance_type`,`invitation_age_demand`,`invitation_explain`,`invitation_organization_picture`,`invitation_organization_picture2` FROM `yw_invitation` `a` LEFT JOIN `yw_organization` `b` ON `a`.`invitation_organization_id`=`b`.`organization_id` LEFT JOIN `yw_user` `c` ON `b`.`user_id`=`c`.`user_id` WHERE  `c`.`user_id` = 4 LIMIT 1 [ RunTime:0.000828s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:06:11+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014656s][吞吐率：68.23req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:06:11+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014085s][吞吐率：71.00req/s] [内存消耗：1,832.77kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:06:12+08:00 ] 220.115.30.170 POST /index.php/api/user/user_videos.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_videos.html [运行时间：0.032837s][吞吐率：30.45req/s] [内存消耗：3,476.78kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_videos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+)
+[ info ] [ RUN ] app\api\controller\User->user_videos[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001590s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001205s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = 'b0acc15a35bd1511e9e2cf5a17bb9850' LIMIT 1 [ RunTime:0.001607s ]
+[ sql ] [ SQL ] SELECT `user_name`,`user_sex`,`user_signature`,`user_role`,`user_portrait` FROM `yw_user` WHERE  `user_id` = 4 LIMIT 1 [ RunTime:0.001047s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001247s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`d`.`dance_type_name`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_collection`,`a`.`file_type`,`c`.`user_name`,`c`.`user_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user` `c` ON `b`.`user_id`=`c`.`user_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `c`.`user_id` = 4  AND `file_category` = 1  AND `file_state` = 1  AND `file_false_delete` = 1 ORDER BY `a`.`file_creattime` DESC [ RunTime:0.001009s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:06:13+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014493s][吞吐率：69.00req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:06:13+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014243s][吞吐率：70.21req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:06:15+08:00 ] 220.115.30.170 POST /index.php/api/organization/organization_invitation_find.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/organization/organization_invitation_find.html [运行时间：0.030449s][吞吐率：32.84req/s] [内存消耗：3,583.77kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'organization',
+    2 => 'organization_invitation_find',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_invitation_find[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001562s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001258s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = 'b0acc15a35bd1511e9e2cf5a17bb9850' LIMIT 1 [ RunTime:0.000831s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_invitation` [ RunTime:0.001033s ]
+[ sql ] [ SQL ] SELECT `invitation_id`,`invitation_contact`,`invitation_phone`,`invitation_interview_site`,`invitation_interview_time`,`invitation_dance_type`,`invitation_age_demand`,`invitation_explain`,`invitation_organization_picture`,`invitation_organization_picture2` FROM `yw_invitation` `a` LEFT JOIN `yw_organization` `b` ON `a`.`invitation_organization_id`=`b`.`organization_id` LEFT JOIN `yw_user` `c` ON `b`.`user_id`=`c`.`user_id` WHERE  `c`.`user_id` = 4 LIMIT 1 [ RunTime:0.000821s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:06:48+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.015488s][吞吐率：64.57req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:06:48+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014255s][吞吐率：70.15req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:06:49+08:00 ] 220.115.30.170 POST /index.php/api/organization/organization_teacher_manage.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/organization/organization_teacher_manage.html [运行时间：0.034905s][吞吐率：28.65req/s] [内存消耗：3,598.27kb] [文件加载：51]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'organization',
+    2 => 'organization_teacher_manage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_teacher_manage[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001718s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001291s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = 'b0acc15a35bd1511e9e2cf5a17bb9850' LIMIT 1 [ RunTime:0.001003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001306s ]
+[ sql ] [ SQL ] SELECT `organization_id` FROM `yw_organization` WHERE  `user_id` = 4 LIMIT 1 [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization_teacher` [ RunTime:0.001102s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_organization_teacher` WHERE  `organization_id` = 1  AND `teacher_show` = 1 LIMIT 1 [ RunTime:0.000847s ]
+[ sql ] [ SQL ] SELECT `organization_teacher_id`,`teacher_name`,`teacher_master`,`teacher_intro`,`teacher_show` FROM `yw_organization_teacher` WHERE  `organization_id` = 1  AND `teacher_false_delete` = 1 [ RunTime:0.000832s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:06:53+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014546s][吞吐率：68.75req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:06:53+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014538s][吞吐率：68.79req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:06:54+08:00 ] 220.115.30.170 POST /index.php/api/Organization/organization_find.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Organization/organization_find.html [运行时间：0.044435s][吞吐率：22.50req/s] [内存消耗：3,618.65kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Organization',
+    2 => 'organization_find',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '61',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'organization_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_find[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001582s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001277s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_user` WHERE  `user_token` = 'b0acc15a35bd1511e9e2cf5a17bb9850' LIMIT 1 [ RunTime:0.000902s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_attention` [ RunTime:0.001015s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_attention` WHERE  `uid` = 4  AND `fid` = 1  AND `attention_identity` = 2 LIMIT 1 [ RunTime:0.000876s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001149s ]
+[ sql ] [ SQL ] SELECT `organization_id`,`organization_name`,`organization_portrait`,`organization_site`,`organization_facility`,`organization_business_hours`,`organization_level`,`organization_district_id`,`organization_synopsis`,`organization_service`,`organization_type` FROM `yw_organization` WHERE  `organization_state` = 1  AND `organization_false_delete` = 1  AND `organization_id` = 1 LIMIT 1 [ RunTime:0.000888s ]
+[ sql ] [ SQL ] SELECT `c`.`file_content`,`a`.`promotional_cover` FROM `yw_organization` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`organization_id`=`b`.`organization_id` LEFT JOIN `yw_file` `c` ON `b`.`file_id`=`c`.`file_id` WHERE  `c`.`file_state` = 1  AND `c`.`file_false_delete` = 1  AND `a`.`organization_id` = 1 LIMIT 1 [ RunTime:0.000991s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_invitation` [ RunTime:0.001035s ]
+[ sql ] [ SQL ] SELECT `invitation_id`,`invitation_dance_type` FROM `yw_invitation` WHERE  `invitation_organization_id` = 1 LIMIT 1 [ RunTime:0.001008s ]
+[ sql ] [ SQL ] SELECT `c`.`curriculum_id`,`c`.`curriculum_admin`,`c`.`curriculum_difficulty`,`c`.`curriculum_state`,`c`.`curriculum_actual_price`,`c`.`curriculum_start_time`,`c`.`curriculum_over_time`,`c`.`curriculum_name` FROM `yw_organization` `a` LEFT JOIN `yw_organization_curriculum` `b` ON `a`.`organization_id`=`b`.`organization_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `c`.`id` = 1  AND `c`.`curriculum_show` = 1 [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization_teacher` [ RunTime:0.001080s ]
+[ sql ] [ SQL ] SELECT `organization_teacher_id`,`teacher_name`,`teacher_master`,`teacher_intro` FROM `yw_organization_teacher` WHERE  `organization_id` = 1  AND `teacher_show` = 1 [ RunTime:0.000959s ]
+[ sql ] [ SQL ] SELECT `c`.`file_id`,`c`.`file_cover`,`a`.`organization_portrait`,`c`.`file_collection`,`dance_type_name`,`file_name` FROM `yw_organization` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`organization_id`=`b`.`organization_id` LEFT JOIN `yw_file` `c` ON `b`.`file_id`=`c`.`file_id` LEFT JOIN `yw_dance_type` `d` ON `c`.`dance_type_id`=`d`.`dance_type_id` ORDER BY `file_collection` DESC LIMIT 0,2 [ RunTime:0.001262s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_attention` WHERE  `uid` = 4  AND `fid` = 1  AND `attention_identity` = 2 LIMIT 1 [ RunTime:0.000811s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:06:54+08:00 ] 220.115.30.170 GET /public/uploads/1
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/1 [运行时间：0.014021s][吞吐率：71.32req/s] [内存消耗：1,832.83kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:06:54+08:00 ] 220.115.30.170 GET /public/uploads/1
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/1 [运行时间：0.014568s][吞吐率：68.64req/s] [内存消耗：1,832.83kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:06:55+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014515s][吞吐率：68.89req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:06:55+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014489s][吞吐率：69.02req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:06:55+08:00 ] 220.115.30.170 POST /index.php/api/organization/organization_file.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/organization/organization_file.html [运行时间：0.033552s][吞吐率：29.80req/s] [内存消耗：3,597.99kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'organization',
+    2 => 'organization_file',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_file[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001507s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001302s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_user` WHERE  `user_token` = 'b0acc15a35bd1511e9e2cf5a17bb9850'  AND `user_false_delete` = 1  AND `user_status` = 1 LIMIT 1 [ RunTime:0.000919s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001258s ]
+[ sql ] [ SQL ] SELECT `organization_id`,`organization_name`,`organization_portrait`,`organization_synopsis` FROM `yw_organization` WHERE  `user_id` = 4  AND `organization_state` = 1  AND `organization_false_delete` = 1 LIMIT 1 [ RunTime:0.000958s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001103s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`d`.`dance_type_name`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_type`,`a`.`file_creattime`,`a`.`file_collection`,`organization_portrait`,`organization_name` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `b`.`organization_id` = 1  AND `a`.`file_state` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_category` = 3 ORDER BY `a`.`file_collection` DESC [ RunTime:0.001048s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:06:56+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014451s][吞吐率：69.20req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:06:56+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.015152s][吞吐率：66.00req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:06:57+08:00 ] 220.115.30.170 POST /index.php/api/organization/organization_curriculum_manage.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/organization/organization_curriculum_manage.html [运行时间：0.034627s][吞吐率：28.88req/s] [内存消耗：3,605.14kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'organization',
+    2 => 'organization_curriculum_manage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_curriculum_manage[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001458s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001296s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = 'b0acc15a35bd1511e9e2cf5a17bb9850' LIMIT 1 [ RunTime:0.000880s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_user` WHERE  `user_token` = 'b0acc15a35bd1511e9e2cf5a17bb9850'  AND `user_false_delete` = 1  AND `user_status` = 1 LIMIT 1 [ RunTime:0.000943s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001188s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` WHERE  `user_id` = 4  AND `organization_false_delete` = 1  AND `organization_state` = 1 LIMIT 1 [ RunTime:0.001003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_curriculum` [ RunTime:0.001178s ]
+[ sql ] [ SQL ] SELECT `a`.`curriculum_id`,`a`.`curriculum_admin`,`a`.`curriculum_name`,`a`.`curriculum_actual_price`,`a`.`curriculum_difficulty`,`a`.`curriculum_state` FROM `yw_curriculum` `a` LEFT JOIN `yw_organization_curriculum` `b` ON `a`.`curriculum_id`=`b`.`curriculum_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` WHERE  `c`.`organization_id` = 1  AND `curriculum_state` = 1  AND `curriculum_false_delete` = 1 ORDER BY `curriculum_creattime` DESC [ RunTime:0.001010s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:06:58+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014885s][吞吐率：67.18req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:06:58+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014544s][吞吐率：68.76req/s] [内存消耗：1,832.77kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:06:59+08:00 ] 220.115.30.170 POST /index.php/api/organization/organization_teacher_manage.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/organization/organization_teacher_manage.html [运行时间：0.038137s][吞吐率：26.22req/s] [内存消耗：3,598.27kb] [文件加载：51]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'organization',
+    2 => 'organization_teacher_manage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_teacher_manage[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001527s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.005115s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = 'b0acc15a35bd1511e9e2cf5a17bb9850' LIMIT 1 [ RunTime:0.000942s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001187s ]
+[ sql ] [ SQL ] SELECT `organization_id` FROM `yw_organization` WHERE  `user_id` = 4 LIMIT 1 [ RunTime:0.000830s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization_teacher` [ RunTime:0.001072s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_organization_teacher` WHERE  `organization_id` = 1  AND `teacher_show` = 1 LIMIT 1 [ RunTime:0.000829s ]
+[ sql ] [ SQL ] SELECT `organization_teacher_id`,`teacher_name`,`teacher_master`,`teacher_intro`,`teacher_show` FROM `yw_organization_teacher` WHERE  `organization_id` = 1  AND `teacher_false_delete` = 1 [ RunTime:0.000850s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:07:01+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.015225s][吞吐率：65.68req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:07:01+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014497s][吞吐率：68.98req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:07:02+08:00 ] 220.115.30.170 POST /index.php/api/organization/organization_invitation_find.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/organization/organization_invitation_find.html [运行时间：0.030720s][吞吐率：32.55req/s] [内存消耗：3,583.77kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'organization',
+    2 => 'organization_invitation_find',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_invitation_find[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001685s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001173s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = 'b0acc15a35bd1511e9e2cf5a17bb9850' LIMIT 1 [ RunTime:0.000876s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_invitation` [ RunTime:0.001170s ]
+[ sql ] [ SQL ] SELECT `invitation_id`,`invitation_contact`,`invitation_phone`,`invitation_interview_site`,`invitation_interview_time`,`invitation_dance_type`,`invitation_age_demand`,`invitation_explain`,`invitation_organization_picture`,`invitation_organization_picture2` FROM `yw_invitation` `a` LEFT JOIN `yw_organization` `b` ON `a`.`invitation_organization_id`=`b`.`organization_id` LEFT JOIN `yw_user` `c` ON `b`.`user_id`=`c`.`user_id` WHERE  `c`.`user_id` = 4 LIMIT 1 [ RunTime:0.000930s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:07:03+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014352s][吞吐率：69.68req/s] [内存消耗：1,832.77kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:07:03+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014305s][吞吐率：69.91req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:09:42+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.016072s][吞吐率：62.22req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:09:42+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014631s][吞吐率：68.35req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:09:43+08:00 ] 220.115.30.170 POST /index.php/api/organization/organization_teacher_manage.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/organization/organization_teacher_manage.html [运行时间：0.038019s][吞吐率：26.30req/s] [内存消耗：3,598.27kb] [文件加载：51]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'organization',
+    2 => 'organization_teacher_manage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '43',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => 'b0acc15a35bd1511e9e2cf5a17bb9850',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_teacher_manage[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001890s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001711s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = 'b0acc15a35bd1511e9e2cf5a17bb9850' LIMIT 1 [ RunTime:0.000912s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001188s ]
+[ sql ] [ SQL ] SELECT `organization_id` FROM `yw_organization` WHERE  `user_id` = 4 LIMIT 1 [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization_teacher` [ RunTime:0.001177s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_organization_teacher` WHERE  `organization_id` = 1  AND `teacher_show` = 1 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT `organization_teacher_id`,`teacher_name`,`teacher_master`,`teacher_intro`,`teacher_show` FROM `yw_organization_teacher` WHERE  `organization_id` = 1  AND `teacher_false_delete` = 1 [ RunTime:0.000840s ]
+---------------------------------------------------------------
+[ 2019-02-22T18:09:44+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014566s][吞吐率：68.65req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T18:09:44+08:00 ] 220.115.30.170 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014011s][吞吐率：71.37req/s] [内存消耗：1,832.80kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; Redmi Note 3 MIUI/V10.2.1.0.MHOCNXM)',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T20:20:48+08:00 ] 43.254.0.4 GET /admin/index/homepage.html
+[ info ] yuewu.dazhu-ltd.cn/admin/index/homepage.html [运行时间：0.016253s][吞吐率：61.53req/s] [内存消耗：2,252.49kb] [文件加载：45]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'homepage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->homepage[ /www/web/yuewu/public_html/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/index/homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T20:22:58+08:00 ] 43.254.0.4 GET /index.php/api/Login/user_login.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Login/user_login.html [运行时间：0.017573s][吞吐率：56.91req/s] [内存消耗：2,285.80kb] [文件加载：46]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Login',
+    2 => 'user_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Login->user_login[ /www/web/yuewu/public_html/application/api/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]未定义数据库类型[/www/web/yuewu/public_html/thinkphp/library/think/Db.php:86]
+---------------------------------------------------------------
+[ 2019-02-22T20:23:17+08:00 ] 43.254.0.4 GET /admin/user/user_list.html
+[ info ] yuewu.dazhu-ltd.cn/admin/user/user_list.html [运行时间：0.017771s][吞吐率：56.27req/s] [内存消耗：2,263.56kb] [文件加载：47]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'user_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->user_list[ /www/web/yuewu/public_html/application/admin/controller/User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]未定义数据库类型[/www/web/yuewu/public_html/thinkphp/library/think/Db.php:86]
+---------------------------------------------------------------
+[ 2019-02-22T20:23:42+08:00 ] 43.254.0.4 GET /admin/index/index.html
+[ info ] yuewu.dazhu-ltd.cn/admin/index/index.html [运行时间：0.017069s][吞吐率：58.59req/s] [内存消耗：2,262.21kb] [文件加载：46]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/web/yuewu/public_html/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T20:25:13+08:00 ] 43.254.0.4 GET /index.php/api/Common/dance_type_select.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Common/dance_type_select.html [运行时间：0.018044s][吞吐率：55.42req/s] [内存消耗：2,273.69kb] [文件加载：46]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Common',
+    2 => 'dance_type_select',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Common->dance_type_select[ /www/web/yuewu/public_html/application/api/controller/Common.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]未定义数据库类型[/www/web/yuewu/public_html/thinkphp/library/think/Db.php:86]
+---------------------------------------------------------------
+[ 2019-02-22T20:30:08+08:00 ] 43.254.0.4 GET /index.php/api/Login/send_message.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Login/send_message.html [运行时间：0.018246s][吞吐率：54.81req/s] [内存消耗：2,285.84kb] [文件加载：46]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Login',
+    2 => 'send_message',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Login->send_message[ /www/web/yuewu/public_html/application/api/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]未定义数据库类型[/www/web/yuewu/public_html/thinkphp/library/think/Db.php:86]
+---------------------------------------------------------------
+[ 2019-02-22T20:30:59+08:00 ] 43.254.0.4 GET /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.016825s][吞吐率：59.44req/s] [内存消耗：2,410.60kb] [文件加载：43]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T21:48:01+08:00 ] 43.254.0.4 GET /index.php/api/Organization/organization_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Organization/organization_list.html [运行时间：0.017398s][吞吐率：57.48req/s] [内存消耗：2,518.97kb] [文件加载：43]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Organization',
+    2 => 'organization_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_list[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T21:48:19+08:00 ] 43.254.0.4 GET /index.php/api/user/user_attention_organization.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_attention_organization.html [运行时间：0.016964s][吞吐率：58.95req/s] [内存消耗：2,410.82kb] [文件加载：43]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_attention_organization',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\User->user_attention_organization[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T21:50:29+08:00 ] 43.254.0.4 GET /index.php/api/Organization/organization_curriculum.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Organization/organization_curriculum.html [运行时间：0.019246s][吞吐率：51.96req/s] [内存消耗：2,588.69kb] [文件加载：46]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Organization',
+    2 => 'organization_curriculum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_curriculum[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]未定义数据库类型[/www/web/yuewu/public_html/thinkphp/library/think/Db.php:86]
+---------------------------------------------------------------
+[ 2019-02-22T21:50:35+08:00 ] 43.254.0.4 GET /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.018493s][吞吐率：54.07req/s] [内存消耗：2,422.86kb] [文件加载：47]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: seek[/www/web/yuewu/public_html/application/api/controller/Index.php:214]
+---------------------------------------------------------------
+[ 2019-02-22T21:51:31+08:00 ] 43.254.0.4 GET /index.php/api/user/user_attention_teacher.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_attention_teacher.html [运行时间：0.017213s][吞吐率：58.10req/s] [内存消耗：2,410.73kb] [文件加载：43]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_attention_teacher',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\User->user_attention_teacher[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T21:54:41+08:00 ] 43.254.0.4 GET /index.php/api/Organization/organization_invitation.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Organization/organization_invitation.html [运行时间：0.019199s][吞吐率：52.09req/s] [内存消耗：2,588.80kb] [文件加载：46]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Organization',
+    2 => 'organization_invitation',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_invitation[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]未定义数据库类型[/www/web/yuewu/public_html/thinkphp/library/think/Db.php:86]
+---------------------------------------------------------------
+[ 2019-02-22T23:17:42+08:00 ] 43.254.0.4 GET /admin/information/banner_list.html
+[ info ] yuewu.dazhu-ltd.cn/admin/information/banner_list.html [运行时间：0.017894s][吞吐率：55.88req/s] [内存消耗：2,287.05kb] [文件加载：46]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'information',
+    2 => 'banner_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Information->banner_list[ /www/web/yuewu/public_html/application/admin/controller/Information.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]未定义数据库类型[/www/web/yuewu/public_html/thinkphp/library/think/Db.php:86]
+---------------------------------------------------------------
+[ 2019-02-22T23:21:44+08:00 ] 43.254.0.4 GET /admin/organization/organization_list.html
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_list.html [运行时间：0.017670s][吞吐率：56.59req/s] [内存消耗：2,299.02kb] [文件加载：47]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_list[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]未定义数据库类型[/www/web/yuewu/public_html/thinkphp/library/think/Db.php:86]
+---------------------------------------------------------------
+[ 2019-02-22T23:21:44+08:00 ] 43.254.0.4 GET /admin/organization/organization_details.html
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_details.html [运行时间：0.018075s][吞吐率：55.33req/s] [内存消耗：2,298.92kb] [文件加载：47]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_details[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]未定义数据库类型[/www/web/yuewu/public_html/thinkphp/library/think/Db.php:86]
+---------------------------------------------------------------
+[ 2019-02-22T23:22:39+08:00 ] 43.254.0.4 GET /admin/curriculum/teacher_curriculum_list.html
+[ info ] yuewu.dazhu-ltd.cn/admin/curriculum/teacher_curriculum_list.html [运行时间：0.018075s][吞吐率：55.33req/s] [内存消耗：2,277.70kb] [文件加载：47]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'curriculum',
+    2 => 'teacher_curriculum_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Curriculum->teacher_curriculum_list[ /www/web/yuewu/public_html/application/admin/controller/Curriculum.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]未定义数据库类型[/www/web/yuewu/public_html/thinkphp/library/think/Db.php:86]
+---------------------------------------------------------------
+[ 2019-02-22T23:24:15+08:00 ] 43.254.0.4 GET /admin/teacher/user_teacher_list.html
+[ info ] yuewu.dazhu-ltd.cn/admin/teacher/user_teacher_list.html [运行时间：0.017859s][吞吐率：55.99req/s] [内存消耗：2,293.57kb] [文件加载：47]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'teacher',
+    2 => 'user_teacher_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Teacher->user_teacher_list[ /www/web/yuewu/public_html/application/admin/controller/Teacher.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]未定义数据库类型[/www/web/yuewu/public_html/thinkphp/library/think/Db.php:86]
+---------------------------------------------------------------
+[ 2019-02-22T23:24:21+08:00 ] 43.254.0.4 GET /index.php/api/index/index.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/index.html [运行时间：0.018432s][吞吐率：54.25req/s] [内存消耗：2,422.39kb] [文件加载：47]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: district_id[/www/web/yuewu/public_html/application/api/controller/Index.php:16]
+---------------------------------------------------------------
+[ 2019-02-22T23:24:46+08:00 ] 43.254.0.4 GET /admin/file/file_list.html
+[ info ] yuewu.dazhu-ltd.cn/admin/file/file_list.html [运行时间：0.017786s][吞吐率：56.22req/s] [内存消耗：2,267.53kb] [文件加载：47]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'file',
+    2 => 'file_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\File->file_list[ /www/web/yuewu/public_html/application/admin/controller/File.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]未定义数据库类型[/www/web/yuewu/public_html/thinkphp/library/think/Db.php:86]
+---------------------------------------------------------------
+[ 2019-02-22T23:25:07+08:00 ] 43.254.0.4 GET /admin/area/area_list.html
+[ info ] yuewu.dazhu-ltd.cn/admin/area/area_list.html [运行时间：0.017530s][吞吐率：57.04req/s] [内存消耗：2,244.51kb] [文件加载：46]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'area',
+    2 => 'area_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Area->area_list[ /www/web/yuewu/public_html/application/admin/controller/Area.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]未定义数据库类型[/www/web/yuewu/public_html/thinkphp/library/think/Db.php:86]
+---------------------------------------------------------------
+[ 2019-02-22T23:25:41+08:00 ] 43.254.0.4 GET /admin/file/file_closure_list.html
+[ info ] yuewu.dazhu-ltd.cn/admin/file/file_closure_list.html [运行时间：0.017916s][吞吐率：55.82req/s] [内存消耗：2,267.77kb] [文件加载：47]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'file',
+    2 => 'file_closure_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\File->file_closure_list[ /www/web/yuewu/public_html/application/admin/controller/File.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]未定义数据库类型[/www/web/yuewu/public_html/thinkphp/library/think/Db.php:86]
+---------------------------------------------------------------
+[ 2019-02-22T23:26:24+08:00 ] 43.254.0.4 GET /index.php/api/invitation/invitation_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/invitation/invitation_list.html [运行时间：0.018922s][吞吐率：52.85req/s] [内存消耗：2,257.55kb] [文件加载：46]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'invitation',
+    2 => 'invitation_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Invitation->invitation_list[ /www/web/yuewu/public_html/application/api/controller/Invitation.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]未定义数据库类型[/www/web/yuewu/public_html/thinkphp/library/think/Db.php:86]
+---------------------------------------------------------------
+[ 2019-02-22T23:26:49+08:00 ] 43.254.0.4 GET /index.php/api/Organization/file_play.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Organization/file_play.html [运行时间：0.019639s][吞吐率：50.92req/s] [内存消耗：2,589.23kb] [文件加载：46]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Organization',
+    2 => 'file_play',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Organization->file_play[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]未定义数据库类型[/www/web/yuewu/public_html/thinkphp/library/think/Db.php:86]
+---------------------------------------------------------------
+[ 2019-02-22T23:28:56+08:00 ] 43.254.0.4 GET /index.php/api/invitation/invitation_find.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/invitation/invitation_find.html [运行时间：0.017462s][吞吐率：57.27req/s] [内存消耗：2,257.56kb] [文件加载：46]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'invitation',
+    2 => 'invitation_find',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Invitation->invitation_find[ /www/web/yuewu/public_html/application/api/controller/Invitation.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]未定义数据库类型[/www/web/yuewu/public_html/thinkphp/library/think/Db.php:86]
+---------------------------------------------------------------
+[ 2019-02-22T23:31:42+08:00 ] 43.254.0.4 GET /index.php/api/Organization/organization_find.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Organization/organization_find.html [运行时间：0.018664s][吞吐率：53.58req/s] [内存消耗：2,519.34kb] [文件加载：43]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Organization',
+    2 => 'organization_find',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_find[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-02-22T23:33:03+08:00 ] 43.254.0.4 GET /index.php/api/Organization/organization_curriculum_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Organization/organization_curriculum_details.html [运行时间：0.019262s][吞吐率：51.92req/s] [内存消耗：2,585.50kb] [文件加载：47]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Organization',
+    2 => 'organization_curriculum_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_curriculum_details[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: user_token[/www/web/yuewu/public_html/application/api/controller/Organization.php:1238]

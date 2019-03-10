@@ -1,0 +1,43 @@
+
+
+<!DOCTYPE>
+
+<html>
+
+    <head>
+
+ 
+
+        <!--Meta tags-->
+
+        <meta charset="utf-8">
+
+ 
+
+        <!--Title-->
+
+        <title></title>
+
+ 
+
+ 
+
+    </head>
+
+<body>
+
+
+<video width="320" height="240" controls autoplay>
+  <!-- <source src="movie.ogg" type="video/ogg">
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.webm" type="video/webm"> -->
+  <object data="movie.mp4" width="320" height="240">
+    <embed width="320" height="240" src="http://yuewu.dazhu-ltd.cn/public/uploads/{$videos_find.file_content}">
+  </object>
+</video>
+
+</body>
+<script type="text/javascript">
+  alert({$videos_find.file_content});
+</script>
+</html>

@@ -1,0 +1,78 @@
+---------------------------------------------------------------
+[ 2018-12-14T15:46:34+08:00 ] 118.26.3.3 POST /index.php/api/index/index.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/index.html [运行时间：0.040737s][吞吐率：24.55req/s] [内存消耗：3,368.19kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 10.3.3; Scale/2.00)',
+  'accept-language' => 'zh-Hans-CN;q=1',
+  'content-length' => '50',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'dance_type_id' => '',
+  'district_id' => '1',
+  'order' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001853s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001320s ]
+[ sql ] [ SQL ] SELECT `dance_type_id` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 LIMIT 1 [ RunTime:0.000961s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_district` [ RunTime:0.001247s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1  AND `district_id` = 1 LIMIT 1 [ RunTime:0.000909s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.001153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_banner` [ RunTime:0.001111s ]
+[ sql ] [ SQL ] SELECT `banner_content` FROM `yw_banner` [ RunTime:0.000900s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1 [ RunTime:0.001013s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_information` [ RunTime:0.001209s ]
+[ sql ] [ SQL ] SELECT `information_content` FROM `yw_information` WHERE  `information_area` = 0 LIMIT 1 [ RunTime:0.000925s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001224s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = '1'  AND `a`.`file_false_delete` = 1 ORDER BY `file_collection` DESC [ RunTime:0.001022s ]
+---------------------------------------------------------------
+[ 2018-12-14T15:46:35+08:00 ] 118.26.3.3 POST /index.php/api/Organization/organization_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Organization/organization_list.html [运行时间：0.039903s][吞吐率：25.06req/s] [内存消耗：3,355.39kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Organization',
+    2 => 'organization_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 10.3.3; Scale/2.00)',
+  'accept-language' => 'zh-Hans-CN;q=1',
+  'content-length' => '62',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'dance_type_id' => '1',
+  'district_id' => '1',
+  'organization_name' => '',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_list[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001868s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001814s ]
+[ sql ] [ SQL ] SELECT `organization_id`,`organization_name`,`organization_cover`,`organization_site`,`organization_facility`,`organization_business_hours`,`organization_level`,`organization_district_id`,`organization_type` FROM `yw_organization` WHERE  `organization_state` = 1  AND `organization_name` LIKE '%%' ORDER BY `organization_level` DESC LIMIT 0,10 [ RunTime:0.001210s ]

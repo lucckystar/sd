@@ -1,0 +1,2117 @@
+---------------------------------------------------------------
+[ 2019-01-13T22:07:17+08:00 ] 220.115.30.188 GET /public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5 [运行时间：0.014398s][吞吐率：69.45req/s] [内存消耗：1,833.23kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'aedrfg3sare5g41a6e5rg4ae6rg5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:07:17+08:00 ] 220.115.30.188 GET /public/static/admin/css/bootstrap.min.css.map
+[ info ] yuewu.dazhu-ltd.cn/public/static/admin/css/bootstrap.min.css.map [运行时间：0.014276s][吞吐率：70.05req/s] [内存消耗：1,832.38kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'admin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:07:18+08:00 ] 220.115.30.188 GET /admin/organization/organization_apply_details.html?organization_id=6
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=6 [运行时间：0.029616s][吞吐率：33.77req/s] [内存消耗：3,385.13kb] [文件加载：54]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_apply_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '6',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_apply_details[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_apply_details.html [ array (
+  0 => 'organization_find',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001578s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.002936s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` WHERE  `organization_id` = 6 LIMIT 1 [ RunTime:0.001092s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:07:18+08:00 ] 220.115.30.188 GET /public/static/common/bootstarp/bootstrap.min.css.map
+[ info ] yuewu.dazhu-ltd.cn/public/static/common/bootstarp/bootstrap.min.css.map [运行时间：0.014247s][吞吐率：70.19req/s] [内存消耗：1,832.16kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'bootstarp' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:09:15+08:00 ] 220.115.30.188 GET /admin/organization/organization_apply_details.html?organization_id=6
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=6 [运行时间：0.031609s][吞吐率：31.64req/s] [内存消耗：3,594.16kb] [文件加载：56]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_apply_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '6',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_apply_details[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_apply_details.html [ array (
+  0 => 'organization_find',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001799s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001434s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` WHERE  `organization_id` = 6 LIMIT 1 [ RunTime:0.001036s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:09:15+08:00 ] 220.115.30.188 GET /public/static/common/bootstarp/bootstrap.min.css.map
+[ info ] yuewu.dazhu-ltd.cn/public/static/common/bootstarp/bootstrap.min.css.map [运行时间：0.014340s][吞吐率：69.73req/s] [内存消耗：1,832.16kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'bootstarp' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:12:00+08:00 ] 220.115.30.188 GET /admin/organization/organization_apply_details.html?organization_id=6
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=6 [运行时间：0.030174s][吞吐率：33.14req/s] [内存消耗：3,594.24kb] [文件加载：56]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_apply_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '6',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_apply_details[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_apply_details.html [ array (
+  0 => 'organization_find',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001756s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001350s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` WHERE  `organization_id` = 6 LIMIT 1 [ RunTime:0.000959s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:12:00+08:00 ] 220.115.30.188 GET /public/static/common/bootstarp/bootstrap.min.css.map
+[ info ] yuewu.dazhu-ltd.cn/public/static/common/bootstarp/bootstrap.min.css.map [运行时间：0.014338s][吞吐率：69.74req/s] [内存消耗：1,832.16kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'bootstarp' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:12:59+08:00 ] 220.115.30.188 GET /admin/area/area_list.html
+[ info ] yuewu.dazhu-ltd.cn/admin/area/area_list.html [运行时间：0.027993s][吞吐率：35.72req/s] [内存消耗：3,340.06kb] [文件加载：53]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'area',
+    2 => 'area_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Area->area_list[ /www/web/yuewu/public_html/application/admin/controller/Area.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/area/area_list.html [ array (
+  0 => 'district',
+  1 => 'seek',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001702s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_district` [ RunTime:0.001225s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_district` WHERE  `district_name` LIKE '%%' [ RunTime:0.000975s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:13:00+08:00 ] 220.115.30.188 GET /admin/area/favicon.ico
+[ info ] yuewu.dazhu-ltd.cn/admin/area/favicon.ico [运行时间：0.017609s][吞吐率：56.79req/s] [内存消耗：2,222.91kb] [文件加载：46]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'area',
+    2 => 'favicon.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/area/area_list.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:13:02+08:00 ] 220.115.30.188 GET /public/static/admin/css/bootstrap.min.css.map
+[ info ] yuewu.dazhu-ltd.cn/public/static/admin/css/bootstrap.min.css.map [运行时间：0.014323s][吞吐率：69.82req/s] [内存消耗：1,832.38kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'admin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:14:09+08:00 ] 220.115.30.188 GET /admin/organization/organization_apply_details.html?organization_id=6
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=6 [运行时间：0.030819s][吞吐率：32.45req/s] [内存消耗：3,594.56kb] [文件加载：56]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_apply_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '6',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_apply_details[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_apply_details.html [ array (
+  0 => 'organization_find',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002073s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001519s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` WHERE  `organization_id` = 6 LIMIT 1 [ RunTime:0.001067s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:14:09+08:00 ] 220.115.30.188 GET /public/static/common/bootstarp/bootstrap.min.css.map
+[ info ] yuewu.dazhu-ltd.cn/public/static/common/bootstarp/bootstrap.min.css.map [运行时间：0.014685s][吞吐率：68.10req/s] [内存消耗：1,832.16kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'bootstarp' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:15:36+08:00 ] 220.115.30.188 GET /admin/organization/organization_apply_details.html?organization_id=6
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=6 [运行时间：0.030247s][吞吐率：33.06req/s] [内存消耗：3,594.83kb] [文件加载：56]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_apply_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '6',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_apply_details[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_apply_details.html [ array (
+  0 => 'organization_find',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001872s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001304s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` WHERE  `organization_id` = 6 LIMIT 1 [ RunTime:0.001083s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:15:36+08:00 ] 220.115.30.188 GET /public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5 [运行时间：0.014383s][吞吐率：69.53req/s] [内存消耗：1,832.98kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'aedrfg3sare5g41a6e5rg4ae6rg5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:15:36+08:00 ] 220.115.30.188 GET /public/static/common/bootstarp/bootstrap.min.css.map
+[ info ] yuewu.dazhu-ltd.cn/public/static/common/bootstarp/bootstrap.min.css.map [运行时间：0.014689s][吞吐率：68.08req/s] [内存消耗：1,832.16kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'bootstarp' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:15:40+08:00 ] 220.115.30.188 GET /admin/organization/organization_details.html?organization_id=6
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_details.html?organization_id=6 [运行时间：0.034454s][吞吐率：29.02req/s] [内存消耗：3,401.16kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '6',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_details[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_details.html [ array (
+  0 => 'organization_find',
+  1 => 'organization_file',
+  2 => 'file_count',
+  3 => 'attention_count',
+  4 => 'organization_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001587s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001358s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` `a` LEFT JOIN `yw_district` `b` ON `a`.`organization_district_id`=`b`.`district_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `organization_false_delete` = 1  AND `organization_id` = 6 LIMIT 1 [ RunTime:0.001086s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001179s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` WHERE  `c`.`organization_id` = '6' LIMIT 15 [ RunTime:0.001259s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` WHERE  `file_false_delete` = 1 LIMIT 1 [ RunTime:0.000835s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_attention` [ RunTime:0.001084s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_attention` WHERE  `fid` = 6  AND `attention_identity` = 2 LIMIT 1 [ RunTime:0.000847s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:15:40+08:00 ] 220.115.30.188 GET /public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5 [运行时间：0.014349s][吞吐率：69.69req/s] [内存消耗：1,833.00kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'aedrfg3sare5g41a6e5rg4ae6rg5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_details.html?organization_id=6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:15:40+08:00 ] 220.115.30.188 GET /public/static/admin/css/bootstrap.min.css.map
+[ info ] yuewu.dazhu-ltd.cn/public/static/admin/css/bootstrap.min.css.map [运行时间：0.014817s][吞吐率：67.49req/s] [内存消耗：1,832.38kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'admin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:15:41+08:00 ] 220.115.30.188 GET /admin/organization/organization_apply_details.html?organization_id=6
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=6 [运行时间：0.027945s][吞吐率：35.78req/s] [内存消耗：3,385.15kb] [文件加载：54]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_apply_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '6',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_apply_details[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_apply_details.html [ array (
+  0 => 'organization_find',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001452s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001428s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` WHERE  `organization_id` = 6 LIMIT 1 [ RunTime:0.001014s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:15:41+08:00 ] 220.115.30.188 GET /public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5 [运行时间：0.014217s][吞吐率：70.34req/s] [内存消耗：1,832.98kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'aedrfg3sare5g41a6e5rg4ae6rg5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:15:41+08:00 ] 220.115.30.188 GET /public/static/common/bootstarp/bootstrap.min.css.map
+[ info ] yuewu.dazhu-ltd.cn/public/static/common/bootstarp/bootstrap.min.css.map [运行时间：0.014363s][吞吐率：69.62req/s] [内存消耗：1,832.16kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'bootstarp' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:16:18+08:00 ] 220.115.30.188 GET /admin/organization/organization_apply_details.html?organization_id=6
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=6 [运行时间：0.030338s][吞吐率：32.96req/s] [内存消耗：3,594.81kb] [文件加载：56]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_apply_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '6',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_apply_details[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_apply_details.html [ array (
+  0 => 'organization_find',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001904s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001463s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` WHERE  `organization_id` = 6 LIMIT 1 [ RunTime:0.001135s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:16:18+08:00 ] 220.115.30.188 GET /public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5 [运行时间：0.014215s][吞吐率：70.35req/s] [内存消耗：1,832.98kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'aedrfg3sare5g41a6e5rg4ae6rg5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:16:18+08:00 ] 220.115.30.188 GET /public/static/common/bootstarp/bootstrap.min.css.map
+[ info ] yuewu.dazhu-ltd.cn/public/static/common/bootstarp/bootstrap.min.css.map [运行时间：0.014159s][吞吐率：70.63req/s] [内存消耗：1,832.16kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'bootstarp' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:16:19+08:00 ] 220.115.30.188 GET /admin/organization/organization_check_list.html?organization_id=6
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?organization_id=6 [运行时间：0.032307s][吞吐率：30.95req/s] [内存消耗：3,581.34kb] [文件加载：58]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_check_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '6',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_check_list[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_check_list.html [ array (
+  0 => 'seek',
+  1 => 'organization_select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001560s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001263s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_organization` `a` LEFT JOIN `yw_district` `b` ON `a`.`organization_district_id`=`b`.`district_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `organization_false_delete` = 1  AND `organization_state` = 3  AND `organization_name` LIKE '%%' LIMIT 1 [ RunTime:0.001145s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` `a` LEFT JOIN `yw_district` `b` ON `a`.`organization_district_id`=`b`.`district_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `organization_false_delete` = 1  AND `organization_state` = 3  AND `organization_name` LIKE '%%' LIMIT 0,15 [ RunTime:0.001070s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:16:19+08:00 ] 220.115.30.188 GET /public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5 [运行时间：0.014263s][吞吐率：70.11req/s] [内存消耗：1,832.97kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'aedrfg3sare5g41a6e5rg4ae6rg5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?organization_id=6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:16:19+08:00 ] 220.115.30.188 GET /public/static/admin/css/bootstrap.min.css.map
+[ info ] yuewu.dazhu-ltd.cn/public/static/admin/css/bootstrap.min.css.map [运行时间：0.014238s][吞吐率：70.24req/s] [内存消耗：1,832.38kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'admin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:16:21+08:00 ] 220.115.30.188 GET /admin/organization/organization_apply_details.html?organization_id=7
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=7 [运行时间：0.036060s][吞吐率：27.73req/s] [内存消耗：3,385.40kb] [文件加载：54]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_apply_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?organization_id=6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '7',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_apply_details[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_apply_details.html [ array (
+  0 => 'organization_find',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008545s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001807s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` WHERE  `organization_id` = 7 LIMIT 1 [ RunTime:0.001657s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:16:21+08:00 ] 220.115.30.188 GET /public/static/common/bootstarp/bootstrap.min.css.map
+[ info ] yuewu.dazhu-ltd.cn/public/static/common/bootstarp/bootstrap.min.css.map [运行时间：0.014545s][吞吐率：68.75req/s] [内存消耗：1,832.16kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'bootstarp' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:18:34+08:00 ] 220.115.30.188 GET /admin/organization/organization_apply_details.html?organization_id=7
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=7 [运行时间：0.034644s][吞吐率：28.86req/s] [内存消耗：3,595.27kb] [文件加载：56]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_apply_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?organization_id=6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '7',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_apply_details[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_apply_details.html [ array (
+  0 => 'organization_find',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002636s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001968s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` WHERE  `organization_id` = 7 LIMIT 1 [ RunTime:0.001235s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:18:34+08:00 ] 220.115.30.188 GET /public/static/common/bootstarp/bootstrap.min.css.map
+[ info ] yuewu.dazhu-ltd.cn/public/static/common/bootstarp/bootstrap.min.css.map [运行时间：0.014611s][吞吐率：68.44req/s] [内存消耗：1,832.16kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'bootstarp' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:20:01+08:00 ] 220.115.30.188 GET /admin/organization/organization_apply_details.html?organization_id=7
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=7 [运行时间：0.029912s][吞吐率：33.43req/s] [内存消耗：3,595.13kb] [文件加载：56]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_apply_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?organization_id=6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '7',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_apply_details[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_apply_details.html [ array (
+  0 => 'organization_find',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001614s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001427s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` WHERE  `organization_id` = 7 LIMIT 1 [ RunTime:0.001009s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:20:01+08:00 ] 220.115.30.188 GET /public/uploads20181230/8850b2e8f6185b7f12fe3d2c3c0ac727.png
+[ info ] yuewu.dazhu-ltd.cn/public/uploads20181230/8850b2e8f6185b7f12fe3d2c3c0ac727.png [运行时间：0.014164s][吞吐率：70.60req/s] [内存消耗：1,833.49kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads20181230',
+    2 => '8850b2e8f6185b7f12fe3d2c3c0ac727.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:20:01+08:00 ] 220.115.30.188 GET /public/static/common/bootstarp/bootstrap.min.css.map
+[ info ] yuewu.dazhu-ltd.cn/public/static/common/bootstarp/bootstrap.min.css.map [运行时间：0.014162s][吞吐率：70.61req/s] [内存消耗：1,832.16kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'bootstarp' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:20:58+08:00 ] 220.115.30.188 GET /admin/organization/organization_apply_details.html?organization_id=7
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=7 [运行时间：0.030819s][吞吐率：32.45req/s] [内存消耗：3,595.24kb] [文件加载：56]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_apply_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?organization_id=6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '7',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_apply_details[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_apply_details.html [ array (
+  0 => 'organization_find',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002255s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001335s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` WHERE  `organization_id` = 7 LIMIT 1 [ RunTime:0.001037s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:20:58+08:00 ] 220.115.30.188 GET /public/static/common/bootstarp/bootstrap.min.css.map
+[ info ] yuewu.dazhu-ltd.cn/public/static/common/bootstarp/bootstrap.min.css.map [运行时间：0.014462s][吞吐率：69.15req/s] [内存消耗：1,832.16kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'bootstarp' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:21:52+08:00 ] 220.115.30.188 GET /admin/organization/organization_apply_details.html?organization_id=7
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=7 [运行时间：0.030707s][吞吐率：32.57req/s] [内存消耗：3,595.20kb] [文件加载：56]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_apply_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?organization_id=6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '7',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_apply_details[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_apply_details.html [ array (
+  0 => 'organization_find',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001998s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001351s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` WHERE  `organization_id` = 7 LIMIT 1 [ RunTime:0.000920s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:21:52+08:00 ] 220.115.30.188 GET /public/static/common/bootstarp/bootstrap.min.css.map
+[ info ] yuewu.dazhu-ltd.cn/public/static/common/bootstarp/bootstrap.min.css.map [运行时间：0.014995s][吞吐率：66.69req/s] [内存消耗：1,832.16kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'bootstarp' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:22:16+08:00 ] 220.115.30.188 GET /admin/organization/organization_check_list.html?organization_id=7
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?organization_id=7 [运行时间：0.031698s][吞吐率：31.55req/s] [内存消耗：3,580.92kb] [文件加载：58]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_check_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '7',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_check_list[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_check_list.html [ array (
+  0 => 'seek',
+  1 => 'organization_select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001849s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001366s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_organization` `a` LEFT JOIN `yw_district` `b` ON `a`.`organization_district_id`=`b`.`district_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `organization_false_delete` = 1  AND `organization_state` = 3  AND `organization_name` LIKE '%%' LIMIT 1 [ RunTime:0.000843s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` `a` LEFT JOIN `yw_district` `b` ON `a`.`organization_district_id`=`b`.`district_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `organization_false_delete` = 1  AND `organization_state` = 3  AND `organization_name` LIKE '%%' LIMIT 0,15 [ RunTime:0.001079s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:22:16+08:00 ] 220.115.30.188 GET /public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5 [运行时间：0.014323s][吞吐率：69.82req/s] [内存消耗：1,832.60kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'aedrfg3sare5g41a6e5rg4ae6rg5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?organization_id=7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:22:19+08:00 ] 220.115.30.188 GET /admin/organization/organization_apply_details.html?organization_id=7
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=7 [运行时间：0.028814s][吞吐率：34.71req/s] [内存消耗：3,385.12kb] [文件加载：54]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_apply_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?organization_id=7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '7',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_apply_details[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_apply_details.html [ array (
+  0 => 'organization_find',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001432s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001408s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` WHERE  `organization_id` = 7 LIMIT 1 [ RunTime:0.000986s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:22:20+08:00 ] 220.115.30.188 GET /admin/organization/organization_check_list.html?organization_id=7
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?organization_id=7 [运行时间：0.032641s][吞吐率：30.64req/s] [内存消耗：3,580.92kb] [文件加载：58]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_check_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '7',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_check_list[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_check_list.html [ array (
+  0 => 'seek',
+  1 => 'organization_select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001501s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001318s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_organization` `a` LEFT JOIN `yw_district` `b` ON `a`.`organization_district_id`=`b`.`district_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `organization_false_delete` = 1  AND `organization_state` = 3  AND `organization_name` LIKE '%%' LIMIT 1 [ RunTime:0.001120s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` `a` LEFT JOIN `yw_district` `b` ON `a`.`organization_district_id`=`b`.`district_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `organization_false_delete` = 1  AND `organization_state` = 3  AND `organization_name` LIKE '%%' LIMIT 0,15 [ RunTime:0.001272s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:22:20+08:00 ] 220.115.30.188 GET /public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5 [运行时间：0.014303s][吞吐率：69.92req/s] [内存消耗：1,832.60kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'aedrfg3sare5g41a6e5rg4ae6rg5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?organization_id=7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:22:21+08:00 ] 220.115.30.188 GET /admin/organization/organization_apply_details.html?organization_id=7
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=7 [运行时间：0.027939s][吞吐率：35.79req/s] [内存消耗：3,385.12kb] [文件加载：54]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_apply_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?organization_id=7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '7',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_apply_details[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_apply_details.html [ array (
+  0 => 'organization_find',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001585s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001322s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` WHERE  `organization_id` = 7 LIMIT 1 [ RunTime:0.001030s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:22:22+08:00 ] 220.115.30.188 GET /admin/organization/organization_check_list.html?organization_id=7
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?organization_id=7 [运行时间：0.030263s][吞吐率：33.04req/s] [内存消耗：3,580.92kb] [文件加载：58]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_check_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '7',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_check_list[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_check_list.html [ array (
+  0 => 'seek',
+  1 => 'organization_select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001464s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001351s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_organization` `a` LEFT JOIN `yw_district` `b` ON `a`.`organization_district_id`=`b`.`district_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `organization_false_delete` = 1  AND `organization_state` = 3  AND `organization_name` LIKE '%%' LIMIT 1 [ RunTime:0.000969s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` `a` LEFT JOIN `yw_district` `b` ON `a`.`organization_district_id`=`b`.`district_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `organization_false_delete` = 1  AND `organization_state` = 3  AND `organization_name` LIKE '%%' LIMIT 0,15 [ RunTime:0.000897s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:22:22+08:00 ] 220.115.30.188 GET /public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5 [运行时间：0.014169s][吞吐率：70.58req/s] [内存消耗：1,832.60kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'aedrfg3sare5g41a6e5rg4ae6rg5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?organization_id=7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:22:28+08:00 ] 220.115.30.188 GET /admin/file/file_list.html?seek=%E6%96%AD%E7%89%87
+[ info ] yuewu.dazhu-ltd.cn/admin/file/file_list.html?seek=%E6%96%AD%E7%89%87 [运行时间：0.033054s][吞吐率：30.25req/s] [内存消耗：3,506.69kb] [文件加载：58]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'file',
+    2 => 'file_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?organization_id=7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'seek' => '断片',
+)
+[ info ] [ RUN ] app\admin\controller\File->file_list[ /www/web/yuewu/public_html/application/admin/controller/File.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/file/file_list.html [ array (
+  0 => 'seek',
+  1 => 'file_type',
+  2 => 'file_select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001667s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.002769s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_file` `a` LEFT JOIN `yw_district` `b` ON `a`.`district_id`=`b`.`district_id` LEFT JOIN `yw_dance_type` `c` ON `a`.`dance_type_id`=`c`.`dance_type_id` WHERE  `file_false_delete` = 1  AND `file_type` IS NULL  AND `file_name` LIKE '%断片%' LIMIT 1 [ RunTime:0.000998s ]
+[ sql ] [ SQL ] SELECT `file_id`,`district_name`,`dance_type_name`,`file_cover`,`file_name`,`file_creattime`,`file_collection`,`file_category`,`file_state`,`file_type` FROM `yw_file` `a` LEFT JOIN `yw_district` `b` ON `a`.`district_id`=`b`.`district_id` LEFT JOIN `yw_dance_type` `c` ON `a`.`dance_type_id`=`c`.`dance_type_id` WHERE  `file_false_delete` = 1  AND `file_type` IS NULL  AND `file_name` LIKE '%断片%' LIMIT 0,15 [ RunTime:0.000953s ]
+[ sql ] [ SQL ] SELECT `file_type` FROM `yw_file` WHERE  `file_type` IS NULL LIMIT 1 [ RunTime:0.000768s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:22:30+08:00 ] 220.115.30.188 GET /admin/file/file_list.html?file_type=&seek=
+[ info ] yuewu.dazhu-ltd.cn/admin/file/file_list.html?file_type=&seek= [运行时间：0.034705s][吞吐率：28.81req/s] [内存消耗：3,507.11kb] [文件加载：58]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'file',
+    2 => 'file_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/file/file_list.html?seek=%E6%96%AD%E7%89%87',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'file_type' => '',
+  'seek' => '',
+)
+[ info ] [ RUN ] app\admin\controller\File->file_list[ /www/web/yuewu/public_html/application/admin/controller/File.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/file/file_list.html [ array (
+  0 => 'seek',
+  1 => 'file_type',
+  2 => 'file_select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004578s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001591s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_file` `a` LEFT JOIN `yw_district` `b` ON `a`.`district_id`=`b`.`district_id` LEFT JOIN `yw_dance_type` `c` ON `a`.`dance_type_id`=`c`.`dance_type_id` WHERE  `file_false_delete` = 1  AND `file_type` = 0  AND `file_name` LIKE '%%' LIMIT 1 [ RunTime:0.001209s ]
+[ sql ] [ SQL ] SELECT `file_id`,`district_name`,`dance_type_name`,`file_cover`,`file_name`,`file_creattime`,`file_collection`,`file_category`,`file_state`,`file_type` FROM `yw_file` `a` LEFT JOIN `yw_district` `b` ON `a`.`district_id`=`b`.`district_id` LEFT JOIN `yw_dance_type` `c` ON `a`.`dance_type_id`=`c`.`dance_type_id` WHERE  `file_false_delete` = 1  AND `file_type` = 0  AND `file_name` LIKE '%%' LIMIT 0,15 [ RunTime:0.001012s ]
+[ sql ] [ SQL ] SELECT `file_type` FROM `yw_file` WHERE  `file_type` = 0 LIMIT 1 [ RunTime:0.000819s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:22:31+08:00 ] 220.115.30.188 GET /public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5 [运行时间：0.014342s][吞吐率：69.73req/s] [内存消耗：1,832.60kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'aedrfg3sare5g41a6e5rg4ae6rg5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?organization_id=7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:25:21+08:00 ] 220.115.30.188 GET /admin/organization/organization_check_list.html?organization_id=7
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?organization_id=7 [运行时间：0.032529s][吞吐率：30.74req/s] [内存消耗：3,784.33kb] [文件加载：60]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_check_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '7',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_check_list[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_check_list.html [ array (
+  0 => 'seek',
+  1 => 'organization_select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001781s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001342s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_organization` `a` LEFT JOIN `yw_district` `b` ON `a`.`organization_district_id`=`b`.`district_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `organization_false_delete` = 1  AND `organization_state` = 3  AND `organization_name` LIKE '%%' LIMIT 1 [ RunTime:0.000897s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` `a` LEFT JOIN `yw_district` `b` ON `a`.`organization_district_id`=`b`.`district_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `organization_false_delete` = 1  AND `organization_state` = 3  AND `organization_name` LIKE '%%' LIMIT 0,15 [ RunTime:0.001035s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:25:21+08:00 ] 220.115.30.188 GET /public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5 [运行时间：0.014190s][吞吐率：70.47req/s] [内存消耗：1,832.60kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'aedrfg3sare5g41a6e5rg4ae6rg5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?organization_id=7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:25:24+08:00 ] 220.115.30.188 GET /admin/organization/organization_check_list.html?seek=%E5%87%A1%E5%B0%98
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?seek=%E5%87%A1%E5%B0%98 [运行时间：0.030801s][吞吐率：32.47req/s] [内存消耗：3,559.01kb] [文件加载：58]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_check_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?organization_id=7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'seek' => '凡尘',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_check_list[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_check_list.html [ array (
+  0 => 'seek',
+  1 => 'organization_select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001529s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001388s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_organization` `a` LEFT JOIN `yw_district` `b` ON `a`.`organization_district_id`=`b`.`district_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `organization_false_delete` = 1  AND `organization_state` = 3  AND `organization_name` LIKE '%凡尘%' LIMIT 1 [ RunTime:0.001103s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` `a` LEFT JOIN `yw_district` `b` ON `a`.`organization_district_id`=`b`.`district_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `organization_false_delete` = 1  AND `organization_state` = 3  AND `organization_name` LIKE '%凡尘%' LIMIT 0,15 [ RunTime:0.001130s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:25:26+08:00 ] 220.115.30.188 GET /admin/organization/organization_check_list.html?seek=
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?seek= [运行时间：0.030874s][吞吐率：32.39req/s] [内存消耗：3,580.61kb] [文件加载：58]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_check_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?seek=%E5%87%A1%E5%B0%98',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'seek' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_check_list[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_check_list.html [ array (
+  0 => 'seek',
+  1 => 'organization_select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001634s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001327s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_organization` `a` LEFT JOIN `yw_district` `b` ON `a`.`organization_district_id`=`b`.`district_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `organization_false_delete` = 1  AND `organization_state` = 3  AND `organization_name` LIKE '%%' LIMIT 1 [ RunTime:0.001027s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` `a` LEFT JOIN `yw_district` `b` ON `a`.`organization_district_id`=`b`.`district_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `organization_false_delete` = 1  AND `organization_state` = 3  AND `organization_name` LIKE '%%' LIMIT 0,15 [ RunTime:0.001171s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:25:26+08:00 ] 220.115.30.188 GET /public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5 [运行时间：0.014249s][吞吐率：70.18req/s] [内存消耗：1,832.45kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'aedrfg3sare5g41a6e5rg4ae6rg5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?seek=',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:25:30+08:00 ] 220.115.30.188 GET /admin/organization/organization_check_list.html?seek=%E5%85%88%E7%94%9F
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?seek=%E5%85%88%E7%94%9F [运行时间：0.030460s][吞吐率：32.83req/s] [内存消耗：3,558.94kb] [文件加载：58]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_check_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?seek=',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'seek' => '先生',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_check_list[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_check_list.html [ array (
+  0 => 'seek',
+  1 => 'organization_select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001560s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001267s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_organization` `a` LEFT JOIN `yw_district` `b` ON `a`.`organization_district_id`=`b`.`district_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `organization_false_delete` = 1  AND `organization_state` = 3  AND `organization_name` LIKE '%先生%' LIMIT 1 [ RunTime:0.001149s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` `a` LEFT JOIN `yw_district` `b` ON `a`.`organization_district_id`=`b`.`district_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `organization_false_delete` = 1  AND `organization_state` = 3  AND `organization_name` LIKE '%先生%' LIMIT 0,15 [ RunTime:0.001147s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:25:33+08:00 ] 220.115.30.188 GET /admin/organization/organization_check_list.html?seek=
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?seek= [运行时间：0.030661s][吞吐率：32.61req/s] [内存消耗：3,580.61kb] [文件加载：58]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_check_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?seek=%E5%85%88%E7%94%9F',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'seek' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_check_list[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_check_list.html [ array (
+  0 => 'seek',
+  1 => 'organization_select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001578s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001392s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_organization` `a` LEFT JOIN `yw_district` `b` ON `a`.`organization_district_id`=`b`.`district_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `organization_false_delete` = 1  AND `organization_state` = 3  AND `organization_name` LIKE '%%' LIMIT 1 [ RunTime:0.000853s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` `a` LEFT JOIN `yw_district` `b` ON `a`.`organization_district_id`=`b`.`district_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `organization_false_delete` = 1  AND `organization_state` = 3  AND `organization_name` LIKE '%%' LIMIT 0,15 [ RunTime:0.001110s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:25:33+08:00 ] 220.115.30.188 GET /public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5 [运行时间：0.014170s][吞吐率：70.57req/s] [内存消耗：1,832.45kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'aedrfg3sare5g41a6e5rg4ae6rg5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?seek=',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:26:00+08:00 ] 220.115.30.188 GET /admin/organization/organization_check_list.html?seek=%E5%85%AC%E5%AE%89
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?seek=%E5%85%AC%E5%AE%89 [运行时间：0.033109s][吞吐率：30.20req/s] [内存消耗：3,570.34kb] [文件加载：58]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_check_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?seek=',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'seek' => '公安',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_check_list[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_check_list.html [ array (
+  0 => 'seek',
+  1 => 'organization_select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001766s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001381s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_organization` `a` LEFT JOIN `yw_district` `b` ON `a`.`organization_district_id`=`b`.`district_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `organization_false_delete` = 1  AND `organization_state` = 3  AND `organization_name` LIKE '%公安%' LIMIT 1 [ RunTime:0.001124s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` `a` LEFT JOIN `yw_district` `b` ON `a`.`organization_district_id`=`b`.`district_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `organization_false_delete` = 1  AND `organization_state` = 3  AND `organization_name` LIKE '%公安%' LIMIT 0,15 [ RunTime:0.001142s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:26:03+08:00 ] 220.115.30.188 GET /admin/organization/organization_check_list.html?seek=
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?seek= [运行时间：0.030791s][吞吐率：32.48req/s] [内存消耗：3,580.61kb] [文件加载：58]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_check_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?seek=%E5%85%AC%E5%AE%89',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'seek' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_check_list[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_check_list.html [ array (
+  0 => 'seek',
+  1 => 'organization_select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001784s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001348s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_organization` `a` LEFT JOIN `yw_district` `b` ON `a`.`organization_district_id`=`b`.`district_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `organization_false_delete` = 1  AND `organization_state` = 3  AND `organization_name` LIKE '%%' LIMIT 1 [ RunTime:0.000967s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` `a` LEFT JOIN `yw_district` `b` ON `a`.`organization_district_id`=`b`.`district_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `organization_false_delete` = 1  AND `organization_state` = 3  AND `organization_name` LIKE '%%' LIMIT 0,15 [ RunTime:0.001014s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:26:03+08:00 ] 220.115.30.188 GET /public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5 [运行时间：0.014635s][吞吐率：68.33req/s] [内存消耗：1,832.45kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'aedrfg3sare5g41a6e5rg4ae6rg5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?seek=',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:26:18+08:00 ] 220.115.30.188 GET /admin/organization/organization_apply_details.html?organization_id=6
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=6 [运行时间：0.035887s][吞吐率：27.87req/s] [内存消耗：3,384.62kb] [文件加载：54]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_apply_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?seek=',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '6',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_apply_details[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_apply_details.html [ array (
+  0 => 'organization_find',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002907s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.007494s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` WHERE  `organization_id` = 6 LIMIT 1 [ RunTime:0.001370s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:26:18+08:00 ] 220.115.30.188 GET /public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5 [运行时间：0.014308s][吞吐率：69.89req/s] [内存消耗：1,832.57kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'aedrfg3sare5g41a6e5rg4ae6rg5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:26:20+08:00 ] 220.115.30.188 GET /admin/organization/organization_check_list.html?organization_id=6
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?organization_id=6 [运行时间：0.031128s][吞吐率：32.13req/s] [内存消耗：3,580.98kb] [文件加载：58]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_check_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '6',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_check_list[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_check_list.html [ array (
+  0 => 'seek',
+  1 => 'organization_select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001598s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001322s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_organization` `a` LEFT JOIN `yw_district` `b` ON `a`.`organization_district_id`=`b`.`district_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `organization_false_delete` = 1  AND `organization_state` = 3  AND `organization_name` LIKE '%%' LIMIT 1 [ RunTime:0.000894s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` `a` LEFT JOIN `yw_district` `b` ON `a`.`organization_district_id`=`b`.`district_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `organization_false_delete` = 1  AND `organization_state` = 3  AND `organization_name` LIKE '%%' LIMIT 0,15 [ RunTime:0.001034s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:26:20+08:00 ] 220.115.30.188 GET /public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5 [运行时间：0.014469s][吞吐率：69.11req/s] [内存消耗：1,832.60kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'aedrfg3sare5g41a6e5rg4ae6rg5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?organization_id=6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-13T22:26:21+08:00 ] 220.115.30.188 GET /admin/organization/organization_apply_details.html?organization_id=7
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=7 [运行时间：0.029351s][吞吐率：34.07req/s] [内存消耗：3,385.12kb] [文件加载：54]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_apply_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?organization_id=6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '7',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_apply_details[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_apply_details.html [ array (
+  0 => 'organization_find',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001610s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001357s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` WHERE  `organization_id` = 7 LIMIT 1 [ RunTime:0.001054s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:26:22+08:00 ] 220.115.30.188 GET /admin/organization/organization_check_list.html?organization_id=7
+[ info ] yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?organization_id=7 [运行时间：0.031008s][吞吐率：32.25req/s] [内存消耗：3,580.98kb] [文件加载：58]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'organization',
+    2 => 'organization_check_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_apply_details.html?organization_id=7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '7',
+)
+[ info ] [ RUN ] app\admin\controller\Organization->organization_check_list[ /www/web/yuewu/public_html/application/admin/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/web/yuewu/public_html/application/admin/view/organization/organization_check_list.html [ array (
+  0 => 'seek',
+  1 => 'organization_select',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001548s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001452s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_organization` `a` LEFT JOIN `yw_district` `b` ON `a`.`organization_district_id`=`b`.`district_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `organization_false_delete` = 1  AND `organization_state` = 3  AND `organization_name` LIKE '%%' LIMIT 1 [ RunTime:0.001157s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` `a` LEFT JOIN `yw_district` `b` ON `a`.`organization_district_id`=`b`.`district_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `organization_false_delete` = 1  AND `organization_state` = 3  AND `organization_name` LIKE '%%' LIMIT 0,15 [ RunTime:0.001042s ]
+---------------------------------------------------------------
+[ 2019-01-13T22:26:22+08:00 ] 220.115.30.188 GET /public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/aedrfg3sare5g41a6e5rg4ae6rg5 [运行时间：0.014486s][吞吐率：69.03req/s] [内存消耗：1,832.60kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => 'aedrfg3sare5g41a6e5rg4ae6rg5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/admin/organization/organization_check_list.html?organization_id=7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,2496 @@
+---------------------------------------------------------------
+[ 2018-11-20T10:35:01+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.026272s][吞吐率：38.06req/s] [内存消耗：3,185.96kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarytG2cTuAWWY2m3Aas',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001646s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001291s ]
+[ sql ] [ SQL ] SELECT `user_teacher_id`,`user_id`,`teacher_portrait`,`teacher_name`,`teacher_attention`,`teacher_level`,`teacher_master`,`teacher_intro` FROM `yw_user_teacher` WHERE  `teacher_false_delete` = 1  AND `teacher_state` = 1  AND `user_teacher_id` IS NULL [ RunTime:0.001044s ]
+---------------------------------------------------------------
+[ 2018-11-20T10:35:06+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.026176s][吞吐率：38.20req/s] [内存消耗：3,185.97kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarysjDrqCubrAScjMBJ',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'teacher_id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001547s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001243s ]
+[ sql ] [ SQL ] SELECT `user_teacher_id`,`user_id`,`teacher_portrait`,`teacher_name`,`teacher_attention`,`teacher_level`,`teacher_master`,`teacher_intro` FROM `yw_user_teacher` WHERE  `teacher_false_delete` = 1  AND `teacher_state` = 1  AND `user_teacher_id` IS NULL [ RunTime:0.000956s ]
+---------------------------------------------------------------
+[ 2018-11-20T10:35:10+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.025837s][吞吐率：38.70req/s] [内存消耗：3,185.99kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryBK5A11NtBSI2HJJB',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'teacher_id' => '3',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001471s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001275s ]
+[ sql ] [ SQL ] SELECT `user_teacher_id`,`user_id`,`teacher_portrait`,`teacher_name`,`teacher_attention`,`teacher_level`,`teacher_master`,`teacher_intro` FROM `yw_user_teacher` WHERE  `teacher_false_delete` = 1  AND `teacher_state` = 1  AND `user_teacher_id` IS NULL [ RunTime:0.000960s ]
+---------------------------------------------------------------
+[ 2018-11-20T10:35:26+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.025800s][吞吐率：38.76req/s] [内存消耗：3,186.99kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '147',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarybQCOv33WXmJDEena',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '3',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001612s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001331s ]
+[ sql ] [ SQL ] SELECT `user_teacher_id`,`user_id`,`teacher_portrait`,`teacher_name`,`teacher_attention`,`teacher_level`,`teacher_master`,`teacher_intro` FROM `yw_user_teacher` WHERE  `teacher_false_delete` = 1  AND `teacher_state` = 1  AND `user_teacher_id` = 3 [ RunTime:0.000880s ]
+---------------------------------------------------------------
+[ 2018-11-20T10:35:30+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.026882s][吞吐率：37.20req/s] [内存消耗：3,186.91kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '147',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryF9hWHtWD0A2D4tZA',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001540s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001367s ]
+[ sql ] [ SQL ] SELECT `user_teacher_id`,`user_id`,`teacher_portrait`,`teacher_name`,`teacher_attention`,`teacher_level`,`teacher_master`,`teacher_intro` FROM `yw_user_teacher` WHERE  `teacher_false_delete` = 1  AND `teacher_state` = 1  AND `user_teacher_id` = 2 [ RunTime:0.000999s ]
+---------------------------------------------------------------
+[ 2018-11-20T10:35:33+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.025783s][吞吐率：38.79req/s] [内存消耗：3,187.57kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '147',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarygKYNr0BPl6nPVxoE',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001604s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001319s ]
+[ sql ] [ SQL ] SELECT `user_teacher_id`,`user_id`,`teacher_portrait`,`teacher_name`,`teacher_attention`,`teacher_level`,`teacher_master`,`teacher_intro` FROM `yw_user_teacher` WHERE  `teacher_false_delete` = 1  AND `teacher_state` = 1  AND `user_teacher_id` = 1 [ RunTime:0.000871s ]
+---------------------------------------------------------------
+[ 2018-11-20T10:40:27+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.026111s][吞吐率：38.30req/s] [内存消耗：3,188.82kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '147',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryjs5SkvqQ0BcoVBgP',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001589s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001329s ]
+[ sql ] [ SQL ] SELECT `user_teacher_id`,`user_id`,`teacher_portrait`,`teacher_name`,`teacher_attention`,`teacher_level`,`teacher_master`,`teacher_intro`,`schooltime` FROM `yw_user_teacher` WHERE  `teacher_false_delete` = 1  AND `teacher_state` = 1  AND `user_teacher_id` = 1 [ RunTime:0.000956s ]
+---------------------------------------------------------------
+[ 2018-11-20T10:41:00+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.025796s][吞吐率：38.77req/s] [内存消耗：3,188.79kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '147',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryBGWWeSPACwQTyotr',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001514s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001292s ]
+[ sql ] [ SQL ] SELECT `user_teacher_id`,`user_id`,`teacher_portrait`,`teacher_name`,`teacher_attention`,`teacher_level`,`teacher_master`,`teacher_intro`,`schooltime` FROM `yw_user_teacher` WHERE  `teacher_false_delete` = 1  AND `teacher_state` = 1  AND `user_teacher_id` = 1 [ RunTime:0.001034s ]
+---------------------------------------------------------------
+[ 2018-11-20T11:02:44+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.026267s][吞吐率：38.07req/s] [内存消耗：3,190.28kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '147',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarySbIARAf9qxGb6rMT',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001679s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001358s ]
+[ sql ] [ SQL ] SELECT `user_teacher_id`,`user_id`,`teacher_portrait`,`teacher_name`,`teacher_attention`,`teacher_level`,`teacher_master`,`teacher_intro`,`schooltime` FROM `yw_user_teacher` WHERE  `teacher_false_delete` = 1  AND `teacher_state` = 1  AND `user_teacher_id` = 1 [ RunTime:0.001030s ]
+---------------------------------------------------------------
+[ 2018-11-20T11:13:08+08:00 ] 111.163.136.40 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.027650s][吞吐率：36.17req/s] [内存消耗：3,207.62kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '147',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarysalHLniyn5vzH7qx',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001565s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001432s ]
+[ sql ] [ SQL ] SELECT `user_teacher_id`,`user_id`,`teacher_portrait`,`teacher_name`,`teacher_attention`,`teacher_level`,`teacher_master`,`teacher_intro`,`schooltime`,`teacher_phone`,`teacher_site`,`teacher_video` FROM `yw_user_teacher` WHERE  `teacher_false_delete` = 1  AND `teacher_state` = 1  AND `user_teacher_id` = 1 [ RunTime:0.001017s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` [ RunTime:0.001080s ]
+---------------------------------------------------------------
+[ 2018-11-20T13:56:29+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.027951s][吞吐率：35.78req/s] [内存消耗：3,209.17kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryfhpvy9QBXKBOh4EC',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001521s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001270s ]
+[ sql ] [ SQL ] SELECT `user_teacher_id`,`user_id`,`teacher_portrait`,`teacher_name`,`teacher_attention`,`teacher_level`,`teacher_master`,`teacher_intro`,`schooltime`,`teacher_phone`,`teacher_site`,`teacher_video` FROM `yw_user_teacher` WHERE  `teacher_false_delete` = 1  AND `teacher_state` = 1  AND `user_teacher_id` IS NULL [ RunTime:0.000969s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.001078s ]
+---------------------------------------------------------------
+[ 2018-11-20T13:56:57+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.027170s][吞吐率：36.81req/s] [内存消耗：3,209.15kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryegRzZoYXf3sOiSqz',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001684s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001345s ]
+[ sql ] [ SQL ] SELECT `user_teacher_id`,`user_id`,`teacher_portrait`,`teacher_name`,`teacher_attention`,`teacher_level`,`teacher_master`,`teacher_intro`,`schooltime`,`teacher_phone`,`teacher_site`,`teacher_video` FROM `yw_user_teacher` WHERE  `teacher_false_delete` = 1  AND `teacher_state` = 1  AND `user_teacher_id` IS NULL [ RunTime:0.000870s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.000991s ]
+---------------------------------------------------------------
+[ 2018-11-20T13:58:06+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.026510s][吞吐率：37.72req/s] [内存消耗：3,201.43kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryLd5dHTWNlFXOF5hb',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001796s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001443s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.001149s ]
+---------------------------------------------------------------
+[ 2018-11-20T13:58:25+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.025914s][吞吐率：38.59req/s] [内存消耗：3,201.30kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryUEgkErR6AgXxBqc9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001497s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001398s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.001082s ]
+---------------------------------------------------------------
+[ 2018-11-20T14:09:06+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.025894s][吞吐率：38.62req/s] [内存消耗：3,195.75kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryBQZK65k3vBAlRkn5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001541s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001306s ]
+[ sql ] [ SQL ] SELECT `a`.`user_teacher_id`,`a`.`teacher_portrait`,`a`.`teacher_phone`,`a`.`teacher_name`,`a`.`schooltime`,`a`.`teacher_site`,`a`.`teacher_level`,`a`.`teacher_master`,`a`.`teacher_intro`,`a`.`teacher_video`,`c`.`curriculum_id`,`c`.`curriculum_admin`,`c`.`curriculum_name`,`c`.`curriculum_time`,`c`.`curriculum_actual_price`,`c`.`curriculum_former_price`,`c`.`curriculum_difficulty` FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `curriculum_state` = 1 ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.001084s ]
+---------------------------------------------------------------
+[ 2018-11-20T14:15:35+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.026734s][吞吐率：37.41req/s] [内存消耗：3,197.73kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryOnYoltUU1rWj35Vb',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001593s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001508s ]
+[ sql ] [ SQL ] SELECT `a`.`user_teacher_id`,`a`.`teacher_portrait`,`a`.`teacher_phone`,`a`.`teacher_name`,`a`.`schooltime`,`a`.`teacher_site`,`a`.`teacher_level`,`a`.`teacher_master`,`a`.`teacher_intro`,`a`.`teacher_video`,`c`.`curriculum_id`,`c`.`curriculum_admin`,`c`.`curriculum_name`,`c`.`curriculum_time`,`c`.`curriculum_actual_price`,`c`.`curriculum_former_price`,`c`.`curriculum_difficulty` FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`user_teacher_id`=`d`.`user_teacher_id` LEFT JOIN `yw_file` `e` ON `d`.`file_id`=`e`.`file_id` WHERE  `curriculum_state` = 1 ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.001235s ]
+---------------------------------------------------------------
+[ 2018-11-20T14:17:53+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.026184s][吞吐率：38.19req/s] [内存消耗：3,197.82kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryi8YCcdLlNEBA0zSA',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001523s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001285s ]
+[ sql ] [ SQL ] SELECT `a`.`user_teacher_id`,`a`.`teacher_portrait`,`a`.`teacher_phone`,`a`.`teacher_name`,`a`.`schooltime`,`a`.`teacher_site`,`a`.`teacher_level`,`a`.`teacher_master`,`a`.`teacher_intro`,`a`.`teacher_video`,`c`.`curriculum_id`,`c`.`curriculum_admin`,`c`.`curriculum_name`,`c`.`curriculum_time`,`c`.`curriculum_actual_price`,`c`.`curriculum_former_price`,`c`.`curriculum_difficulty` FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`user_teacher_id`=`d`.`user_teacher_id` LEFT JOIN `yw_file` `e` ON `d`.`file_id`=`e`.`file_id` WHERE  `curriculum_state` = 1 ORDER BY `c`.`curriculum_collect` DESC,`e`.`file_collection` DESC LIMIT 2 [ RunTime:0.001130s ]
+---------------------------------------------------------------
+[ 2018-11-20T14:26:21+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.028973s][吞吐率：34.52req/s] [内存消耗：3,216.48kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary8YhD4CQXC3kIEv78',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001609s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001428s ]
+[ sql ] [ SQL ] SELECT `a`.`user_teacher_id`,`a`.`teacher_portrait`,`a`.`teacher_phone`,`a`.`teacher_name`,`a`.`schooltime`,`a`.`teacher_site`,`a`.`teacher_level`,`a`.`teacher_master`,`a`.`teacher_intro`,`a`.`teacher_video`,`c`.`curriculum_id`,`c`.`curriculum_admin`,`c`.`curriculum_name`,`c`.`curriculum_time`,`c`.`curriculum_actual_price`,`c`.`curriculum_former_price`,`c`.`curriculum_difficulty` FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `curriculum_state` = 1 ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.001045s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001260s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` WHERE  `teacher_state` = 1  AND `teacher_false_delete` = 1 ORDER BY `file_collection` DESC LIMIT 2 [ RunTime:0.001055s ]
+---------------------------------------------------------------
+[ 2018-11-20T14:31:21+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.030195s][吞吐率：33.12req/s] [内存消耗：3,263.38kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryeeO0p84lB9MXmtro',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001523s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001275s ]
+[ sql ] [ SQL ] SELECT `a`.`user_teacher_id`,`a`.`teacher_portrait`,`a`.`teacher_phone`,`a`.`teacher_name`,`a`.`schooltime`,`a`.`teacher_site`,`a`.`teacher_level`,`a`.`teacher_master`,`a`.`teacher_intro`,`a`.`teacher_video`,`c`.`curriculum_id`,`c`.`curriculum_admin`,`c`.`curriculum_name`,`c`.`curriculum_time`,`c`.`curriculum_actual_price`,`c`.`curriculum_former_price`,`c`.`curriculum_difficulty` FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `curriculum_state` = 1 ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.000902s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001184s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.teacher_portrait' in 'field list'[/www/web/yuewu/public_html/thinkphp/library/think/db/Connection.php:390]
+---------------------------------------------------------------
+[ 2018-11-20T14:32:14+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.030058s][吞吐率：33.27req/s] [内存消耗：3,263.40kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary5O0V1ihBnd2AYuzC',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001569s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001293s ]
+[ sql ] [ SQL ] SELECT `a`.`user_teacher_id`,`a`.`teacher_portrait`,`a`.`teacher_phone`,`a`.`teacher_name`,`a`.`schooltime`,`a`.`teacher_site`,`a`.`teacher_level`,`a`.`teacher_master`,`a`.`teacher_intro`,`a`.`teacher_video`,`c`.`curriculum_id`,`c`.`curriculum_admin`,`c`.`curriculum_name`,`c`.`curriculum_time`,`c`.`curriculum_actual_price`,`c`.`curriculum_former_price`,`c`.`curriculum_difficulty` FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `curriculum_state` = 1 ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.000942s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001228s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.dance_type_id' in 'on clause'[/www/web/yuewu/public_html/thinkphp/library/think/db/Connection.php:390]
+---------------------------------------------------------------
+[ 2018-11-20T14:32:34+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.029539s][吞吐率：33.85req/s] [内存消耗：3,202.36kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryNO9AVYj76KkdNxxH',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001732s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001431s ]
+[ sql ] [ SQL ] SELECT `a`.`user_teacher_id`,`a`.`teacher_portrait`,`a`.`teacher_phone`,`a`.`teacher_name`,`a`.`schooltime`,`a`.`teacher_site`,`a`.`teacher_level`,`a`.`teacher_master`,`a`.`teacher_intro`,`a`.`teacher_video`,`c`.`curriculum_id`,`c`.`curriculum_admin`,`c`.`curriculum_name`,`c`.`curriculum_time`,`c`.`curriculum_actual_price`,`c`.`curriculum_former_price`,`c`.`curriculum_difficulty` FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `curriculum_state` = 1 ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.000937s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001285s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`a`.`dance_type_id`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_collection`,`c`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `teacher_state` = 1  AND `teacher_false_delete` = 1 ORDER BY `file_collection` DESC LIMIT 2 [ RunTime:0.001131s ]
+---------------------------------------------------------------
+[ 2018-11-20T14:33:04+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_list.html [运行时间：0.026098s][吞吐率：38.32req/s] [内存消耗：3,196.42kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '242',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary8bVcBAAq7J2LALLQ',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'teacher_seek' => '',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_list[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001663s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001285s ]
+[ sql ] [ SQL ] SELECT `user_teacher_id`,`user_id`,`teacher_portrait`,`teacher_name`,`teacher_attention`,`teacher_level`,`teacher_master`,`teacher_intro` FROM `yw_user_teacher` WHERE  `teacher_false_delete` = 1  AND `teacher_state` = 1  AND `district_id` = 1  AND `teacher_name` LIKE '%%' ORDER BY `teacher_level` DESC [ RunTime:0.000962s ]
+---------------------------------------------------------------
+[ 2018-11-20T14:34:50+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.028998s][吞吐率：34.49req/s] [内存消耗：3,202.36kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryL0YrbLqnhTNblTZL',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001624s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001333s ]
+[ sql ] [ SQL ] SELECT `a`.`user_teacher_id`,`a`.`teacher_portrait`,`a`.`teacher_phone`,`a`.`teacher_name`,`a`.`schooltime`,`a`.`teacher_site`,`a`.`teacher_level`,`a`.`teacher_master`,`a`.`teacher_intro`,`a`.`teacher_video`,`c`.`curriculum_id`,`c`.`curriculum_admin`,`c`.`curriculum_name`,`c`.`curriculum_time`,`c`.`curriculum_actual_price`,`c`.`curriculum_former_price`,`c`.`curriculum_difficulty` FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `curriculum_state` = 1 ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.001025s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001127s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`a`.`dance_type_id`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_collection`,`c`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `teacher_state` = 1  AND `teacher_false_delete` = 1 ORDER BY `file_collection` DESC LIMIT 2 [ RunTime:0.000900s ]
+---------------------------------------------------------------
+[ 2018-11-20T14:35:14+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.028457s][吞吐率：35.14req/s] [内存消耗：3,202.36kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryWWQcneKyKgtybWLI',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001569s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001326s ]
+[ sql ] [ SQL ] SELECT `a`.`user_teacher_id`,`a`.`teacher_portrait`,`a`.`teacher_phone`,`a`.`teacher_name`,`a`.`schooltime`,`a`.`teacher_site`,`a`.`teacher_level`,`a`.`teacher_master`,`a`.`teacher_intro`,`a`.`teacher_video`,`c`.`curriculum_id`,`c`.`curriculum_admin`,`c`.`curriculum_name`,`c`.`curriculum_time`,`c`.`curriculum_actual_price`,`c`.`curriculum_former_price`,`c`.`curriculum_difficulty` FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `curriculum_state` = 1 ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.001064s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001181s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`a`.`dance_type_id`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_collection`,`c`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `teacher_state` = 1  AND `teacher_false_delete` = 1 ORDER BY `file_collection` DESC LIMIT 2 [ RunTime:0.000912s ]
+---------------------------------------------------------------
+[ 2018-11-20T14:35:14+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.028160s][吞吐率：35.51req/s] [内存消耗：3,202.36kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryKrdq6NApHgNOhqWR',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001520s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001425s ]
+[ sql ] [ SQL ] SELECT `a`.`user_teacher_id`,`a`.`teacher_portrait`,`a`.`teacher_phone`,`a`.`teacher_name`,`a`.`schooltime`,`a`.`teacher_site`,`a`.`teacher_level`,`a`.`teacher_master`,`a`.`teacher_intro`,`a`.`teacher_video`,`c`.`curriculum_id`,`c`.`curriculum_admin`,`c`.`curriculum_name`,`c`.`curriculum_time`,`c`.`curriculum_actual_price`,`c`.`curriculum_former_price`,`c`.`curriculum_difficulty` FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `curriculum_state` = 1 ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.000978s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001107s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`a`.`dance_type_id`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_collection`,`c`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `teacher_state` = 1  AND `teacher_false_delete` = 1 ORDER BY `file_collection` DESC LIMIT 2 [ RunTime:0.000804s ]
+---------------------------------------------------------------
+[ 2018-11-20T14:35:14+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.028403s][吞吐率：35.21req/s] [内存消耗：3,202.36kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryc62nkofDwSN79AeF',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001517s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001350s ]
+[ sql ] [ SQL ] SELECT `a`.`user_teacher_id`,`a`.`teacher_portrait`,`a`.`teacher_phone`,`a`.`teacher_name`,`a`.`schooltime`,`a`.`teacher_site`,`a`.`teacher_level`,`a`.`teacher_master`,`a`.`teacher_intro`,`a`.`teacher_video`,`c`.`curriculum_id`,`c`.`curriculum_admin`,`c`.`curriculum_name`,`c`.`curriculum_time`,`c`.`curriculum_actual_price`,`c`.`curriculum_former_price`,`c`.`curriculum_difficulty` FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `curriculum_state` = 1 ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.000963s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001231s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`a`.`dance_type_id`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_collection`,`c`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `teacher_state` = 1  AND `teacher_false_delete` = 1 ORDER BY `file_collection` DESC LIMIT 2 [ RunTime:0.000881s ]
+---------------------------------------------------------------
+[ 2018-11-20T14:35:15+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.029166s][吞吐率：34.29req/s] [内存消耗：3,202.36kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryygcg4FC2W7jC7Ad5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001460s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001973s ]
+[ sql ] [ SQL ] SELECT `a`.`user_teacher_id`,`a`.`teacher_portrait`,`a`.`teacher_phone`,`a`.`teacher_name`,`a`.`schooltime`,`a`.`teacher_site`,`a`.`teacher_level`,`a`.`teacher_master`,`a`.`teacher_intro`,`a`.`teacher_video`,`c`.`curriculum_id`,`c`.`curriculum_admin`,`c`.`curriculum_name`,`c`.`curriculum_time`,`c`.`curriculum_actual_price`,`c`.`curriculum_former_price`,`c`.`curriculum_difficulty` FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `curriculum_state` = 1 ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.000949s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001107s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`a`.`dance_type_id`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_collection`,`c`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `teacher_state` = 1  AND `teacher_false_delete` = 1 ORDER BY `file_collection` DESC LIMIT 2 [ RunTime:0.001285s ]
+---------------------------------------------------------------
+[ 2018-11-20T14:35:15+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.028394s][吞吐率：35.22req/s] [内存消耗：3,202.36kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryFXR9iAjk6hA7FJYN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001530s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001261s ]
+[ sql ] [ SQL ] SELECT `a`.`user_teacher_id`,`a`.`teacher_portrait`,`a`.`teacher_phone`,`a`.`teacher_name`,`a`.`schooltime`,`a`.`teacher_site`,`a`.`teacher_level`,`a`.`teacher_master`,`a`.`teacher_intro`,`a`.`teacher_video`,`c`.`curriculum_id`,`c`.`curriculum_admin`,`c`.`curriculum_name`,`c`.`curriculum_time`,`c`.`curriculum_actual_price`,`c`.`curriculum_former_price`,`c`.`curriculum_difficulty` FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `curriculum_state` = 1 ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.001066s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001236s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`a`.`dance_type_id`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_collection`,`c`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `teacher_state` = 1  AND `teacher_false_delete` = 1 ORDER BY `file_collection` DESC LIMIT 2 [ RunTime:0.000852s ]
+---------------------------------------------------------------
+[ 2018-11-20T14:35:15+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.029037s][吞吐率：34.44req/s] [内存消耗：3,202.36kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarycZmyS7a8WQOQ6NFr',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001606s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001308s ]
+[ sql ] [ SQL ] SELECT `a`.`user_teacher_id`,`a`.`teacher_portrait`,`a`.`teacher_phone`,`a`.`teacher_name`,`a`.`schooltime`,`a`.`teacher_site`,`a`.`teacher_level`,`a`.`teacher_master`,`a`.`teacher_intro`,`a`.`teacher_video`,`c`.`curriculum_id`,`c`.`curriculum_admin`,`c`.`curriculum_name`,`c`.`curriculum_time`,`c`.`curriculum_actual_price`,`c`.`curriculum_former_price`,`c`.`curriculum_difficulty` FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `curriculum_state` = 1 ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.000956s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001303s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`a`.`dance_type_id`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_collection`,`c`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `teacher_state` = 1  AND `teacher_false_delete` = 1 ORDER BY `file_collection` DESC LIMIT 2 [ RunTime:0.000877s ]
+---------------------------------------------------------------
+[ 2018-11-20T14:35:16+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.028432s][吞吐率：35.17req/s] [内存消耗：3,202.36kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryJ5PHHHUxnyxjrHJg',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001578s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001282s ]
+[ sql ] [ SQL ] SELECT `a`.`user_teacher_id`,`a`.`teacher_portrait`,`a`.`teacher_phone`,`a`.`teacher_name`,`a`.`schooltime`,`a`.`teacher_site`,`a`.`teacher_level`,`a`.`teacher_master`,`a`.`teacher_intro`,`a`.`teacher_video`,`c`.`curriculum_id`,`c`.`curriculum_admin`,`c`.`curriculum_name`,`c`.`curriculum_time`,`c`.`curriculum_actual_price`,`c`.`curriculum_former_price`,`c`.`curriculum_difficulty` FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `curriculum_state` = 1 ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.001112s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001192s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`a`.`dance_type_id`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_collection`,`c`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `teacher_state` = 1  AND `teacher_false_delete` = 1 ORDER BY `file_collection` DESC LIMIT 2 [ RunTime:0.000949s ]
+---------------------------------------------------------------
+[ 2018-11-20T14:35:16+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.028427s][吞吐率：35.18req/s] [内存消耗：3,202.36kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary3ftCgLrNEI4ivCis',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001461s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001295s ]
+[ sql ] [ SQL ] SELECT `a`.`user_teacher_id`,`a`.`teacher_portrait`,`a`.`teacher_phone`,`a`.`teacher_name`,`a`.`schooltime`,`a`.`teacher_site`,`a`.`teacher_level`,`a`.`teacher_master`,`a`.`teacher_intro`,`a`.`teacher_video`,`c`.`curriculum_id`,`c`.`curriculum_admin`,`c`.`curriculum_name`,`c`.`curriculum_time`,`c`.`curriculum_actual_price`,`c`.`curriculum_former_price`,`c`.`curriculum_difficulty` FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `curriculum_state` = 1 ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.001134s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001103s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`a`.`dance_type_id`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_collection`,`c`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `teacher_state` = 1  AND `teacher_false_delete` = 1 ORDER BY `file_collection` DESC LIMIT 2 [ RunTime:0.000916s ]
+---------------------------------------------------------------
+[ 2018-11-20T14:35:17+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.028142s][吞吐率：35.53req/s] [内存消耗：3,202.36kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryUX3vrbiFqKxHKMJf',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001386s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001340s ]
+[ sql ] [ SQL ] SELECT `a`.`user_teacher_id`,`a`.`teacher_portrait`,`a`.`teacher_phone`,`a`.`teacher_name`,`a`.`schooltime`,`a`.`teacher_site`,`a`.`teacher_level`,`a`.`teacher_master`,`a`.`teacher_intro`,`a`.`teacher_video`,`c`.`curriculum_id`,`c`.`curriculum_admin`,`c`.`curriculum_name`,`c`.`curriculum_time`,`c`.`curriculum_actual_price`,`c`.`curriculum_former_price`,`c`.`curriculum_difficulty` FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `curriculum_state` = 1 ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.000943s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001230s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`a`.`dance_type_id`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_collection`,`c`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `teacher_state` = 1  AND `teacher_false_delete` = 1 ORDER BY `file_collection` DESC LIMIT 2 [ RunTime:0.000816s ]
+---------------------------------------------------------------
+[ 2018-11-20T14:35:40+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.028397s][吞吐率：35.21req/s] [内存消耗：3,202.36kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '142',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryZxJq10yb2zSIVhdN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001632s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001305s ]
+[ sql ] [ SQL ] SELECT `a`.`user_teacher_id`,`a`.`teacher_portrait`,`a`.`teacher_phone`,`a`.`teacher_name`,`a`.`schooltime`,`a`.`teacher_site`,`a`.`teacher_level`,`a`.`teacher_master`,`a`.`teacher_intro`,`a`.`teacher_video`,`c`.`curriculum_id`,`c`.`curriculum_admin`,`c`.`curriculum_name`,`c`.`curriculum_time`,`c`.`curriculum_actual_price`,`c`.`curriculum_former_price`,`c`.`curriculum_difficulty` FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `curriculum_state` = 1 ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.000979s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001174s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`a`.`dance_type_id`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_collection`,`c`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `teacher_state` = 1  AND `teacher_false_delete` = 1 ORDER BY `file_collection` DESC LIMIT 2 [ RunTime:0.000965s ]
+---------------------------------------------------------------
+[ 2018-11-20T14:35:46+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.028665s][吞吐率：34.89req/s] [内存消耗：3,201.92kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '147',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryVWJjMwi9KkNNCaRj',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001441s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001261s ]
+[ sql ] [ SQL ] SELECT `a`.`user_teacher_id`,`a`.`teacher_portrait`,`a`.`teacher_phone`,`a`.`teacher_name`,`a`.`schooltime`,`a`.`teacher_site`,`a`.`teacher_level`,`a`.`teacher_master`,`a`.`teacher_intro`,`a`.`teacher_video`,`c`.`curriculum_id`,`c`.`curriculum_admin`,`c`.`curriculum_name`,`c`.`curriculum_time`,`c`.`curriculum_actual_price`,`c`.`curriculum_former_price`,`c`.`curriculum_difficulty` FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `curriculum_state` = 1 ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.001051s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001220s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`a`.`dance_type_id`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_collection`,`c`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `teacher_state` = 1  AND `teacher_false_delete` = 1 ORDER BY `file_collection` DESC LIMIT 2 [ RunTime:0.001008s ]
+---------------------------------------------------------------
+[ 2018-11-20T14:35:47+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.028504s][吞吐率：35.08req/s] [内存消耗：3,201.92kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '147',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarykciQ2poaQBrJnCsL',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001524s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001308s ]
+[ sql ] [ SQL ] SELECT `a`.`user_teacher_id`,`a`.`teacher_portrait`,`a`.`teacher_phone`,`a`.`teacher_name`,`a`.`schooltime`,`a`.`teacher_site`,`a`.`teacher_level`,`a`.`teacher_master`,`a`.`teacher_intro`,`a`.`teacher_video`,`c`.`curriculum_id`,`c`.`curriculum_admin`,`c`.`curriculum_name`,`c`.`curriculum_time`,`c`.`curriculum_actual_price`,`c`.`curriculum_former_price`,`c`.`curriculum_difficulty` FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `curriculum_state` = 1 ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.001163s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001225s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`a`.`dance_type_id`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_collection`,`c`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `teacher_state` = 1  AND `teacher_false_delete` = 1 ORDER BY `file_collection` DESC LIMIT 2 [ RunTime:0.000898s ]
+---------------------------------------------------------------
+[ 2018-11-20T14:35:47+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.030658s][吞吐率：32.62req/s] [内存消耗：3,201.92kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '147',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryeExQSI78IEEtf1MI',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003008s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001285s ]
+[ sql ] [ SQL ] SELECT `a`.`user_teacher_id`,`a`.`teacher_portrait`,`a`.`teacher_phone`,`a`.`teacher_name`,`a`.`schooltime`,`a`.`teacher_site`,`a`.`teacher_level`,`a`.`teacher_master`,`a`.`teacher_intro`,`a`.`teacher_video`,`c`.`curriculum_id`,`c`.`curriculum_admin`,`c`.`curriculum_name`,`c`.`curriculum_time`,`c`.`curriculum_actual_price`,`c`.`curriculum_former_price`,`c`.`curriculum_difficulty` FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `curriculum_state` = 1 ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.001004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001239s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`a`.`dance_type_id`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_collection`,`c`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `teacher_state` = 1  AND `teacher_false_delete` = 1 ORDER BY `file_collection` DESC LIMIT 2 [ RunTime:0.000851s ]
+---------------------------------------------------------------
+[ 2018-11-20T14:35:47+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.029247s][吞吐率：34.19req/s] [内存消耗：3,201.92kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '147',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryP4fQtE62AxHCpLjA',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001647s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001391s ]
+[ sql ] [ SQL ] SELECT `a`.`user_teacher_id`,`a`.`teacher_portrait`,`a`.`teacher_phone`,`a`.`teacher_name`,`a`.`schooltime`,`a`.`teacher_site`,`a`.`teacher_level`,`a`.`teacher_master`,`a`.`teacher_intro`,`a`.`teacher_video`,`c`.`curriculum_id`,`c`.`curriculum_admin`,`c`.`curriculum_name`,`c`.`curriculum_time`,`c`.`curriculum_actual_price`,`c`.`curriculum_former_price`,`c`.`curriculum_difficulty` FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `curriculum_state` = 1 ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.001088s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001165s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`a`.`dance_type_id`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_collection`,`c`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `teacher_state` = 1  AND `teacher_false_delete` = 1 ORDER BY `file_collection` DESC LIMIT 2 [ RunTime:0.000904s ]
+---------------------------------------------------------------
+[ 2018-11-20T14:36:47+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.028726s][吞吐率：34.81req/s] [内存消耗：3,202.08kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '139',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryA23BEXBTMIgboyaS',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_te' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001696s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001425s ]
+[ sql ] [ SQL ] SELECT `a`.`user_teacher_id`,`a`.`teacher_portrait`,`a`.`teacher_phone`,`a`.`teacher_name`,`a`.`schooltime`,`a`.`teacher_site`,`a`.`teacher_level`,`a`.`teacher_master`,`a`.`teacher_intro`,`a`.`teacher_video`,`c`.`curriculum_id`,`c`.`curriculum_admin`,`c`.`curriculum_name`,`c`.`curriculum_time`,`c`.`curriculum_actual_price`,`c`.`curriculum_former_price`,`c`.`curriculum_difficulty` FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `curriculum_state` = 1 ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.000936s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001189s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`a`.`dance_type_id`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_collection`,`c`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `teacher_state` = 1  AND `teacher_false_delete` = 1 ORDER BY `file_collection` DESC LIMIT 2 [ RunTime:0.000931s ]
+---------------------------------------------------------------
+[ 2018-11-20T14:36:48+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.028620s][吞吐率：34.94req/s] [内存消耗：3,202.08kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '139',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary5Up0gHSX2AjORwj3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_te' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001565s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001349s ]
+[ sql ] [ SQL ] SELECT `a`.`user_teacher_id`,`a`.`teacher_portrait`,`a`.`teacher_phone`,`a`.`teacher_name`,`a`.`schooltime`,`a`.`teacher_site`,`a`.`teacher_level`,`a`.`teacher_master`,`a`.`teacher_intro`,`a`.`teacher_video`,`c`.`curriculum_id`,`c`.`curriculum_admin`,`c`.`curriculum_name`,`c`.`curriculum_time`,`c`.`curriculum_actual_price`,`c`.`curriculum_former_price`,`c`.`curriculum_difficulty` FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `curriculum_state` = 1 ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.001045s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001170s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`a`.`dance_type_id`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_collection`,`c`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `teacher_state` = 1  AND `teacher_false_delete` = 1 ORDER BY `file_collection` DESC LIMIT 2 [ RunTime:0.000905s ]
+---------------------------------------------------------------
+[ 2018-11-20T14:36:49+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.028436s][吞吐率：35.17req/s] [内存消耗：3,202.08kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '139',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryfzw8dIpfrkBBBnTS',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_te' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001670s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001257s ]
+[ sql ] [ SQL ] SELECT `a`.`user_teacher_id`,`a`.`teacher_portrait`,`a`.`teacher_phone`,`a`.`teacher_name`,`a`.`schooltime`,`a`.`teacher_site`,`a`.`teacher_level`,`a`.`teacher_master`,`a`.`teacher_intro`,`a`.`teacher_video`,`c`.`curriculum_id`,`c`.`curriculum_admin`,`c`.`curriculum_name`,`c`.`curriculum_time`,`c`.`curriculum_actual_price`,`c`.`curriculum_former_price`,`c`.`curriculum_difficulty` FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `curriculum_state` = 1 ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.000933s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001179s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`a`.`dance_type_id`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_collection`,`c`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `teacher_state` = 1  AND `teacher_false_delete` = 1 ORDER BY `file_collection` DESC LIMIT 2 [ RunTime:0.000936s ]
+---------------------------------------------------------------
+[ 2018-11-20T14:38:26+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.028650s][吞吐率：34.90req/s] [内存消耗：3,202.30kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '139',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryS1YGpon3HjgxjenR',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_te' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001506s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001313s ]
+[ sql ] [ SQL ] SELECT `a`.`user_teacher_id`,`a`.`teacher_portrait`,`a`.`teacher_phone`,`a`.`teacher_name`,`a`.`schooltime`,`a`.`teacher_site`,`a`.`teacher_level`,`a`.`teacher_master`,`a`.`teacher_intro`,`a`.`teacher_video`,`c`.`curriculum_id`,`c`.`curriculum_admin`,`c`.`curriculum_name`,`c`.`curriculum_time`,`c`.`curriculum_actual_price`,`c`.`curriculum_former_price`,`c`.`curriculum_difficulty` FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `curriculum_state` = 1  AND `a`.`user_teacher_id` IS NULL ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.000950s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001207s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`a`.`dance_type_id`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_collection`,`c`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `teacher_state` = 1  AND `teacher_false_delete` = 1  AND `c`.`user_teacher_id` IS NULL ORDER BY `file_collection` DESC LIMIT 2 [ RunTime:0.001057s ]
+---------------------------------------------------------------
+[ 2018-11-20T14:38:31+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.028973s][吞吐率：34.51req/s] [内存消耗：3,203.05kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '147',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryVKFg4ca3BLXNj0E1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001659s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001270s ]
+[ sql ] [ SQL ] SELECT `a`.`user_teacher_id`,`a`.`teacher_portrait`,`a`.`teacher_phone`,`a`.`teacher_name`,`a`.`schooltime`,`a`.`teacher_site`,`a`.`teacher_level`,`a`.`teacher_master`,`a`.`teacher_intro`,`a`.`teacher_video`,`c`.`curriculum_id`,`c`.`curriculum_admin`,`c`.`curriculum_name`,`c`.`curriculum_time`,`c`.`curriculum_actual_price`,`c`.`curriculum_former_price`,`c`.`curriculum_difficulty` FROM `yw_user_teacher` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`user_teacher_id`=`b`.`user_teacher_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `curriculum_state` = 1  AND `a`.`user_teacher_id` = '1' ORDER BY `c`.`curriculum_collect` DESC LIMIT 2 [ RunTime:0.001046s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001173s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`a`.`dance_type_id`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_collection`,`c`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `teacher_state` = 1  AND `teacher_false_delete` = 1  AND `c`.`user_teacher_id` = '1' ORDER BY `file_collection` DESC LIMIT 2 [ RunTime:0.001023s ]
+---------------------------------------------------------------
+[ 2018-11-20T15:27:15+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_videos_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_videos_list.html [运行时间：0.035156s][吞吐率：28.44req/s] [内存消耗：3,252.84kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_videos_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '147',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryVOTW9y4hsRUb8HAv',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_videos_list[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001610s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001430s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_teacher_id' in field list is ambiguous[/www/web/yuewu/public_html/thinkphp/library/think/db/Connection.php:390]
+---------------------------------------------------------------
+[ 2018-11-20T15:28:35+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_videos_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_videos_list.html [运行时间：0.028259s][吞吐率：35.39req/s] [内存消耗：3,209.02kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_videos_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '147',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryBEVwPhlAR4hzXrbR',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_videos_list[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001592s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001338s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` [ RunTime:0.001117s ]
+---------------------------------------------------------------
+[ 2018-11-20T15:31:09+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_videos_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_videos_list.html [运行时间：0.026056s][吞吐率：38.38req/s] [内存消耗：3,207.91kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_videos_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '147',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryxljPnFJpAzGTmcnj',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_videos_list[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001633s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001279s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` WHERE  `c`.`user_teacher_id` = '1' [ RunTime:0.001158s ]
+---------------------------------------------------------------
+[ 2018-11-20T15:32:34+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_videos_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_videos_list.html [运行时间：0.026083s][吞吐率：38.34req/s] [内存消耗：3,208.44kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_videos_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '147',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarywYjAIMIM2UwxWHzL',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_videos_list[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001563s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001320s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` WHERE  `c`.`user_teacher_id` = '1' ORDER BY `a`.`file_collection` DESC [ RunTime:0.001190s ]
+---------------------------------------------------------------
+[ 2018-11-20T15:34:23+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_videos_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_videos_list.html [运行时间：0.026507s][吞吐率：37.73req/s] [内存消耗：3,208.66kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_videos_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '242',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarymeVByX3d5zVLm8JP',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '1',
+  'file_id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_videos_list[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001601s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.002115s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` WHERE  `c`.`user_teacher_id` = '1' ORDER BY `a`.`file_collection` DESC [ RunTime:0.001007s ]
+---------------------------------------------------------------
+[ 2018-11-20T15:34:32+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_videos_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_videos_list.html [运行时间：0.027484s][吞吐率：36.38req/s] [内存消耗：3,256.27kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_videos_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '242',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryIZ49EA4a0JZg2mKr',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '1',
+  'file_id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_videos_list[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001563s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001342s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'file_id' in where clause is ambiguous[/www/web/yuewu/public_html/thinkphp/library/think/db/Connection.php:390]
+---------------------------------------------------------------
+[ 2018-11-20T15:35:21+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_videos_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_videos_list.html [运行时间：0.026744s][吞吐率：37.39req/s] [内存消耗：3,209.20kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_videos_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '242',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryAqmpkbJmX6oXsKK8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '1',
+  'file_id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_videos_list[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001792s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001278s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` WHERE  `c`.`user_teacher_id` = '1'  AND `a`.`file_id` = '2' ORDER BY `a`.`file_collection` DESC [ RunTime:0.001142s ]
+---------------------------------------------------------------
+[ 2018-11-20T15:35:27+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_videos_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_videos_list.html [运行时间：0.026020s][吞吐率：38.43req/s] [内存消耗：3,206.96kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_videos_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '242',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryseGED1BRJHyfgcp7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '1',
+  'file_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_videos_list[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001593s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001330s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` WHERE  `c`.`user_teacher_id` = '1'  AND `a`.`file_id` = '1' ORDER BY `a`.`file_collection` DESC [ RunTime:0.001142s ]
+---------------------------------------------------------------
+[ 2018-11-20T15:35:31+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_videos_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_videos_list.html [运行时间：0.025940s][吞吐率：38.55req/s] [内存消耗：3,209.20kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_videos_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '242',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryWskl1MAFvJcxV6y1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '1',
+  'file_id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_videos_list[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001472s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001257s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` WHERE  `c`.`user_teacher_id` = '1'  AND `a`.`file_id` = '2' ORDER BY `a`.`file_collection` DESC [ RunTime:0.001044s ]
+---------------------------------------------------------------
+[ 2018-11-20T15:37:53+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_videos_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_videos_list.html [运行时间：0.026087s][吞吐率：38.33req/s] [内存消耗：3,209.20kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_videos_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '242',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryGpWOJyO2zCrCzFGa',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '1',
+  'file_id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_videos_list[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001573s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001308s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` WHERE  `c`.`user_teacher_id` = '1'  AND `a`.`file_id` = '2' ORDER BY `a`.`file_collection` DESC [ RunTime:0.001014s ]
+---------------------------------------------------------------
+[ 2018-11-20T15:38:23+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_videos_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_videos_list.html [运行时间：0.025847s][吞吐率：38.69req/s] [内存消耗：3,209.20kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_videos_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '242',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryeQwxfLWIBz7yiefO',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '1',
+  'file_id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_videos_list[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001544s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001347s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` WHERE  `c`.`user_teacher_id` = '1'  AND `a`.`file_id` = '2' ORDER BY `a`.`file_collection` DESC [ RunTime:0.000948s ]
+---------------------------------------------------------------
+[ 2018-11-20T15:48:03+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_videos_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_videos_list.html [运行时间：0.026553s][吞吐率：37.66req/s] [内存消耗：3,198.36kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_videos_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '242',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryt1n7Bc2GEZtgdoUm',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '1',
+  'file_id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_videos_list[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001486s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001457s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`d`.`dance_type_name`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_type`,`a`.`file_collection`,`a`.`file_category`,`c`.`teacher_portrait`,`c`.`user_teacher_id` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `c`.`user_teacher_id` = '1'  AND `a`.`file_id` = '2'  AND `a`.`file_state` = 1  AND `a`.`file_false_delete` = 1 ORDER BY `a`.`file_collection` DESC [ RunTime:0.001126s ]
+---------------------------------------------------------------
+[ 2018-11-20T15:48:40+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_videos_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_videos_list.html [运行时间：0.026431s][吞吐率：37.83req/s] [内存消耗：3,198.36kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_videos_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '242',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary7BDEBcvipvww2xwv',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '1',
+  'file_id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_videos_list[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001635s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001416s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`d`.`dance_type_name`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_type`,`a`.`file_collection`,`a`.`file_category`,`c`.`teacher_portrait`,`c`.`user_teacher_id` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `c`.`user_teacher_id` = '1'  AND `a`.`file_id` = '2'  AND `a`.`file_state` = 1  AND `a`.`file_false_delete` = 1 ORDER BY `a`.`file_collection` DESC [ RunTime:0.001082s ]
+---------------------------------------------------------------
+[ 2018-11-20T15:50:25+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_videos_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_videos_list.html [运行时间：0.025883s][吞吐率：38.64req/s] [内存消耗：3,198.55kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_videos_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '242',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarygf5t6ro2fExXcjaU',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '1',
+  'file_id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_videos_list[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001607s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001329s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`d`.`dance_type_name`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_type`,`a`.`file_collection`,`a`.`file_category`,`c`.`teacher_portrait`,`c`.`user_teacher_id` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `c`.`user_teacher_id` = '1'  AND `a`.`file_id` = '2'  AND `a`.`file_state` = 1  AND `a`.`file_false_delete` = 1 ORDER BY `a`.`file_collection` DESC [ RunTime:0.000956s ]
+---------------------------------------------------------------
+[ 2018-11-20T15:51:06+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_videos_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_videos_list.html [运行时间：0.026290s][吞吐率：38.04req/s] [内存消耗：3,199.35kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_videos_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '242',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarys3EKVbWWuWkXjTja',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '1',
+  'file_id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_videos_list[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001635s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001382s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`d`.`dance_type_name`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_type`,`a`.`file_collection`,`a`.`file_category`,`c`.`teacher_portrait`,`c`.`user_teacher_id`,`d`.`dance_type_id` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `c`.`user_teacher_id` = '1'  AND `a`.`file_id` = '2'  AND `a`.`file_state` = 1  AND `a`.`file_false_delete` = 1 ORDER BY `a`.`file_collection` DESC [ RunTime:0.001138s ]
+---------------------------------------------------------------
+[ 2018-11-20T15:54:17+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/teacher_videos_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_videos_list.html [运行时间：0.026035s][吞吐率：38.41req/s] [内存消耗：3,199.35kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_videos_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '242',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryRLqocv21fw3e8bBe',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '1',
+  'file_id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_videos_list[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001746s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001250s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`d`.`dance_type_name`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_type`,`a`.`file_collection`,`a`.`file_category`,`c`.`teacher_portrait`,`c`.`user_teacher_id`,`d`.`dance_type_id` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `c`.`user_teacher_id` = '1'  AND `a`.`file_id` = '2'  AND `a`.`file_state` = 1  AND `a`.`file_false_delete` = 1 ORDER BY `a`.`file_collection` DESC [ RunTime:0.000937s ]
+---------------------------------------------------------------
+[ 2018-11-20T16:16:11+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/play_videos.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/play_videos.html [运行时间：0.026011s][吞吐率：38.45req/s] [内存消耗：3,201.44kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'play_videos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '139',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryiTKKVYPaS5eXh63D',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'file_id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->play_videos[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001604s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001354s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`b`.`dance_type_name`,`a`.`file_content`,`a`.`file_name`,`d`.`user_name`,`d`.`user_portrait`,`c`.`comments_content` FROM `yw_file` `a` LEFT JOIN `yw_dance_type` `b` ON `a`.`dance_type_id`=`b`.`dance_type_id` LEFT JOIN `yw_comments` `c` ON `a`.`file_id`=`c`.`file_id` LEFT JOIN `yw_user` `d` ON `c`.`user_id`=`d`.`user_id` WHERE  `a`.`file_id` = '2'  AND `a`.`file_state` = 1  AND `a`.`file_false_delete` = 1 ORDER BY `c`.`comments_creattime` DESC [ RunTime:0.001067s ]
+---------------------------------------------------------------
+[ 2018-11-20T16:22:28+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/play_videos.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/play_videos.html [运行时间：0.026083s][吞吐率：38.34req/s] [内存消耗：3,201.44kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'play_videos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '139',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryJmeyreCsJkiKiyVd',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'file_id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->play_videos[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001583s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001261s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`b`.`dance_type_name`,`a`.`file_content`,`a`.`file_name`,`d`.`user_name`,`d`.`user_portrait`,`c`.`comments_content` FROM `yw_file` `a` LEFT JOIN `yw_dance_type` `b` ON `a`.`dance_type_id`=`b`.`dance_type_id` LEFT JOIN `yw_comments` `c` ON `a`.`file_id`=`c`.`file_id` LEFT JOIN `yw_user` `d` ON `c`.`user_id`=`d`.`user_id` WHERE  `a`.`file_id` = '2'  AND `a`.`file_state` = 1  AND `a`.`file_false_delete` = 1 ORDER BY `c`.`comments_creattime` DESC [ RunTime:0.001046s ]
+---------------------------------------------------------------
+[ 2018-11-20T16:36:30+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/play_videos.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/play_videos.html [运行时间：0.026322s][吞吐率：37.99req/s] [内存消耗：3,202.03kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'play_videos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarybwIA903bURjPoan6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'file_id' => '2',
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->play_videos[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001683s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001375s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`b`.`dance_type_name`,`a`.`file_content`,`a`.`file_name`,`d`.`user_name`,`d`.`user_portrait`,`c`.`comments_content` FROM `yw_file` `a` LEFT JOIN `yw_dance_type` `b` ON `a`.`dance_type_id`=`b`.`dance_type_id` LEFT JOIN `yw_comments` `c` ON `a`.`file_id`=`c`.`file_id` LEFT JOIN `yw_user` `d` ON `c`.`user_id`=`d`.`user_id` WHERE  `a`.`file_id` = '2'  AND `a`.`file_state` = 1  AND `a`.`file_false_delete` = 1 ORDER BY `c`.`comments_creattime` DESC [ RunTime:0.000941s ]
+---------------------------------------------------------------
+[ 2018-11-20T17:06:55+08:00 ] 111.163.136.40 POST /index.php/api/Teacher/play_videos.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/play_videos.html [运行时间：0.014296s][吞吐率：69.95req/s] [内存消耗：1,878.48kb] [文件加载：40]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'play_videos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryTkZerOs7b7GZYLT0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'file_id' => '2',
+  'user_token' => '456',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '$play_videos' (T_VARIABLE), expecting function (T_FUNCTION)[/www/web/yuewu/public_html/application/api/controller/Teacher.php:43]
+---------------------------------------------------------------
+[ 2018-11-20T17:11:26+08:00 ] 111.163.136.40 POST /index.php/api/Teacher/play_videos.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/play_videos.html [运行时间：0.029542s][吞吐率：33.85req/s] [内存消耗：3,206.51kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'play_videos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryG4308XUOCxmuoYXT',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'file_id' => '2',
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->play_videos[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001674s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001279s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`b`.`dance_type_name`,`a`.`file_content`,`a`.`file_name`,`d`.`user_name`,`d`.`user_portrait`,`c`.`comments_content` FROM `yw_file` `a` LEFT JOIN `yw_dance_type` `b` ON `a`.`dance_type_id`=`b`.`dance_type_id` LEFT JOIN `yw_comments` `c` ON `a`.`file_id`=`c`.`file_id` LEFT JOIN `yw_user` `d` ON `c`.`user_id`=`d`.`user_id` WHERE  `a`.`file_id` = '2'  AND `a`.`file_state` = 1  AND `a`.`file_false_delete` = 1 ORDER BY `c`.`comments_creattime` DESC [ RunTime:0.000967s ]
+---------------------------------------------------------------
+[ 2018-11-20T17:51:53+08:00 ] 111.163.136.40 POST /index.php/api/Teacher/play_videos.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/play_videos.html [运行时间：0.025897s][吞吐率：38.61req/s] [内存消耗：3,206.51kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'play_videos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryMcAvmPXUNY2dYmih',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'file_id' => '2',
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->play_videos[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001609s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001265s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`b`.`dance_type_name`,`a`.`file_content`,`a`.`file_name`,`d`.`user_name`,`d`.`user_portrait`,`c`.`comments_content` FROM `yw_file` `a` LEFT JOIN `yw_dance_type` `b` ON `a`.`dance_type_id`=`b`.`dance_type_id` LEFT JOIN `yw_comments` `c` ON `a`.`file_id`=`c`.`file_id` LEFT JOIN `yw_user` `d` ON `c`.`user_id`=`d`.`user_id` WHERE  `a`.`file_id` = '2'  AND `a`.`file_state` = 1  AND `a`.`file_false_delete` = 1 ORDER BY `c`.`comments_creattime` DESC [ RunTime:0.000935s ]
+---------------------------------------------------------------
+[ 2018-11-20T17:53:06+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/video_collect.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/video_collect.html [运行时间：0.016727s][吞吐率：59.78req/s] [内存消耗：2,214.23kb] [文件加载：46]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'video_collect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryRWQLRrDn0MlRzeUA',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'file_id' => '2',
+  'user_token' => '456',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-20T17:54:35+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/video_collect.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/video_collect.html [运行时间：0.029185s][吞吐率：34.26req/s] [内存消耗：3,222.96kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'video_collect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryRl2lL0iPgsfzmp5T',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'file_id' => '2',
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->video_collect[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001590s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001228s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_user` WHERE  `user_token` = '456'  AND `user_status` = 1  AND `user_false_delete` = 1 LIMIT 1 [ RunTime:0.000921s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001133s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_collect` WHERE  `file_id` = 2  AND `user_id` = 2 LIMIT 1 [ RunTime:0.000841s ]
+[ sql ] [ SQL ] INSERT INTO `yw_collect` (`file_id` , `user_id` , `collect_creattime`) VALUES (2 , 2 , 1542707675) [ RunTime:0.000809s ]
+---------------------------------------------------------------
+[ 2018-11-20T17:54:38+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/video_collect.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/video_collect.html [运行时间：0.028699s][吞吐率：34.84req/s] [内存消耗：3,223.66kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'video_collect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryKmfRg0FLFUNTaZHU',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'file_id' => '2',
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->video_collect[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001569s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001349s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_user` WHERE  `user_token` = '456'  AND `user_status` = 1  AND `user_false_delete` = 1 LIMIT 1 [ RunTime:0.000983s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001292s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_collect` WHERE  `file_id` = 2  AND `user_id` = 2 LIMIT 1 [ RunTime:0.000976s ]
+---------------------------------------------------------------
+[ 2018-11-20T17:54:39+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/video_collect.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/video_collect.html [运行时间：0.028346s][吞吐率：35.28req/s] [内存消耗：3,223.66kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'video_collect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary7TibsYwGhA9AQgav',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'file_id' => '2',
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->video_collect[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001427s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001345s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_user` WHERE  `user_token` = '456'  AND `user_status` = 1  AND `user_false_delete` = 1 LIMIT 1 [ RunTime:0.000962s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001169s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_collect` WHERE  `file_id` = 2  AND `user_id` = 2 LIMIT 1 [ RunTime:0.000946s ]
+---------------------------------------------------------------
+[ 2018-11-20T17:54:40+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/video_collect.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/video_collect.html [运行时间：0.028050s][吞吐率：35.65req/s] [内存消耗：3,223.66kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'video_collect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary7OSBTP03P34BDAOL',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'file_id' => '2',
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->video_collect[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001549s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001317s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_user` WHERE  `user_token` = '456'  AND `user_status` = 1  AND `user_false_delete` = 1 LIMIT 1 [ RunTime:0.000888s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001054s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_collect` WHERE  `file_id` = 2  AND `user_id` = 2 LIMIT 1 [ RunTime:0.000813s ]
+---------------------------------------------------------------
+[ 2018-11-20T17:55:57+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/video_cancel_collect.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/video_cancel_collect.html [运行时间：0.029902s][吞吐率：33.44req/s] [内存消耗：3,335.66kb] [文件加载：53]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'video_cancel_collect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryLWCpPkJCtRX6K81w',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'file_id' => '2',
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->video_cancel_collect[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001614s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001325s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.001017s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001139s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_collect` WHERE  `file_id` = 2  AND `user_id` = 2 LIMIT 1 [ RunTime:0.000847s ]
+[ sql ] [ SQL ] DELETE FROM `yw_collect`    WHERE  `collect_id` = 2 [ RunTime:0.000937s ]
+---------------------------------------------------------------
+[ 2018-11-20T17:55:59+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/video_cancel_collect.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/video_cancel_collect.html [运行时间：0.029198s][吞吐率：34.25req/s] [内存消耗：3,223.31kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'video_cancel_collect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary3Iscxa1hiAsL843B',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'file_id' => '2',
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->video_cancel_collect[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001743s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001407s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.001094s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001355s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_collect` WHERE  `file_id` = 2  AND `user_id` = 2 LIMIT 1 [ RunTime:0.000976s ]
+---------------------------------------------------------------
+[ 2018-11-20T17:56:15+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/video_cancel_collect.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/video_cancel_collect.html [运行时间：0.028111s][吞吐率：35.57req/s] [内存消耗：3,223.31kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'video_cancel_collect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryB67aJ5Y8Xv6Xc3Yb',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'file_id' => '2',
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->video_cancel_collect[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001488s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001380s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000956s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001119s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_collect` WHERE  `file_id` = 2  AND `user_id` = 2 LIMIT 1 [ RunTime:0.000866s ]
+---------------------------------------------------------------
+[ 2018-11-20T18:18:56+08:00 ] 111.163.137.100 POST /index.php/api/Teacher/video_cancel_collect.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/video_cancel_collect.html [运行时间：0.028420s][吞吐率：35.19req/s] [内存消耗：3,223.31kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'video_cancel_collect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryatQEp3S3BPhvrPmV',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'file_id' => '2',
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->video_cancel_collect[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001599s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001230s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000933s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001067s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_collect` WHERE  `file_id` = 2  AND `user_id` = 2 LIMIT 1 [ RunTime:0.000801s ]

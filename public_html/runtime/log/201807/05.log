@@ -1,0 +1,360 @@
+---------------------------------------------------------------
+[ 2018-07-05T15:34:58+08:00 ] 127.0.0.1 GET /index/index
+[ info ] 1.shop.com/index/index [运行时间：0.095006s][吞吐率：10.53req/s] [内存消耗：1,936.49kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\wamp\www\shop\application\home\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T15:35:00+08:00 ] 127.0.0.1 GET /index/index
+[ info ] backstage.1.shop.com/index/index [运行时间：0.183011s][吞吐率：5.46req/s] [内存消耗：1,975.16kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'backstage.1.shop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T15:35:00+08:00 ] 127.0.0.1 GET /account/login.html
+[ info ] backstage.1.shop.com/account/login.html [运行时间：0.087005s][吞吐率：11.49req/s] [内存消耗：1,941.80kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'backstage.1.shop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ijtv1ptset7or34qbjof02gn75',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Account->login[ D:\wamp\www\shop\application\admin\controller\Account.php ]
+[ info ] [ VIEW ] D:\wamp\www\shop/application/admin\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T15:35:00+08:00 ] 127.0.0.1 GET /public/static/img/logo-invoice.png
+[ info ] backstage.1.shop.com/public/static/img/logo-invoice.png [运行时间：0.187010s][吞吐率：5.35req/s] [内存消耗：1,576.72kb] [文件加载：38]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'public',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'backstage.1.shop.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://backstage.1.shop.com/account/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ijtv1ptset7or34qbjof02gn75',
+)
+[ info ] [ PARAM ] array (
+  'img' => 'logo-invoice.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T15:35:00+08:00 ] 127.0.0.1 GET /captcha.html
+[ info ] backstage.1.shop.com/captcha.html [运行时间：0.330019s][吞吐率：3.03req/s] [内存消耗：1,592.52kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'backstage.1.shop.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://backstage.1.shop.com/account/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ijtv1ptset7or34qbjof02gn75',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp\www\shop\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T15:35:11+08:00 ] 127.0.0.1 GET /goods/goods.html
+[ info ] 1.shop.com/goods/goods.html [运行时间：0.198012s][吞吐率：5.05req/s] [内存消耗：2,922.23kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'goods',
+    2 => 'goods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://1.shop.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Goods->goods[ D:\wamp\www\shop\application\home\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\goods\goods.html [ array (
+  0 => 'goods_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.031002s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` LEFT JOIN `dr_file` ON `dr_goods`.`goods_cover`=`dr_file`.`file_id` LIMIT 0,16 [ RunTime:0.073005s ]
+---------------------------------------------------------------
+[ 2018-07-05T15:35:13+08:00 ] 127.0.0.1 GET /goods/details.html?id=1
+[ info ] 1.shop.com/goods/details.html?id=1 [运行时间：0.138008s][吞吐率：7.25req/s] [内存消耗：2,882.61kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'goods',
+    2 => 'details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://1.shop.com/goods/goods.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Goods->details[ D:\wamp\www\shop\application\home\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\goods\details.html [ array (
+  0 => 'Goods_info',
+  1 => 'GoodsBanner_lists',
+  2 => 'GoodsGP_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods_banner` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods_banner` LEFT JOIN `dr_file` ON `dr_goods_banner`.`goods_banner_file`=`dr_file`.`file_id` WHERE  `goods_id` = 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods_g_p` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods_g_p` LEFT JOIN `dr_goods_property` ON `dr_goods_g_p`.`goods_property_id`=`dr_goods_property`.`goods_property_id` WHERE  `goods_id` = 1 [ RunTime:0.025002s ]
+---------------------------------------------------------------
+[ 2018-07-05T15:36:55+08:00 ] 127.0.0.1 GET /pay/message.html
+[ info ] 1.shop.com/pay/message.html [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：1,949.85kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'message',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://1.shop.com/goods/details.html?id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T15:36:55+08:00 ] 127.0.0.1 GET /account/login.html
+[ info ] 1.shop.com/account/login.html [运行时间：0.128008s][吞吐率：7.81req/s] [内存消耗：1,974.94kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://1.shop.com/goods/details.html?id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cr5h8fr7ibl2b5n5pnj8ekpte1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Account->login[ D:\wamp\www\shop\application\home\controller\Account.php ]
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-05T15:36:57+08:00 ] 127.0.0.1 GET /goods/details.html?id=1
+[ info ] 1.shop.com/goods/details.html?id=1 [运行时间：0.129008s][吞吐率：7.75req/s] [内存消耗：2,882.91kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'goods',
+    2 => 'details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://1.shop.com/goods/details.html?id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=cr5h8fr7ibl2b5n5pnj8ekpte1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Goods->details[ D:\wamp\www\shop\application\home\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\goods\details.html [ array (
+  0 => 'Goods_info',
+  1 => 'GoodsBanner_lists',
+  2 => 'GoodsGP_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods_banner` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods_banner` LEFT JOIN `dr_file` ON `dr_goods_banner`.`goods_banner_file`=`dr_file`.`file_id` WHERE  `goods_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods_g_p` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods_g_p` LEFT JOIN `dr_goods_property` ON `dr_goods_g_p`.`goods_property_id`=`dr_goods_property`.`goods_property_id` WHERE  `goods_id` = 1 [ RunTime:0.002000s ]

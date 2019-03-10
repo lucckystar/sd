@@ -1,0 +1,97 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>达容商城</title>
+  <script src="__public__/common/jquery/jquery-2.0.0.min.js"></script>
+
+  <link rel="stylesheet" href="__public__/common/bootstarp/bootstrap.css">
+  <script src="__public__/common/bootstarp/bootstrap.js"></script>
+
+  <link rel="stylesheet" href="__public__/common/font-awesome/css/font-awesome.min.css">
+  
+  <link rel="stylesheet" href="__public__/common/uploadify/uploadify.css">
+  <script src="__public__/common/uploadify/jquery.uploadify.min.js"></script>
+  <link rel="stylesheet" href="__public__/common/cropper/cropper.min.css">
+  <script src="__public__/common/cropper/cropper.min.js"></script>
+
+  <link rel="stylesheet" href="__public__/admin/css/homepage.css">
+  <script src="__public__/admin/js/extend.js"></script>
+</head>
+<body>
+<div class="wrapper">
+  <div class="data-box">
+    <div class="db-header">员工编辑</div>
+    <form class="ajax-commit" action="{:url('staff_'.(empty(input('get.id'))?'insert':'editok'))}" method="post">
+      <div class="db-body">
+          <div class="form-group">
+              <label>用户名</label>
+              <input class="form-control verify" name="staff_username" type="text" value="{$info.staff_username}"/>
+              <p class="help-block"></p>
+          </div>
+          <div class="form-group">
+              <label>所属职位</label>
+              <select class="form-control verify" name="position_id">
+                <option value="">-请选择-</option>
+                {volist name="position_lists" id="v"}
+                <option value="{$v.position_id}" {eq name="info['position_id']" value="$v['position_id']"}selected{/eq}>{:str_repeat('&nbsp;&nbsp;',substr_count($v['position_evalpath'],'-'))}{$v.position_name}</option>
+                {/volist}
+              </select>
+              <p class="help-block"></p>
+          </div>
+          <div class="form-group">
+              <label>真实姓名</label>
+              <input class="form-control verify" name="staff_realname" type="text" value="{$info.staff_realname}"/>
+              <p class="help-block"></p>
+          </div>
+          <div class="form-group">
+              <label>电话</label>
+              <input class="form-control verify" name="staff_phone" type="text" value="{$info.staff_phone}"/>
+              <p class="help-block"></p>
+          </div>
+          <div class="form-group">
+              <label>头像</label>
+              <input type="file" class="cropper-fileone" field="staff_portrait" upload="{:url('Common/uploadone_img')}">
+              <div class="imglist">
+                {notempty name="info.staff_portrait"}
+                <div>
+                  <img class="img-thumbnail" src="__public__/{$info.staff_portrait|get_file_path}"/>
+                  <input type="hidden" name="staff_portrait" value="{$info.staff_portrait}"/>
+                  <button class="btn btn-danger" type="button">&times;</button>
+                </div>
+                {/notempty}
+
+
+              </div>
+              <p class="help-block"></p>
+          </div>
+          <div class="form-group">
+              <label>是否启用</label>
+              <select class="form-control verify" name="staff_using">
+                <option value="0">-请选择-</option>
+                <option value="1" {eq name="info.staff_using" value="1"}selected{/eq}>启用</option>
+                <option value="2" {eq name="info.staff_using" value="2"}selected{/eq}>禁用</option>
+              </select>
+              <p class="help-block"></p>
+          </div>
+          <div class="form-group">
+              <label>状态</label>
+              <select class="form-control verify" name="staff_status">
+                <option value="0">-请选择-</option>
+                <option value="1" {eq name="info.staff_status" value="1"}selected{/eq}>在职</option>
+                <option value="2" {eq name="info.staff_status" value="2"}selected{/eq}>离职</option>
+                <option value="3" {eq name="info.staff_status" value="3"}selected{/eq}>休假</option>
+              </select>
+              <p class="help-block"></p>
+          </div>
+      </div>
+      <div class="db-footer">
+          <input type="hidden" name="id" value="{$Think.get.id}">
+          <button type="submit" class="btn btn-primary">保存</button>
+          <button type="button" class="btn btn-default">取消</button>
+      </div>
+    </form>
+  </div>
+</div>
+</body>
+</html>

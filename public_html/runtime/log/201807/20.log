@@ -1,0 +1,4024 @@
+---------------------------------------------------------------
+[ 2018-07-20T10:48:27+08:00 ] 127.0.0.1 GET /index/index
+[ info ] backstage.1.shop.com/index/index [运行时间：0.375022s][吞吐率：2.67req/s] [内存消耗：1,975.16kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'backstage.1.shop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T10:48:28+08:00 ] 127.0.0.1 GET /account/login.html
+[ info ] backstage.1.shop.com/account/login.html [运行时间：0.071004s][吞吐率：14.08req/s] [内存消耗：1,940.69kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'backstage.1.shop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=96h3rbcgr57pcv1e2n1s6a1sl5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Account->login[ D:\wamp\www\shop\application\admin\controller\Account.php ]
+[ info ] [ VIEW ] D:\wamp\www\shop/application/admin\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T10:48:30+08:00 ] 127.0.0.1 GET /index/index
+[ info ] 1.shop.com/index/index [运行时间：0.271015s][吞吐率：3.69req/s] [内存消耗：1,936.50kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\wamp\www\shop\application\home\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T10:48:39+08:00 ] 127.0.0.1 GET /goods/goods.html
+[ info ] 1.shop.com/goods/goods.html [运行时间：0.237014s][吞吐率：4.22req/s] [内存消耗：2,922.23kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'goods',
+    2 => 'goods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Goods->goods[ D:\wamp\www\shop\application\home\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\goods\goods.html [ array (
+  0 => 'goods_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.046002s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` LEFT JOIN `dr_file` ON `dr_goods`.`goods_cover`=`dr_file`.`file_id` LIMIT 0,16 [ RunTime:0.023002s ]
+---------------------------------------------------------------
+[ 2018-07-20T10:48:41+08:00 ] 127.0.0.1 GET /goods/details.html?id=1
+[ info ] 1.shop.com/goods/details.html?id=1 [运行时间：0.154009s][吞吐率：6.49req/s] [内存消耗：2,882.59kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'goods',
+    2 => 'details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/goods/goods.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Goods->details[ D:\wamp\www\shop\application\home\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\goods\details.html [ array (
+  0 => 'Goods_info',
+  1 => 'GoodsBanner_lists',
+  2 => 'GoodsGP_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods_banner` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods_banner` LEFT JOIN `dr_file` ON `dr_goods_banner`.`goods_banner_file`=`dr_file`.`file_id` WHERE  `goods_id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods_g_p` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods_g_p` LEFT JOIN `dr_goods_property` ON `dr_goods_g_p`.`goods_property_id`=`dr_goods_property`.`goods_property_id` WHERE  `goods_id` = 1 [ RunTime:0.019001s ]
+---------------------------------------------------------------
+[ 2018-07-20T10:48:43+08:00 ] 127.0.0.1 GET /pay/goods_message.html?gid=1
+[ info ] 1.shop.com/pay/goods_message.html?gid=1 [运行时间：0.145009s][吞吐率：6.90req/s] [内存消耗：1,611.05kb] [文件加载：38]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'goods_message',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/goods/details.html?id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected ')', expecting ']'[D:\wamp\www\shop\application\home\controller\Pay.php:22]
+---------------------------------------------------------------
+[ 2018-07-20T10:50:08+08:00 ] 127.0.0.1 GET /pay/goods_message.html?gid=1
+[ info ] 1.shop.com/pay/goods_message.html?gid=1 [运行时间：0.062004s][吞吐率：16.13req/s] [内存消耗：1,984.52kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'goods_message',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/goods/details.html?id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T10:50:08+08:00 ] 127.0.0.1 GET /account/login.html
+[ info ] 1.shop.com/account/login.html [运行时间：0.079004s][吞吐率：12.66req/s] [内存消耗：1,974.55kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/goods/details.html?id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Account->login[ D:\wamp\www\shop\application\home\controller\Account.php ]
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T10:50:19+08:00 ] 127.0.0.1 POST /account/login_ok.html
+[ info ] 1.shop.com/account/login_ok.html [运行时间：0.094005s][吞吐率：10.64req/s] [内存消耗：2,886.67kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'account',
+    2 => 'login_ok',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '33',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://1.shop.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://1.shop.com/pay/goods_message.html?gid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '13920425572',
+  'password' => '111111',
+)
+[ info ] [ RUN ] app\home\controller\Account->login_ok[ D:\wamp\www\shop\application\home\controller\Account.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\wamp\www\shop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_member` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_member` WHERE  `member_phone` = '13920425572' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T10:50:20+08:00 ] 127.0.0.1 GET /index/index.html
+[ info ] 1.shop.com/index/index.html [运行时间：0.097005s][吞吐率：10.31req/s] [内存消耗：1,937.76kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://1.shop.com/account/login_ok.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\wamp\www\shop\application\home\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T10:50:23+08:00 ] 127.0.0.1 GET /cart/cart.html
+[ info ] 1.shop.com/cart/cart.html [运行时间：0.132007s][吞吐率：7.58req/s] [内存消耗：3,144.45kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'cart',
+    2 => 'cart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Cart->cart[ D:\wamp\www\shop\application\home\controller\Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2]Missing argument 1 for app\home\model\Shopping::my_shopping(), called in D:\wamp\www\shop\application\home\controller\Cart.php on line 7 and defined[D:\wamp\www\shop\application\home\model\Shopping.php:7]
+---------------------------------------------------------------
+[ 2018-07-20T10:50:25+08:00 ] 127.0.0.1 GET /goods/goods.html
+[ info ] 1.shop.com/goods/goods.html [运行时间：0.110007s][吞吐率：9.09req/s] [内存消耗：2,922.42kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'goods',
+    2 => 'goods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Goods->goods[ D:\wamp\www\shop\application\home\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\goods\goods.html [ array (
+  0 => 'goods_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` LEFT JOIN `dr_file` ON `dr_goods`.`goods_cover`=`dr_file`.`file_id` LIMIT 0,16 [ RunTime:0.002001s ]
+---------------------------------------------------------------
+[ 2018-07-20T10:50:27+08:00 ] 127.0.0.1 GET /goods/details.html?id=1
+[ info ] 1.shop.com/goods/details.html?id=1 [运行时间：0.112006s][吞吐率：8.93req/s] [内存消耗：2,882.84kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'goods',
+    2 => 'details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/goods/goods.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Goods->details[ D:\wamp\www\shop\application\home\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\goods\details.html [ array (
+  0 => 'Goods_info',
+  1 => 'GoodsBanner_lists',
+  2 => 'GoodsGP_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods_banner` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods_banner` LEFT JOIN `dr_file` ON `dr_goods_banner`.`goods_banner_file`=`dr_file`.`file_id` WHERE  `goods_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods_g_p` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods_g_p` LEFT JOIN `dr_goods_property` ON `dr_goods_g_p`.`goods_property_id`=`dr_goods_property`.`goods_property_id` WHERE  `goods_id` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T10:50:28+08:00 ] 127.0.0.1 GET /pay/goods_message.html?gid=1
+[ info ] 1.shop.com/pay/goods_message.html?gid=1 [运行时间：0.244014s][吞吐率：4.10req/s] [内存消耗：3,329.23kb] [文件加载：55]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'goods_message',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/goods/details.html?id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->goods_message[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\pay\goods_message.html [ array (
+  0 => 'Goods_info',
+  1 => 'MemberAddress_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_file` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_file` WHERE  `file_id` = 20 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_member_address` [ RunTime:0.128007s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_member_address` WHERE  `member_id` = 1 ORDER BY `member_address_id` DESC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T10:50:33+08:00 ] 127.0.0.1 POST /pay/create_order.html
+[ info ] 1.shop.com/pay/create_order.html [运行时间：0.211012s][吞吐率：4.74req/s] [内存消耗：3,291.78kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'create_order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '34',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://1.shop.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://1.shop.com/pay/goods_message.html?gid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+  'gnum' => '1',
+  'delivery_type' => '1',
+  'aid' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->create_order[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_number` = '20180720105033447916' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] INSERT INTO `dr_order` (`store_id` , `member_id` , `order_number` , `order_source` , `order_status` , `order_money` , `order_createtime` , `order_delivery_type`) VALUES (1 , 1 , '20180720105033447916' , 3 , 1 , 0 , 1532055033 , 1) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order_goods` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] INSERT INTO `dr_order_goods` (`order_id` , `goods_id` , `order_goods_price` , `order_goods_num`) VALUES (14 , 1 , 0 , 1) [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-07-20T10:50:34+08:00 ] 127.0.0.1 GET /pay/pay_type.html?oid=14
+[ info ] 1.shop.com/pay/pay_type.html?oid=14 [运行时间：0.134008s][吞吐率：7.46req/s] [内存消耗：3,241.57kb] [文件加载：56]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'pay_type',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://1.shop.com/pay/create_order.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'oid' => '14',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->pay_type[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.003000s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'memebr_id' in 'where clause'[D:\wamp\www\shop\thinkphp\library\think\db\Connection.php:390]
+---------------------------------------------------------------
+[ 2018-07-20T10:53:53+08:00 ] 127.0.0.1 POST /pay/create_order.html
+[ info ] 1.shop.com/pay/create_order.html [运行时间：0.197012s][吞吐率：5.08req/s] [内存消耗：3,291.81kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'create_order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '34',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'origin' => 'http://1.shop.com',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://1.shop.com/pay/goods_message.html?gid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+  'gnum' => '1',
+  'delivery_type' => '1',
+  'aid' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->create_order[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008001s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_number` = '20180720105353713351' LIMIT 1 [ RunTime:0.008001s ]
+[ sql ] [ SQL ] INSERT INTO `dr_order` (`store_id` , `member_id` , `order_number` , `order_source` , `order_status` , `order_money` , `order_createtime` , `order_delivery_type`) VALUES (1 , 1 , '20180720105353713351' , 3 , 1 , 0 , 1532055233 , 1) [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order_goods` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] INSERT INTO `dr_order_goods` (`order_id` , `goods_id` , `order_goods_price` , `order_goods_num`) VALUES (15 , 1 , 0 , 1) [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-07-20T10:53:55+08:00 ] 127.0.0.1 GET /pay/goods_message.html?gid=1
+[ info ] 1.shop.com/pay/goods_message.html?gid=1 [运行时间：0.100006s][吞吐率：10.00req/s] [内存消耗：3,170.13kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'goods_message',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://1.shop.com/account/login_ok.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->goods_message[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->get_info[D:\wamp\www\shop\thinkphp\library\think\db\Query.php:96]
+---------------------------------------------------------------
+[ 2018-07-20T10:54:01+08:00 ] 127.0.0.1 GET /index/index.html
+[ info ] 1.shop.com/index/index.html [运行时间：0.070004s][吞吐率：14.28req/s] [内存消耗：1,937.35kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\wamp\www\shop\application\home\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T10:54:03+08:00 ] 127.0.0.1 GET /cart/cart.html
+[ info ] 1.shop.com/cart/cart.html [运行时间：0.144008s][吞吐率：6.94req/s] [内存消耗：3,144.47kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'cart',
+    2 => 'cart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Cart->cart[ D:\wamp\www\shop\application\home\controller\Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2]Missing argument 1 for app\home\model\Shopping::my_shopping(), called in D:\wamp\www\shop\application\home\controller\Cart.php on line 7 and defined[D:\wamp\www\shop\application\home\model\Shopping.php:7]
+---------------------------------------------------------------
+[ 2018-07-20T10:54:07+08:00 ] 127.0.0.1 GET /goods/goods.html
+[ info ] 1.shop.com/goods/goods.html [运行时间：0.108006s][吞吐率：9.26req/s] [内存消耗：2,922.42kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'goods',
+    2 => 'goods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Goods->goods[ D:\wamp\www\shop\application\home\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\goods\goods.html [ array (
+  0 => 'goods_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` LEFT JOIN `dr_file` ON `dr_goods`.`goods_cover`=`dr_file`.`file_id` LIMIT 0,16 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T10:54:08+08:00 ] 127.0.0.1 GET /goods/details.html?id=1
+[ info ] 1.shop.com/goods/details.html?id=1 [运行时间：0.106006s][吞吐率：9.43req/s] [内存消耗：2,882.84kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'goods',
+    2 => 'details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/goods/goods.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Goods->details[ D:\wamp\www\shop\application\home\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\goods\details.html [ array (
+  0 => 'Goods_info',
+  1 => 'GoodsBanner_lists',
+  2 => 'GoodsGP_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods_banner` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods_banner` LEFT JOIN `dr_file` ON `dr_goods_banner`.`goods_banner_file`=`dr_file`.`file_id` WHERE  `goods_id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods_g_p` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods_g_p` LEFT JOIN `dr_goods_property` ON `dr_goods_g_p`.`goods_property_id`=`dr_goods_property`.`goods_property_id` WHERE  `goods_id` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T10:54:10+08:00 ] 127.0.0.1 GET /pay/goods_message.html?gid=1
+[ info ] 1.shop.com/pay/goods_message.html?gid=1 [运行时间：0.106006s][吞吐率：9.43req/s] [内存消耗：3,169.94kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'goods_message',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/goods/details.html?id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->goods_message[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->get_info[D:\wamp\www\shop\thinkphp\library\think\db\Query.php:96]
+---------------------------------------------------------------
+[ 2018-07-20T10:54:12+08:00 ] 127.0.0.1 GET /pay/goods_message.html?gid=1
+[ info ] 1.shop.com/pay/goods_message.html?gid=1 [运行时间：0.094005s][吞吐率：10.64req/s] [内存消耗：3,169.94kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'goods_message',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/goods/details.html?id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->goods_message[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->get_info[D:\wamp\www\shop\thinkphp\library\think\db\Query.php:96]
+---------------------------------------------------------------
+[ 2018-07-20T11:14:51+08:00 ] 127.0.0.1 GET /pay/goods_message.html?gid=1
+[ info ] 1.shop.com/pay/goods_message.html?gid=1 [运行时间：0.118007s][吞吐率：8.47req/s] [内存消耗：3,391.55kb] [文件加载：59]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'goods_message',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/goods/details.html?id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->goods_message[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\pay\goods_message.html [ array (
+  0 => 'Goods_info',
+  1 => 'MemberAddress_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_member_address` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_member_address` WHERE  `member_id` = 1 ORDER BY `member_address_id` DESC [ RunTime:0.001000s ]
+[ error ] [1]Cannot use object of type think\db\Query as array[D:\wamp\www\shop\runtime\temp\9894bedec32aee330e9105987f335f0d.php:40]
+---------------------------------------------------------------
+[ 2018-07-20T11:15:16+08:00 ] 127.0.0.1 GET /pay/goods_message.html?gid=1
+[ info ] 1.shop.com/pay/goods_message.html?gid=1 [运行时间：0.098006s][吞吐率：10.20req/s] [内存消耗：3,330.76kb] [文件加载：55]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'goods_message',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/goods/details.html?id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->goods_message[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\pay\goods_message.html [ array (
+  0 => 'Goods_info',
+  1 => 'MemberAddress_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_file` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_file` WHERE  `file_id` = 20 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_member_address` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_member_address` WHERE  `member_id` = 1 ORDER BY `member_address_id` DESC [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:15:18+08:00 ] 127.0.0.1 GET /goods/details.html?id=1
+[ info ] 1.shop.com/goods/details.html?id=1 [运行时间：0.093006s][吞吐率：10.75req/s] [内存消耗：2,882.97kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'goods',
+    2 => 'details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/goods/details.html?id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Goods->details[ D:\wamp\www\shop\application\home\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\goods\details.html [ array (
+  0 => 'Goods_info',
+  1 => 'GoodsBanner_lists',
+  2 => 'GoodsGP_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods_banner` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods_banner` LEFT JOIN `dr_file` ON `dr_goods_banner`.`goods_banner_file`=`dr_file`.`file_id` WHERE  `goods_id` = 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods_g_p` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods_g_p` LEFT JOIN `dr_goods_property` ON `dr_goods_g_p`.`goods_property_id`=`dr_goods_property`.`goods_property_id` WHERE  `goods_id` = 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:15:20+08:00 ] 127.0.0.1 GET /goods/goods.html
+[ info ] 1.shop.com/goods/goods.html [运行时间：0.092006s][吞吐率：10.87req/s] [内存消耗：2,922.42kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'goods',
+    2 => 'goods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Goods->goods[ D:\wamp\www\shop\application\home\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\goods\goods.html [ array (
+  0 => 'goods_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` LEFT JOIN `dr_file` ON `dr_goods`.`goods_cover`=`dr_file`.`file_id` LIMIT 0,16 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:15:21+08:00 ] 127.0.0.1 GET /goods/details.html?id=1
+[ info ] 1.shop.com/goods/details.html?id=1 [运行时间：0.108006s][吞吐率：9.26req/s] [内存消耗：2,882.84kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'goods',
+    2 => 'details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/goods/goods.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Goods->details[ D:\wamp\www\shop\application\home\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\goods\details.html [ array (
+  0 => 'Goods_info',
+  1 => 'GoodsBanner_lists',
+  2 => 'GoodsGP_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods_banner` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods_banner` LEFT JOIN `dr_file` ON `dr_goods_banner`.`goods_banner_file`=`dr_file`.`file_id` WHERE  `goods_id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods_g_p` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods_g_p` LEFT JOIN `dr_goods_property` ON `dr_goods_g_p`.`goods_property_id`=`dr_goods_property`.`goods_property_id` WHERE  `goods_id` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:15:23+08:00 ] 127.0.0.1 GET /pay/goods_message.html?gid=1
+[ info ] 1.shop.com/pay/goods_message.html?gid=1 [运行时间：0.108006s][吞吐率：9.26req/s] [内存消耗：3,330.76kb] [文件加载：55]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'goods_message',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/goods/details.html?id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->goods_message[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\pay\goods_message.html [ array (
+  0 => 'Goods_info',
+  1 => 'MemberAddress_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_file` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_file` WHERE  `file_id` = 20 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_member_address` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_member_address` WHERE  `member_id` = 1 ORDER BY `member_address_id` DESC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:15:27+08:00 ] 127.0.0.1 POST /pay/create_order.html
+[ info ] 1.shop.com/pay/create_order.html [运行时间：0.123007s][吞吐率：8.13req/s] [内存消耗：3,287.74kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'create_order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '34',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://1.shop.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://1.shop.com/pay/goods_message.html?gid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+  'gnum' => '1',
+  'delivery_type' => '1',
+  'aid' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->create_order[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_number` = '20180720111527502875' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] INSERT INTO `dr_order` (`store_id` , `member_id` , `order_number` , `order_source` , `order_status` , `order_money` , `order_createtime` , `order_delivery_type`) VALUES (1 , 1 , '20180720111527502875' , 3 , 1 , 0 , 1532056527 , 1) [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order_goods` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] INSERT INTO `dr_order_goods` (`order_id` , `goods_id` , `order_goods_price` , `order_goods_num`) VALUES (16 , 1 , 0 , 1) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:15:29+08:00 ] 127.0.0.1 GET /pay/pay_type.html?oid=16
+[ info ] 1.shop.com/pay/pay_type.html?oid=16 [运行时间：0.116007s][吞吐率：8.62req/s] [内存消耗：3,240.48kb] [文件加载：56]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'pay_type',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://1.shop.com/pay/create_order.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'oid' => '16',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->pay_type[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.006000s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'memebr_id' in 'where clause'[D:\wamp\www\shop\thinkphp\library\think\db\Connection.php:390]
+---------------------------------------------------------------
+[ 2018-07-20T11:15:31+08:00 ] 127.0.0.1 POST /pay/create_order.html
+[ info ] 1.shop.com/pay/create_order.html [运行时间：0.117006s][吞吐率：8.55req/s] [内存消耗：3,287.79kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'create_order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '34',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'origin' => 'http://1.shop.com',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://1.shop.com/pay/goods_message.html?gid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+  'gnum' => '1',
+  'delivery_type' => '1',
+  'aid' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->create_order[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_number` = '20180720111531120523' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `dr_order` (`store_id` , `member_id` , `order_number` , `order_source` , `order_status` , `order_money` , `order_createtime` , `order_delivery_type`) VALUES (1 , 1 , '20180720111531120523' , 3 , 1 , 0 , 1532056531 , 1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order_goods` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] INSERT INTO `dr_order_goods` (`order_id` , `goods_id` , `order_goods_price` , `order_goods_num`) VALUES (17 , 1 , 0 , 1) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:15:32+08:00 ] 127.0.0.1 GET /pay/goods_message.html?gid=1
+[ info ] 1.shop.com/pay/goods_message.html?gid=1 [运行时间：0.099006s][吞吐率：10.10req/s] [内存消耗：3,330.84kb] [文件加载：55]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'goods_message',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->goods_message[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\pay\goods_message.html [ array (
+  0 => 'Goods_info',
+  1 => 'MemberAddress_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_file` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_file` WHERE  `file_id` = 20 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_member_address` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_member_address` WHERE  `member_id` = 1 ORDER BY `member_address_id` DESC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:15:39+08:00 ] 127.0.0.1 GET /pay/goods_message.html?gid=1
+[ info ] 1.shop.com/pay/goods_message.html?gid=1 [运行时间：0.137007s][吞吐率：7.30req/s] [内存消耗：3,330.84kb] [文件加载：55]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'goods_message',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->goods_message[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\pay\goods_message.html [ array (
+  0 => 'Goods_info',
+  1 => 'MemberAddress_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_file` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_file` WHERE  `file_id` = 20 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_member_address` [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_member_address` WHERE  `member_id` = 1 ORDER BY `member_address_id` DESC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:15:41+08:00 ] 127.0.0.1 POST /pay/create_order.html
+[ info ] 1.shop.com/pay/create_order.html [运行时间：0.119007s][吞吐率：8.40req/s] [内存消耗：3,293.55kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'create_order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '419',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'origin' => 'http://1.shop.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary5BEmOGAjaKrOSWEm',
+  'referer' => 'http://1.shop.com/pay/goods_message.html?gid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+  'gnum' => '1',
+  'delivery_type' => '1',
+  'aid' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->create_order[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_number` = '20180720111541662923' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `dr_order` (`store_id` , `member_id` , `order_number` , `order_source` , `order_status` , `order_money` , `order_createtime` , `order_delivery_type`) VALUES (1 , 1 , '20180720111541662923' , 3 , 1 , 0 , 1532056541 , 1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order_goods` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `dr_order_goods` (`order_id` , `goods_id` , `order_goods_price` , `order_goods_num`) VALUES (18 , 1 , 0 , 1) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:15:42+08:00 ] 127.0.0.1 GET /pay/pay_type.html?oid=18
+[ info ] 1.shop.com/pay/pay_type.html?oid=18 [运行时间：0.121007s][吞吐率：8.26req/s] [内存消耗：3,240.35kb] [文件加载：56]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'pay_type',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/pay/pay_type.html?oid=18',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'oid' => '18',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->pay_type[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.003000s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'memebr_id' in 'where clause'[D:\wamp\www\shop\thinkphp\library\think\db\Connection.php:390]
+---------------------------------------------------------------
+[ 2018-07-20T11:15:54+08:00 ] 127.0.0.1 POST /pay/create_order.html
+[ info ] 1.shop.com/pay/create_order.html [运行时间：0.169009s][吞吐率：5.92req/s] [内存消耗：3,293.55kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'create_order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '419',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'origin' => 'http://1.shop.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary3VGWjouGHitugtoB',
+  'referer' => 'http://1.shop.com/pay/pay_type.html?oid=18',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+  'gnum' => '1',
+  'delivery_type' => '1',
+  'aid' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->create_order[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_number` = '20180720111554942355' LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] INSERT INTO `dr_order` (`store_id` , `member_id` , `order_number` , `order_source` , `order_status` , `order_money` , `order_createtime` , `order_delivery_type`) VALUES (1 , 1 , '20180720111554942355' , 3 , 1 , 0 , 1532056554 , 1) [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order_goods` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `dr_order_goods` (`order_id` , `goods_id` , `order_goods_price` , `order_goods_num`) VALUES (19 , 1 , 0 , 1) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:15:54+08:00 ] 127.0.0.1 GET /pay/pay_type.html?oid=19
+[ info ] 1.shop.com/pay/pay_type.html?oid=19 [运行时间：0.108006s][吞吐率：9.26req/s] [内存消耗：3,240.35kb] [文件加载：56]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'pay_type',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/pay/pay_type.html?oid=19',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'oid' => '19',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->pay_type[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.003000s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'memebr_id' in 'where clause'[D:\wamp\www\shop\thinkphp\library\think\db\Connection.php:390]
+---------------------------------------------------------------
+[ 2018-07-20T11:17:57+08:00 ] 127.0.0.1 POST /pay/create_order.html
+[ info ] 1.shop.com/pay/create_order.html [运行时间：0.117007s][吞吐率：8.55req/s] [内存消耗：3,293.69kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'create_order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '419',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'origin' => 'http://1.shop.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary2kVL1bcRYNBPBqPm',
+  'referer' => 'http://1.shop.com/pay/pay_type.html?oid=19',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+  'gnum' => '1',
+  'delivery_type' => '1',
+  'aid' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->create_order[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_number` = '20180720111757454427' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `dr_order` (`store_id` , `member_id` , `order_number` , `order_source` , `order_status` , `order_money` , `order_createtime` , `order_delivery_type`) VALUES (1 , 1 , '20180720111757454427' , 3 , 1 , 0 , 1532056677 , 1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order_goods` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] INSERT INTO `dr_order_goods` (`order_id` , `goods_id` , `order_goods_price` , `order_goods_num`) VALUES (20 , 1 , 0 , 1) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:17:58+08:00 ] 127.0.0.1 GET /pay/pay_type.html?oid=20
+[ info ] 1.shop.com/pay/pay_type.html?oid=20 [运行时间：0.100006s][吞吐率：10.00req/s] [内存消耗：3,240.45kb] [文件加载：56]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'pay_type',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/pay/pay_type.html?oid=20',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'oid' => '20',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->pay_type[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.002000s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'memebr_id' in 'where clause'[D:\wamp\www\shop\thinkphp\library\think\db\Connection.php:390]
+---------------------------------------------------------------
+[ 2018-07-20T11:19:04+08:00 ] 127.0.0.1 POST /pay/create_order.html
+[ info ] 1.shop.com/pay/create_order.html [运行时间：0.103006s][吞吐率：9.71req/s] [内存消耗：3,293.62kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'create_order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '419',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'origin' => 'http://1.shop.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary4AAOshBL4Q1fQttu',
+  'referer' => 'http://1.shop.com/pay/pay_type.html?oid=20',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+  'gnum' => '1',
+  'delivery_type' => '1',
+  'aid' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->create_order[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_number` = '20180720111904756320' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `dr_order` (`store_id` , `member_id` , `order_number` , `order_source` , `order_status` , `order_money` , `order_createtime` , `order_delivery_type`) VALUES (1 , 1 , '20180720111904756320' , 3 , 1 , 0 , 1532056744 , 1) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order_goods` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] INSERT INTO `dr_order_goods` (`order_id` , `goods_id` , `order_goods_price` , `order_goods_num`) VALUES (21 , 1 , 0 , 1) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:19:04+08:00 ] 127.0.0.1 GET /pay/pay_type.html?oid=21
+[ info ] 1.shop.com/pay/pay_type.html?oid=21 [运行时间：0.134007s][吞吐率：7.46req/s] [内存消耗：3,284.76kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'pay_type',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/pay/pay_type.html?oid=21',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'oid' => '21',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->pay_type[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\pay\pay_type.html [ array (
+  0 => 'Order_info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_id` = 21  AND `member_id` IS NULL  AND `order_status` = 1 LIMIT 1 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:20:14+08:00 ] 127.0.0.1 GET /pay/pay_type.html?oid=20
+[ info ] 1.shop.com/pay/pay_type.html?oid=20 [运行时间：0.110006s][吞吐率：9.09req/s] [内存消耗：3,284.65kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'pay_type',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/pay/pay_type.html?oid=20',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'oid' => '20',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->pay_type[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\pay\pay_type.html [ array (
+  0 => 'Order_info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_id` = 20  AND `member_id` IS NULL  AND `order_status` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:20:16+08:00 ] 127.0.0.1 GET /pay/pay_type.html?oid=19
+[ info ] 1.shop.com/pay/pay_type.html?oid=19 [运行时间：0.081005s][吞吐率：12.34req/s] [内存消耗：3,284.65kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'pay_type',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/pay/pay_type.html?oid=19',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'oid' => '19',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->pay_type[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\pay\pay_type.html [ array (
+  0 => 'Order_info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_id` = 19  AND `member_id` IS NULL  AND `order_status` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:20:18+08:00 ] 127.0.0.1 GET /pay/pay_type.html?oid=18
+[ info ] 1.shop.com/pay/pay_type.html?oid=18 [运行时间：0.091005s][吞吐率：10.99req/s] [内存消耗：3,284.65kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'pay_type',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/pay/pay_type.html?oid=18',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'oid' => '18',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->pay_type[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\pay\pay_type.html [ array (
+  0 => 'Order_info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004001s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_id` = 18  AND `member_id` IS NULL  AND `order_status` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:20:25+08:00 ] 127.0.0.1 POST /pay/create_order.html
+[ info ] 1.shop.com/pay/create_order.html [运行时间：0.099006s][吞吐率：10.10req/s] [内存消耗：3,264.01kb] [文件加载：56]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'create_order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '419',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'origin' => 'http://1.shop.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryyKUe4yVQtNN6nZiO',
+  'referer' => 'http://1.shop.com/pay/goods_message.html?gid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+  'gnum' => '1',
+  'delivery_type' => '1',
+  'aid' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->create_order[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_number` = '20180720112025537706' LIMIT 1 [ RunTime:0.002000s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'member_id' cannot be null[D:\wamp\www\shop\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-07-20T11:20:33+08:00 ] 127.0.0.1 GET /pay/goods_message.html?gid=1
+[ info ] 1.shop.com/pay/goods_message.html?gid=1 [运行时间：0.115007s][吞吐率：8.70req/s] [内存消耗：3,329.91kb] [文件加载：55]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'goods_message',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->goods_message[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\pay\goods_message.html [ array (
+  0 => 'Goods_info',
+  1 => 'MemberAddress_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_file` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_file` WHERE  `file_id` = 20 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_member_address` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_member_address` WHERE  `member_id` IS NULL ORDER BY `member_address_id` DESC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:20:35+08:00 ] 127.0.0.1 POST /pay/create_order.html
+[ info ] 1.shop.com/pay/create_order.html [运行时间：0.120007s][吞吐率：8.33req/s] [内存消耗：3,264.01kb] [文件加载：56]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'create_order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '419',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'origin' => 'http://1.shop.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary5uB0ALYmLAtmAUw3',
+  'referer' => 'http://1.shop.com/pay/goods_message.html?gid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+  'gnum' => '1',
+  'delivery_type' => '1',
+  'aid' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->create_order[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_number` = '20180720112035965223' LIMIT 1 [ RunTime:0.002000s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'member_id' cannot be null[D:\wamp\www\shop\thinkphp\library\think\db\Connection.php:463]
+---------------------------------------------------------------
+[ 2018-07-20T11:21:15+08:00 ] 127.0.0.1 GET /goods/details.html?id=1
+[ info ] 1.shop.com/goods/details.html?id=1 [运行时间：0.119007s][吞吐率：8.40req/s] [内存消耗：2,882.97kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'goods',
+    2 => 'details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/goods/details.html?id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Goods->details[ D:\wamp\www\shop\application\home\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\goods\details.html [ array (
+  0 => 'Goods_info',
+  1 => 'GoodsBanner_lists',
+  2 => 'GoodsGP_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods_banner` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods_banner` LEFT JOIN `dr_file` ON `dr_goods_banner`.`goods_banner_file`=`dr_file`.`file_id` WHERE  `goods_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods_g_p` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods_g_p` LEFT JOIN `dr_goods_property` ON `dr_goods_g_p`.`goods_property_id`=`dr_goods_property`.`goods_property_id` WHERE  `goods_id` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:21:17+08:00 ] 127.0.0.1 GET /goods/goods.html
+[ info ] 1.shop.com/goods/goods.html [运行时间：0.095006s][吞吐率：10.53req/s] [内存消耗：2,922.42kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'goods',
+    2 => 'goods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/goods/goods.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Goods->goods[ D:\wamp\www\shop\application\home\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\goods\goods.html [ array (
+  0 => 'goods_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` LEFT JOIN `dr_file` ON `dr_goods`.`goods_cover`=`dr_file`.`file_id` LIMIT 0,16 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:21:19+08:00 ] 127.0.0.1 GET /goods/goods.html
+[ info ] 1.shop.com/goods/goods.html [运行时间：0.108007s][吞吐率：9.26req/s] [内存消耗：2,922.34kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'goods',
+    2 => 'goods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Goods->goods[ D:\wamp\www\shop\application\home\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\goods\goods.html [ array (
+  0 => 'goods_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` LEFT JOIN `dr_file` ON `dr_goods`.`goods_cover`=`dr_file`.`file_id` LIMIT 0,16 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:21:20+08:00 ] 127.0.0.1 GET /index/index.html
+[ info ] 1.shop.com/index/index.html [运行时间：0.071004s][吞吐率：14.08req/s] [内存消耗：1,937.41kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\wamp\www\shop\application\home\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T11:21:23+08:00 ] 127.0.0.1 GET /user/user.html
+[ info ] 1.shop.com/user/user.html [运行时间：0.108006s][吞吐率：9.26req/s] [内存消耗：1,996.59kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\User->user[ D:\wamp\www\shop\application\home\controller\User.php ]
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\user\user.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: _SESSION[D:\wamp\www\shop\runtime\temp\ca5c6a312ee0d732e5fd2ac0acc9db4e.php:24]
+---------------------------------------------------------------
+[ 2018-07-20T11:21:24+08:00 ] 127.0.0.1 GET /user/login_out.html
+[ info ] 1.shop.com/user/login_out.html [运行时间：0.103006s][吞吐率：9.71req/s] [内存消耗：1,946.39kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'login_out',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/user/user.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\User->login_out[ D:\wamp\www\shop\application\home\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T11:21:24+08:00 ] 127.0.0.1 GET /account/login.html
+[ info ] 1.shop.com/account/login.html [运行时间：0.058003s][吞吐率：17.24req/s] [内存消耗：1,974.34kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/user/user.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Account->login[ D:\wamp\www\shop\application\home\controller\Account.php ]
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T11:21:35+08:00 ] 127.0.0.1 POST /account/login_ok.html
+[ info ] 1.shop.com/account/login_ok.html [运行时间：0.098006s][吞吐率：10.20req/s] [内存消耗：2,886.53kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'account',
+    2 => 'login_ok',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '33',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://1.shop.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://1.shop.com/user/login_out.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '13920425572',
+  'password' => '111111',
+)
+[ info ] [ RUN ] app\home\controller\Account->login_ok[ D:\wamp\www\shop\application\home\controller\Account.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\wamp\www\shop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_member` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_member` WHERE  `member_phone` = '13920425572' LIMIT 1 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:21:37+08:00 ] 127.0.0.1 GET /index/index.html
+[ info ] 1.shop.com/index/index.html [运行时间：0.076005s][吞吐率：13.16req/s] [内存消耗：1,937.76kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://1.shop.com/account/login_ok.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\wamp\www\shop\application\home\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T11:21:38+08:00 ] 127.0.0.1 GET /cart/cart.html
+[ info ] 1.shop.com/cart/cart.html [运行时间：0.058003s][吞吐率：17.24req/s] [内存消耗：1,951.00kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'cart',
+    2 => 'cart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T11:21:38+08:00 ] 127.0.0.1 GET /account/login.html
+[ info ] 1.shop.com/account/login.html [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：1,974.41kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Account->login[ D:\wamp\www\shop\application\home\controller\Account.php ]
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T11:21:56+08:00 ] 127.0.0.1 GET /cart/cart.html
+[ info ] 1.shop.com/cart/cart.html [运行时间：0.161009s][吞吐率：6.21req/s] [内存消耗：3,249.58kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'cart',
+    2 => 'cart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Cart->cart[ D:\wamp\www\shop\application\home\controller\Cart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\cart\cart.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_shopping` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_shopping` LEFT JOIN `dr_goods` ON `dr_shopping`.`goods_id`=`dr_goods`.`goods_id` LEFT JOIN `dr_file` ON `dr_goods`.`goods_cover`=`dr_file`.`file_id` WHERE  `member_id` = 1 ORDER BY `shopping_id` ASC [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:21:59+08:00 ] 127.0.0.1 GET /goods/goods.html
+[ info ] 1.shop.com/goods/goods.html [运行时间：0.094006s][吞吐率：10.64req/s] [内存消耗：2,922.42kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'goods',
+    2 => 'goods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/cart/cart.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Goods->goods[ D:\wamp\www\shop\application\home\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\goods\goods.html [ array (
+  0 => 'goods_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` LEFT JOIN `dr_file` ON `dr_goods`.`goods_cover`=`dr_file`.`file_id` LIMIT 0,16 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:21:59+08:00 ] 127.0.0.1 GET /goods/details.html?id=1
+[ info ] 1.shop.com/goods/details.html?id=1 [运行时间：0.104006s][吞吐率：9.61req/s] [内存消耗：2,882.84kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'goods',
+    2 => 'details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/goods/goods.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Goods->details[ D:\wamp\www\shop\application\home\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\goods\details.html [ array (
+  0 => 'Goods_info',
+  1 => 'GoodsBanner_lists',
+  2 => 'GoodsGP_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods_banner` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods_banner` LEFT JOIN `dr_file` ON `dr_goods_banner`.`goods_banner_file`=`dr_file`.`file_id` WHERE  `goods_id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods_g_p` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods_g_p` LEFT JOIN `dr_goods_property` ON `dr_goods_g_p`.`goods_property_id`=`dr_goods_property`.`goods_property_id` WHERE  `goods_id` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:22:01+08:00 ] 127.0.0.1 GET /user/user.html
+[ info ] 1.shop.com/user/user.html [运行时间：0.116007s][吞吐率：8.62req/s] [内存消耗：1,996.62kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/goods/details.html?id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\User->user[ D:\wamp\www\shop\application\home\controller\User.php ]
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\user\user.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: _SESSION[D:\wamp\www\shop\runtime\temp\ca5c6a312ee0d732e5fd2ac0acc9db4e.php:24]
+---------------------------------------------------------------
+[ 2018-07-20T11:22:02+08:00 ] 127.0.0.1 GET /goods/goods.html
+[ info ] 1.shop.com/goods/goods.html [运行时间：0.097006s][吞吐率：10.31req/s] [内存消耗：2,922.42kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'goods',
+    2 => 'goods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/user/user.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Goods->goods[ D:\wamp\www\shop\application\home\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\goods\goods.html [ array (
+  0 => 'goods_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` LEFT JOIN `dr_file` ON `dr_goods`.`goods_cover`=`dr_file`.`file_id` LIMIT 0,16 [ RunTime:0.004000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:22:04+08:00 ] 127.0.0.1 GET /goods/details.html?id=1
+[ info ] 1.shop.com/goods/details.html?id=1 [运行时间：0.104006s][吞吐率：9.61req/s] [内存消耗：2,882.84kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'goods',
+    2 => 'details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/goods/goods.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\home\controller\Goods->details[ D:\wamp\www\shop\application\home\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\goods\details.html [ array (
+  0 => 'Goods_info',
+  1 => 'GoodsBanner_lists',
+  2 => 'GoodsGP_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods_banner` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods_banner` LEFT JOIN `dr_file` ON `dr_goods_banner`.`goods_banner_file`=`dr_file`.`file_id` WHERE  `goods_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods_g_p` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods_g_p` LEFT JOIN `dr_goods_property` ON `dr_goods_g_p`.`goods_property_id`=`dr_goods_property`.`goods_property_id` WHERE  `goods_id` = 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:22:05+08:00 ] 127.0.0.1 GET /pay/goods_message.html?gid=1
+[ info ] 1.shop.com/pay/goods_message.html?gid=1 [运行时间：0.100006s][吞吐率：10.00req/s] [内存消耗：3,330.35kb] [文件加载：55]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'goods_message',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/goods/details.html?id=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->goods_message[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\pay\goods_message.html [ array (
+  0 => 'Goods_info',
+  1 => 'MemberAddress_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_file` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_file` WHERE  `file_id` = 20 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_member_address` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_member_address` WHERE  `member_id` = 1 ORDER BY `member_address_id` DESC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:22:06+08:00 ] 127.0.0.1 POST /pay/create_order.html
+[ info ] 1.shop.com/pay/create_order.html [运行时间：0.122007s][吞吐率：8.20req/s] [内存消耗：3,287.47kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'create_order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '34',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://1.shop.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://1.shop.com/pay/goods_message.html?gid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+  'gnum' => '1',
+  'delivery_type' => '0',
+  'aid' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->create_order[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_number` = '20180720112206954616' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `dr_order` (`store_id` , `member_id` , `order_number` , `order_source` , `order_status` , `order_money` , `order_createtime` , `order_delivery_type`) VALUES (1 , 1 , '20180720112206954616' , 3 , 1 , 0 , 1532056926 , 0) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order_goods` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] INSERT INTO `dr_order_goods` (`order_id` , `goods_id` , `order_goods_price` , `order_goods_num`) VALUES (22 , 1 , 0 , 1) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:22:08+08:00 ] 127.0.0.1 GET /pay/pay_type.html?oid=22
+[ info ] 1.shop.com/pay/pay_type.html?oid=22 [运行时间：0.093005s][吞吐率：10.75req/s] [内存消耗：3,290.80kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'pay_type',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://1.shop.com/pay/create_order.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'oid' => '22',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->pay_type[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\pay\pay_type.html [ array (
+  0 => 'Order_info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_id` = 22  AND `member_id` = 1  AND `order_status` = 1 LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:22:11+08:00 ] 127.0.0.1 POST /pay/create_order.html
+[ info ] 1.shop.com/pay/create_order.html [运行时间：0.114006s][吞吐率：8.77req/s] [内存消耗：3,287.47kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'create_order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '34',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'origin' => 'http://1.shop.com',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://1.shop.com/pay/goods_message.html?gid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+  'gnum' => '1',
+  'delivery_type' => '0',
+  'aid' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->create_order[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_number` = '20180720112211512478' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] INSERT INTO `dr_order` (`store_id` , `member_id` , `order_number` , `order_source` , `order_status` , `order_money` , `order_createtime` , `order_delivery_type`) VALUES (1 , 1 , '20180720112211512478' , 3 , 1 , 0 , 1532056931 , 0) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order_goods` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `dr_order_goods` (`order_id` , `goods_id` , `order_goods_price` , `order_goods_num`) VALUES (23 , 1 , 0 , 1) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:22:13+08:00 ] 127.0.0.1 GET /pay/goods_message.html?gid=1
+[ info ] 1.shop.com/pay/goods_message.html?gid=1 [运行时间：0.114007s][吞吐率：8.77req/s] [内存消耗：3,330.41kb] [文件加载：55]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'goods_message',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->goods_message[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\pay\goods_message.html [ array (
+  0 => 'Goods_info',
+  1 => 'MemberAddress_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_file` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_file` WHERE  `file_id` = 20 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_member_address` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_member_address` WHERE  `member_id` = 1 ORDER BY `member_address_id` DESC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:22:15+08:00 ] 127.0.0.1 GET /pay/goods_message.html?gid=1
+[ info ] 1.shop.com/pay/goods_message.html?gid=1 [运行时间：0.131007s][吞吐率：7.63req/s] [内存消耗：3,330.41kb] [文件加载：55]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'goods_message',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->goods_message[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\pay\goods_message.html [ array (
+  0 => 'Goods_info',
+  1 => 'MemberAddress_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_file` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_file` WHERE  `file_id` = 20 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_member_address` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_member_address` WHERE  `member_id` = 1 ORDER BY `member_address_id` DESC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:22:18+08:00 ] 127.0.0.1 POST /pay/create_order.html
+[ info ] 1.shop.com/pay/create_order.html [运行时间：0.113007s][吞吐率：8.85req/s] [内存消耗：3,293.30kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'create_order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '419',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'origin' => 'http://1.shop.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryBWWIAZmwObtGAwYv',
+  'referer' => 'http://1.shop.com/pay/goods_message.html?gid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+  'gnum' => '1',
+  'delivery_type' => '1',
+  'aid' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->create_order[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_number` = '20180720112218750406' LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] INSERT INTO `dr_order` (`store_id` , `member_id` , `order_number` , `order_source` , `order_status` , `order_money` , `order_createtime` , `order_delivery_type`) VALUES (1 , 1 , '20180720112218750406' , 3 , 1 , 0 , 1532056938 , 1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order_goods` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] INSERT INTO `dr_order_goods` (`order_id` , `goods_id` , `order_goods_price` , `order_goods_num`) VALUES (24 , 1 , 0 , 1) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:22:18+08:00 ] 127.0.0.1 GET /pay/pay_type.html?oid=24
+[ info ] 1.shop.com/pay/pay_type.html?oid=24 [运行时间：0.113006s][吞吐率：8.85req/s] [内存消耗：3,290.67kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'pay_type',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/pay/pay_type.html?oid=24',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'oid' => '24',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->pay_type[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\pay\pay_type.html [ array (
+  0 => 'Order_info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_id` = 24  AND `member_id` = 1  AND `order_status` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:22:22+08:00 ] 127.0.0.1 POST /pay/create_order.html
+[ info ] 1.shop.com/pay/create_order.html [运行时间：0.098006s][吞吐率：10.20req/s] [内存消耗：3,293.30kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'create_order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '419',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'origin' => 'http://1.shop.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryibkOTuAa7HVCeTFA',
+  'referer' => 'http://1.shop.com/pay/goods_message.html?gid=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'gid' => '1',
+  'gnum' => '1',
+  'delivery_type' => '1',
+  'aid' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->create_order[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` WHERE  `goods_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_number` = '20180720112222920898' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `dr_order` (`store_id` , `member_id` , `order_number` , `order_source` , `order_status` , `order_money` , `order_createtime` , `order_delivery_type`) VALUES (1 , 1 , '20180720112222920898' , 3 , 1 , 0 , 1532056942 , 1) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order_goods` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] INSERT INTO `dr_order_goods` (`order_id` , `goods_id` , `order_goods_price` , `order_goods_num`) VALUES (25 , 1 , 0 , 1) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:22:22+08:00 ] 127.0.0.1 GET /pay/pay_type.html?oid=25
+[ info ] 1.shop.com/pay/pay_type.html?oid=25 [运行时间：0.111007s][吞吐率：9.01req/s] [内存消耗：3,290.67kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'pay_type',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'referer' => 'http://1.shop.com/pay/pay_type.html?oid=25',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'oid' => '25',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->pay_type[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\pay\pay_type.html [ array (
+  0 => 'Order_info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_id` = 25  AND `member_id` = 1  AND `order_status` = 1 LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:24:13+08:00 ] 127.0.0.1 GET /pay/pay_type.html?oid=25
+[ info ] 1.shop.com/pay/pay_type.html?oid=25 [运行时间：0.155009s][吞吐率：6.45req/s] [内存消耗：3,451.82kb] [文件加载：56]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'pay_type',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'oid' => '25',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->pay_type[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\pay\pay_type.html [ array (
+  0 => 'Order_info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_id` = 25  AND `member_id` = 1  AND `order_status` = 1 LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:24:16+08:00 ] 127.0.0.1 POST /pay/create_order.html
+[ info ] 1.shop.com/pay/create_order.html [运行时间：0.078005s][吞吐率：12.82req/s] [内存消耗：3,138.40kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'create_order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '136',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'origin' => 'http://1.shop.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryvkTVFbrGVWPO2B2q',
+  'referer' => 'http://1.shop.com/pay/pay_type.html?oid=25',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'oid' => '25',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->create_order[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T11:24:46+08:00 ] 127.0.0.1 GET /pay/pay_type.html?oid=25
+[ info ] 1.shop.com/pay/pay_type.html?oid=25 [运行时间：0.081005s][吞吐率：12.34req/s] [内存消耗：3,451.80kb] [文件加载：56]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'pay_type',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'oid' => '25',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->pay_type[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\pay\pay_type.html [ array (
+  0 => 'Order_info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_id` = 25  AND `member_id` = 1  AND `order_status` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:24:47+08:00 ] 127.0.0.1 POST /pay/create_order.html
+[ info ] 1.shop.com/pay/create_order.html [运行时间：0.084005s][吞吐率：11.90req/s] [内存消耗：3,138.40kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'create_order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '136',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'origin' => 'http://1.shop.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarypElRgIw6Scxk2Sfp',
+  'referer' => 'http://1.shop.com/pay/pay_type.html?oid=25',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'oid' => '25',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->create_order[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T11:25:11+08:00 ] 127.0.0.1 POST /pay/create_order.html
+[ info ] 1.shop.com/pay/create_order.html [运行时间：0.098006s][吞吐率：10.20req/s] [内存消耗：3,138.40kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'create_order',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '136',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'origin' => 'http://1.shop.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary1NQ7YLnxJcgsVP2V',
+  'referer' => 'http://1.shop.com/pay/pay_type.html?oid=25',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'oid' => '25',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->create_order[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-20T11:25:13+08:00 ] 127.0.0.1 GET /pay/pay_type.html?oid=25
+[ info ] 1.shop.com/pay/pay_type.html?oid=25 [运行时间：0.109006s][吞吐率：9.17req/s] [内存消耗：3,451.77kb] [文件加载：56]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'pay_type',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'oid' => '25',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->pay_type[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\pay\pay_type.html [ array (
+  0 => 'Order_info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_id` = 25  AND `member_id` = 1  AND `order_status` = 1 LIMIT 1 [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:25:14+08:00 ] 127.0.0.1 POST /pay/pay_money.html
+[ info ] 1.shop.com/pay/pay_money.html [运行时间：0.098006s][吞吐率：10.20req/s] [内存消耗：3,211.17kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'pay_money',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '136',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'origin' => 'http://1.shop.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary28BwlLzfCGPptXlx',
+  'referer' => 'http://1.shop.com/pay/pay_type.html?oid=25',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'oid' => '25',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->pay_money[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_id` = 25  AND `member_id` = 1  AND `order_status` = 1 LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:25:36+08:00 ] 127.0.0.1 GET /pay/pay_type.html?oid=25
+[ info ] 1.shop.com/pay/pay_type.html?oid=25 [运行时间：0.093005s][吞吐率：10.75req/s] [内存消耗：3,451.78kb] [文件加载：56]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'pay_type',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'oid' => '25',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->pay_type[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\pay\pay_type.html [ array (
+  0 => 'Order_info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_id` = 25  AND `member_id` = 1  AND `order_status` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:25:40+08:00 ] 127.0.0.1 POST /pay/pay_money.html
+[ info ] 1.shop.com/pay/pay_money.html [运行时间：0.107007s][吞吐率：9.35req/s] [内存消耗：3,211.43kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'pay_money',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '230',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'origin' => 'http://1.shop.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryU60TKOimz8ev6IpW',
+  'referer' => 'http://1.shop.com/pay/pay_type.html?oid=25',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'oid' => '25',
+  'payway' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->pay_money[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_id` = 25  AND `member_id` = 1  AND `order_status` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:25:58+08:00 ] 127.0.0.1 POST /pay/pay_money.html
+[ info ] 1.shop.com/pay/pay_money.html [运行时间：0.082005s][吞吐率：12.19req/s] [内存消耗：3,197.13kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'pay_money',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '230',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'origin' => 'http://1.shop.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryAdqpEOFecsNraOYT',
+  'referer' => 'http://1.shop.com/pay/pay_type.html?oid=25',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'oid' => '25',
+  'payway' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->pay_money[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_id` = 25  AND `member_id` = 1  AND `order_status` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:26:08+08:00 ] 127.0.0.1 GET /pay/pay_type.html?oid=25
+[ info ] 1.shop.com/pay/pay_type.html?oid=25 [运行时间：0.092005s][吞吐率：10.87req/s] [内存消耗：3,451.87kb] [文件加载：56]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'pay_type',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'oid' => '25',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->pay_type[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\pay\pay_type.html [ array (
+  0 => 'Order_info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_id` = 25  AND `member_id` = 1  AND `order_status` = 1 LIMIT 1 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:26:09+08:00 ] 127.0.0.1 POST /pay/pay_money.html
+[ info ] 1.shop.com/pay/pay_money.html [运行时间：0.086005s][吞吐率：11.63req/s] [内存消耗：3,255.99kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'pay_money',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '136',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'origin' => 'http://1.shop.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryVAYAPf7fBCaYP1Uj',
+  'referer' => 'http://1.shop.com/pay/pay_type.html?oid=25',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'oid' => '25',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->pay_money[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_id` = 25  AND `member_id` = 1  AND `order_status` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [8]未定义数组索引: payway[D:\wamp\www\shop\application\home\controller\Pay.php:127]
+[ error ] [8]未定义数组索引: payway[D:\wamp\www\shop\application\home\controller\Pay.php:129]
+[ error ] [8]未定义数组索引: payway[D:\wamp\www\shop\application\home\controller\Pay.php:131]
+[ error ] [8]未定义数组索引: payway[D:\wamp\www\shop\application\home\controller\Pay.php:133]
+---------------------------------------------------------------
+[ 2018-07-20T11:26:11+08:00 ] 127.0.0.1 POST /pay/pay_money.html
+[ info ] 1.shop.com/pay/pay_money.html [运行时间：0.083004s][吞吐率：12.05req/s] [内存消耗：3,197.13kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'pay_money',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'content-length' => '230',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'origin' => 'http://1.shop.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryQKQBGoBqo57Kx1La',
+  'referer' => 'http://1.shop.com/pay/pay_type.html?oid=25',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'payway' => '1',
+  'oid' => '25',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->pay_money[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_id` = 25  AND `member_id` = 1  AND `order_status` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-07-20T11:26:52+08:00 ] 127.0.0.1 GET /pay/pay_type.html?oid=25
+[ info ] 1.shop.com/pay/pay_type.html?oid=25 [运行时间：0.089005s][吞吐率：11.24req/s] [内存消耗：3,451.87kb] [文件加载：56]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'pay',
+    2 => 'pay_type',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ln06a0h5dn84ehe8f0q5f4eo22',
+)
+[ info ] [ PARAM ] array (
+  'oid' => '25',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\home\controller\Pay->pay_type[ D:\wamp\www\shop\application\home\controller\Pay.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\pay\pay_type.html [ array (
+  0 => 'Order_info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_order` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_order` WHERE  `order_id` = 25  AND `member_id` = 1  AND `order_status` = 1 LIMIT 1 [ RunTime:0.001000s ]

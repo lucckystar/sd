@@ -1,0 +1,147 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title> - 基础表格</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="shortcut icon" href="favicon.ico"> <link href="__admin__/css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+    <link href="__admin__/css/font-awesome.css?v=4.4.0" rel="stylesheet">
+    <link href="__admin__/css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="__admin__/css/animate.css" rel="stylesheet">
+    <link href="__admin__/css/style.css?v=4.1.0" rel="stylesheet">
+
+</head>
+
+<body class="gray-bg">
+    <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="row">
+            
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>图片列表</h5>
+                        
+                    </div>
+                    <div class="ibox-content">
+                        <div class="row">
+                        <form action="{:url('/')}">
+                            <div class="col-sm-3">
+                            <div class="input-group">
+                                <input type="text" placeholder="请输入视频名称" class="input-sm form-control"> <span class="input-group-btn">
+                                <button type="button" class="btn btn-sm btn-primary">搜索</button> </span>
+                            </div>
+                        </div>
+                        </form>
+                        <form action="">
+                            <div class="col-sm-4 m-b-xs">
+                                <div data-toggle="buttons" class="btn-group">
+                                    <label class="btn btn-sm btn-white">
+                                        <input type="radio" id="option1" name="options">个人</label>
+                                    <label class="btn btn-sm btn-white">
+                                        <input type="radio" id="option2" name="options">教师</label>
+                                    <label class="btn btn-sm btn-white">
+                                        <input type="radio" id="option3" name="options">机构</label>
+                                </div>
+                            </div>
+                        </form>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <!-- <th width="70px"></th> -->
+                                        <th width="170px">图片id</th>
+                                        <th width="170px">所属地区</th>
+                                        <th width="170px">舞蹈种类</th>
+                                        <th width="170px">图片名称</th>
+                                        <th width="200px">图片封面</th>
+                                        <th width="170px">图片收藏量</th>
+                                        <th width="170px">图片所属</th>
+                                        <th width="170px">图片状态</th>
+                                        <th>操作</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+{volist name="videos_select" id="vo"}
+                                    <tr>
+                                        <!-- <td>
+                                            <input type="checkbox" class="i-checks" name="input[]">
+                                        </td> -->
+                                        <td>{$vo.file_id}</td>
+                                        <td>{$vo.district_name}</td>
+                                        <td>{$vo.dance_type_name}</td>
+                                        <td>{$vo.file_name}</td>
+                                        <td ><img width="175" height="120" alt="视频封面" src="__uploads__/{$vo.file_cover}"/></td>
+                                        <td>{$vo.file_collection}</td>
+                                        <td>
+                                        {if condition="strtoupper($vo['file_category']) eq 1"/}个人
+                                        {elseif condition="strtoupper($vo['file_category']) eq 2"/}教师
+                                        {else /}机构
+                                        {/if}
+<!--                                         {$vo.file_category}
+ -->                                        </td>
+                                        <td>
+                                        {if condition="strtoupper($vo['file_state']) eq 1"}正常
+                                        {else /}封停
+                                        {/if}
+<!--                                         {$vo.file_state}
+ -->                                        </td>
+                                        <td>
+                                        <a type="button" class="btn btn-outline btn-info" href="{:url('File/videos_details',['file_id'=>$vo['file_id']])}">详情</a>
+                                        <!-- <a type="button" class="btn btn-outline btn-info" href="{:url('Information/banner_edit_show',['file_id'=>$vo['file_id']])}">编辑</a> -->
+                                        <a type="button" class="btn btn-outline btn-danger" href="{:url('File/banner_del',['file_id'=>$vo['file_id']])}" onClick="return confirm('删除后将无法恢复,确定要删除   <{$vo.file_name}>   ?')">封停</a>
+                                        </td>
+                                    </tr>
+{/volist}
+                                </tbody>
+                            </table>
+                            <a href="{:url('Information/videos_add')}" type="button" class="btn btn-outline btn-success">添加</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 全局js -->
+    <script src="__admin__/js/jquery.min.js?v=2.1.4"></script>
+    <script src="__admin__/js/bootstrap.min.js?v=3.3.6"></script>
+
+
+
+    <!-- Peity -->
+    <script src="__admin__/js/plugins/peity/jquery.peity.min.js"></script>
+
+    <!-- 自定义js -->
+    <script src="__admin__/js/content.js?v=1.0.0"></script>
+
+
+    <!-- iCheck -->
+    <script src="__admin__/js/plugins/iCheck/icheck.min.js"></script>
+
+    <!-- Peity -->
+    <script src="__admin__/js/demo/peity-demo.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.i-checks').iCheck({
+                checkboxClass: 'icheckbox_square-green',
+                radioClass: 'iradio_square-green',
+            });
+        });
+    </script>
+
+    
+    
+
+</body>
+
+</html>

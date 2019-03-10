@@ -1,0 +1,2777 @@
+---------------------------------------------------------------
+[ 2018-11-14T10:40:05+08:00 ] 111.163.133.164 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.028943s][吞吐率：34.55req/s] [内存消耗：3,243.27kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '526',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3554.0 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryDzAbYpMkKFseUWGW',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '',
+  'file_category' => '',
+  'seek' => '',
+  'order' => '',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001626s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001315s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000886s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001117s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = '1'  AND `a`.`file_false_delete` = 1 ORDER BY `file_creattime` DESC [ RunTime:0.000927s ]
+---------------------------------------------------------------
+[ 2018-11-14T10:50:05+08:00 ] 111.163.133.164 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.028952s][吞吐率：34.54req/s] [内存消耗：3,243.01kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '526',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3554.0 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarym1EUfaTQzJGsCxbV',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '',
+  'file_category' => '',
+  'seek' => '',
+  'order' => '',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001549s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001209s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000827s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001144s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 0  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.001223s ]
+---------------------------------------------------------------
+[ 2018-11-14T10:50:18+08:00 ] 111.163.133.164 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.029128s][吞吐率：34.33req/s] [内存消耗：3,245.83kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '527',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3554.0 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryyPmszqZ3lpd1BvAc',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '',
+  'seek' => '',
+  'order' => '',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001630s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001291s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000956s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001136s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.001279s ]
+---------------------------------------------------------------
+[ 2018-11-14T10:50:35+08:00 ] 111.163.133.164 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.030000s][吞吐率：33.33req/s] [内存消耗：3,244.01kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '528',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3554.0 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryaZCRsJ58bByWhuri',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '',
+  'seek' => '2',
+  'order' => '',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001699s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001368s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000865s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001223s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%2%' ORDER BY `file_creattime` DESC [ RunTime:0.001347s ]
+---------------------------------------------------------------
+[ 2018-11-14T10:50:41+08:00 ] 111.163.133.164 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.028945s][吞吐率：34.55req/s] [内存消耗：3,245.83kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '527',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3554.0 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryCB820o3ftUBKtuQC',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '',
+  'seek' => '',
+  'order' => '',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001616s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001198s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000942s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001110s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.001067s ]
+---------------------------------------------------------------
+[ 2018-11-14T10:59:11+08:00 ] 111.163.133.164 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.026064s][吞吐率：38.37req/s] [内存消耗：3,221.32kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '527',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3554.0 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryllMmyAjvjZJHOoxc',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '',
+  'seek' => '',
+  'order' => '',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001576s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001347s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000920s ]
+---------------------------------------------------------------
+[ 2018-11-14T10:59:34+08:00 ] 111.163.133.164 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.030067s][吞吐率：33.26req/s] [内存消耗：3,296.39kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '528',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3554.0 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryYwpPhWi0j3y8onDM',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '1',
+  'seek' => '',
+  'order' => '',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001496s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001200s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000840s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001115s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'g.user_name' in 'field list'[/www/web/yuewu/public_html/thinkphp/library/think/db/Connection.php:390]
+---------------------------------------------------------------
+[ 2018-11-14T11:00:38+08:00 ] 111.163.133.164 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.030011s][吞吐率：33.32req/s] [内存消耗：3,296.53kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '528',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3554.0 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarymrgRHydHebOFcAXp',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '1',
+  'seek' => '',
+  'order' => '',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001640s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001327s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000932s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001049s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column '' in 'field list'[/www/web/yuewu/public_html/thinkphp/library/think/db/Connection.php:390]
+---------------------------------------------------------------
+[ 2018-11-14T11:01:03+08:00 ] 111.163.133.164 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.028788s][吞吐率：34.74req/s] [内存消耗：3,238.74kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '528',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3554.0 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary9RBw6tXzFULMCA8f',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '1',
+  'seek' => '',
+  'order' => '',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001483s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001253s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000899s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001166s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.001289s ]
+---------------------------------------------------------------
+[ 2018-11-14T11:01:48+08:00 ] 111.163.133.164 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.029154s][吞吐率：34.30req/s] [内存消耗：3,238.73kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '528',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3554.0 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryG5BJJqEkcUSp31Dt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '1',
+  'seek' => '',
+  'order' => '',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001617s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001323s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000925s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001253s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.001225s ]
+---------------------------------------------------------------
+[ 2018-11-14T17:48:02+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.025944s][吞吐率：38.54req/s] [内存消耗：3,221.68kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-length' => '526',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryzgAnvpUuNBQmdw6p',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'proxy-connection' => 'keep-alive',
+  'x-lantern-version' => '4.9.0',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '',
+  'file_category' => '',
+  'seek' => '',
+  'order' => '',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001632s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001297s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000825s ]
+---------------------------------------------------------------
+[ 2018-11-14T17:48:13+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.026084s][吞吐率：38.34req/s] [内存消耗：3,221.34kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '526',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary7m5QC7YUd40siRqi',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '',
+  'file_category' => '',
+  'seek' => '',
+  'order' => '',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001580s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001214s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000976s ]
+---------------------------------------------------------------
+[ 2018-11-14T17:48:18+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.025985s][吞吐率：38.48req/s] [内存消耗：3,221.34kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '527',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarybPYIEyOjiGtKAnV3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '',
+  'seek' => '',
+  'order' => '',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001499s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001273s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000919s ]
+---------------------------------------------------------------
+[ 2018-11-14T17:49:00+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.029540s][吞吐率：33.85req/s] [内存消耗：3,237.74kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '530',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryam6jDo8uQyesIxuM',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '1',
+  'seek' => '2',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001820s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001333s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000892s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001283s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%2%' ORDER BY `file_creattime` DESC [ RunTime:0.001280s ]
+---------------------------------------------------------------
+[ 2018-11-14T17:53:07+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.028686s][吞吐率：34.86req/s] [内存消耗：3,242.12kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '530',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryPSqLREGeEJAA7uMY',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '1',
+  'seek' => '2',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001424s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001237s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000934s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001298s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%2%' ORDER BY `file_creattime` DESC [ RunTime:0.000926s ]
+---------------------------------------------------------------
+[ 2018-11-14T17:53:17+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.030085s][吞吐率：33.24req/s] [内存消耗：3,300.80kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarymRrSNJ5GwU0tHW6M',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '2',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001644s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001172s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000825s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001130s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'e.teacher_name' in 'field list'[/www/web/yuewu/public_html/thinkphp/library/think/db/Connection.php:390]
+---------------------------------------------------------------
+[ 2018-11-14T17:53:59+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.028499s][吞吐率：35.09req/s] [内存消耗：3,242.82kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary46ubGGBYFJIKSwig',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '2',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001486s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001162s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001120s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.001116s ]
+---------------------------------------------------------------
+[ 2018-11-14T17:55:18+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.029081s][吞吐率：34.39req/s] [内存消耗：3,243.11kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryXDUM7VZLeqB0toHZ',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '1',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001672s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001258s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000941s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001124s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.001193s ]
+---------------------------------------------------------------
+[ 2018-11-14T17:58:24+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.028882s][吞吐率：34.62req/s] [内存消耗：3,243.44kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarycuSXHY8VKRl40qJZ',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '1',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001550s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001165s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001129s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.000941s ]
+---------------------------------------------------------------
+[ 2018-11-14T17:58:30+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.026009s][吞吐率：38.45req/s] [内存消耗：3,226.33kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryQjtKlm39jBqQ4BT1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001563s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001221s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000926s ]
+---------------------------------------------------------------
+[ 2018-11-14T17:58:34+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.028774s][吞吐率：34.75req/s] [内存消耗：3,243.16kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryAVOzdg3YliswPpWi',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '2',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001605s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001213s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000884s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001194s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.000828s ]
+---------------------------------------------------------------
+[ 2018-11-14T17:58:58+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.029022s][吞吐率：34.46req/s] [内存消耗：3,242.09kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '530',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary9ZewTuV6O8A6GUaf',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '2',
+  'seek' => '2',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001510s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001337s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001157s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%2%' ORDER BY `file_creattime` DESC [ RunTime:0.001313s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:02:15+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.026146s][吞吐率：38.25req/s] [内存消耗：3,226.34kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '530',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary4GtghFJF3wb4yxQJ',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '2',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001539s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001177s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000984s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:02:19+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.028583s][吞吐率：34.99req/s] [内存消耗：3,242.09kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '530',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryOSIccmE8y9zpd48H',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '2',
+  'seek' => '2',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001620s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001173s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000809s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001214s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%2%' ORDER BY `file_creattime` DESC [ RunTime:0.001019s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:02:25+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.028518s][吞吐率：35.07req/s] [内存消耗：3,242.51kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '530',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryqOYkCJtMQqMOA8GJ',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '1',
+  'seek' => '2',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001567s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001271s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000827s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001147s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%2%' ORDER BY `file_creattime` DESC [ RunTime:0.000908s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:02:31+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.029295s][吞吐率：34.14req/s] [内存消耗：3,243.44kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryk3MxKGmFUaJKXCra',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '1',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001483s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.002075s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000834s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001172s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.000868s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:03:46+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.029198s][吞吐率：34.25req/s] [内存消耗：3,243.08kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryXAzHut5lzx5inqBG',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '1',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001647s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001272s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000877s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001132s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.000904s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:03:53+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.028192s][吞吐率：35.47req/s] [内存消耗：3,242.80kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarywQMya3fkD4nwUHSY',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '2',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001367s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001173s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000867s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001149s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.000894s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:03:57+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.025521s][吞吐率：39.18req/s] [内存消耗：3,225.64kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryIOUeoPUEWGTeM1dC',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001468s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001169s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000806s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:04:02+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.026159s][吞吐率：38.23req/s] [内存消耗：3,225.64kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarydd3I6fdwbq5pAJj7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001503s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001264s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000828s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:04:02+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.026157s][吞吐率：38.23req/s] [内存消耗：3,225.64kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryH3Bi3dAF5z41Cwz4',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001554s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001239s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000907s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:04:02+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.026152s][吞吐率：38.24req/s] [内存消耗：3,225.64kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryUvW2r5TjZivCJGlw',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001549s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001308s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000961s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:04:03+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.026371s][吞吐率：37.92req/s] [内存消耗：3,225.64kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryBFcJvOX6MxnrchZp',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001680s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001280s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000911s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:04:03+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.025661s][吞吐率：38.97req/s] [内存消耗：3,225.64kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryH7S26zOjgc9QCVBj',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001432s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001160s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000916s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:04:03+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.025564s][吞吐率：39.12req/s] [内存消耗：3,225.64kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryxzpdSG91gqqosgN6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001446s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001145s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000774s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:04:03+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.026128s][吞吐率：38.27req/s] [内存消耗：3,225.64kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryA5pYb9oIqeJan6A0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001491s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001321s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000944s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:04:03+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.026100s][吞吐率：38.31req/s] [内存消耗：3,225.64kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryZjFqe7avQ4R22VcW',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001538s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001291s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000933s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:04:03+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.025963s][吞吐率：38.52req/s] [内存消耗：3,225.64kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarypynzfxAYm7NvSmoo',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001549s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001287s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000919s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:04:04+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.025397s][吞吐率：39.38req/s] [内存消耗：3,225.64kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary2haBQcneKtDaBXDh',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001311s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001174s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000806s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:04:04+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.025830s][吞吐率：38.71req/s] [内存消耗：3,225.64kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryHpxCGS1OuQmAp6DH',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001475s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001261s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000963s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:04:04+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.025548s][吞吐率：39.14req/s] [内存消耗：3,225.64kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryWvzphfsGGswxa2Cv',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001372s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001132s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000910s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:04:04+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.026043s][吞吐率：38.40req/s] [内存消耗：3,225.64kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary3W3zPKSZvvyodZJX',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001664s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001173s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000950s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:04:12+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.030445s][吞吐率：32.85req/s] [内存消耗：3,225.64kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryFQflh4WdQH0ucR5r',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '2',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001605s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001354s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000848s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:04:13+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.026240s][吞吐率：38.11req/s] [内存消耗：3,225.64kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarycThSkvHEuJc4sHXa',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '3',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001540s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001272s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000872s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:04:15+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.026116s][吞吐率：38.29req/s] [内存消耗：3,225.64kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryHmq6ExeoL7N1SJkE',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001554s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001264s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000878s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:04:18+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.028218s][吞吐率：35.44req/s] [内存消耗：3,243.08kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryH4BGWBzMpnP6XTW7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '1',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001454s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001226s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000876s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001151s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.000885s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:04:26+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.028764s][吞吐率：34.77req/s] [内存消耗：3,242.80kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryBwygBEtSY4GQ5WBA',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '2',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001547s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001284s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000870s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001299s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.001009s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:06:42+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.029285s][吞吐率：34.15req/s] [内存消耗：3,249.11kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary2tLl9hAo8ZcV0mDQ',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '2',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001889s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001288s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000901s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001090s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` WHERE  `file_category` = 3  AND `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.001083s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:06:46+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.030458s][吞吐率：32.83req/s] [内存消耗：3,249.31kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryoR1hhuYKqMSxTpwV',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '1',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001554s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001196s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000968s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001264s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` WHERE  `file_category` = 2  AND `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.001286s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:06:49+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.028363s][吞吐率：35.26req/s] [内存消耗：3,248.77kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryaNx2ZIyrXNaZroGJ',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001471s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001250s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000911s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001092s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.000906s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:06:58+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.028779s][吞吐率：34.75req/s] [内存消耗：3,249.24kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '530',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryrPmdqNxABgtBCHh6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '1',
+  'seek' => '2',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001456s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001296s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000840s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001171s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` WHERE  `file_category` = 2  AND `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%2%' ORDER BY `file_creattime` DESC [ RunTime:0.001209s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:07:00+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.028950s][吞吐率：34.54req/s] [内存消耗：3,248.42kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '530',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary5Opp1J1i6XIskjsn',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '2',
+  'seek' => '2',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001680s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001250s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000942s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001245s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` WHERE  `file_category` = 3  AND `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%2%' ORDER BY `file_creattime` DESC [ RunTime:0.001087s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:08:39+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.028585s][吞吐率：34.98req/s] [内存消耗：3,250.45kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '530',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarybC6dg062A67PfAyx',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '2',
+  'seek' => '2',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001654s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001264s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000846s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001128s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` WHERE  `file_category` = 3  AND `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%2%' ORDER BY `file_creattime` DESC [ RunTime:0.000981s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:08:43+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.028901s][吞吐率：34.60req/s] [内存消耗：3,251.05kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary7YyRJD8bULaXEjYV',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '2',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001518s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001304s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000894s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001263s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` WHERE  `file_category` = 3  AND `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.000950s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:08:49+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.029891s][吞吐率：33.45req/s] [内存消耗：3,257.59kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryN7Ltdk4nZw5lY3yQ',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001535s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001992s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000942s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001263s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.001309s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:08:58+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.029127s][吞吐率：34.33req/s] [内存消耗：3,251.05kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryaGWbnsUJTLP7czVf',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '2',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001754s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001231s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000889s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001306s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` WHERE  `file_category` = 3  AND `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.001022s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:09:04+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.028816s][吞吐率：34.70req/s] [内存消耗：3,257.59kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryh3Ipqtu2ksczFLO5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001539s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001219s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000893s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001149s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.001032s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:11:55+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.029066s][吞吐率：34.40req/s] [内存消耗：3,257.61kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryU9qhChf990IBjLWp',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001800s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001266s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000970s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001147s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.000915s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:12:07+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.029247s][吞吐率：34.19req/s] [内存消耗：3,255.79kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '530',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarygcfFCvUp1e7iIjJ5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '2',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001525s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001235s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000922s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001189s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%2%' ORDER BY `file_creattime` DESC [ RunTime:0.001199s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:12:13+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.044676s][吞吐率：22.38req/s] [内存消耗：3,250.41kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '530',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryOHrHC1fB1mB4LPWi',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '2',
+  'seek' => '2',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001892s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001840s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.010607s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001655s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` WHERE  `file_category` = 3  AND `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%2%' ORDER BY `file_creattime` DESC [ RunTime:0.005845s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:12:17+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.029567s][吞吐率：33.82req/s] [内存消耗：3,255.79kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '530',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryyFgW32AGR3dyIDjs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '2',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001680s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001337s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001259s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%2%' ORDER BY `file_creattime` DESC [ RunTime:0.001114s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:12:21+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.029103s][吞吐率：34.36req/s] [内存消耗：3,251.26kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '530',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryxyjWAd1xo31sO7mV',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '1',
+  'seek' => '2',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001860s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001353s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000926s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001179s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` WHERE  `file_category` = 2  AND `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%2%' ORDER BY `file_creattime` DESC [ RunTime:0.001038s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:15:39+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.029144s][吞吐率：34.31req/s] [内存消耗：3,251.23kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryYNo0r1U1d4OBrlby',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '1',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001738s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001315s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000946s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001171s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` WHERE  `file_category` = 2  AND `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.000960s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:15:47+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.026295s][吞吐率：38.03req/s] [内存消耗：3,233.51kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '528',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryl9kyHrYfJefs4hbu',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001463s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001355s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000937s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:15:50+08:00 ] 111.163.137.130 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.028894s][吞吐率：34.61req/s] [内存消耗：3,257.61kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarymQlanroUlAQKR9Rt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001596s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001292s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.001006s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001149s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.001005s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:23:22+08:00 ] 111.163.137.130 POST /index.php/api/index/index.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/index.html [运行时间：0.036756s][吞吐率：27.21req/s] [内存消耗：3,272.95kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '337',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryFADLsAbdyAA9S4pt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'dance_type_id' => '1',
+  'district_id' => '1',
+  'order' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001669s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_district` [ RunTime:0.001227s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1  AND `district_id` = 1 LIMIT 1 [ RunTime:0.000840s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001121s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000870s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_banner` [ RunTime:0.001167s ]
+[ sql ] [ SQL ] SELECT `banner_content` FROM `yw_banner` [ RunTime:0.000829s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1 [ RunTime:0.000847s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_information` [ RunTime:0.001060s ]
+[ sql ] [ SQL ] SELECT `information_content` FROM `yw_information` WHERE  `information_area` = 0 LIMIT 1 [ RunTime:0.000828s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001194s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = '1'  AND `a`.`file_false_delete` = 1 ORDER BY `file_collection` DESC [ RunTime:0.001367s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:48:15+08:00 ] 111.163.133.164 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.030521s][吞吐率：32.76req/s] [内存消耗：3,328.26kb] [文件加载：54]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryYEdoBgQPQESesFv1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001498s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001156s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000835s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001190s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection` FROM `yw_file` `a` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.001190s ]
+[ error ] [8]未定义变量: index_data[/www/web/yuewu/public_html/application/api/controller/Index.php:98]
+---------------------------------------------------------------
+[ 2018-11-14T18:49:05+08:00 ] 111.163.133.164 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.033988s][吞吐率：29.42req/s] [内存消耗：3,262.63kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryW2uAyL799LS3KBkk',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001645s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.003059s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000828s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001203s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection` FROM `yw_file` `a` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.000899s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.001160s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.000873s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:53:56+08:00 ] 111.163.133.164 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.031930s][吞吐率：31.32req/s] [内存消耗：3,264.05kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarySBdxrR4lhwF6K0Xt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001643s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001280s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000917s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001256s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection` FROM `yw_file` `a` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `file_category` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.001248s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `file_category` = 2  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.001151s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `file_category` = 3  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.000975s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:56:28+08:00 ] 111.163.133.164 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.031320s][吞吐率：31.93req/s] [内存消耗：3,264.05kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarylyNQ9BHsdHsJbMCk',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001535s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001406s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000940s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001080s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection` FROM `yw_file` `a` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `file_category` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.000843s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `file_category` = 2  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.000887s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `file_category` = 3  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.000860s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:56:30+08:00 ] 111.163.133.164 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.031730s][吞吐率：31.52req/s] [内存消耗：3,264.05kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryeRBkWJ9G1kR4TCyn',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001527s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001215s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000950s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001189s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection` FROM `yw_file` `a` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `file_category` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.000970s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `file_category` = 2  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.000945s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `file_category` = 3  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.000895s ]
+---------------------------------------------------------------
+[ 2018-11-14T18:56:39+08:00 ] 111.163.133.164 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.049146s][吞吐率：20.35req/s] [内存消耗：3,264.05kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '529',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary4tauGwqFAvVh0Rjf',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'file_category' => '3',
+  'seek' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008706s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001825s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.001451s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001426s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection` FROM `yw_file` `a` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `file_category` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.005482s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `file_category` = 2  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.005384s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` WHERE  `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `file_category` = 3  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.001296s ]

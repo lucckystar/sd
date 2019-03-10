@@ -1,0 +1,1608 @@
+---------------------------------------------------------------
+[ 2018-11-01T18:44:06+08:00 ] 127.0.0.1 GET /index.php
+[ info ] www.backstage.com/index.php [运行时间：0.195011s][吞吐率：5.13req/s] [内存消耗：1,603.48kb] [文件加载：36]
+[ error ] [8]Undefined index: REALM_NAME[D:\wamp\www\backstage\application\config.php:91]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T18:51:31+08:00 ] 127.0.0.1 GET /index.php/admin
+[ info ] www.backstage.com/index.php/admin [运行时间：0.121007s][吞吐率：8.26req/s] [内存消耗：2,002.83kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T18:51:31+08:00 ] 127.0.0.1 GET /index.php/admin/account/login.html
+[ info ] www.backstage.com/index.php/admin/account/login.html [运行时间：0.079005s][吞吐率：12.66req/s] [内存消耗：1,943.17kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Account->login[ D:\wamp\www\backstage\application\admin\controller\Account.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\wamp\www\backstage/application/admin\view\account\login.html[D:\wamp\www\backstage\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2018-11-01T18:52:02+08:00 ] 127.0.0.1 GET /index.php
+[ info ] www.backstage.com/index.php [运行时间：0.081005s][吞吐率：12.34req/s] [内存消耗：1,600.69kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T18:52:08+08:00 ] 127.0.0.1 GET /index.php/admin
+[ info ] www.backstage.com/index.php/admin [运行时间：0.121007s][吞吐率：8.26req/s] [内存消耗：1,982.41kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\admin\model\Model' not found[D:\wamp\www\backstage\application\admin\model\AdminMenu.php:3]
+---------------------------------------------------------------
+[ 2018-11-01T18:53:16+08:00 ] 127.0.0.1 GET /index.php/admin
+[ info ] www.backstage.com/index.php/admin [运行时间：0.197011s][吞吐率：5.08req/s] [内存消耗：3,314.33kb] [文件加载：55]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\wamp\www\backstage\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.055003s ] mysql:host=127.0.0.1;port=3306;dbname=backstage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_admin_menu` [ RunTime:0.034001s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_admin_menu` WHERE  `admin_menu_url` = 'Index/index' LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_admin_menu` WHERE  `admin_menu_islife` = 1  AND `admin_menu_eval` <= 3 [ RunTime:0.002000s ]
+[ error ] [2]in_array() expects parameter 2 to be array, null given[D:\wamp\www\backstage\application\admin\model\AdminMenu.php:7]
+---------------------------------------------------------------
+[ 2018-11-01T19:07:51+08:00 ] 127.0.0.1 GET /index.php/admin
+[ info ] www.backstage.com/index.php/admin [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：2,002.95kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:07:51+08:00 ] 127.0.0.1 GET /index.php/admin/account/login.html
+[ info ] www.backstage.com/index.php/admin/account/login.html [运行时间：0.124007s][吞吐率：8.06req/s] [内存消耗：2,056.36kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Account->login[ D:\wamp\www\backstage\application\admin\controller\Account.php ]
+[ info ] [ VIEW ] D:\wamp\www\backstage/application/admin\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:07:51+08:00 ] 127.0.0.1 GET /index.php/admin/account/__public__/common/jquery/jquery-2.0.0.min.js
+[ info ] www.backstage.com/index.php/admin/account/__public__/common/jquery/jquery-2.0.0.min.js [运行时间：0.128008s][吞吐率：7.81req/s] [内存消耗：1,943.34kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => '__public__',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.backstage.com/index.php/admin/account/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+  'common' => 'jquery',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:07:51+08:00 ] 127.0.0.1 GET /index.php/admin/account/__public__/common/bootstarp/bootstrap.css
+[ info ] www.backstage.com/index.php/admin/account/__public__/common/bootstarp/bootstrap.css [运行时间：0.180011s][吞吐率：5.56req/s] [内存消耗：1,943.40kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => '__public__',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.backstage.com/index.php/admin/account/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+  'common' => 'bootstarp',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:07:51+08:00 ] 127.0.0.1 GET /index.php/admin/account/__admin_/css/animate.css
+[ info ] www.backstage.com/index.php/admin/account/__admin_/css/animate.css [运行时间：0.164010s][吞吐率：6.10req/s] [内存消耗：1,943.36kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => '__admin_',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.backstage.com/index.php/admin/account/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'animate.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:07:51+08:00 ] 127.0.0.1 GET /index.php/admin/account/__public__/common/bootstarp/bootstrap.js
+[ info ] www.backstage.com/index.php/admin/account/__public__/common/bootstarp/bootstrap.js [运行时间：0.177011s][吞吐率：5.65req/s] [内存消耗：1,943.31kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => '__public__',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.backstage.com/index.php/admin/account/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+  'common' => 'bootstarp',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:07:51+08:00 ] 127.0.0.1 GET /index.php/admin/account/__public__/common/font-awesome/css/font-awesome.min.css
+[ info ] www.backstage.com/index.php/admin/account/__public__/common/font-awesome/css/font-awesome.min.css [运行时间：0.218013s][吞吐率：4.59req/s] [内存消耗：1,943.71kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => '__public__',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.backstage.com/index.php/admin/account/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+  'common' => 'font-awesome',
+  'css' => 'font-awesome.min.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:07:51+08:00 ] 127.0.0.1 GET /index.php/admin/account/__admin_/css/animate.css
+[ info ] www.backstage.com/index.php/admin/account/__admin_/css/animate.css [运行时间：0.112006s][吞吐率：8.93req/s] [内存消耗：1,943.27kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => '__admin_',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.backstage.com/index.php/admin/account/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'animate.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:07:52+08:00 ] 127.0.0.1 GET /index.php/admin/account/favicon.ico
+[ info ] www.backstage.com/index.php/admin/account/favicon.ico [运行时间：0.078005s][吞吐率：12.82req/s] [内存消耗：1,942.91kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'favicon.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.backstage.com/index.php/admin/account/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:08:03+08:00 ] 127.0.0.1 GET /index.php/admin/account/login.html
+[ info ] www.backstage.com/index.php/admin/account/login.html [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：1,898.13kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Account->login[ D:\wamp\www\backstage\application\admin\controller\Account.php ]
+[ info ] [ VIEW ] D:\wamp\www\backstage/application/admin\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:08:04+08:00 ] 127.0.0.1 GET /index.php/admin/account/__public__/common/jquery/jquery-2.0.0.min.js
+[ info ] www.backstage.com/index.php/admin/account/__public__/common/jquery/jquery-2.0.0.min.js [运行时间：0.194011s][吞吐率：5.15req/s] [内存消耗：1,943.30kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => '__public__',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.backstage.com/index.php/admin/account/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+  'common' => 'jquery',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:08:04+08:00 ] 127.0.0.1 GET /index.php/admin/account/__admin_/css/animate.css
+[ info ] www.backstage.com/index.php/admin/account/__admin_/css/animate.css [运行时间：0.155009s][吞吐率：6.45req/s] [内存消耗：1,943.27kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => '__admin_',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.backstage.com/index.php/admin/account/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'animate.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:08:04+08:00 ] 127.0.0.1 GET /index.php/admin/account/__public__/common/bootstarp/bootstrap.css
+[ info ] www.backstage.com/index.php/admin/account/__public__/common/bootstarp/bootstrap.css [运行时间：0.261015s][吞吐率：3.83req/s] [内存消耗：1,943.33kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => '__public__',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.backstage.com/index.php/admin/account/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+  'common' => 'bootstarp',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:08:04+08:00 ] 127.0.0.1 GET /index.php/admin/account/__public__/common/bootstarp/bootstrap.js
+[ info ] www.backstage.com/index.php/admin/account/__public__/common/bootstarp/bootstrap.js [运行时间：0.211012s][吞吐率：4.74req/s] [内存消耗：1,943.32kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => '__public__',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://www.backstage.com/index.php/admin/account/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+  'common' => 'bootstarp',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:08:04+08:00 ] 127.0.0.1 GET /index.php/admin/account/__public__/common/font-awesome/css/font-awesome.min.css
+[ info ] www.backstage.com/index.php/admin/account/__public__/common/font-awesome/css/font-awesome.min.css [运行时间：0.272016s][吞吐率：3.68req/s] [内存消耗：1,943.70kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => '__public__',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.backstage.com/index.php/admin/account/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+  'common' => 'font-awesome',
+  'css' => 'font-awesome.min.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:08:04+08:00 ] 127.0.0.1 GET /index.php/admin/account/__admin_/css/animate.css
+[ info ] www.backstage.com/index.php/admin/account/__admin_/css/animate.css [运行时间：0.109006s][吞吐率：9.17req/s] [内存消耗：1,943.27kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => '__admin_',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.backstage.com/index.php/admin/account/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'animate.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:09:12+08:00 ] 127.0.0.1 GET /index.php/admin/account/login.html
+[ info ] www.backstage.com/index.php/admin/account/login.html [运行时间：0.059004s][吞吐率：16.95req/s] [内存消耗：2,056.65kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Account->login[ D:\wamp\www\backstage\application\admin\controller\Account.php ]
+[ info ] [ VIEW ] D:\wamp\www\backstage/application/admin\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:09:12+08:00 ] 127.0.0.1 GET /index.php/admin/account/____/bootstarp/bootstrap.css
+[ info ] www.backstage.com/index.php/admin/account/____/bootstarp/bootstrap.css [运行时间：0.102006s][吞吐率：9.80req/s] [内存消耗：1,943.52kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => '____',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.backstage.com/index.php/admin/account/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+  'bootstarp' => 'bootstrap.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:09:12+08:00 ] 127.0.0.1 GET /index.php/admin/account/__admin_/css/animate.css
+[ info ] www.backstage.com/index.php/admin/account/__admin_/css/animate.css [运行时间：0.200011s][吞吐率：5.00req/s] [内存消耗：1,943.43kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => '__admin_',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.backstage.com/index.php/admin/account/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'animate.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:09:12+08:00 ] 127.0.0.1 GET /index.php/admin/account/____/bootstarp/bootstrap.css
+[ info ] www.backstage.com/index.php/admin/account/____/bootstarp/bootstrap.css [运行时间：0.082004s][吞吐率：12.19req/s] [内存消耗：1,943.52kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => '____',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.backstage.com/index.php/admin/account/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+  'bootstarp' => 'bootstrap.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:09:12+08:00 ] 127.0.0.1 GET /index.php/admin/account/__admin_/css/animate.css
+[ info ] www.backstage.com/index.php/admin/account/__admin_/css/animate.css [运行时间：0.108006s][吞吐率：9.26req/s] [内存消耗：1,943.43kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => '__admin_',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.backstage.com/index.php/admin/account/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'animate.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:11:33+08:00 ] 127.0.0.1 GET /index.php/admin/account/login.html
+[ info ] www.backstage.com/index.php/admin/account/login.html [运行时间：0.061004s][吞吐率：16.39req/s] [内存消耗：1,898.41kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Account->login[ D:\wamp\www\backstage\application\admin\controller\Account.php ]
+[ info ] [ VIEW ] D:\wamp\www\backstage/application/admin\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:11:33+08:00 ] 127.0.0.1 GET /index.php/admin/account/____/bootstarp/bootstrap.css
+[ info ] www.backstage.com/index.php/admin/account/____/bootstarp/bootstrap.css [运行时间：0.143008s][吞吐率：6.99req/s] [内存消耗：1,943.52kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => '____',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.backstage.com/index.php/admin/account/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+  'bootstarp' => 'bootstrap.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:11:33+08:00 ] 127.0.0.1 GET /index.php/admin/account/__admin_/css/animate.css
+[ info ] www.backstage.com/index.php/admin/account/__admin_/css/animate.css [运行时间：0.147009s][吞吐率：6.80req/s] [内存消耗：1,943.43kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => '__admin_',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.backstage.com/index.php/admin/account/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'animate.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:11:33+08:00 ] 127.0.0.1 GET /index.php/admin/account/__admin_/css/animate.css
+[ info ] www.backstage.com/index.php/admin/account/__admin_/css/animate.css [运行时间：0.143008s][吞吐率：6.99req/s] [内存消耗：1,943.43kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => '__admin_',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.backstage.com/index.php/admin/account/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'animate.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:11:42+08:00 ] 127.0.0.1 GET /index.php/admin/account/login.html
+[ info ] www.backstage.com/index.php/admin/account/login.html [运行时间：0.089005s][吞吐率：11.24req/s] [内存消耗：1,898.41kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Account->login[ D:\wamp\www\backstage\application\admin\controller\Account.php ]
+[ info ] [ VIEW ] D:\wamp\www\backstage/application/admin\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:11:42+08:00 ] 127.0.0.1 GET /index.php/admin/account/__admin_/css/animate.css
+[ info ] www.backstage.com/index.php/admin/account/__admin_/css/animate.css [运行时间：0.114007s][吞吐率：8.77req/s] [内存消耗：1,943.43kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => '__admin_',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.backstage.com/index.php/admin/account/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'animate.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:11:42+08:00 ] 127.0.0.1 GET /index.php/admin/account/____/bootstarp/bootstrap.css
+[ info ] www.backstage.com/index.php/admin/account/____/bootstarp/bootstrap.css [运行时间：0.201011s][吞吐率：4.97req/s] [内存消耗：1,943.52kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => '____',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.backstage.com/index.php/admin/account/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+  'bootstarp' => 'bootstrap.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:11:43+08:00 ] 127.0.0.1 GET /index.php/admin/account/__admin_/css/animate.css
+[ info ] www.backstage.com/index.php/admin/account/__admin_/css/animate.css [运行时间：0.092005s][吞吐率：10.87req/s] [内存消耗：1,943.43kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => '__admin_',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://www.backstage.com/index.php/admin/account/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'animate.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:12:16+08:00 ] 127.0.0.1 GET /index.php/admin/account/login.html
+[ info ] www.backstage.com/index.php/admin/account/login.html [运行时间：0.070004s][吞吐率：14.28req/s] [内存消耗：2,056.73kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Account->login[ D:\wamp\www\backstage\application\admin\controller\Account.php ]
+[ info ] [ VIEW ] D:\wamp\www\backstage/application/admin\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:12:17+08:00 ] 127.0.0.1 GET /public/static/common/bootstarp/bootstrap.css.map
+[ info ] www.backstage.com/public/static/common/bootstarp/bootstrap.css.map [运行时间：0.076005s][吞吐率：13.16req/s] [内存消耗：1,600.66kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+  'bootstarp' => 'bootstrap.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:12:44+08:00 ] 127.0.0.1 GET /index.php/admin/account/login.html
+[ info ] www.backstage.com/index.php/admin/account/login.html [运行时间：0.074004s][吞吐率：13.51req/s] [内存消耗：2,056.73kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Account->login[ D:\wamp\www\backstage\application\admin\controller\Account.php ]
+[ info ] [ VIEW ] D:\wamp\www\backstage/application/admin\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:12:45+08:00 ] 127.0.0.1 GET /public/static/common/bootstarp/bootstrap.css.map
+[ info ] www.backstage.com/public/static/common/bootstarp/bootstrap.css.map [运行时间：0.076005s][吞吐率：13.16req/s] [内存消耗：1,600.66kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+  'bootstarp' => 'bootstrap.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:14:08+08:00 ] 127.0.0.1 GET /index.php/admin/account/login.html
+[ info ] www.backstage.com/index.php/admin/account/login.html [运行时间：0.083005s][吞吐率：12.05req/s] [内存消耗：2,056.69kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Account->login[ D:\wamp\www\backstage\application\admin\controller\Account.php ]
+[ info ] [ VIEW ] D:\wamp\www\backstage/application/admin\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:14:09+08:00 ] 127.0.0.1 GET /public/static/common/bootstarp/bootstrap.css.map
+[ info ] www.backstage.com/public/static/common/bootstarp/bootstrap.css.map [运行时间：0.091005s][吞吐率：10.99req/s] [内存消耗：1,600.66kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+  'bootstarp' => 'bootstrap.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:14:23+08:00 ] 127.0.0.1 GET /index.php/admin/account/index.html?
+[ info ] www.backstage.com/index.php/admin/account/index.html? [运行时间：0.071004s][吞吐率：14.08req/s] [内存消耗：1,943.45kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.backstage.com/index.php/admin/account/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:14:25+08:00 ] 127.0.0.1 GET /index.php/admin/account/login.html
+[ info ] www.backstage.com/index.php/admin/account/login.html [运行时间：0.058004s][吞吐率：17.24req/s] [内存消耗：1,898.41kb] [文件加载：41]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Account->login[ D:\wamp\www\backstage\application\admin\controller\Account.php ]
+[ info ] [ VIEW ] D:\wamp\www\backstage/application/admin\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:14:26+08:00 ] 127.0.0.1 GET /public/static/common/bootstarp/bootstrap.css.map
+[ info ] www.backstage.com/public/static/common/bootstarp/bootstrap.css.map [运行时间：0.096005s][吞吐率：10.42req/s] [内存消耗：1,600.66kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+  'bootstarp' => 'bootstrap.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:22:31+08:00 ] 127.0.0.1 GET /index.php/admin/account/login.html
+[ info ] www.backstage.com/index.php/admin/account/login.html [运行时间：0.070004s][吞吐率：14.28req/s] [内存消耗：2,056.69kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Account->login[ D:\wamp\www\backstage\application\admin\controller\Account.php ]
+[ info ] [ VIEW ] D:\wamp\www\backstage/application/admin\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-01T19:22:31+08:00 ] 127.0.0.1 GET /public/static/common/bootstarp/bootstrap.css.map
+[ info ] www.backstage.com/public/static/common/bootstarp/bootstrap.css.map [运行时间：0.084005s][吞吐率：11.90req/s] [内存消耗：1,600.66kb] [文件加载：34]
+[ info ] [ LANG ] D:\wamp\www\backstage\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'common',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.backstage.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=ml7704a6mv1f0oq1gi3qrrjgg0',
+)
+[ info ] [ PARAM ] array (
+  'bootstarp' => 'bootstrap.css.map',
+)
+[ info ] [ LOG ] INIT File

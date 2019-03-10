@@ -1,0 +1,130 @@
+---------------------------------------------------------------
+[ 2019-01-27T19:18:27+08:00 ] 113.25.94.51 GET /public/uploads/(null)
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/(null) [运行时间：0.016302s][吞吐率：61.34req/s] [内存消耗：1,831.49kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '(null)',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => 'image/*;q=0.8',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'TJ-ZXJY/1.1 CFNetwork/976 Darwin/18.2.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-27T19:18:27+08:00 ] 113.25.94.51 POST /index.php/api/index/index.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/index.html [运行时间：0.040094s][吞吐率：24.94req/s] [内存消耗：3,492.83kb] [文件加载：54]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1.2; Scale/2.00)',
+  'accept-language' => 'zh-Hans-CN;q=1',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'dance_type_id' => '',
+  'district_id' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001696s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_district` [ RunTime:0.001292s ]
+[ sql ] [ SQL ] SELECT `district_id` FROM `yw_district` WHERE  `district_status` = 1 LIMIT 1 [ RunTime:0.000928s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001274s ]
+[ sql ] [ SQL ] SELECT `dance_type_id` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 LIMIT 1 [ RunTime:0.000821s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1  AND `district_id` = 1 LIMIT 1 [ RunTime:0.000939s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000862s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_banner` [ RunTime:0.001271s ]
+[ sql ] [ SQL ] SELECT `banner_content` FROM `yw_banner` [ RunTime:0.000788s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1 [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_information` [ RunTime:0.001128s ]
+[ sql ] [ SQL ] SELECT `information_content` FROM `yw_information` WHERE  `information_area` = 0 LIMIT 1 [ RunTime:0.000938s ]
+[ error ] [8]未定义数组索引: seek[/www/web/yuewu/public_html/application/api/controller/Index.php:51]
+---------------------------------------------------------------
+[ 2019-01-27T19:18:27+08:00 ] 113.25.94.51 GET /public/uploads/(null)
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/(null) [运行时间：0.015050s][吞吐率：66.44req/s] [内存消耗：1,831.50kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '(null)',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => 'image/*;q=0.8',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'TJ-ZXJY/1.1 CFNetwork/976 Darwin/18.2.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-27T19:18:31+08:00 ] 113.25.94.51 POST /index.php/api/index/index_paging.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/index_paging.html [运行时间：0.032901s][吞吐率：30.39req/s] [内存消耗：3,479.55kb] [文件加载：54]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index_paging',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1.2; Scale/2.00)',
+  'accept-language' => 'zh-Hans-CN;q=1',
+  'content-length' => '62',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '',
+  'dance_type_id' => '',
+  'order' => '1',
+  'paging' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->index_paging[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001764s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_district` [ RunTime:0.001420s ]
+[ sql ] [ SQL ] SELECT `district_id` FROM `yw_district` WHERE  `district_status` = 1 LIMIT 1 [ RunTime:0.000972s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001223s ]
+[ sql ] [ SQL ] SELECT `dance_type_id` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 LIMIT 1 [ RunTime:0.000961s ]
+[ error ] [8]未定义数组索引: seek[/www/web/yuewu/public_html/application/api/controller/Index.php:87]

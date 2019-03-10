@@ -1,0 +1,94 @@
+---------------------------------------------------------------
+[ 2019-01-30T13:14:35+08:00 ] 218.26.54.225 GET /public/uploads/(null)
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/(null) [运行时间：0.015111s][吞吐率：66.18req/s] [内存消耗：1,831.52kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '(null)',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => 'image/*;q=0.8',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'TJ-ZXJY/1.1 CFNetwork/975.0.3 Darwin/18.2.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-30T13:14:35+08:00 ] 218.26.54.225 POST /index.php/api/index/index.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/index.html [运行时间：0.042872s][吞吐率：23.33req/s] [内存消耗：3,455.17kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/3.00)',
+  'accept-language' => 'zh-Hans-CN;q=1',
+  'content-length' => '59',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '',
+  'dance_type_id' => '',
+  'order' => '1',
+  'seek' => '',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002611s ] mysql:host=114.115.236.73;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_district` [ RunTime:0.001369s ]
+[ sql ] [ SQL ] SELECT `district_id` FROM `yw_district` WHERE  `district_status` = 1 LIMIT 1 [ RunTime:0.000960s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001173s ]
+[ sql ] [ SQL ] SELECT `dance_type_id` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 LIMIT 1 [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1  AND `district_id` = 1 LIMIT 1 [ RunTime:0.000907s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000837s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_banner` [ RunTime:0.001145s ]
+[ sql ] [ SQL ] SELECT `banner_content` FROM `yw_banner` [ RunTime:0.001016s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1 [ RunTime:0.000888s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_information` [ RunTime:0.001153s ]
+[ sql ] [ SQL ] SELECT `information_content` FROM `yw_information` WHERE  `information_area` = 0 LIMIT 1 [ RunTime:0.000835s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001202s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = 1  AND `a`.`file_false_delete` = 1  AND `file_name` LIKE '%%' ORDER BY `file_creattime` ASC [ RunTime:0.000931s ]
+---------------------------------------------------------------
+[ 2019-01-30T13:14:35+08:00 ] 218.26.54.225 GET /public/uploads/2019/z.jpg
+[ info ] yuewu.dazhu-ltd.cn/public/uploads/2019/z.jpg [运行时间：0.014522s][吞吐率：68.86req/s] [内存消耗：1,831.10kb] [文件加载：37]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'uploads',
+    2 => '2019',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'accept' => 'image/*;q=0.8',
+  'accept-language' => 'zh-cn',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'TJ-ZXJY/1.1 CFNetwork/975.0.3 Darwin/18.2.0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

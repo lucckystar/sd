@@ -1,0 +1,149 @@
+---------------------------------------------------------------
+[ 2018-11-11T11:20:42+08:00 ] 220.115.30.156 POST /index.php/api/chat/chat_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/chat/chat_list.html [运行时间：0.015326s][吞吐率：65.25req/s] [内存消耗：2,133.96kb] [文件加载：43]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'chat',
+    2 => 'chat_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '44',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarya6v7jXsM8lOWqvcv',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Chat->chat_list[ /www/web/yuewu/public_html/application/api/controller/Chat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-11T11:20:45+08:00 ] 220.115.30.156 POST /index.php/api/chat/chat_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/chat/chat_list.html [运行时间：0.015438s][吞吐率：64.77req/s] [内存消耗：2,133.97kb] [文件加载：43]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'chat',
+    2 => 'chat_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '44',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarynz57uXevtaNWUcym',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Chat->chat_list[ /www/web/yuewu/public_html/application/api/controller/Chat.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-11T11:20:48+08:00 ] 220.115.30.156 POST /index.php/api/index/index.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/index.html [运行时间：0.038909s][吞吐率：25.70req/s] [内存消耗：3,253.84kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '337',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryAUgBdeaKZ5902wMs',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'dance_type_id' => '1',
+  'district_id' => '1',
+  'order' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001743s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_district` [ RunTime:0.001251s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1  AND `district_id` = 1 LIMIT 1 [ RunTime:0.000836s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001094s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000849s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_banner` [ RunTime:0.001175s ]
+[ sql ] [ SQL ] SELECT `banner_content` FROM `yw_banner` [ RunTime:0.000815s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1 [ RunTime:0.000844s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_information` [ RunTime:0.001100s ]
+[ sql ] [ SQL ] SELECT `information_content` FROM `yw_information` WHERE  `information_area` = 0 LIMIT 1 [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file_organization` [ RunTime:0.001205s ]
+[ sql ] [ SQL ] SELECT `c`.`organization_portrait`,`c`.`organization_name`,`c`.`organization_id`,`b`.`file_id`,`d`.`dance_type_name`,`b`.`file_name` FROM `yw_file_organization` `a` LEFT JOIN `yw_file` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `a`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_dance_type` `d` ON `b`.`dance_type_id`=`d`.`dance_type_id` WHERE  `b`.`file_state` = 1  AND `b`.`file_false_delete` = 1  AND `b`.`district_id` = '1'  AND `b`.`dance_type_id` = '1'  AND `b`.`file_category` = 3 ORDER BY `file_collection` DESC [ RunTime:0.001122s ]
+[ sql ] [ SQL ] SELECT `c`.`organization_portrait`,`c`.`organization_name`,`c`.`organization_id`,`b`.`file_id`,`d`.`dance_type_name`,`b`.`file_name` FROM `yw_file_organization` `a` LEFT JOIN `yw_file` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `a`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_dance_type` `d` ON `b`.`dance_type_id`=`d`.`dance_type_id` WHERE  `b`.`file_state` = 1  AND `b`.`file_false_delete` = 1  AND `b`.`district_id` = '1'  AND `b`.`dance_type_id` = '1'  AND `b`.`file_category` = 3 ORDER BY `file_collection` DESC [ RunTime:0.000867s ]
+[ sql ] [ SQL ] SELECT `c`.`organization_portrait`,`c`.`organization_name`,`c`.`organization_id`,`b`.`file_id`,`d`.`dance_type_name`,`b`.`file_name` FROM `yw_file_organization` `a` LEFT JOIN `yw_file` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `a`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_dance_type` `d` ON `b`.`dance_type_id`=`d`.`dance_type_id` WHERE  `b`.`file_state` = 1  AND `b`.`file_false_delete` = 1  AND `b`.`district_id` = '1'  AND `b`.`dance_type_id` = '1'  AND `b`.`file_category` = 3 ORDER BY `file_collection` DESC [ RunTime:0.000840s ]
+---------------------------------------------------------------
+[ 2018-11-11T21:59:44+08:00 ] 220.115.30.156 POST /index.php/api/index/index.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/index.html [运行时间：0.039632s][吞吐率：25.23req/s] [内存消耗：3,253.88kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'content-length' => '337',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryNuCkPee3c0R7IJ7P',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'proxy-connection' => 'keep-alive',
+  'x-lantern-version' => '4.9.0',
+)
+[ info ] [ PARAM ] array (
+  'dance_type_id' => '1',
+  'district_id' => '1',
+  'order' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002142s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_district` [ RunTime:0.001200s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1  AND `district_id` = 1 LIMIT 1 [ RunTime:0.000910s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001109s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000807s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_banner` [ RunTime:0.001064s ]
+[ sql ] [ SQL ] SELECT `banner_content` FROM `yw_banner` [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1 [ RunTime:0.000804s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_information` [ RunTime:0.001145s ]
+[ sql ] [ SQL ] SELECT `information_content` FROM `yw_information` WHERE  `information_area` = 0 LIMIT 1 [ RunTime:0.000779s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file_organization` [ RunTime:0.001126s ]
+[ sql ] [ SQL ] SELECT `c`.`organization_portrait`,`c`.`organization_name`,`c`.`organization_id`,`b`.`file_id`,`d`.`dance_type_name`,`b`.`file_name` FROM `yw_file_organization` `a` LEFT JOIN `yw_file` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `a`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_dance_type` `d` ON `b`.`dance_type_id`=`d`.`dance_type_id` WHERE  `b`.`file_state` = 1  AND `b`.`file_false_delete` = 1  AND `b`.`district_id` = '1'  AND `b`.`dance_type_id` = '1'  AND `b`.`file_category` = 3 ORDER BY `file_collection` DESC [ RunTime:0.000817s ]
+[ sql ] [ SQL ] SELECT `c`.`organization_portrait`,`c`.`organization_name`,`c`.`organization_id`,`b`.`file_id`,`d`.`dance_type_name`,`b`.`file_name` FROM `yw_file_organization` `a` LEFT JOIN `yw_file` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `a`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_dance_type` `d` ON `b`.`dance_type_id`=`d`.`dance_type_id` WHERE  `b`.`file_state` = 1  AND `b`.`file_false_delete` = 1  AND `b`.`district_id` = '1'  AND `b`.`dance_type_id` = '1'  AND `b`.`file_category` = 3 ORDER BY `file_collection` DESC [ RunTime:0.000951s ]
+[ sql ] [ SQL ] SELECT `c`.`organization_portrait`,`c`.`organization_name`,`c`.`organization_id`,`b`.`file_id`,`d`.`dance_type_name`,`b`.`file_name` FROM `yw_file_organization` `a` LEFT JOIN `yw_file` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `a`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_dance_type` `d` ON `b`.`dance_type_id`=`d`.`dance_type_id` WHERE  `b`.`file_state` = 1  AND `b`.`file_false_delete` = 1  AND `b`.`district_id` = '1'  AND `b`.`dance_type_id` = '1'  AND `b`.`file_category` = 3 ORDER BY `file_collection` DESC [ RunTime:0.000868s ]

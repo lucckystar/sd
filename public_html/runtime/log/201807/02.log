@@ -1,0 +1,788 @@
+---------------------------------------------------------------
+[ 2018-07-02T18:08:54+08:00 ] 127.0.0.1 GET /index/index
+[ info ] backstage.1.shop.com/index/index [运行时间：0.578033s][吞吐率：1.73req/s] [内存消耗：1,975.18kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'backstage.1.shop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-02T18:08:54+08:00 ] 127.0.0.1 GET /account/login.html
+[ info ] backstage.1.shop.com/account/login.html [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：1,941.80kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'admin'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'backstage.1.shop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=pltiq4dlhf62mdt5t9vgiajn12',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Account->login[ D:\wamp\www\shop\application\admin\controller\Account.php ]
+[ info ] [ VIEW ] D:\wamp\www\shop/application/admin\view\account\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-02T18:09:00+08:00 ] 127.0.0.1 GET /index/index
+[ info ] 1.shop.com/index/index [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：1,936.48kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\wamp\www\shop\application\home\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-02T18:09:02+08:00 ] 127.0.0.1 GET /index/%7B%7Bhttp_sources%7D%7D/Home/images/m1.jpg
+[ info ] 1.shop.com/index/%7B%7Bhttp_sources%7D%7D/Home/images/m1.jpg [运行时间：0.074005s][吞吐率：13.51req/s] [内存消耗：1,895.70kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => '{{http_sources}}',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://1.shop.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'Home' => 'images',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-02T18:09:02+08:00 ] 127.0.0.1 GET /public/static/common/jquery-mobile/images/ajax-loader.gif
+[ info ] 1.shop.com/public/static/common/jquery-mobile/images/ajax-loader.gif [运行时间：0.063004s][吞吐率：15.87req/s] [内存消耗：1,576.80kb] [文件加载：38]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'public',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://1.shop.com/public/static/common/jquery-mobile/jquery.mobile-1.4.5.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'common' => 'jquery-mobile',
+  'images' => 'ajax-loader.gif',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-02T18:09:36+08:00 ] 127.0.0.1 GET /goods/goods.html
+[ info ] 1.shop.com/goods/goods.html [运行时间：0.203012s][吞吐率：4.93req/s] [内存消耗：2,973.64kb] [文件加载：54]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'goods',
+    2 => 'goods',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://1.shop.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Goods->goods[ D:\wamp\www\shop\application\home\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\goods\goods.html [ array (
+  0 => 'goods_lists',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=darenshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dr_goods` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `dr_goods` LEFT JOIN `dr_file` ON `dr_goods`.`goods_cover`=`dr_file`.`file_id` LIMIT 0,16 [ RunTime:0.017001s ]
+[ error ] [8]未定义变量: v[D:\wamp\www\shop\runtime\temp\21c5780492a5204bd4a30f605912900b.php:72]
+[ error ] [8]未定义变量: v[D:\wamp\www\shop\runtime\temp\21c5780492a5204bd4a30f605912900b.php:73]
+[ error ] [8]未定义变量: v[D:\wamp\www\shop\runtime\temp\21c5780492a5204bd4a30f605912900b.php:74]
+[ error ] [8]未定义变量: v[D:\wamp\www\shop\runtime\temp\21c5780492a5204bd4a30f605912900b.php:75]
+[ error ] [8]未定义变量: v[D:\wamp\www\shop\runtime\temp\21c5780492a5204bd4a30f605912900b.php:75]
+[ error ] [8]未定义变量: v[D:\wamp\www\shop\runtime\temp\21c5780492a5204bd4a30f605912900b.php:76]
+---------------------------------------------------------------
+[ 2018-07-02T18:09:36+08:00 ] 127.0.0.1 GET /goods/__PUBLIC__/
+[ info ] 1.shop.com/goods/__PUBLIC__/ [运行时间：0.080005s][吞吐率：12.50req/s] [内存消耗：1,900.95kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'goods',
+    2 => '__PUBLIC__',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://1.shop.com/goods/goods.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-02T18:09:37+08:00 ] 127.0.0.1 GET /index/index.html
+[ info ] 1.shop.com/index/index.html [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,937.25kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://1.shop.com/goods/goods.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\wamp\www\shop\application\home\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-02T18:09:37+08:00 ] 127.0.0.1 GET /index/%7B%7Bhttp_sources%7D%7D/Home/images/m1.jpg
+[ info ] 1.shop.com/index/%7B%7Bhttp_sources%7D%7D/Home/images/m1.jpg [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：1,896.07kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => '{{http_sources}}',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://1.shop.com/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'Home' => 'images',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-02T18:09:38+08:00 ] 127.0.0.1 GET /cart/index.html
+[ info ] 1.shop.com/cart/index.html [运行时间：0.071004s][吞吐率：14.08req/s] [内存消耗：1,949.90kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'cart',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://1.shop.com/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-02T18:09:38+08:00 ] 127.0.0.1 GET /account/login.html
+[ info ] 1.shop.com/account/login.html [运行时间：0.079005s][吞吐率：12.66req/s] [内存消耗：1,887.00kb] [文件加载：42]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://1.shop.com/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=svnaeihnee9os69urkoj6p0t27',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Account->login[ D:\wamp\www\shop\application\home\controller\Account.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-02T18:09:40+08:00 ] 127.0.0.1 GET /index/index.html
+[ info ] 1.shop.com/index/index.html [运行时间：0.104006s][吞吐率：9.61req/s] [内存消耗：1,937.45kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://1.shop.com/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=svnaeihnee9os69urkoj6p0t27',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\wamp\www\shop\application\home\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-02T18:09:40+08:00 ] 127.0.0.1 GET /index/%7B%7Bhttp_sources%7D%7D/Home/images/m1.jpg
+[ info ] 1.shop.com/index/%7B%7Bhttp_sources%7D%7D/Home/images/m1.jpg [运行时间：0.100006s][吞吐率：10.00req/s] [内存消耗：1,896.41kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => '{{http_sources}}',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://1.shop.com/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=svnaeihnee9os69urkoj6p0t27',
+)
+[ info ] [ PARAM ] array (
+  'Home' => 'images',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-02T18:09:41+08:00 ] 127.0.0.1 GET /user/user.html
+[ info ] 1.shop.com/user/user.html [运行时间：0.071004s][吞吐率：14.08req/s] [内存消耗：1,996.70kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => 'user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://1.shop.com/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=svnaeihnee9os69urkoj6p0t27',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\User->user[ D:\wamp\www\shop\application\home\controller\User.php ]
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\user\user.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: _SESSION[D:\wamp\www\shop\runtime\temp\ca5c6a312ee0d732e5fd2ac0acc9db4e.php:24]
+---------------------------------------------------------------
+[ 2018-07-02T18:09:42+08:00 ] 127.0.0.1 GET /user/__PUBLIC__/Home/images/myorder1.jpg
+[ info ] 1.shop.com/user/__PUBLIC__/Home/images/myorder1.jpg [运行时间：0.058003s][吞吐率：17.24req/s] [内存消耗：1,898.36kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'user',
+    2 => '__PUBLIC__',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://1.shop.com/user/user.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=svnaeihnee9os69urkoj6p0t27',
+)
+[ info ] [ PARAM ] array (
+  'Home' => 'images',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-02T18:09:45+08:00 ] 127.0.0.1 GET /home/user/login_out
+[ info ] 1.shop.com/home/user/login_out [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：1,576.75kb] [文件加载：38]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'home',
+    2 => 'user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://1.shop.com/user/user.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=svnaeihnee9os69urkoj6p0t27',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-02T18:09:47+08:00 ] 127.0.0.1 GET /index/index.html
+[ info ] 1.shop.com/index/index.html [运行时间：0.053004s][吞吐率：18.87req/s] [内存消耗：1,937.47kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://1.shop.com/user/user.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=svnaeihnee9os69urkoj6p0t27',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\wamp\www\shop\application\home\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\shop/application/home\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-02T18:09:47+08:00 ] 127.0.0.1 GET /index/%7B%7Bhttp_sources%7D%7D/Home/images/m1.jpg
+[ info ] 1.shop.com/index/%7B%7Bhttp_sources%7D%7D/Home/images/m1.jpg [运行时间：0.071004s][吞吐率：14.08req/s] [内存消耗：1,896.52kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => '{{http_sources}}',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://1.shop.com/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=svnaeihnee9os69urkoj6p0t27',
+)
+[ info ] [ PARAM ] array (
+  'Home' => 'images',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-02T18:09:48+08:00 ] 127.0.0.1 GET /promotion/coupon.html
+[ info ] 1.shop.com/promotion/coupon.html [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,895.99kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'promotion',
+    2 => 'coupon',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://1.shop.com/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=svnaeihnee9os69urkoj6p0t27',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-02T18:09:49+08:00 ] 127.0.0.1 GET /promotion/combo.html
+[ info ] 1.shop.com/promotion/combo.html [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：1,895.96kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'promotion',
+    2 => 'combo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://1.shop.com/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=svnaeihnee9os69urkoj6p0t27',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-02T18:09:50+08:00 ] 127.0.0.1 GET /store/store.html__MODULE__/Promotion/discount
+[ info ] 1.shop.com/store/store.html__MODULE__/Promotion/discount [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：1,897.44kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'store',
+    2 => 'store.html__MODULE__',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://1.shop.com/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=svnaeihnee9os69urkoj6p0t27',
+)
+[ info ] [ PARAM ] array (
+  'Promotion' => 'discount',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-02T18:09:51+08:00 ] 127.0.0.1 GET /index/__MODULE__/Promotion/gift
+[ info ] 1.shop.com/index/__MODULE__/Promotion/gift [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,896.63kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => '__MODULE__',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://1.shop.com/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=svnaeihnee9os69urkoj6p0t27',
+)
+[ info ] [ PARAM ] array (
+  'Promotion' => 'gift',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-02T18:09:51+08:00 ] 127.0.0.1 GET /index/__MODULE__/Promotion/coupon
+[ info ] 1.shop.com/index/__MODULE__/Promotion/coupon [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,896.55kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => '__MODULE__',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://1.shop.com/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=svnaeihnee9os69urkoj6p0t27',
+)
+[ info ] [ PARAM ] array (
+  'Promotion' => 'coupon',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-02T18:09:52+08:00 ] 127.0.0.1 GET /index/__MODULE__/Promotion/seckill
+[ info ] 1.shop.com/index/__MODULE__/Promotion/seckill [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：1,896.55kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => '__MODULE__',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://1.shop.com/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=svnaeihnee9os69urkoj6p0t27',
+)
+[ info ] [ PARAM ] array (
+  'Promotion' => 'seckill',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-02T18:09:53+08:00 ] 127.0.0.1 GET /store/store.html__MODULE__/Promotion/discount
+[ info ] 1.shop.com/store/store.html__MODULE__/Promotion/discount [运行时间：0.046003s][吞吐率：21.74req/s] [内存消耗：1,897.44kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'home'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'store',
+    2 => 'store.html__MODULE__',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '1.shop.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'text/html, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'referer' => 'http://1.shop.com/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=svnaeihnee9os69urkoj6p0t27',
+)
+[ info ] [ PARAM ] array (
+  'Promotion' => 'discount',
+)
+[ info ] [ LOG ] INIT File

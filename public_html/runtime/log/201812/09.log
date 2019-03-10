@@ -1,0 +1,3096 @@
+---------------------------------------------------------------
+[ 2018-12-09T10:39:19+08:00 ] 123.147.246.221 POST /index.php/api/index/index.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/index.html [运行时间：0.043441s][吞吐率：23.02req/s] [内存消耗：3,369.34kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 10.3.2; Scale/3.00)',
+  'accept-language' => 'zh-Hans-CN;q=1',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'dance_type_id' => '',
+  'district_id' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001904s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_district` [ RunTime:0.001552s ]
+[ sql ] [ SQL ] SELECT `district_id` FROM `yw_district` WHERE  `district_status` = 1 LIMIT 1 [ RunTime:0.001011s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001267s ]
+[ sql ] [ SQL ] SELECT `dance_type_id` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 LIMIT 1 [ RunTime:0.001094s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1  AND `district_id` = 1 LIMIT 1 [ RunTime:0.001077s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000991s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_banner` [ RunTime:0.001300s ]
+[ sql ] [ SQL ] SELECT `banner_content` FROM `yw_banner` [ RunTime:0.001013s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1 [ RunTime:0.001016s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_information` [ RunTime:0.001228s ]
+[ sql ] [ SQL ] SELECT `information_content` FROM `yw_information` WHERE  `information_area` = 0 LIMIT 1 [ RunTime:0.001033s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001370s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = 1  AND `a`.`file_false_delete` = 1 ORDER BY `file_creattime` DESC [ RunTime:0.001235s ]
+---------------------------------------------------------------
+[ 2018-12-09T10:39:23+08:00 ] 123.147.246.221 POST /index.php/api/Organization/organization_find.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Organization/organization_find.html [运行时间：0.035852s][吞吐率：27.89req/s] [内存消耗：3,369.41kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Organization',
+    2 => 'organization_find',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 10.3.2; Scale/3.00)',
+  'accept-language' => 'zh-Hans-CN;q=1',
+  'content-length' => '23',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_find[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001856s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001376s ]
+[ sql ] [ SQL ] SELECT `organization_id`,`organization_name`,`organization_cover`,`organization_site`,`organization_facility`,`organization_business_hours`,`organization_level`,`organization_district_id`,`organization_synopsis` FROM `yw_organization` WHERE  `organization_state` = 1  AND `organization_false_delete` = 1 LIMIT 1 [ RunTime:0.000945s ]
+[ sql ] [ SQL ] SELECT `c`.`file_content` FROM `yw_organization` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`organization_id`=`b`.`organization_id` LEFT JOIN `yw_file` `c` ON `b`.`file_id`=`c`.`file_id` WHERE  `c`.`file_state` = 1  AND `c`.`file_false_delete` = 1  AND `a`.`organization_id` = 1 LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_invitation` [ RunTime:0.001306s ]
+[ sql ] [ SQL ] SELECT `invitation_organization_id`,`invitation_interview_site`,`invitation_interview_time`,`invitation_dance_type`,`invitation_age_demand`,`invitation_explain`,`invitation_organization_picture`,`invitation_organization_picture2` FROM `yw_invitation` WHERE  `invitation_organization_id` = 1 LIMIT 1 [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SELECT `c`.`curriculum_id`,`c`.`curriculum_photo`,`c`.`curriculum_name`,`c`.`curriculum_admin`,`c`.`curriculum_difficulty`,`c`.`curriculum_state`,`c`.`curriculum_actual_price`,`c`.`curriculum_start_time`,`c`.`curriculum_over_time` FROM `yw_organization` `a` LEFT JOIN `yw_organization_curriculum` `b` ON `a`.`organization_id`=`b`.`organization_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `a`.`organization_id` = 1  AND `c`.`curriculum_show` = 1 [ RunTime:0.000975s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization_teacher` [ RunTime:0.001215s ]
+[ sql ] [ SQL ] SELECT `organization_teacher_id`,`organization_id`,`teacher_photo`,`teacher_name`,`teacher_level`,`teacher_master`,`teacher_intro` FROM `yw_organization_teacher` WHERE  `organization_id` = 1  AND `teacher_show` = 1 [ RunTime:0.000989s ]
+---------------------------------------------------------------
+[ 2018-12-09T10:39:44+08:00 ] 123.147.246.221 POST /index.php/api/Organization/organization_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Organization/organization_list.html [运行时间：0.027995s][吞吐率：35.72req/s] [内存消耗：3,346.99kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Organization',
+    2 => 'organization_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 10.3.2; Scale/3.00)',
+  'accept-language' => 'zh-Hans-CN;q=1',
+  'content-length' => '62',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'dance_type_id' => '1',
+  'district_id' => '1',
+  'organization_name' => '',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_list[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001834s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001366s ]
+[ sql ] [ SQL ] SELECT `organization_id`,`organization_name`,`organization_cover`,`organization_site`,`organization_facility`,`organization_business_hours`,`organization_level`,`organization_district_id`,`organization_type` FROM `yw_organization` WHERE  `organization_state` = 1  AND `organization_name` LIKE '%%' ORDER BY `organization_level` DESC LIMIT 0,10 [ RunTime:0.001168s ]
+---------------------------------------------------------------
+[ 2018-12-09T10:39:47+08:00 ] 123.147.246.221 POST /index.php/api/Organization/organization_find.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Organization/organization_find.html [运行时间：0.036527s][吞吐率：27.38req/s] [内存消耗：3,369.41kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Organization',
+    2 => 'organization_find',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 10.3.2; Scale/3.00)',
+  'accept-language' => 'zh-Hans-CN;q=1',
+  'content-length' => '23',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_find[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002104s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001446s ]
+[ sql ] [ SQL ] SELECT `organization_id`,`organization_name`,`organization_cover`,`organization_site`,`organization_facility`,`organization_business_hours`,`organization_level`,`organization_district_id`,`organization_synopsis` FROM `yw_organization` WHERE  `organization_state` = 1  AND `organization_false_delete` = 1 LIMIT 1 [ RunTime:0.000973s ]
+[ sql ] [ SQL ] SELECT `c`.`file_content` FROM `yw_organization` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`organization_id`=`b`.`organization_id` LEFT JOIN `yw_file` `c` ON `b`.`file_id`=`c`.`file_id` WHERE  `c`.`file_state` = 1  AND `c`.`file_false_delete` = 1  AND `a`.`organization_id` = 1 LIMIT 1 [ RunTime:0.000906s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_invitation` [ RunTime:0.001475s ]
+[ sql ] [ SQL ] SELECT `invitation_organization_id`,`invitation_interview_site`,`invitation_interview_time`,`invitation_dance_type`,`invitation_age_demand`,`invitation_explain`,`invitation_organization_picture`,`invitation_organization_picture2` FROM `yw_invitation` WHERE  `invitation_organization_id` = 1 LIMIT 1 [ RunTime:0.000973s ]
+[ sql ] [ SQL ] SELECT `c`.`curriculum_id`,`c`.`curriculum_photo`,`c`.`curriculum_name`,`c`.`curriculum_admin`,`c`.`curriculum_difficulty`,`c`.`curriculum_state`,`c`.`curriculum_actual_price`,`c`.`curriculum_start_time`,`c`.`curriculum_over_time` FROM `yw_organization` `a` LEFT JOIN `yw_organization_curriculum` `b` ON `a`.`organization_id`=`b`.`organization_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `a`.`organization_id` = 1  AND `c`.`curriculum_show` = 1 [ RunTime:0.000904s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization_teacher` [ RunTime:0.001186s ]
+[ sql ] [ SQL ] SELECT `organization_teacher_id`,`organization_id`,`teacher_photo`,`teacher_name`,`teacher_level`,`teacher_master`,`teacher_intro` FROM `yw_organization_teacher` WHERE  `organization_id` = 1  AND `teacher_show` = 1 [ RunTime:0.000919s ]
+---------------------------------------------------------------
+[ 2018-12-09T10:39:49+08:00 ] 123.147.246.221 POST /index.php/api/Organization/organization_find.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Organization/organization_find.html [运行时间：0.036916s][吞吐率：27.09req/s] [内存消耗：3,369.41kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Organization',
+    2 => 'organization_find',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 10.3.2; Scale/3.00)',
+  'accept-language' => 'zh-Hans-CN;q=1',
+  'content-length' => '23',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_find[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001837s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001365s ]
+[ sql ] [ SQL ] SELECT `organization_id`,`organization_name`,`organization_cover`,`organization_site`,`organization_facility`,`organization_business_hours`,`organization_level`,`organization_district_id`,`organization_synopsis` FROM `yw_organization` WHERE  `organization_state` = 1  AND `organization_false_delete` = 1 LIMIT 1 [ RunTime:0.000995s ]
+[ sql ] [ SQL ] SELECT `c`.`file_content` FROM `yw_organization` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`organization_id`=`b`.`organization_id` LEFT JOIN `yw_file` `c` ON `b`.`file_id`=`c`.`file_id` WHERE  `c`.`file_state` = 1  AND `c`.`file_false_delete` = 1  AND `a`.`organization_id` = 1 LIMIT 1 [ RunTime:0.001002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_invitation` [ RunTime:0.001197s ]
+[ sql ] [ SQL ] SELECT `invitation_organization_id`,`invitation_interview_site`,`invitation_interview_time`,`invitation_dance_type`,`invitation_age_demand`,`invitation_explain`,`invitation_organization_picture`,`invitation_organization_picture2` FROM `yw_invitation` WHERE  `invitation_organization_id` = 1 LIMIT 1 [ RunTime:0.000986s ]
+[ sql ] [ SQL ] SELECT `c`.`curriculum_id`,`c`.`curriculum_photo`,`c`.`curriculum_name`,`c`.`curriculum_admin`,`c`.`curriculum_difficulty`,`c`.`curriculum_state`,`c`.`curriculum_actual_price`,`c`.`curriculum_start_time`,`c`.`curriculum_over_time` FROM `yw_organization` `a` LEFT JOIN `yw_organization_curriculum` `b` ON `a`.`organization_id`=`b`.`organization_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `a`.`organization_id` = 1  AND `c`.`curriculum_show` = 1 [ RunTime:0.000987s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization_teacher` [ RunTime:0.001450s ]
+[ sql ] [ SQL ] SELECT `organization_teacher_id`,`organization_id`,`teacher_photo`,`teacher_name`,`teacher_level`,`teacher_master`,`teacher_intro` FROM `yw_organization_teacher` WHERE  `organization_id` = 1  AND `teacher_show` = 1 [ RunTime:0.000992s ]
+---------------------------------------------------------------
+[ 2018-12-09T14:41:28+08:00 ] 221.216.136.205 GET /index.php/api/
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/ [运行时间：0.022746s][吞吐率：43.96req/s] [内存消耗：2,354.21kb] [文件加载：47]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: district_id[/www/web/yuewu/public_html/application/api/controller/Index.php:16]
+---------------------------------------------------------------
+[ 2018-12-09T14:45:41+08:00 ] 221.216.136.205 GET /index.php/api/Login/user_login.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Login/user_login.html [运行时间：0.027631s][吞吐率：36.19req/s] [内存消耗：3,197.27kb] [文件加载：53]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Login',
+    2 => 'user_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/index.php/api/Login/user_login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Login->user_login[ /www/web/yuewu/public_html/application/api/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: phone[/www/web/yuewu/public_html/application/api/controller/Login.php:14]
+---------------------------------------------------------------
+[ 2018-12-09T14:46:28+08:00 ] 221.216.136.205 GET /index.php/api/index/index.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/index.html [运行时间：0.018032s][吞吐率：55.46req/s] [内存消耗：2,355.02kb] [文件加载：47]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://yuewu.dazhu-ltd.cn/index.php/api/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: district_id[/www/web/yuewu/public_html/application/api/controller/Index.php:16]
+---------------------------------------------------------------
+[ 2018-12-09T14:47:17+08:00 ] 221.216.136.205 GET /index.php/api/index/index.html%EF%BC%9Fdistrict_id=1
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/index.html%EF%BC%9Fdistrict_id=1 [运行时间：0.019238s][吞吐率：51.98req/s] [内存消耗：2,342.38kb] [文件加载：46]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index.html？district_id=1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-09T14:47:31+08:00 ] 221.216.136.205 GET /index.php/api/index/index.html?district_id=1
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/index.html?district_id=1 [运行时间：0.018386s][吞吐率：54.39req/s] [内存消耗：2,354.90kb] [文件加载：47]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: district_id[/www/web/yuewu/public_html/application/api/controller/Index.php:16]
+---------------------------------------------------------------
+[ 2018-12-09T15:29:35+08:00 ] 111.201.200.134 POST /index.php/api/index/index.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/index.html [运行时间：0.040753s][吞吐率：24.54req/s] [内存消耗：3,368.98kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'en;q=1',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'dance_type_id' => '',
+  'district_id' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001779s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_district` [ RunTime:0.001306s ]
+[ sql ] [ SQL ] SELECT `district_id` FROM `yw_district` WHERE  `district_status` = 1 LIMIT 1 [ RunTime:0.001018s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001210s ]
+[ sql ] [ SQL ] SELECT `dance_type_id` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 LIMIT 1 [ RunTime:0.000914s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1  AND `district_id` = 1 LIMIT 1 [ RunTime:0.000963s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000872s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_banner` [ RunTime:0.001250s ]
+[ sql ] [ SQL ] SELECT `banner_content` FROM `yw_banner` [ RunTime:0.000940s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1 [ RunTime:0.000978s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_information` [ RunTime:0.001120s ]
+[ sql ] [ SQL ] SELECT `information_content` FROM `yw_information` WHERE  `information_area` = 0 LIMIT 1 [ RunTime:0.000894s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001196s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = 1  AND `a`.`file_false_delete` = 1 ORDER BY `file_creattime` DESC [ RunTime:0.001112s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:32:31+08:00 ] 111.201.200.134 POST /index.php/api/index/index.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/index.html [运行时间：0.047140s][吞吐率：21.21req/s] [内存消耗：3,369.27kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'dance_type_id' => '',
+  'district_id' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002120s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_district` [ RunTime:0.001551s ]
+[ sql ] [ SQL ] SELECT `district_id` FROM `yw_district` WHERE  `district_status` = 1 LIMIT 1 [ RunTime:0.001077s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001266s ]
+[ sql ] [ SQL ] SELECT `dance_type_id` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 LIMIT 1 [ RunTime:0.001120s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1  AND `district_id` = 1 LIMIT 1 [ RunTime:0.001135s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.001036s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_banner` [ RunTime:0.001285s ]
+[ sql ] [ SQL ] SELECT `banner_content` FROM `yw_banner` [ RunTime:0.000908s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1 [ RunTime:0.000865s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_information` [ RunTime:0.001274s ]
+[ sql ] [ SQL ] SELECT `information_content` FROM `yw_information` WHERE  `information_area` = 0 LIMIT 1 [ RunTime:0.001004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001243s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = 1  AND `a`.`file_false_delete` = 1 ORDER BY `file_creattime` DESC [ RunTime:0.001090s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:36:28+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.028933s][吞吐率：34.56req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001969s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001582s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.001035s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:40:39+08:00 ] 111.201.200.134 POST /index.php/api/index/all_courses.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/all_courses.html [运行时间：0.040450s][吞吐率：24.72req/s] [内存消耗：3,347.77kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'all_courses',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '24',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'paging' => '1',
+  'seek' => '',
+)
+[ info ] [ RUN ] app\api\controller\Index->all_courses[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007337s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_curriculum` [ RunTime:0.001636s ]
+[ sql ] [ SQL ] SELECT `a`.`curriculum_id`,`curriculum_admin`,`curriculum_name`,`curriculum_actual_price`,`curriculum_difficulty`,`a`.`curriculum_start_time`,`a`.`curriculum_over_time`,`c`.`organization_id`,`organization_name`,`organization_portrait`,`organization_site`,`organization_level` FROM `yw_curriculum` `a` LEFT JOIN `yw_organization_curriculum` `b` ON `a`.`curriculum_id`=`b`.`curriculum_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` WHERE  `a`.`curriculum_state` = 1  AND `c`.`organization_false_delete` = 1  AND `c`.`organization_state` = 1  AND `a`.`curriculum_false_delete` = 1  AND `curriculum_name` LIKE '%%' ORDER BY `a`.`curriculum_creattime` DESC LIMIT 0,10 [ RunTime:0.001429s ]
+[ sql ] [ SQL ] SELECT `a`.`curriculum_id`,`a`.`curriculum_admin`,`c`.`teacher_portrait`,`a`.`curriculum_name`,`a`.`curriculum_actual_price`,`a`.`curriculum_difficulty`,`a`.`curriculum_start_time`,`a`.`curriculum_over_time` FROM `yw_curriculum` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`curriculum_id`=`b`.`curriculum_id` LEFT JOIN `yw_user_teacher` `c` ON `c`.`user_teacher_id`=`b`.`user_teacher_id` WHERE  `a`.`curriculum_state` = 1  AND `c`.`teacher_state` = 1  AND `teacher_false_delete` = 1  AND `a`.`curriculum_false_delete` = 1  AND `curriculum_name` LIKE '%%' ORDER BY `a`.`curriculum_creattime` DESC LIMIT 0,10 [ RunTime:0.005310s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:40:44+08:00 ] 111.201.200.134 POST /index.php/api/Organization/organization_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Organization/organization_list.html [运行时间：0.028590s][吞吐率：34.98req/s] [内存消耗：3,346.91kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Organization',
+    2 => 'organization_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'en;q=1',
+  'content-length' => '62',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'dance_type_id' => '1',
+  'district_id' => '1',
+  'organization_name' => '',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_list[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001702s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001426s ]
+[ sql ] [ SQL ] SELECT `organization_id`,`organization_name`,`organization_cover`,`organization_site`,`organization_facility`,`organization_business_hours`,`organization_level`,`organization_district_id`,`organization_type` FROM `yw_organization` WHERE  `organization_state` = 1  AND `organization_name` LIKE '%%' ORDER BY `organization_level` DESC LIMIT 0,10 [ RunTime:0.001039s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:40:53+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.027622s][吞吐率：36.20req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001809s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001454s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.001014s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:40:58+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.027546s][吞吐率：36.30req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001773s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001503s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.000975s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:41:12+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.027753s][吞吐率：36.03req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001902s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001483s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.000981s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:41:57+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.028682s][吞吐率：34.87req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001865s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001445s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.001048s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:42:13+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.028013s][吞吐率：35.70req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001943s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001493s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.001081s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:42:19+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.028047s][吞吐率：35.65req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001750s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001461s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.001024s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:42:27+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.028640s][吞吐率：34.92req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001852s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001385s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.001077s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:42:31+08:00 ] 111.201.200.134 POST /index.php/api/teacher/teacher_fans.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/teacher/teacher_fans.html [运行时间：0.029357s][吞吐率：34.06req/s] [内存消耗：3,305.50kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'teacher',
+    2 => 'teacher_fans',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '62',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+  'paging' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_fans[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001781s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001387s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.001034s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:42:34+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.038147s][吞吐率：26.21req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001964s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001574s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.001045s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:42:39+08:00 ] 111.201.200.134 POST /index.php/api/user/user_datum_update.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_datum_update.html [运行时间：0.028728s][吞吐率：34.81req/s] [内存消耗：3,366.46kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_datum_update',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_datum_update[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001753s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001450s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_portrait`,`user_signature`,`user_token` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac'  AND `user_status` = 1  AND `user_false_delete` = 1 LIMIT 1 [ RunTime:0.002133s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:42:41+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.027582s][吞吐率：36.26req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001829s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001405s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.000988s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:42:46+08:00 ] 111.201.200.134 POST /index.php/api/Organization/organization_find.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Organization/organization_find.html [运行时间：0.038937s][吞吐率：25.68req/s] [内存消耗：3,369.23kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Organization',
+    2 => 'organization_find',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'en;q=1',
+  'content-length' => '23',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_find[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001748s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001539s ]
+[ sql ] [ SQL ] SELECT `organization_id`,`organization_name`,`organization_cover`,`organization_site`,`organization_facility`,`organization_business_hours`,`organization_level`,`organization_district_id`,`organization_synopsis` FROM `yw_organization` WHERE  `organization_state` = 1  AND `organization_false_delete` = 1 LIMIT 1 [ RunTime:0.000987s ]
+[ sql ] [ SQL ] SELECT `c`.`file_content` FROM `yw_organization` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`organization_id`=`b`.`organization_id` LEFT JOIN `yw_file` `c` ON `b`.`file_id`=`c`.`file_id` WHERE  `c`.`file_state` = 1  AND `c`.`file_false_delete` = 1  AND `a`.`organization_id` = 1 LIMIT 1 [ RunTime:0.000926s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_invitation` [ RunTime:0.001259s ]
+[ sql ] [ SQL ] SELECT `invitation_organization_id`,`invitation_interview_site`,`invitation_interview_time`,`invitation_dance_type`,`invitation_age_demand`,`invitation_explain`,`invitation_organization_picture`,`invitation_organization_picture2` FROM `yw_invitation` WHERE  `invitation_organization_id` = 1 LIMIT 1 [ RunTime:0.000892s ]
+[ sql ] [ SQL ] SELECT `c`.`curriculum_id`,`c`.`curriculum_photo`,`c`.`curriculum_name`,`c`.`curriculum_admin`,`c`.`curriculum_difficulty`,`c`.`curriculum_state`,`c`.`curriculum_actual_price`,`c`.`curriculum_start_time`,`c`.`curriculum_over_time` FROM `yw_organization` `a` LEFT JOIN `yw_organization_curriculum` `b` ON `a`.`organization_id`=`b`.`organization_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `a`.`organization_id` = 1  AND `c`.`curriculum_show` = 1 [ RunTime:0.001240s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization_teacher` [ RunTime:0.001319s ]
+[ sql ] [ SQL ] SELECT `organization_teacher_id`,`organization_id`,`teacher_photo`,`teacher_name`,`teacher_level`,`teacher_master`,`teacher_intro` FROM `yw_organization_teacher` WHERE  `organization_id` = 1  AND `teacher_show` = 1 [ RunTime:0.001038s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:43:10+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.029159s][吞吐率：34.29req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001814s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001439s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.001110s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:43:14+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.028651s][吞吐率：34.90req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001908s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001395s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.001112s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:43:18+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.027567s][吞吐率：36.28req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001735s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001354s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.000905s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:43:25+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.027842s][吞吐率：35.92req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001601s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001429s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.001022s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:43:37+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.027870s][吞吐率：35.88req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001988s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001387s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.001012s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:43:53+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.029756s][吞吐率：33.61req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001753s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001363s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.001081s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:44:10+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.028033s][吞吐率：35.67req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001815s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001428s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.000942s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:46:33+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.028123s][吞吐率：35.56req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001988s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001449s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.001114s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:46:54+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.029241s][吞吐率：34.20req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001824s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001417s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.000888s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:48:26+08:00 ] 111.201.200.134 POST /index.php/api/user/user_datum_update.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_datum_update.html [运行时间：0.028100s][吞吐率：35.59req/s] [内存消耗：3,366.46kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_datum_update',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_datum_update[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001820s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001407s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_portrait`,`user_signature`,`user_token` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac'  AND `user_status` = 1  AND `user_false_delete` = 1 LIMIT 1 [ RunTime:0.001032s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:48:28+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.027350s][吞吐率：36.56req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001752s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001430s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.000928s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:48:33+08:00 ] 111.201.200.134 POST /index.php/api/user/user_datum_update.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_datum_update.html [运行时间：0.027825s][吞吐率：35.94req/s] [内存消耗：3,366.46kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_datum_update',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_datum_update[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001817s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001279s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_portrait`,`user_signature`,`user_token` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac'  AND `user_status` = 1  AND `user_false_delete` = 1 LIMIT 1 [ RunTime:0.001078s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:48:36+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.043739s][吞吐率：22.86req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011982s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.002086s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.005616s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:48:39+08:00 ] 111.201.200.134 POST /index.php/api/user/user_datum_update.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_datum_update.html [运行时间：0.028449s][吞吐率：35.15req/s] [内存消耗：3,366.46kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_datum_update',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_datum_update[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001982s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001412s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_portrait`,`user_signature`,`user_token` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac'  AND `user_status` = 1  AND `user_false_delete` = 1 LIMIT 1 [ RunTime:0.001183s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:48:41+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.036458s][吞吐率：27.43req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002006s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001489s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.001060s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:49:14+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.028269s][吞吐率：35.37req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001669s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001497s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.001062s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:49:18+08:00 ] 111.201.200.134 POST /index.php/api/user/user_datum_update.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_datum_update.html [运行时间：0.027696s][吞吐率：36.11req/s] [内存消耗：3,366.46kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_datum_update',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_datum_update[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001735s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001396s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_portrait`,`user_signature`,`user_token` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac'  AND `user_status` = 1  AND `user_false_delete` = 1 LIMIT 1 [ RunTime:0.000935s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:49:21+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.027802s][吞吐率：35.97req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001639s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001382s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.001053s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:49:28+08:00 ] 111.201.200.134 POST /index.php/api/user/user_datum_update.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_datum_update.html [运行时间：0.026993s][吞吐率：37.05req/s] [内存消耗：3,366.46kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_datum_update',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_datum_update[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001771s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001343s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_portrait`,`user_signature`,`user_token` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac'  AND `user_status` = 1  AND `user_false_delete` = 1 LIMIT 1 [ RunTime:0.001033s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:49:30+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.028415s][吞吐率：35.19req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001936s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001536s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.001037s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:49:33+08:00 ] 111.201.200.134 POST /index.php/api/teacher/teacher_fans.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/teacher/teacher_fans.html [运行时间：0.027562s][吞吐率：36.28req/s] [内存消耗：3,305.50kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'teacher',
+    2 => 'teacher_fans',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '62',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+  'paging' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_fans[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001855s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001394s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.001011s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:49:35+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.029919s][吞吐率：33.42req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001768s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001321s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.000995s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:49:51+08:00 ] 111.201.200.134 POST /index.php/api/user/user_datum_update.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_datum_update.html [运行时间：0.028562s][吞吐率：35.01req/s] [内存消耗：3,366.46kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_datum_update',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_datum_update[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001834s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001412s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_portrait`,`user_signature`,`user_token` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac'  AND `user_status` = 1  AND `user_false_delete` = 1 LIMIT 1 [ RunTime:0.001041s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:49:53+08:00 ] 101.86.127.160 POST /index.php/api/index/index.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/index.html [运行时间：0.042405s][吞吐率：23.58req/s] [内存消耗：3,369.34kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.0; Scale/3.00)',
+  'accept-language' => 'zh-Hans-CN;q=1',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'dance_type_id' => '',
+  'district_id' => '',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001712s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_district` [ RunTime:0.001407s ]
+[ sql ] [ SQL ] SELECT `district_id` FROM `yw_district` WHERE  `district_status` = 1 LIMIT 1 [ RunTime:0.001004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001155s ]
+[ sql ] [ SQL ] SELECT `dance_type_id` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 LIMIT 1 [ RunTime:0.001075s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1  AND `district_id` = 1 LIMIT 1 [ RunTime:0.000910s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.001511s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_banner` [ RunTime:0.001229s ]
+[ sql ] [ SQL ] SELECT `banner_content` FROM `yw_banner` [ RunTime:0.000831s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1 [ RunTime:0.000997s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_information` [ RunTime:0.001131s ]
+[ sql ] [ SQL ] SELECT `information_content` FROM `yw_information` WHERE  `information_area` = 0 LIMIT 1 [ RunTime:0.000912s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001207s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = 1  AND `a`.`file_false_delete` = 1 ORDER BY `file_creattime` DESC [ RunTime:0.001030s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:49:53+08:00 ] 101.86.127.160 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.059340s][吞吐率：16.85req/s] [内存消耗：3,379.59kb] [文件加载：51]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.0; Scale/3.00)',
+  'accept-language' => 'zh-Hans-CN;q=1',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '7ed2d9700755f796251f9a7fc2fd9f57',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001706s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001432s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '7ed2d9700755f796251f9a7fc2fd9f57' LIMIT 1 [ RunTime:0.001084s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_chat` [ RunTime:0.015318s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_chat` WHERE  `chat_fid` = 7  AND `chat_state` = 2 LIMIT 1 [ RunTime:0.002254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_discounts` [ RunTime:0.002397s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_user_discounts` `a` LEFT JOIN `yw_user` `b` ON `a`.`user_id`=`b`.`user_id` WHERE  `a`.`user_id` = 7  AND `user_discounts_read_state` = 2 LIMIT 1 [ RunTime:0.001123s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:49:54+08:00 ] 101.86.127.160 POST /index.php/api/user/user_datum_update.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_datum_update.html [运行时间：0.028658s][吞吐率：34.89req/s] [内存消耗：3,366.94kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_datum_update',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.0; Scale/3.00)',
+  'accept-language' => 'zh-Hans-CN;q=1',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '7ed2d9700755f796251f9a7fc2fd9f57',
+)
+[ info ] [ RUN ] app\api\controller\User->user_datum_update[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002076s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001375s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_portrait`,`user_signature`,`user_token` FROM `yw_user` WHERE  `user_token` = '7ed2d9700755f796251f9a7fc2fd9f57'  AND `user_status` = 1  AND `user_false_delete` = 1 LIMIT 1 [ RunTime:0.001085s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:49:54+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.030303s][吞吐率：33.00req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001956s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001330s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:49:56+08:00 ] 101.86.127.160 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.046651s][吞吐率：21.44req/s] [内存消耗：3,379.59kb] [文件加载：51]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.0; Scale/3.00)',
+  'accept-language' => 'zh-Hans-CN;q=1',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '7ed2d9700755f796251f9a7fc2fd9f57',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002642s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.006609s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '7ed2d9700755f796251f9a7fc2fd9f57' LIMIT 1 [ RunTime:0.006227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_chat` [ RunTime:0.001933s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_chat` WHERE  `chat_fid` = 7  AND `chat_state` = 2 LIMIT 1 [ RunTime:0.001666s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_discounts` [ RunTime:0.001528s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_user_discounts` `a` LEFT JOIN `yw_user` `b` ON `a`.`user_id`=`b`.`user_id` WHERE  `a`.`user_id` = 7  AND `user_discounts_read_state` = 2 LIMIT 1 [ RunTime:0.001296s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:50:03+08:00 ] 111.201.200.134 POST /index.php/api/Organization/organization_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Organization/organization_list.html [运行时间：0.029039s][吞吐率：34.44req/s] [内存消耗：3,346.86kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Organization',
+    2 => 'organization_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '62',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'dance_type_id' => '1',
+  'district_id' => '1',
+  'organization_name' => '',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_list[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001785s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001532s ]
+[ sql ] [ SQL ] SELECT `organization_id`,`organization_name`,`organization_cover`,`organization_site`,`organization_facility`,`organization_business_hours`,`organization_level`,`organization_district_id`,`organization_type` FROM `yw_organization` WHERE  `organization_state` = 1  AND `organization_name` LIKE '%%' ORDER BY `organization_level` DESC LIMIT 0,10 [ RunTime:0.001026s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:50:05+08:00 ] 111.201.200.134 POST /index.php/api/Organization/organization_find.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Organization/organization_find.html [运行时间：0.035639s][吞吐率：28.06req/s] [内存消耗：3,369.22kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Organization',
+    2 => 'organization_find',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '23',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_find[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001642s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001371s ]
+[ sql ] [ SQL ] SELECT `organization_id`,`organization_name`,`organization_cover`,`organization_site`,`organization_facility`,`organization_business_hours`,`organization_level`,`organization_district_id`,`organization_synopsis` FROM `yw_organization` WHERE  `organization_state` = 1  AND `organization_false_delete` = 1 LIMIT 1 [ RunTime:0.000949s ]
+[ sql ] [ SQL ] SELECT `c`.`file_content` FROM `yw_organization` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`organization_id`=`b`.`organization_id` LEFT JOIN `yw_file` `c` ON `b`.`file_id`=`c`.`file_id` WHERE  `c`.`file_state` = 1  AND `c`.`file_false_delete` = 1  AND `a`.`organization_id` = 1 LIMIT 1 [ RunTime:0.001012s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_invitation` [ RunTime:0.001237s ]
+[ sql ] [ SQL ] SELECT `invitation_organization_id`,`invitation_interview_site`,`invitation_interview_time`,`invitation_dance_type`,`invitation_age_demand`,`invitation_explain`,`invitation_organization_picture`,`invitation_organization_picture2` FROM `yw_invitation` WHERE  `invitation_organization_id` = 1 LIMIT 1 [ RunTime:0.000912s ]
+[ sql ] [ SQL ] SELECT `c`.`curriculum_id`,`c`.`curriculum_photo`,`c`.`curriculum_name`,`c`.`curriculum_admin`,`c`.`curriculum_difficulty`,`c`.`curriculum_state`,`c`.`curriculum_actual_price`,`c`.`curriculum_start_time`,`c`.`curriculum_over_time` FROM `yw_organization` `a` LEFT JOIN `yw_organization_curriculum` `b` ON `a`.`organization_id`=`b`.`organization_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `a`.`organization_id` = 1  AND `c`.`curriculum_show` = 1 [ RunTime:0.000856s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization_teacher` [ RunTime:0.001201s ]
+[ sql ] [ SQL ] SELECT `organization_teacher_id`,`organization_id`,`teacher_photo`,`teacher_name`,`teacher_level`,`teacher_master`,`teacher_intro` FROM `yw_organization_teacher` WHERE  `organization_id` = 1  AND `teacher_show` = 1 [ RunTime:0.000950s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:50:09+08:00 ] 111.201.200.134 POST /index.php/api/Teacher/teacher_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_list.html [运行时间：0.027895s][吞吐率：35.85req/s] [内存消耗：3,310.24kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '57',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'dance_type_id' => '1',
+  'district_id' => '1',
+  'teacher_seek' => '',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_list[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001717s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001357s ]
+[ sql ] [ SQL ] SELECT `user_teacher_id`,`user_id`,`teacher_portrait`,`teacher_name`,`teacher_attention`,`teacher_level`,`teacher_master`,`teacher_intro` FROM `yw_user_teacher` WHERE  `teacher_false_delete` = 1  AND `teacher_state` = 1  AND `district_id` = 1  AND `teacher_name` LIKE '%%' ORDER BY `teacher_level` DESC [ RunTime:0.000949s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:50:10+08:00 ] 111.201.200.134 POST /index.php/api/Teacher/teacher_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_details.html [运行时间：0.027045s][吞吐率：36.98req/s] [内存消耗：3,305.65kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '71',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+  'user_teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001703s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001283s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.000945s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:50:18+08:00 ] 111.201.200.134 POST /index.php/api/index/all_courses.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/all_courses.html [运行时间：0.037102s][吞吐率：26.95req/s] [内存消耗：3,347.77kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'all_courses',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '24',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'paging' => '1',
+  'seek' => '',
+)
+[ info ] [ RUN ] app\api\controller\Index->all_courses[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002229s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_curriculum` [ RunTime:0.002053s ]
+[ sql ] [ SQL ] SELECT `a`.`curriculum_id`,`curriculum_admin`,`curriculum_name`,`curriculum_actual_price`,`curriculum_difficulty`,`a`.`curriculum_start_time`,`a`.`curriculum_over_time`,`c`.`organization_id`,`organization_name`,`organization_portrait`,`organization_site`,`organization_level` FROM `yw_curriculum` `a` LEFT JOIN `yw_organization_curriculum` `b` ON `a`.`curriculum_id`=`b`.`curriculum_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` WHERE  `a`.`curriculum_state` = 1  AND `c`.`organization_false_delete` = 1  AND `c`.`organization_state` = 1  AND `a`.`curriculum_false_delete` = 1  AND `curriculum_name` LIKE '%%' ORDER BY `a`.`curriculum_creattime` DESC LIMIT 0,10 [ RunTime:0.001404s ]
+[ sql ] [ SQL ] SELECT `a`.`curriculum_id`,`a`.`curriculum_admin`,`c`.`teacher_portrait`,`a`.`curriculum_name`,`a`.`curriculum_actual_price`,`a`.`curriculum_difficulty`,`a`.`curriculum_start_time`,`a`.`curriculum_over_time` FROM `yw_curriculum` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`curriculum_id`=`b`.`curriculum_id` LEFT JOIN `yw_user_teacher` `c` ON `c`.`user_teacher_id`=`b`.`user_teacher_id` WHERE  `a`.`curriculum_state` = 1  AND `c`.`teacher_state` = 1  AND `teacher_false_delete` = 1  AND `a`.`curriculum_false_delete` = 1  AND `curriculum_name` LIKE '%%' ORDER BY `a`.`curriculum_creattime` DESC LIMIT 0,10 [ RunTime:0.001563s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:50:24+08:00 ] 111.201.200.134 POST /index.php/api/index/splendid_video.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/splendid_video.html [运行时间：0.030950s][吞吐率：32.31req/s] [内存消耗：3,345.97kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'splendid_video',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '81',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'district_id' => '1',
+  'dance_type_id' => '1',
+  'order' => '1',
+  'seek' => '',
+  'file_category' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->splendid_video[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001913s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001441s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000952s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001199s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait` FROM `yw_file` `a` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` WHERE  `file_category` = 2  AND `a`.`district_id` = '1'  AND `dance_type_id` = 1  AND `a`.`file_false_delete` = 1  AND `a`.`file_name` LIKE '%%' ORDER BY `file_creattime` DESC [ RunTime:0.001272s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:50:35+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.028642s][吞吐率：34.91req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002684s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001599s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.000930s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:56:38+08:00 ] 111.201.200.134 POST /index.php/api/Organization/organization_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Organization/organization_list.html [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：3,346.86kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Organization',
+    2 => 'organization_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '62',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'dance_type_id' => '1',
+  'district_id' => '1',
+  'organization_name' => '',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_list[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001961s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001455s ]
+[ sql ] [ SQL ] SELECT `organization_id`,`organization_name`,`organization_cover`,`organization_site`,`organization_facility`,`organization_business_hours`,`organization_level`,`organization_district_id`,`organization_type` FROM `yw_organization` WHERE  `organization_state` = 1  AND `organization_name` LIKE '%%' ORDER BY `organization_level` DESC LIMIT 0,10 [ RunTime:0.001030s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:56:39+08:00 ] 111.201.200.134 POST /index.php/api/Organization/organization_find.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Organization/organization_find.html [运行时间：0.039276s][吞吐率：25.46req/s] [内存消耗：3,369.22kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Organization',
+    2 => 'organization_find',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '23',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_find[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001980s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001449s ]
+[ sql ] [ SQL ] SELECT `organization_id`,`organization_name`,`organization_cover`,`organization_site`,`organization_facility`,`organization_business_hours`,`organization_level`,`organization_district_id`,`organization_synopsis` FROM `yw_organization` WHERE  `organization_state` = 1  AND `organization_false_delete` = 1 LIMIT 1 [ RunTime:0.001162s ]
+[ sql ] [ SQL ] SELECT `c`.`file_content` FROM `yw_organization` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`organization_id`=`b`.`organization_id` LEFT JOIN `yw_file` `c` ON `b`.`file_id`=`c`.`file_id` WHERE  `c`.`file_state` = 1  AND `c`.`file_false_delete` = 1  AND `a`.`organization_id` = 1 LIMIT 1 [ RunTime:0.001120s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_invitation` [ RunTime:0.001218s ]
+[ sql ] [ SQL ] SELECT `invitation_organization_id`,`invitation_interview_site`,`invitation_interview_time`,`invitation_dance_type`,`invitation_age_demand`,`invitation_explain`,`invitation_organization_picture`,`invitation_organization_picture2` FROM `yw_invitation` WHERE  `invitation_organization_id` = 1 LIMIT 1 [ RunTime:0.001045s ]
+[ sql ] [ SQL ] SELECT `c`.`curriculum_id`,`c`.`curriculum_photo`,`c`.`curriculum_name`,`c`.`curriculum_admin`,`c`.`curriculum_difficulty`,`c`.`curriculum_state`,`c`.`curriculum_actual_price`,`c`.`curriculum_start_time`,`c`.`curriculum_over_time` FROM `yw_organization` `a` LEFT JOIN `yw_organization_curriculum` `b` ON `a`.`organization_id`=`b`.`organization_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `a`.`organization_id` = 1  AND `c`.`curriculum_show` = 1 [ RunTime:0.000986s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization_teacher` [ RunTime:0.001426s ]
+[ sql ] [ SQL ] SELECT `organization_teacher_id`,`organization_id`,`teacher_photo`,`teacher_name`,`teacher_level`,`teacher_master`,`teacher_intro` FROM `yw_organization_teacher` WHERE  `organization_id` = 1  AND `teacher_show` = 1 [ RunTime:0.000999s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:57:06+08:00 ] 101.86.127.160 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.035697s][吞吐率：28.01req/s] [内存消耗：3,379.59kb] [文件加载：51]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.0; Scale/3.00)',
+  'accept-language' => 'zh-Hans-CN;q=1',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '7ed2d9700755f796251f9a7fc2fd9f57',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001774s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001469s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '7ed2d9700755f796251f9a7fc2fd9f57' LIMIT 1 [ RunTime:0.000930s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_chat` [ RunTime:0.001327s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_chat` WHERE  `chat_fid` = 7  AND `chat_state` = 2 LIMIT 1 [ RunTime:0.000923s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_discounts` [ RunTime:0.001311s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_user_discounts` `a` LEFT JOIN `yw_user` `b` ON `a`.`user_id`=`b`.`user_id` WHERE  `a`.`user_id` = 7  AND `user_discounts_read_state` = 2 LIMIT 1 [ RunTime:0.000969s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:57:09+08:00 ] 101.86.127.160 POST /index.php/api/Organization/organization_find.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Organization/organization_find.html [运行时间：0.035786s][吞吐率：27.94req/s] [内存消耗：3,369.41kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Organization',
+    2 => 'organization_find',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.0; Scale/3.00)',
+  'accept-language' => 'zh-Hans-CN;q=1',
+  'content-length' => '23',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'organization_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_find[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001691s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001491s ]
+[ sql ] [ SQL ] SELECT `organization_id`,`organization_name`,`organization_cover`,`organization_site`,`organization_facility`,`organization_business_hours`,`organization_level`,`organization_district_id`,`organization_synopsis` FROM `yw_organization` WHERE  `organization_state` = 1  AND `organization_false_delete` = 1 LIMIT 1 [ RunTime:0.001102s ]
+[ sql ] [ SQL ] SELECT `c`.`file_content` FROM `yw_organization` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`organization_id`=`b`.`organization_id` LEFT JOIN `yw_file` `c` ON `b`.`file_id`=`c`.`file_id` WHERE  `c`.`file_state` = 1  AND `c`.`file_false_delete` = 1  AND `a`.`organization_id` = 1 LIMIT 1 [ RunTime:0.000958s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_invitation` [ RunTime:0.001282s ]
+[ sql ] [ SQL ] SELECT `invitation_organization_id`,`invitation_interview_site`,`invitation_interview_time`,`invitation_dance_type`,`invitation_age_demand`,`invitation_explain`,`invitation_organization_picture`,`invitation_organization_picture2` FROM `yw_invitation` WHERE  `invitation_organization_id` = 1 LIMIT 1 [ RunTime:0.001050s ]
+[ sql ] [ SQL ] SELECT `c`.`curriculum_id`,`c`.`curriculum_photo`,`c`.`curriculum_name`,`c`.`curriculum_admin`,`c`.`curriculum_difficulty`,`c`.`curriculum_state`,`c`.`curriculum_actual_price`,`c`.`curriculum_start_time`,`c`.`curriculum_over_time` FROM `yw_organization` `a` LEFT JOIN `yw_organization_curriculum` `b` ON `a`.`organization_id`=`b`.`organization_id` LEFT JOIN `yw_curriculum` `c` ON `b`.`curriculum_id`=`c`.`curriculum_id` WHERE  `a`.`organization_id` = 1  AND `c`.`curriculum_show` = 1 [ RunTime:0.000921s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization_teacher` [ RunTime:0.001124s ]
+[ sql ] [ SQL ] SELECT `organization_teacher_id`,`organization_id`,`teacher_photo`,`teacher_name`,`teacher_level`,`teacher_master`,`teacher_intro` FROM `yw_organization_teacher` WHERE  `organization_id` = 1  AND `teacher_show` = 1 [ RunTime:0.000955s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:57:13+08:00 ] 101.86.127.160 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.033404s][吞吐率：29.94req/s] [内存消耗：3,379.59kb] [文件加载：51]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.0; Scale/3.00)',
+  'accept-language' => 'zh-Hans-CN;q=1',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '7ed2d9700755f796251f9a7fc2fd9f57',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001776s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001392s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '7ed2d9700755f796251f9a7fc2fd9f57' LIMIT 1 [ RunTime:0.001054s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_chat` [ RunTime:0.001252s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_chat` WHERE  `chat_fid` = 7  AND `chat_state` = 2 LIMIT 1 [ RunTime:0.001020s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_discounts` [ RunTime:0.001279s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_user_discounts` `a` LEFT JOIN `yw_user` `b` ON `a`.`user_id`=`b`.`user_id` WHERE  `a`.`user_id` = 7  AND `user_discounts_read_state` = 2 LIMIT 1 [ RunTime:0.000894s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:57:25+08:00 ] 101.86.127.160 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.033305s][吞吐率：30.03req/s] [内存消耗：3,379.59kb] [文件加载：51]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.0; Scale/3.00)',
+  'accept-language' => 'zh-Hans-CN;q=1',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '7ed2d9700755f796251f9a7fc2fd9f57',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001854s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001341s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '7ed2d9700755f796251f9a7fc2fd9f57' LIMIT 1 [ RunTime:0.001079s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_chat` [ RunTime:0.001284s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_chat` WHERE  `chat_fid` = 7  AND `chat_state` = 2 LIMIT 1 [ RunTime:0.000936s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_discounts` [ RunTime:0.001393s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_user_discounts` `a` LEFT JOIN `yw_user` `b` ON `a`.`user_id`=`b`.`user_id` WHERE  `a`.`user_id` = 7  AND `user_discounts_read_state` = 2 LIMIT 1 [ RunTime:0.000996s ]
+---------------------------------------------------------------
+[ 2018-12-09T15:57:42+08:00 ] 101.86.127.160 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.034604s][吞吐率：28.90req/s] [内存消耗：3,379.59kb] [文件加载：51]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.0; Scale/3.00)',
+  'accept-language' => 'zh-Hans-CN;q=1',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '7ed2d9700755f796251f9a7fc2fd9f57',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002533s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001434s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '7ed2d9700755f796251f9a7fc2fd9f57' LIMIT 1 [ RunTime:0.001518s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_chat` [ RunTime:0.001504s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_chat` WHERE  `chat_fid` = 7  AND `chat_state` = 2 LIMIT 1 [ RunTime:0.000939s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_discounts` [ RunTime:0.001313s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_user_discounts` `a` LEFT JOIN `yw_user` `b` ON `a`.`user_id`=`b`.`user_id` WHERE  `a`.`user_id` = 7  AND `user_discounts_read_state` = 2 LIMIT 1 [ RunTime:0.000994s ]
+---------------------------------------------------------------
+[ 2018-12-09T16:00:35+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.028975s][吞吐率：34.51req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002162s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001482s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.000990s ]
+---------------------------------------------------------------
+[ 2018-12-09T16:02:49+08:00 ] 111.201.200.134 POST /index.php/api/Teacher/teacher_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/teacher_list.html [运行时间：0.027981s][吞吐率：35.74req/s] [内存消耗：3,310.14kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'teacher_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'en;q=1',
+  'content-length' => '57',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'dance_type_id' => '1',
+  'district_id' => '1',
+  'teacher_seek' => '',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->teacher_list[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001680s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001500s ]
+[ sql ] [ SQL ] SELECT `user_teacher_id`,`user_id`,`teacher_portrait`,`teacher_name`,`teacher_attention`,`teacher_level`,`teacher_master`,`teacher_intro` FROM `yw_user_teacher` WHERE  `teacher_false_delete` = 1  AND `teacher_state` = 1  AND `district_id` = 1  AND `teacher_name` LIKE '%%' ORDER BY `teacher_level` DESC [ RunTime:0.001103s ]
+---------------------------------------------------------------
+[ 2018-12-09T16:06:39+08:00 ] 111.201.200.134 POST /index.php/api/index/all_courses.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/all_courses.html [运行时间：0.029226s][吞吐率：34.22req/s] [内存消耗：3,347.77kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'all_courses',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '24',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'paging' => '1',
+  'seek' => '',
+)
+[ info ] [ RUN ] app\api\controller\Index->all_courses[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001901s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_curriculum` [ RunTime:0.001466s ]
+[ sql ] [ SQL ] SELECT `a`.`curriculum_id`,`curriculum_admin`,`curriculum_name`,`curriculum_actual_price`,`curriculum_difficulty`,`a`.`curriculum_start_time`,`a`.`curriculum_over_time`,`c`.`organization_id`,`organization_name`,`organization_portrait`,`organization_site`,`organization_level` FROM `yw_curriculum` `a` LEFT JOIN `yw_organization_curriculum` `b` ON `a`.`curriculum_id`=`b`.`curriculum_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` WHERE  `a`.`curriculum_state` = 1  AND `c`.`organization_false_delete` = 1  AND `c`.`organization_state` = 1  AND `a`.`curriculum_false_delete` = 1  AND `curriculum_name` LIKE '%%' ORDER BY `a`.`curriculum_creattime` DESC LIMIT 0,10 [ RunTime:0.001031s ]
+[ sql ] [ SQL ] SELECT `a`.`curriculum_id`,`a`.`curriculum_admin`,`c`.`teacher_portrait`,`a`.`curriculum_name`,`a`.`curriculum_actual_price`,`a`.`curriculum_difficulty`,`a`.`curriculum_start_time`,`a`.`curriculum_over_time` FROM `yw_curriculum` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`curriculum_id`=`b`.`curriculum_id` LEFT JOIN `yw_user_teacher` `c` ON `c`.`user_teacher_id`=`b`.`user_teacher_id` WHERE  `a`.`curriculum_state` = 1  AND `c`.`teacher_state` = 1  AND `teacher_false_delete` = 1  AND `a`.`curriculum_false_delete` = 1  AND `curriculum_name` LIKE '%%' ORDER BY `a`.`curriculum_creattime` DESC LIMIT 0,10 [ RunTime:0.000997s ]
+---------------------------------------------------------------
+[ 2018-12-09T16:06:51+08:00 ] 111.201.200.134 POST /index.php/api/index/all_courses.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/all_courses.html [运行时间：0.029255s][吞吐率：34.18req/s] [内存消耗：3,347.77kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'all_courses',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '24',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'paging' => '1',
+  'seek' => '',
+)
+[ info ] [ RUN ] app\api\controller\Index->all_courses[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001836s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_curriculum` [ RunTime:0.001467s ]
+[ sql ] [ SQL ] SELECT `a`.`curriculum_id`,`curriculum_admin`,`curriculum_name`,`curriculum_actual_price`,`curriculum_difficulty`,`a`.`curriculum_start_time`,`a`.`curriculum_over_time`,`c`.`organization_id`,`organization_name`,`organization_portrait`,`organization_site`,`organization_level` FROM `yw_curriculum` `a` LEFT JOIN `yw_organization_curriculum` `b` ON `a`.`curriculum_id`=`b`.`curriculum_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` WHERE  `a`.`curriculum_state` = 1  AND `c`.`organization_false_delete` = 1  AND `c`.`organization_state` = 1  AND `a`.`curriculum_false_delete` = 1  AND `curriculum_name` LIKE '%%' ORDER BY `a`.`curriculum_creattime` DESC LIMIT 0,10 [ RunTime:0.001017s ]
+[ sql ] [ SQL ] SELECT `a`.`curriculum_id`,`a`.`curriculum_admin`,`c`.`teacher_portrait`,`a`.`curriculum_name`,`a`.`curriculum_actual_price`,`a`.`curriculum_difficulty`,`a`.`curriculum_start_time`,`a`.`curriculum_over_time` FROM `yw_curriculum` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`curriculum_id`=`b`.`curriculum_id` LEFT JOIN `yw_user_teacher` `c` ON `c`.`user_teacher_id`=`b`.`user_teacher_id` WHERE  `a`.`curriculum_state` = 1  AND `c`.`teacher_state` = 1  AND `teacher_false_delete` = 1  AND `a`.`curriculum_false_delete` = 1  AND `curriculum_name` LIKE '%%' ORDER BY `a`.`curriculum_creattime` DESC LIMIT 0,10 [ RunTime:0.001211s ]
+---------------------------------------------------------------
+[ 2018-12-09T16:07:03+08:00 ] 111.201.200.134 POST /index.php/api/index/all_courses.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/all_courses.html [运行时间：0.030333s][吞吐率：32.97req/s] [内存消耗：3,347.77kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'all_courses',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '24',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'paging' => '1',
+  'seek' => '',
+)
+[ info ] [ RUN ] app\api\controller\Index->all_courses[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002373s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_curriculum` [ RunTime:0.001580s ]
+[ sql ] [ SQL ] SELECT `a`.`curriculum_id`,`curriculum_admin`,`curriculum_name`,`curriculum_actual_price`,`curriculum_difficulty`,`a`.`curriculum_start_time`,`a`.`curriculum_over_time`,`c`.`organization_id`,`organization_name`,`organization_portrait`,`organization_site`,`organization_level` FROM `yw_curriculum` `a` LEFT JOIN `yw_organization_curriculum` `b` ON `a`.`curriculum_id`=`b`.`curriculum_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` WHERE  `a`.`curriculum_state` = 1  AND `c`.`organization_false_delete` = 1  AND `c`.`organization_state` = 1  AND `a`.`curriculum_false_delete` = 1  AND `curriculum_name` LIKE '%%' ORDER BY `a`.`curriculum_creattime` DESC LIMIT 0,10 [ RunTime:0.001040s ]
+[ sql ] [ SQL ] SELECT `a`.`curriculum_id`,`a`.`curriculum_admin`,`c`.`teacher_portrait`,`a`.`curriculum_name`,`a`.`curriculum_actual_price`,`a`.`curriculum_difficulty`,`a`.`curriculum_start_time`,`a`.`curriculum_over_time` FROM `yw_curriculum` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`curriculum_id`=`b`.`curriculum_id` LEFT JOIN `yw_user_teacher` `c` ON `c`.`user_teacher_id`=`b`.`user_teacher_id` WHERE  `a`.`curriculum_state` = 1  AND `c`.`teacher_state` = 1  AND `teacher_false_delete` = 1  AND `a`.`curriculum_false_delete` = 1  AND `curriculum_name` LIKE '%%' ORDER BY `a`.`curriculum_creattime` DESC LIMIT 0,10 [ RunTime:0.001139s ]
+---------------------------------------------------------------
+[ 2018-12-09T16:08:56+08:00 ] 111.201.200.134 POST /index.php/api/index/index.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/index.html [运行时间：0.040262s][吞吐率：24.84req/s] [内存消耗：3,367.98kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '50',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'dance_type_id' => '',
+  'district_id' => '1',
+  'order' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001754s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001368s ]
+[ sql ] [ SQL ] SELECT `dance_type_id` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 LIMIT 1 [ RunTime:0.000926s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_district` [ RunTime:0.001265s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1  AND `district_id` = 1 LIMIT 1 [ RunTime:0.001011s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000879s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_banner` [ RunTime:0.001348s ]
+[ sql ] [ SQL ] SELECT `banner_content` FROM `yw_banner` [ RunTime:0.001050s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1 [ RunTime:0.000915s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_information` [ RunTime:0.001186s ]
+[ sql ] [ SQL ] SELECT `information_content` FROM `yw_information` WHERE  `information_area` = 0 LIMIT 1 [ RunTime:0.000913s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001233s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = '1'  AND `a`.`file_false_delete` = 1 ORDER BY `file_creattime` DESC [ RunTime:0.001186s ]
+---------------------------------------------------------------
+[ 2018-12-09T16:09:12+08:00 ] 111.201.200.134 POST /index.php/api/Organization/organization_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Organization/organization_list.html [运行时间：0.028494s][吞吐率：35.10req/s] [内存消耗：3,346.86kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Organization',
+    2 => 'organization_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '62',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'dance_type_id' => '1',
+  'district_id' => '1',
+  'organization_name' => '',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_list[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001794s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001323s ]
+[ sql ] [ SQL ] SELECT `organization_id`,`organization_name`,`organization_cover`,`organization_site`,`organization_facility`,`organization_business_hours`,`organization_level`,`organization_district_id`,`organization_type` FROM `yw_organization` WHERE  `organization_state` = 1  AND `organization_name` LIKE '%%' ORDER BY `organization_level` DESC LIMIT 0,10 [ RunTime:0.001135s ]
+---------------------------------------------------------------
+[ 2018-12-09T16:11:52+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.028536s][吞吐率：35.04req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001911s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001521s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.000982s ]
+---------------------------------------------------------------
+[ 2018-12-09T16:13:46+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.028078s][吞吐率：35.61req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001935s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001407s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.001066s ]
+---------------------------------------------------------------
+[ 2018-12-09T16:14:03+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.028922s][吞吐率：34.58req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001675s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001382s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.000984s ]
+---------------------------------------------------------------
+[ 2018-12-09T16:14:24+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.027775s][吞吐率：36.00req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001779s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001361s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.001049s ]
+---------------------------------------------------------------
+[ 2018-12-09T16:16:13+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.032039s][吞吐率：31.21req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003029s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001530s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.001006s ]
+---------------------------------------------------------------
+[ 2018-12-09T16:19:00+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.028290s][吞吐率：35.35req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001874s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001452s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.001138s ]
+---------------------------------------------------------------
+[ 2018-12-09T16:20:52+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.028315s][吞吐率：35.32req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002329s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001481s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.000975s ]
+---------------------------------------------------------------
+[ 2018-12-09T16:20:54+08:00 ] 111.201.200.134 POST /index.php/api/user/user_datum_update.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_datum_update.html [运行时间：0.028245s][吞吐率：35.40req/s] [内存消耗：3,366.46kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_datum_update',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_datum_update[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001884s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001386s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_portrait`,`user_signature`,`user_token` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac'  AND `user_status` = 1  AND `user_false_delete` = 1 LIMIT 1 [ RunTime:0.001090s ]
+---------------------------------------------------------------
+[ 2018-12-09T16:22:03+08:00 ] 111.201.200.134 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.028223s][吞吐率：35.43req/s] [内存消耗：3,366.10kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '49',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '435068f2640f4f954d29a756bad4c9ac',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001846s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001335s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '435068f2640f4f954d29a756bad4c9ac' LIMIT 1 [ RunTime:0.000992s ]
+---------------------------------------------------------------
+[ 2018-12-09T16:22:08+08:00 ] 111.201.200.134 POST /index.php/api/Organization/organization_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Organization/organization_list.html [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：3,346.86kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Organization',
+    2 => 'organization_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '62',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'dance_type_id' => '1',
+  'district_id' => '1',
+  'organization_name' => '',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_list[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001742s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001433s ]
+[ sql ] [ SQL ] SELECT `organization_id`,`organization_name`,`organization_cover`,`organization_site`,`organization_facility`,`organization_business_hours`,`organization_level`,`organization_district_id`,`organization_type` FROM `yw_organization` WHERE  `organization_state` = 1  AND `organization_name` LIKE '%%' ORDER BY `organization_level` DESC LIMIT 0,10 [ RunTime:0.000952s ]
+---------------------------------------------------------------
+[ 2018-12-09T16:22:10+08:00 ] 111.201.200.134 POST /index.php/api/Organization/organization_list.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Organization/organization_list.html [运行时间：0.028612s][吞吐率：34.95req/s] [内存消耗：3,346.86kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Organization',
+    2 => 'organization_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'content-type' => 'application/json',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'TJ-ZXJY/1.0 (iPhone; iOS 12.1; Scale/2.00)',
+  'accept-language' => 'zh-Hans-US;q=1, en;q=0.9',
+  'content-length' => '62',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'dance_type_id' => '1',
+  'district_id' => '1',
+  'organization_name' => '',
+)
+[ info ] [ RUN ] app\api\controller\Organization->organization_list[ /www/web/yuewu/public_html/application/api/controller/Organization.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001930s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001579s ]
+[ sql ] [ SQL ] SELECT `organization_id`,`organization_name`,`organization_cover`,`organization_site`,`organization_facility`,`organization_business_hours`,`organization_level`,`organization_district_id`,`organization_type` FROM `yw_organization` WHERE  `organization_state` = 1  AND `organization_name` LIKE '%%' ORDER BY `organization_level` DESC LIMIT 0,10 [ RunTime:0.001095s ]
+---------------------------------------------------------------
+[ 2018-12-09T21:18:58+08:00 ] 218.68.220.86 POST /index.php/api/index/index.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/index.html [运行时间：0.038612s][吞吐率：25.90req/s] [内存消耗：3,366.38kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'token' => '',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '37',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'dance_type_id' => '1',
+  'order' => '1',
+  'district_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001878s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_district` [ RunTime:0.001340s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1  AND `district_id` = 1 LIMIT 1 [ RunTime:0.000993s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001162s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000848s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_banner` [ RunTime:0.001219s ]
+[ sql ] [ SQL ] SELECT `banner_content` FROM `yw_banner` [ RunTime:0.000965s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1 [ RunTime:0.000980s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_information` [ RunTime:0.001200s ]
+[ sql ] [ SQL ] SELECT `information_content` FROM `yw_information` WHERE  `information_area` = 0 LIMIT 1 [ RunTime:0.000925s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001207s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = '1'  AND `a`.`file_false_delete` = 1 ORDER BY `file_creattime` DESC [ RunTime:0.000984s ]
+---------------------------------------------------------------
+[ 2018-12-09T21:19:11+08:00 ] 218.68.220.86 POST /index.php/api/index/index.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/index.html [运行时间：0.038826s][吞吐率：25.76req/s] [内存消耗：3,366.38kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'token' => '',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '37',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'dance_type_id' => '2',
+  'order' => '1',
+  'district_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002019s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_district` [ RunTime:0.001300s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1  AND `district_id` = 1 LIMIT 1 [ RunTime:0.000937s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001307s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000960s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_banner` [ RunTime:0.001176s ]
+[ sql ] [ SQL ] SELECT `banner_content` FROM `yw_banner` [ RunTime:0.000895s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1 [ RunTime:0.000868s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_information` [ RunTime:0.001112s ]
+[ sql ] [ SQL ] SELECT `information_content` FROM `yw_information` WHERE  `information_area` = 0 LIMIT 1 [ RunTime:0.000953s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001170s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = '1'  AND `a`.`file_false_delete` = 1 ORDER BY `file_creattime` DESC [ RunTime:0.001053s ]
+---------------------------------------------------------------
+[ 2018-12-09T21:19:12+08:00 ] 218.68.220.86 POST /index.php/api/index/index.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/index.html [运行时间：0.039711s][吞吐率：25.18req/s] [内存消耗：3,366.38kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'token' => '',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '37',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'dance_type_id' => '1',
+  'order' => '1',
+  'district_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001926s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_district` [ RunTime:0.001384s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1  AND `district_id` = 1 LIMIT 1 [ RunTime:0.001391s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001149s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000967s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_banner` [ RunTime:0.001659s ]
+[ sql ] [ SQL ] SELECT `banner_content` FROM `yw_banner` [ RunTime:0.000939s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1 [ RunTime:0.001008s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_information` [ RunTime:0.001084s ]
+[ sql ] [ SQL ] SELECT `information_content` FROM `yw_information` WHERE  `information_area` = 0 LIMIT 1 [ RunTime:0.000823s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001066s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = '1'  AND `a`.`file_false_delete` = 1 ORDER BY `file_creattime` DESC [ RunTime:0.001005s ]
+---------------------------------------------------------------
+[ 2018-12-09T21:19:20+08:00 ] 218.68.220.86 POST /index.php/api/index/index.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/index/index.html [运行时间：0.038154s][吞吐率：26.21req/s] [内存消耗：3,366.38kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'token' => '',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '37',
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'okhttp/3.10.0',
+)
+[ info ] [ PARAM ] array (
+  'dance_type_id' => '1',
+  'order' => '1',
+  'district_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Index->index[ /www/web/yuewu/public_html/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001955s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_district` [ RunTime:0.001312s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1  AND `district_id` = 1 LIMIT 1 [ RunTime:0.000960s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_dance_type` [ RunTime:0.001122s ]
+[ sql ] [ SQL ] SELECT `dance_type_id`,`dance_type_name` FROM `yw_dance_type` WHERE  `dance_type_status` = 1 [ RunTime:0.000856s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_banner` [ RunTime:0.001061s ]
+[ sql ] [ SQL ] SELECT `banner_content` FROM `yw_banner` [ RunTime:0.000785s ]
+[ sql ] [ SQL ] SELECT `district_id`,`district_name` FROM `yw_district` WHERE  `district_status` = 1 [ RunTime:0.000870s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_information` [ RunTime:0.001088s ]
+[ sql ] [ SQL ] SELECT `information_content` FROM `yw_information` WHERE  `information_area` = 0 LIMIT 1 [ RunTime:0.000909s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001160s ]
+[ sql ] [ SQL ] SELECT a.file_id as file_id,`a`.`file_cover`,`a`.`file_category`,`g`.`user_name`,`g`.`user_id`,`g`.`user_portrait`,`a`.`file_name`,`a`.`file_collection`,`e`.`teacher_name`,`e`.`user_teacher_id`,`e`.`teacher_portrait`,`c`.`organization_name`,`c`.`organization_portrait`,`c`.`organization_id` FROM `yw_file` `a` LEFT JOIN `yw_file_organization` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_organization` `c` ON `b`.`organization_id`=`c`.`organization_id` LEFT JOIN `yw_file_user_teacher` `d` ON `a`.`file_id`=`d`.`file_id` LEFT JOIN `yw_user_teacher` `e` ON `d`.`user_teacher_id`=`e`.`user_teacher_id` LEFT JOIN `yw_file_user` `f` ON `a`.`file_id`=`f`.`file_id` LEFT JOIN `yw_user` `g` ON `f`.`user_id`=`g`.`user_id` WHERE  `a`.`district_id` = '1'  AND `a`.`file_false_delete` = 1 ORDER BY `file_creattime` DESC [ RunTime:0.001070s ]

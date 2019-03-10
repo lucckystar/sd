@@ -1,0 +1,56 @@
+<div class="details-navigation">
+  <h1>Widgets <span><a href="javascript:history.go(-1);">返回</a></span></h1>
+  <ol>{$right_nav_li}</ol>
+</div>
+<div class="details-body">
+    <div class="details-rows">
+      <div class="dr-12">
+        <div class="data-box">
+          <div class="db-header">日志列表</div>
+          <div class="db-body">
+            <form class="dbb-search" action="__URL__/staff_log" method="get">
+                <div class="dr-pr-3">
+                    <div class="input-group">
+                        <span class="input-group-addon">门店名称</span>
+                        <input type="text" class="form-control" name="store_name">
+                    </div>
+                </div>
+                <div class="dr-pr-3">
+                    <div class="input-group">
+                        <span class="input-group-addon">操作ip：</span>
+                        <input type="ip" class="form-control">
+                    </div>
+                </div>
+                <div class="dr-pr-3">
+                    <button type="submit" class="btn btn-info"><i class="fa fa-search"></i> 搜索</button>
+                </div>
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>管理员</th>
+                        <th>操作名称</th>
+                        <th>操作时间</th>
+                        <th>操作ip</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <volist name="lists" id="v">
+                    <tr>
+                        <td>{$v.staff_username}</td>
+                        <td>{$v.staff_log_name}</td>
+                        <td>{$v.staff_log_time|time_to_date='Y-m-d H:i:s'}</td>
+                        <td>{$v.staff_log_ip|long2ip}</td>
+                    </tr>
+                    </volist>
+                </tbody>
+            </table>
+          </div>
+          <div class="db-footer">
+              <button type="submit" class="btn btn-success">添加</button>
+              <div class="dbf-page">{$page}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

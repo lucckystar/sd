@@ -1,0 +1,161 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title> - 基础表格</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="shortcut icon" href="favicon.ico"> <link href="__admin__/css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+    <link href="__admin__/css/font-awesome.css?v=4.4.0" rel="stylesheet">
+    <link href="__admin__/css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="__admin__/css/animate.css" rel="stylesheet">
+    <link href="__admin__/css/style.css?v=4.1.0" rel="stylesheet">
+
+</head>
+
+<body class="gray-bg">
+    <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="row">
+            
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>
+                            机构待审核列表
+                        </h5>
+                    </div>
+                    <div class="ibox-content">
+                        <div class="row">
+                        <form action="{:url('organization/organization_check_list')}">
+                            <div class="col-sm-3">
+                            <div class="input-group">
+                                <input type="text" name="seek" placeholder="请输入机构名称" value="{$seek}" class="input-sm form-control"> <span class="input-group-btn">
+                                <button type="submit" class="btn btn-sm btn-primary">搜索</button> </span>
+                            </div>
+                        </div>
+                        </form>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <!-- <th width="70px"></th> -->
+                                        <th width="170px">
+                                            申请机构id
+                                        </th>
+                                        <th width="200px">
+                                            机构头像
+                                        </th>
+                                        <th width="170px">
+                                            机构名称
+                                        </th>
+                                        <th width="170px">
+                                            申请用户
+                                        </th>
+                                        <th width="170px">
+                                            申请账号
+                                        </th>
+                                        <th width="170px">所属地区</th>
+                                        <th width="170px">教师状态</th>
+                                        
+                                        <!-- <th width="170px">
+                                            机构关注数
+                                        </th> -->
+                                        <!-- <th width="170px">
+                                            机构状态
+                                        </th> -->
+                                        <th>操作</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+{volist name="organization_select" id="vo"}
+                                    <tr>
+                                        <!-- <td>
+                                            <input type="checkbox" class="i-checks" name="input[]">
+                                        </td> -->
+                                        <td>{$vo.organization_id}</td>
+                                        <td ><img width="55" height="55" alt="机构头像" src="__uploads__/{$vo.organization_portrait}"/></td>
+                                        <td>{$vo.organization_name}</td>
+                                        <td>{$vo.user_name}</td>
+                                        <td>{$vo.user_phone}</td>
+                                        <td>{$vo.district_name}</td>
+                                        <td>
+                                        {if condition="strtoupper($vo['organization_state']) eq 1"/}正常
+                                        {elseif condition="strtoupper($vo['organization_state']) eq 2"/}封停
+                                        {elseif condition="strtoupper($vo['organization_state']) eq 3"/}待审核
+                                        {/if}
+                                        </td>
+                                        
+                                        <td>
+                                        <a type="button" class="btn btn-outline btn-info" href="{:url('organization/organization_apply_details',['organization_id'=>$vo['organization_id']])}">详情</a>
+                                        <a type="button" class="btn btn-outline btn-success" href="{:url('organization/organization_pass',['organization_id'=>$vo['organization_id']])}">通过</a>
+                                        <a type="button" class="btn btn-outline btn-danger" href="{:url('organization/organization_reject',['organization_id'=>$vo['organization_id']])}" onClick="return confirm('确定要驳回   <{$vo.user_name}>    的申请   ?')">驳回</a>
+                                        </td>
+                                    </tr>
+{/volist}
+                                </tbody>
+                            </table>
+<!--                             <a href="{:url('Information/videos_add')}" type="button" class="btn btn-outline btn-success">添加</a>
+ -->                        </div>
+                        <div style="align-content: center;" class="btn-group">
+                            {$organization_select->render()}
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <!-- <div class="btn-group">
+                    <button type="button" class="btn btn-white"><i class="fa fa-chevron-left"></i>
+                    </button>
+                    <button class="btn btn-white">1</button>
+                    <button class="btn btn-white">2</button>
+                    <button class="btn btn-white">3</button>
+                    <button class="btn btn-white">4</button>
+                    <button type="button" class="btn btn-white"><i class="fa fa-chevron-right"></i>
+                    </button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- 全局js -->
+    <script src="__admin__/js/jquery.min.js?v=2.1.4"></script>
+    <script src="__admin__/js/bootstrap.min.js?v=3.3.6"></script>
+
+
+
+    <!-- Peity -->
+    <script src="__admin__/js/plugins/peity/jquery.peity.min.js"></script>
+
+    <!-- 自定义js -->
+    <script src="__admin__/js/content.js?v=1.0.0"></script>
+
+
+    <!-- iCheck -->
+    <script src="__admin__/js/plugins/iCheck/icheck.min.js"></script>
+
+    <!-- Peity -->
+    <script src="__admin__/js/demo/peity-demo.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.i-checks').iCheck({
+                checkboxClass: 'icheckbox_square-green',
+                radioClass: 'iradio_square-green',
+            });
+        });
+    </script>
+
+    
+    
+
+</body>
+
+</html>

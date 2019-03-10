@@ -1,0 +1,2892 @@
+---------------------------------------------------------------
+[ 2018-11-22T10:38:58+08:00 ] 111.163.133.51 POST /index.php/api/Teacher/curriculum_buy.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/curriculum_buy.html [运行时间：0.024261s][吞吐率：41.22req/s] [内存消耗：3,222.22kb] [文件加载：53]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'curriculum_buy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '353',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarydPGY7YxydPJ3WmUA',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'current_date' => '2018-11-21',
+  'curriculum_id' => '',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->curriculum_buy[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: user_teacher_id[/www/web/yuewu/public_html/application/api/controller/Teacher.php:97]
+---------------------------------------------------------------
+[ 2018-11-22T10:39:43+08:00 ] 111.163.133.51 POST /index.php/api/Teacher/curriculum_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/curriculum_details.html [运行时间：0.017724s][吞吐率：56.42req/s] [内存消耗：2,240.68kb] [文件加载：46]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'curriculum_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '353',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryyD52o1WuGOgFfBcj',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'current_date' => '2018-11-21',
+  'curriculum_id' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-22T10:40:49+08:00 ] 111.163.133.51 POST /index.php/api/Teacher/curriculum_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/curriculum_details.html [运行时间：0.014430s][吞吐率：69.30req/s] [内存消耗：1,905.70kb] [文件加载：40]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'curriculum_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '353',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryKQOzHUoFKdnwkJia',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'current_date' => '2018-11-21',
+  'curriculum_id' => '',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected ')', expecting variable (T_VARIABLE) or '$'[/www/web/yuewu/public_html/application/api/controller/Teacher.php:98]
+---------------------------------------------------------------
+[ 2018-11-22T10:41:23+08:00 ] 111.163.133.51 POST /index.php/api/Teacher/curriculum_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/curriculum_details.html [运行时间：0.017642s][吞吐率：56.68req/s] [内存消耗：2,249.03kb] [文件加载：47]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'curriculum_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '353',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryp9HRzKXNAfl9I5xz',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'current_date' => '2018-11-21',
+  'curriculum_id' => '',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->curriculum_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: curriculum_data[/www/web/yuewu/public_html/application/api/controller/Teacher.php:96]
+---------------------------------------------------------------
+[ 2018-11-22T10:41:51+08:00 ] 111.163.133.51 POST /index.php/api/Teacher/curriculum_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/curriculum_details.html [运行时间：0.017741s][吞吐率：56.37req/s] [内存消耗：2,249.45kb] [文件加载：47]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'curriculum_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '465',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryw7vCuAq0tTELL7KU',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'current_date' => '2018-11-21',
+  'curriculum_id' => '',
+  'curriculum_data' => '2018-10-31',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->curriculum_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: curriculum_data[/www/web/yuewu/public_html/application/api/controller/Teacher.php:96]
+---------------------------------------------------------------
+[ 2018-11-22T10:41:57+08:00 ] 111.163.133.51 POST /index.php/api/Teacher/curriculum_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/curriculum_details.html [运行时间：0.017807s][吞吐率：56.16req/s] [内存消耗：2,249.45kb] [文件加载：47]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'curriculum_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '465',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryJycLuBzxJXE3sUsb',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'current_date' => '2018-11-21',
+  'curriculum_id' => '',
+  'curriculum_data' => '2018-10-31',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->curriculum_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: curriculum_data[/www/web/yuewu/public_html/application/api/controller/Teacher.php:96]
+---------------------------------------------------------------
+[ 2018-11-22T10:42:05+08:00 ] 111.163.133.51 POST /index.php/api/Teacher/curriculum_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/curriculum_details.html [运行时间：0.017427s][吞吐率：57.38req/s] [内存消耗：2,249.04kb] [文件加载：47]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'curriculum_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '462',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary6RDOaA9PAdGBNhB2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'current_date' => '2018-10-31',
+  'curriculum_id' => '',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->curriculum_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: curriculum_data[/www/web/yuewu/public_html/application/api/controller/Teacher.php:96]
+---------------------------------------------------------------
+[ 2018-11-22T10:42:32+08:00 ] 111.163.133.51 POST /index.php/api/Teacher/curriculum_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/curriculum_details.html [运行时间：0.027119s][吞吐率：36.87req/s] [内存消耗：3,235.70kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'curriculum_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '462',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryYENzcboNaLzvYhnB',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'current_date' => '2018-10-31',
+  'curriculum_id' => '',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->curriculum_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001565s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_curriculum` [ RunTime:0.001481s ]
+[ sql ] [ SQL ] SELECT `curriculum_id`,`curriculum_name`,`curriculum_admin`,`curriculum_actual_price`,`curriculum_difficulty`,`curriculum_start_time`,`curriculum_over_time`,`now_people_number`,`curriculum_introduce_picture` FROM `yw_curriculum` WHERE  `curriculum_id` = 0 LIMIT 1 [ RunTime:0.001066s ]
+---------------------------------------------------------------
+[ 2018-11-22T10:56:18+08:00 ] 111.163.133.51 POST /index.php/api/Teacher/curriculum_more.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/curriculum_more.html [运行时间：0.027210s][吞吐率：36.75req/s] [内存消耗：3,238.92kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'curriculum_more',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '356',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarysSvWdlNmbNA8d0sp',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_teacher_id' => '1',
+  'user_token' => '456',
+  'current_date' => '2018-11-22',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->curriculum_more[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001513s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_curriculum` [ RunTime:0.001323s ]
+[ sql ] [ SQL ] SELECT `a`.`curriculum_id`,`a`.`curriculum_admin`,`a`.`curriculum_name`,`a`.`curriculum_actual_price`,`a`.`curriculum_former_price`,`a`.`curriculum_difficulty`,`a`.`curriculum_start_time`,`a`.`curriculum_over_time` FROM `yw_curriculum` `a` LEFT JOIN `yw_curriculum_teacher` `b` ON `a`.`curriculum_id`=`b`.`curriculum_id` LEFT JOIN `yw_user_teacher` `c` ON `b`.`user_teacher_id`=`c`.`user_teacher_id` WHERE  `c`.`user_teacher_id` = '1'  AND `a`.`curriculum_start_time` <= 1542816000  AND `a`.`curriculum_over_time` >= 1542816000  AND `a`.`curriculum_state` = 1 OR `curriculum_effective` = 1 ORDER BY `a`.`curriculum_collect` DESC [ RunTime:0.001264s ]
+---------------------------------------------------------------
+[ 2018-11-22T10:56:21+08:00 ] 111.163.133.51 POST /index.php/api/Teacher/curriculum_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/curriculum_details.html [运行时间：0.037013s][吞吐率：27.02req/s] [内存消耗：3,236.88kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'curriculum_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '462',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryZRRjDAWBNjfm0anE',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'current_date' => '2018-10-31',
+  'curriculum_id' => '',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->curriculum_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006699s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_curriculum` [ RunTime:0.001694s ]
+[ sql ] [ SQL ] SELECT `curriculum_id`,`curriculum_name`,`curriculum_admin`,`curriculum_details`,`curriculum_actual_price`,`curriculum_difficulty`,`curriculum_start_time`,`curriculum_over_time`,`now_people_number`,`curriculum_introduce_picture` FROM `yw_curriculum` WHERE  `curriculum_id` = 0 LIMIT 1 [ RunTime:0.005565s ]
+---------------------------------------------------------------
+[ 2018-11-22T11:03:17+08:00 ] 111.163.133.51 POST /index.php/api/Teacher/curriculum_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/curriculum_details.html [运行时间：0.026711s][吞吐率：37.44req/s] [内存消耗：3,243.64kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'curriculum_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '457',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryf6fYEvSXBTDZYluN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'current_date' => '2018-11-21',
+  'curriculum_id' => '1',
+  'user_teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->curriculum_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001619s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_curriculum` [ RunTime:0.001341s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_curriculum` WHERE  `curriculum_id` = 1 LIMIT 1 [ RunTime:0.001259s ]
+---------------------------------------------------------------
+[ 2018-11-22T11:46:07+08:00 ] 111.163.133.51 POST /index.php/api/Teacher/curriculum_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/curriculum_details.html [运行时间：0.023559s][吞吐率：42.45req/s] [内存消耗：3,221.43kb] [文件加载：53]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'curriculum_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '457',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarya9d6rWpdPALVYm6Y',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'current_date' => '2018-11-21',
+  'curriculum_id' => '1',
+  'user_teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->curriculum_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: user_id[/www/web/yuewu/public_html/application/api/controller/Teacher.php:99]
+---------------------------------------------------------------
+[ 2018-11-22T11:47:05+08:00 ] 111.163.133.51 POST /index.php/api/Teacher/curriculum_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/curriculum_details.html [运行时间：0.028186s][吞吐率：35.48req/s] [内存消耗：3,289.62kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'curriculum_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '457',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryoj45RqhZsLYBP1ZP',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'current_date' => '2018-11-21',
+  'curriculum_id' => '1',
+  'user_teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->curriculum_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001637s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001216s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_token' in 'where clause'[/www/web/yuewu/public_html/thinkphp/library/think/db/Connection.php:390]
+---------------------------------------------------------------
+[ 2018-11-22T11:53:59+08:00 ] 111.163.133.51 POST /index.php/api/Teacher/curriculum_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/Teacher/curriculum_details.html [运行时间：0.031318s][吞吐率：31.93req/s] [内存消耗：3,258.01kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Teacher',
+    2 => 'curriculum_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '457',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarytC68FulAxQ2ZKvJ1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'current_date' => '2018-11-21',
+  'curriculum_id' => '1',
+  'user_teacher_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Teacher->curriculum_details[ /www/web/yuewu/public_html/application/api/controller/Teacher.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001477s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001258s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000900s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001080s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_collect` WHERE  `user_id` = 2  AND `curriculum_id` = 1 LIMIT 1 [ RunTime:0.000923s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_curriculum` [ RunTime:0.001198s ]
+[ sql ] [ SQL ] SELECT `curriculum_id`,`curriculum_admin`,`curriculum_name`,`curriculum_introduce_picture`,`curriculum_details`,`curriculum_video`,`curriculum_actual_price`,`curriculum_former_price`,`curriculum_difficulty`,`curriculum_collect`,`now_people_number` FROM `yw_curriculum` WHERE  `curriculum_id` = 1 LIMIT 1 [ RunTime:0.000923s ]
+---------------------------------------------------------------
+[ 2018-11-22T13:18:18+08:00 ] 111.163.133.51 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.042784s][吞吐率：23.37req/s] [内存消耗：3,229.55kb] [文件加载：51]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryZuMufBwvuIcBdioc',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006508s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001783s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.001702s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_chat` [ RunTime:0.001466s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_chat` WHERE  `chat_fid` = 2  AND `chat_state` = 2 LIMIT 1 [ RunTime:0.005744s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_discounts` [ RunTime:0.001184s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_user_discounts` `a` LEFT JOIN `yw_user` `b` ON `a`.`user_id`=`b`.`user_id` WHERE  `a`.`user_id` = 2  AND `user_discounts_read_state` = 2 LIMIT 1 [ RunTime:0.001046s ]
+---------------------------------------------------------------
+[ 2018-11-22T13:18:21+08:00 ] 111.163.133.51 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.031424s][吞吐率：31.82req/s] [内存消耗：3,229.55kb] [文件加载：51]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryMpoawuoYmGlzVJ9M',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001553s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001354s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000989s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_chat` [ RunTime:0.001185s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_chat` WHERE  `chat_fid` = 2  AND `chat_state` = 2 LIMIT 1 [ RunTime:0.000942s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_discounts` [ RunTime:0.001205s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_user_discounts` `a` LEFT JOIN `yw_user` `b` ON `a`.`user_id`=`b`.`user_id` WHERE  `a`.`user_id` = 2  AND `user_discounts_read_state` = 2 LIMIT 1 [ RunTime:0.000821s ]
+---------------------------------------------------------------
+[ 2018-11-22T13:18:26+08:00 ] 111.163.133.51 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.015765s][吞吐率：63.43req/s] [内存消耗：2,168.05kb] [文件加载：43]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '44',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryjtxbPnNVQeAnMug5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-22T13:18:28+08:00 ] 111.163.133.51 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.015828s][吞吐率：63.18req/s] [内存消耗：2,168.05kb] [文件加载：43]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '44',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary3pGOrBlFFwAUFYFo',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-22T13:18:33+08:00 ] 111.163.133.51 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.032591s][吞吐率：30.68req/s] [内存消耗：3,229.55kb] [文件加载：51]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryAxFXw9VvCzH1BZt2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001508s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001376s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_chat` [ RunTime:0.001113s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_chat` WHERE  `chat_fid` = 2  AND `chat_state` = 2 LIMIT 1 [ RunTime:0.000870s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_discounts` [ RunTime:0.001303s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_user_discounts` `a` LEFT JOIN `yw_user` `b` ON `a`.`user_id`=`b`.`user_id` WHERE  `a`.`user_id` = 2  AND `user_discounts_read_state` = 2 LIMIT 1 [ RunTime:0.000936s ]
+---------------------------------------------------------------
+[ 2018-11-22T13:53:04+08:00 ] 111.163.133.51 POST /index.php/api/user/user_collect.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_collect.html [运行时间：0.029409s][吞吐率：34.00req/s] [内存消耗：3,223.02kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_collect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarydwBAJA5IhnylSmNp',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_collect[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001584s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001316s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000983s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001154s ]
+[ sql ] [ SQL ] SELECT `a`.`collect_id`,`b`.`file_id`,`a`.`collect_creattime`,`b`.`file_cover`,`b`.`file_name`,`b`.`file_type`,`b`.`file_category` FROM `yw_collect` `a` LEFT JOIN `yw_file` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_dance_type` `c` ON `b`.`dance_type_id`=`c`.`dance_type_id` WHERE  `user_id` = 2  AND `file_false_delete` = 1  AND `file_state` = 1 ORDER BY `a`.`collect_creattime` DESC [ RunTime:0.000930s ]
+---------------------------------------------------------------
+[ 2018-11-22T13:53:46+08:00 ] 111.163.133.51 POST /index.php/api/user/user_collect.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_collect.html [运行时间：2.957195s][吞吐率：0.34req/s] [内存消耗：3,223.02kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_collect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryApdMXDOyZJrskw2L',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_collect[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.601836s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.948576s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.242305s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.093847s ]
+[ sql ] [ SQL ] SELECT `a`.`collect_id`,`b`.`file_id`,`a`.`collect_creattime`,`b`.`file_cover`,`b`.`file_name`,`b`.`file_type`,`b`.`file_category` FROM `yw_collect` `a` LEFT JOIN `yw_file` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_dance_type` `c` ON `b`.`dance_type_id`=`c`.`dance_type_id` WHERE  `user_id` = 2  AND `file_false_delete` = 1  AND `file_state` = 1 ORDER BY `a`.`collect_creattime` DESC [ RunTime:0.047225s ]
+---------------------------------------------------------------
+[ 2018-11-22T13:53:52+08:00 ] 111.163.133.51 POST /index.php/api/user/user_collect.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_collect.html [运行时间：0.029449s][吞吐率：33.96req/s] [内存消耗：3,223.48kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_collect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryVjMJ31wOC6B5YVm8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_collect[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001633s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001390s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.001076s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001341s ]
+[ sql ] [ SQL ] SELECT `a`.`collect_id`,`b`.`file_id`,`a`.`collect_creattime`,`b`.`file_cover`,`b`.`file_name`,`b`.`file_type`,`b`.`file_category` FROM `yw_collect` `a` LEFT JOIN `yw_file` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_dance_type` `c` ON `b`.`dance_type_id`=`c`.`dance_type_id` WHERE  `user_id` = 2  AND `file_false_delete` = 1  AND `file_state` = 1 ORDER BY `a`.`collect_creattime` DESC [ RunTime:0.000982s ]
+---------------------------------------------------------------
+[ 2018-11-22T13:57:09+08:00 ] 111.163.139.79 POST /index.php/api/user/user_collect.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_collect.html [运行时间：0.029164s][吞吐率：34.29req/s] [内存消耗：3,223.48kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_collect',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary0riDckY7PzBRGpij',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_collect[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001619s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001290s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000839s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001174s ]
+[ sql ] [ SQL ] SELECT `a`.`collect_id`,`b`.`file_id`,`a`.`collect_creattime`,`b`.`file_cover`,`b`.`file_name`,`b`.`file_type`,`b`.`file_category` FROM `yw_collect` `a` LEFT JOIN `yw_file` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_dance_type` `c` ON `b`.`dance_type_id`=`c`.`dance_type_id` WHERE  `user_id` = 2  AND `file_false_delete` = 1  AND `file_state` = 1 ORDER BY `a`.`collect_creattime` DESC [ RunTime:0.000879s ]
+---------------------------------------------------------------
+[ 2018-11-22T14:00:29+08:00 ] 111.163.133.51 POST /index.php/api/user/user_collect_curriculum.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_collect_curriculum.html [运行时间：0.017198s][吞吐率：58.15req/s] [内存消耗：2,222.77kb] [文件加载：46]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_collect_curriculum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary3lFzAEkDci5HuPq3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-22T14:08:19+08:00 ] 111.163.133.51 POST /index.php/api/user/user_collect_curriculum.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_collect_curriculum.html [运行时间：0.028991s][吞吐率：34.49req/s] [内存消耗：3,242.16kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_collect_curriculum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryUFmirdQS5Cp3ARRF',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_collect_curriculum[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001668s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001332s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000904s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001238s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_collect` `a` LEFT JOIN `yw_curriculum` `b` ON `a`.`curriculum_id`=`b`.`curriculum_id` WHERE  `user_id` = 2 [ RunTime:0.001095s ]
+---------------------------------------------------------------
+[ 2018-11-22T14:08:29+08:00 ] 111.163.133.51 POST /index.php/api/user/user_collect_curriculum.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_collect_curriculum.html [运行时间：0.029068s][吞吐率：34.40req/s] [内存消耗：3,223.37kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_collect_curriculum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '143',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryn2isqZYWZQmLnb0M',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '45',
+)
+[ info ] [ RUN ] app\api\controller\User->user_collect_curriculum[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001774s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001342s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '45' LIMIT 1 [ RunTime:0.003277s ]
+---------------------------------------------------------------
+[ 2018-11-22T14:08:33+08:00 ] 111.163.133.51 POST /index.php/api/user/user_collect_curriculum.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_collect_curriculum.html [运行时间：0.029530s][吞吐率：33.86req/s] [内存消耗：3,242.16kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_collect_curriculum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarybBmtqosW4jQA1uLA',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_collect_curriculum[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002195s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001360s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000891s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001113s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_collect` `a` LEFT JOIN `yw_curriculum` `b` ON `a`.`curriculum_id`=`b`.`curriculum_id` WHERE  `user_id` = 2 [ RunTime:0.000936s ]
+---------------------------------------------------------------
+[ 2018-11-22T14:08:35+08:00 ] 111.163.133.51 POST /index.php/api/user/user_collect_curriculum.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_collect_curriculum.html [运行时间：0.015719s][吞吐率：63.62req/s] [内存消耗：2,175.75kb] [文件加载：43]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_collect_curriculum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '44',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryYDeyNWOen1q7AtBd',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\User->user_collect_curriculum[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-22T14:08:41+08:00 ] 111.163.133.51 POST /index.php/api/user/user_collect_curriculum.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_collect_curriculum.html [运行时间：0.029898s][吞吐率：33.45req/s] [内存消耗：3,242.16kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_collect_curriculum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryBSknFs8mBdEIPCQ8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_collect_curriculum[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001573s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001341s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000907s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001108s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_collect` `a` LEFT JOIN `yw_curriculum` `b` ON `a`.`curriculum_id`=`b`.`curriculum_id` WHERE  `user_id` = 2 [ RunTime:0.000975s ]
+---------------------------------------------------------------
+[ 2018-11-22T14:21:16+08:00 ] 111.163.133.51 POST /index.php/api/user/user_collect_curriculum.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_collect_curriculum.html [运行时间：0.031425s][吞吐率：31.82req/s] [内存消耗：3,293.48kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_collect_curriculum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryb2nAGRpDnT6QED5W',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_collect_curriculum[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001735s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001294s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000925s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001153s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'curriculum_id' in field list is ambiguous[/www/web/yuewu/public_html/thinkphp/library/think/db/Connection.php:390]
+---------------------------------------------------------------
+[ 2018-11-22T14:22:11+08:00 ] 111.163.133.51 POST /index.php/api/user/user_collect_curriculum.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_collect_curriculum.html [运行时间：0.030966s][吞吐率：32.29req/s] [内存消耗：3,293.41kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_collect_curriculum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryC6EJE8Y082jVcBqm',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_collect_curriculum[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001644s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001426s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000927s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001103s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column '' in 'field list'[/www/web/yuewu/public_html/thinkphp/library/think/db/Connection.php:390]
+---------------------------------------------------------------
+[ 2018-11-22T14:22:25+08:00 ] 111.163.133.51 POST /index.php/api/user/user_collect_curriculum.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_collect_curriculum.html [运行时间：0.030730s][吞吐率：32.54req/s] [内存消耗：3,293.46kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_collect_curriculum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryFFnYx5I19OezEQoQ',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_collect_curriculum[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001496s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001276s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.001002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001217s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in where clause is ambiguous[/www/web/yuewu/public_html/thinkphp/library/think/db/Connection.php:390]
+---------------------------------------------------------------
+[ 2018-11-22T14:23:10+08:00 ] 111.163.133.51 POST /index.php/api/user/user_collect_curriculum.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_collect_curriculum.html [运行时间：0.029508s][吞吐率：33.89req/s] [内存消耗：3,236.05kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_collect_curriculum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryuwatAJQaSIi57Myq',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_collect_curriculum[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001568s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001463s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001100s ]
+[ sql ] [ SQL ] SELECT `collect_id`,`b`.`curriculum_id`,`collect_creattime`,`curriculum_admin`,`curriculum_name`,`curriculum_introduce_picture`,`curriculum_actual_price`,`curriculum_former_price`,`curriculum_difficulty`,`curriculum_start_time`,`curriculum_over_time` FROM `yw_collect` `a` LEFT JOIN `yw_curriculum` `b` ON `a`.`curriculum_id`=`b`.`curriculum_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `c`.`user_id` = 2  AND `curriculum_state` = 1  AND `curriculum_false_delete` = 1 ORDER BY `a`.`collect_creattime` DESC [ RunTime:0.001059s ]
+---------------------------------------------------------------
+[ 2018-11-22T14:23:46+08:00 ] 111.163.133.51 POST /index.php/api/user/user_collect_curriculum.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_collect_curriculum.html [运行时间：0.029895s][吞吐率：33.45req/s] [内存消耗：3,236.77kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_collect_curriculum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryqiVRSdLaWPoDexoB',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_collect_curriculum[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001762s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001388s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.001074s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001224s ]
+[ sql ] [ SQL ] SELECT `user_name`,`collect_id`,`b`.`curriculum_id`,`collect_creattime`,`curriculum_admin`,`curriculum_name`,`curriculum_introduce_picture`,`curriculum_actual_price`,`curriculum_former_price`,`curriculum_difficulty`,`curriculum_start_time`,`curriculum_over_time` FROM `yw_collect` `a` LEFT JOIN `yw_curriculum` `b` ON `a`.`curriculum_id`=`b`.`curriculum_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `c`.`user_id` = 2  AND `curriculum_state` = 1  AND `curriculum_false_delete` = 1 ORDER BY `a`.`collect_creattime` DESC [ RunTime:0.001314s ]
+---------------------------------------------------------------
+[ 2018-11-22T14:24:48+08:00 ] 111.163.133.51 POST /index.php/api/user/user_collect_curriculum.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_collect_curriculum.html [运行时间：0.028777s][吞吐率：34.75req/s] [内存消耗：3,238.19kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_collect_curriculum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryCatGTtu9KsogFlAD',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_collect_curriculum[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001470s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001263s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000942s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001073s ]
+[ sql ] [ SQL ] SELECT `user_name`,`user_sex`,`user_signature`,`collect_id`,`b`.`curriculum_id`,`collect_creattime`,`curriculum_admin`,`curriculum_name`,`curriculum_introduce_picture`,`curriculum_actual_price`,`curriculum_former_price`,`curriculum_difficulty`,`curriculum_start_time`,`curriculum_over_time` FROM `yw_collect` `a` LEFT JOIN `yw_curriculum` `b` ON `a`.`curriculum_id`=`b`.`curriculum_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `c`.`user_id` = 2  AND `curriculum_state` = 1  AND `curriculum_false_delete` = 1 ORDER BY `a`.`collect_creattime` DESC [ RunTime:0.001045s ]
+---------------------------------------------------------------
+[ 2018-11-22T14:25:18+08:00 ] 111.163.133.51 POST /index.php/api/user/user_collect_curriculum.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_collect_curriculum.html [运行时间：0.029160s][吞吐率：34.29req/s] [内存消耗：3,238.59kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_collect_curriculum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryT9tKVqO9iza1BLy8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_collect_curriculum[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001555s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001309s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000850s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001229s ]
+[ sql ] [ SQL ] SELECT `user_name`,`user_sex`,`user_signature`,`user_portrait`,`collect_id`,`b`.`curriculum_id`,`collect_creattime`,`curriculum_admin`,`curriculum_name`,`curriculum_introduce_picture`,`curriculum_actual_price`,`curriculum_former_price`,`curriculum_difficulty`,`curriculum_start_time`,`curriculum_over_time` FROM `yw_collect` `a` LEFT JOIN `yw_curriculum` `b` ON `a`.`curriculum_id`=`b`.`curriculum_id` LEFT JOIN `yw_user` `c` ON `a`.`user_id`=`c`.`user_id` WHERE  `c`.`user_id` = 2  AND `curriculum_state` = 1  AND `curriculum_false_delete` = 1 ORDER BY `a`.`collect_creattime` DESC [ RunTime:0.001072s ]
+---------------------------------------------------------------
+[ 2018-11-22T14:56:02+08:00 ] 111.163.133.51 POST /index.php/api/user/user_collect_videos.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_collect_videos.html [运行时间：0.033034s][吞吐率：30.27req/s] [内存消耗：3,232.97kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_collect_videos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryBS9BRLjHCuwyXege',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_collect_videos[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001891s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001466s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.001010s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001455s ]
+[ sql ] [ SQL ] SELECT `a`.`collect_id`,`b`.`file_id`,`a`.`collect_creattime`,`b`.`file_cover`,`b`.`file_name`,`b`.`file_type`,`b`.`file_category` FROM `yw_collect` `a` LEFT JOIN `yw_file` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_dance_type` `c` ON `b`.`dance_type_id`=`c`.`dance_type_id` WHERE  `user_id` = 2  AND `file_false_delete` = 1  AND `file_state` = 1 ORDER BY `a`.`collect_creattime` DESC [ RunTime:0.003121s ]
+---------------------------------------------------------------
+[ 2018-11-22T15:12:20+08:00 ] 111.163.133.51 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.031336s][吞吐率：31.91req/s] [内存消耗：3,238.97kb] [文件加载：51]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryV98CEBrkX86A9RZK',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001632s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001359s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000908s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_chat` [ RunTime:0.001141s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_chat` WHERE  `chat_fid` = 2  AND `chat_state` = 2 LIMIT 1 [ RunTime:0.000783s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_discounts` [ RunTime:0.001170s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_user_discounts` `a` LEFT JOIN `yw_user` `b` ON `a`.`user_id`=`b`.`user_id` WHERE  `a`.`user_id` = 2  AND `user_discounts_read_state` = 2 LIMIT 1 [ RunTime:0.000963s ]
+---------------------------------------------------------------
+[ 2018-11-22T15:12:22+08:00 ] 111.163.133.51 POST /index.php/api/user/user_centre.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_centre.html [运行时间：0.031546s][吞吐率：31.70req/s] [内存消耗：3,238.97kb] [文件加载：51]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_centre',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryzbUb1nhglmWRuUQ4',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_centre[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001515s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001267s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000976s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_chat` [ RunTime:0.001106s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_chat` WHERE  `chat_fid` = 2  AND `chat_state` = 2 LIMIT 1 [ RunTime:0.000885s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_discounts` [ RunTime:0.001138s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_user_discounts` `a` LEFT JOIN `yw_user` `b` ON `a`.`user_id`=`b`.`user_id` WHERE  `a`.`user_id` = 2  AND `user_discounts_read_state` = 2 LIMIT 1 [ RunTime:0.000970s ]
+---------------------------------------------------------------
+[ 2018-11-22T15:13:03+08:00 ] 111.163.139.79 POST /index.php/api/user/user_collect_videos.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_collect_videos.html [运行时间：0.028723s][吞吐率：34.82req/s] [内存消耗：3,232.97kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_collect_videos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryBrWJbmjSaybYsnhQ',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_collect_videos[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001530s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001459s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000848s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001071s ]
+[ sql ] [ SQL ] SELECT `a`.`collect_id`,`b`.`file_id`,`a`.`collect_creattime`,`b`.`file_cover`,`b`.`file_name`,`b`.`file_type`,`b`.`file_category` FROM `yw_collect` `a` LEFT JOIN `yw_file` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_dance_type` `c` ON `b`.`dance_type_id`=`c`.`dance_type_id` WHERE  `user_id` = 2  AND `file_false_delete` = 1  AND `file_state` = 1 ORDER BY `a`.`collect_creattime` DESC [ RunTime:0.000822s ]
+---------------------------------------------------------------
+[ 2018-11-22T15:13:28+08:00 ] 111.163.133.51 POST /index.php/api/user/user_collect_videos.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_collect_videos.html [运行时间：0.028507s][吞吐率：35.08req/s] [内存消耗：3,232.97kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_collect_videos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryqyPcFDzssi4Wgfj2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_collect_videos[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001519s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001299s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000854s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001040s ]
+[ sql ] [ SQL ] SELECT `a`.`collect_id`,`b`.`file_id`,`a`.`collect_creattime`,`b`.`file_cover`,`b`.`file_name`,`b`.`file_type`,`b`.`file_category` FROM `yw_collect` `a` LEFT JOIN `yw_file` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_dance_type` `c` ON `b`.`dance_type_id`=`c`.`dance_type_id` WHERE  `user_id` = 2  AND `file_false_delete` = 1  AND `file_state` = 1 ORDER BY `a`.`collect_creattime` DESC [ RunTime:0.000928s ]
+---------------------------------------------------------------
+[ 2018-11-22T15:14:25+08:00 ] 111.163.133.51 POST /index.php/api/user/user_collect_videos.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_collect_videos.html [运行时间：0.028874s][吞吐率：34.63req/s] [内存消耗：3,232.97kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_collect_videos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarye7jUmy2SoHjxrRGG',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_collect_videos[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001450s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001258s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000905s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001075s ]
+[ sql ] [ SQL ] SELECT `a`.`collect_id`,`b`.`file_id`,`a`.`collect_creattime`,`b`.`file_cover`,`b`.`file_name`,`b`.`file_type`,`b`.`file_category` FROM `yw_collect` `a` LEFT JOIN `yw_file` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_dance_type` `c` ON `b`.`dance_type_id`=`c`.`dance_type_id` WHERE  `user_id` = 2  AND `file_false_delete` = 1  AND `file_state` = 1 ORDER BY `a`.`collect_creattime` DESC [ RunTime:0.000917s ]
+---------------------------------------------------------------
+[ 2018-11-22T15:15:07+08:00 ] 111.163.133.51 POST /index.php/api/user/user_collect_videos.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_collect_videos.html [运行时间：0.029252s][吞吐率：34.19req/s] [内存消耗：3,232.97kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_collect_videos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarycI6ZxjFQSKncPSLK',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_collect_videos[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001430s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001246s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000927s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001060s ]
+[ sql ] [ SQL ] SELECT `a`.`collect_id`,`b`.`file_id`,`a`.`collect_creattime`,`b`.`file_cover`,`b`.`file_name`,`b`.`file_type`,`b`.`file_category` FROM `yw_collect` `a` LEFT JOIN `yw_file` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_dance_type` `c` ON `b`.`dance_type_id`=`c`.`dance_type_id` WHERE  `user_id` = 2  AND `file_false_delete` = 1  AND `file_state` = 1 ORDER BY `a`.`collect_creattime` DESC [ RunTime:0.000991s ]
+---------------------------------------------------------------
+[ 2018-11-22T15:15:10+08:00 ] 111.163.133.51 POST /index.php/api/user/user_collect_videos.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_collect_videos.html [运行时间：0.028532s][吞吐率：35.05req/s] [内存消耗：3,232.97kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_collect_videos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryQtVPuwpgS1bmubwr',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_collect_videos[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001569s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001300s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000834s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001173s ]
+[ sql ] [ SQL ] SELECT `a`.`collect_id`,`b`.`file_id`,`a`.`collect_creattime`,`b`.`file_cover`,`b`.`file_name`,`b`.`file_type`,`b`.`file_category` FROM `yw_collect` `a` LEFT JOIN `yw_file` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_dance_type` `c` ON `b`.`dance_type_id`=`c`.`dance_type_id` WHERE  `user_id` = 2  AND `file_false_delete` = 1  AND `file_state` = 1 ORDER BY `a`.`collect_creattime` DESC [ RunTime:0.000909s ]
+---------------------------------------------------------------
+[ 2018-11-22T15:20:45+08:00 ] 111.163.139.79 POST /index.php/api/user/user_collect_videos.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_collect_videos.html [运行时间：0.028484s][吞吐率：35.11req/s] [内存消耗：3,232.95kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_collect_videos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '242',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarygkbtAOWMxVhjXEvI',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'enter_type' => '1',
+)
+[ info ] [ RUN ] app\api\controller\User->user_collect_videos[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001526s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001311s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000825s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_collect` [ RunTime:0.001064s ]
+[ sql ] [ SQL ] SELECT `a`.`collect_id`,`b`.`file_id`,`a`.`collect_creattime`,`b`.`file_cover`,`b`.`file_name`,`b`.`file_type`,`b`.`file_category` FROM `yw_collect` `a` LEFT JOIN `yw_file` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_dance_type` `c` ON `b`.`dance_type_id`=`c`.`dance_type_id` WHERE  `user_id` = 2  AND `file_false_delete` = 1  AND `file_state` = 1 ORDER BY `a`.`collect_creattime` DESC [ RunTime:0.000962s ]
+---------------------------------------------------------------
+[ 2018-11-22T16:02:58+08:00 ] 111.163.139.79 POST /index.php/api/user/status_upgrade.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/status_upgrade.html [运行时间：0.018306s][吞吐率：54.63req/s] [内存消耗：2,232.46kb] [文件加载：46]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'status_upgrade',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '341',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary01KZ9hGdEq8bMIp8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'enter_type' => '1',
+  'district_id' => '1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-22T16:09:15+08:00 ] 111.163.133.51 POST /index.php/api/user/status_upgrade.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/status_upgrade.html [运行时间：0.017239s][吞吐率：58.01req/s] [内存消耗：2,233.33kb] [文件加载：46]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'status_upgrade',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '19496',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryjLRR7FvizsQgA9cX',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'enter_type' => '1',
+  'district_id' => '1',
+  'teacher_name' => '教师姓名',
+  'teacher_intro' => '文档教师',
+  'teacher_master' => '舞蹈类型',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-22T16:09:57+08:00 ] 111.163.133.51 POST /index.php/api/user/status_upgrade.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/status_upgrade.html [运行时间：0.016383s][吞吐率：61.04req/s] [内存消耗：2,287.30kb] [文件加载：44]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'status_upgrade',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '19496',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarygo1wV4ACQySoZB9E',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'enter_type' => '1',
+  'district_id' => '1',
+  'teacher_name' => '教师姓名',
+  'teacher_intro' => '文档教师',
+  'teacher_master' => '舞蹈类型',
+)
+[ info ] [ RUN ] app\api\controller\User->status_upgrade[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-22T16:10:09+08:00 ] 111.163.133.51 POST /index.php/api/user/status_upgrade.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/status_upgrade.html [运行时间：0.016273s][吞吐率：61.45req/s] [内存消耗：2,287.30kb] [文件加载：44]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'status_upgrade',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '19496',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryAnvB5K73juvQosyA',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'enter_type' => '1',
+  'district_id' => '1',
+  'teacher_name' => '教师姓名',
+  'teacher_intro' => '文档教师',
+  'teacher_master' => '舞蹈类型',
+)
+[ info ] [ RUN ] app\api\controller\User->status_upgrade[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-11-22T16:10:51+08:00 ] 111.163.133.51 POST /index.php/api/user/status_upgrade.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/status_upgrade.html [运行时间：0.029943s][吞吐率：33.40req/s] [内存消耗：3,346.13kb] [文件加载：51]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'status_upgrade',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '19496',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryMnBDASWt22s8AB0s',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'enter_type' => '1',
+  'district_id' => '1',
+  'teacher_name' => '教师姓名',
+  'teacher_intro' => '文档教师',
+  'teacher_master' => '舞蹈类型',
+)
+[ info ] [ RUN ] app\api\controller\User->status_upgrade[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001678s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001247s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.001298s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001187s ]
+[ sql ] [ SQL ] INSERT INTO `yw_user_teacher` (`user_id` , `teacher_portrait` , `teacher_name` , `teacher_intro` , `teacher_master`) VALUES (2 , '20181122/ffba926f8f5dbeec21e784449d099bc3.jpg' , '教师姓名' , '文档教师' , '舞蹈类型') [ RunTime:0.000968s ]
+---------------------------------------------------------------
+[ 2018-11-22T16:17:10+08:00 ] 111.163.133.51 POST /index.php/api/user/status_upgrade.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/status_upgrade.html [运行时间：0.030728s][吞吐率：32.54req/s] [内存消耗：3,353.17kb] [文件加载：51]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'status_upgrade',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '19496',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryOrp1KtwFa3rsOA7b',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'enter_type' => '1',
+  'district_id' => '1',
+  'teacher_name' => '教师姓名',
+  'teacher_intro' => '文档教师',
+  'teacher_master' => '舞蹈类型',
+)
+[ info ] [ RUN ] app\api\controller\User->status_upgrade[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001922s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001440s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000971s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001385s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_user_teacher` WHERE  `user_id` = 2 LIMIT 1 [ RunTime:0.001096s ]
+---------------------------------------------------------------
+[ 2018-11-22T16:17:21+08:00 ] 111.163.133.51 POST /index.php/api/user/status_upgrade.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/status_upgrade.html [运行时间：0.030088s][吞吐率：33.24req/s] [内存消耗：3,353.17kb] [文件加载：51]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'status_upgrade',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '19496',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary9HmU1tcxc8J450o8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'enter_type' => '1',
+  'district_id' => '1',
+  'teacher_name' => '教师姓名',
+  'teacher_intro' => '文档教师',
+  'teacher_master' => '舞蹈类型',
+)
+[ info ] [ RUN ] app\api\controller\User->status_upgrade[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001514s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001347s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000938s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001207s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_user_teacher` WHERE  `user_id` = 2 LIMIT 1 [ RunTime:0.000918s ]
+---------------------------------------------------------------
+[ 2018-11-22T16:17:22+08:00 ] 111.163.133.51 POST /index.php/api/user/status_upgrade.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/status_upgrade.html [运行时间：0.029893s][吞吐率：33.45req/s] [内存消耗：3,353.17kb] [文件加载：51]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'status_upgrade',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '19496',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryJiwMnZ3ylzCSYs6q',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'enter_type' => '1',
+  'district_id' => '1',
+  'teacher_name' => '教师姓名',
+  'teacher_intro' => '文档教师',
+  'teacher_master' => '舞蹈类型',
+)
+[ info ] [ RUN ] app\api\controller\User->status_upgrade[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001323s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001278s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000926s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_teacher` [ RunTime:0.001082s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_user_teacher` WHERE  `user_id` = 2 LIMIT 1 [ RunTime:0.000919s ]
+---------------------------------------------------------------
+[ 2018-11-22T16:31:27+08:00 ] 111.163.133.51 POST /index.php/api/user/status_upgrade.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/status_upgrade.html [运行时间：0.030906s][吞吐率：32.36req/s] [内存消耗：3,350.64kb] [文件加载：54]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'status_upgrade',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '1061',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary4C93470djPj7arL4',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'enter_type' => '2',
+  'district_id' => '1',
+  'organization_name' => '机构名称',
+  'organization_site' => '机构地址',
+  'organization_facility' => '机构设施',
+  'organization_business_hours' => '机构营业时间',
+  'organization_synopsis' => '机构简介',
+  'organization_type' => '舞蹈种类',
+)
+[ info ] [ RUN ] app\api\controller\User->status_upgrade[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001586s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001288s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000919s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001257s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` WHERE  `user_id` = 2 LIMIT 1 [ RunTime:0.000968s ]
+[ error ] [1]Call to a member function move() on a non-object[/www/web/yuewu/public_html/application/api/controller/User.php:190]
+---------------------------------------------------------------
+[ 2018-11-22T16:32:00+08:00 ] 111.163.133.51 POST /index.php/api/user/status_upgrade.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/status_upgrade.html [运行时间：0.031765s][吞吐率：31.48req/s] [内存消耗：3,451.50kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'status_upgrade',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '51534',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarycUtTIobw1YA1tonv',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'enter_type' => '2',
+  'district_id' => '1',
+  'organization_name' => '机构名称',
+  'organization_site' => '机构地址',
+  'organization_facility' => '机构设施',
+  'organization_business_hours' => '机构营业时间',
+  'organization_synopsis' => '机构简介',
+  'organization_type' => '舞蹈种类',
+)
+[ info ] [ RUN ] app\api\controller\User->status_upgrade[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002235s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001191s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000842s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001288s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` WHERE  `user_id` = 2 LIMIT 1 [ RunTime:0.000864s ]
+[ error ] [1]Call to a member function move() on a non-object[/www/web/yuewu/public_html/application/api/controller/User.php:190]
+---------------------------------------------------------------
+[ 2018-11-22T16:32:05+08:00 ] 111.163.133.51 POST /index.php/api/user/status_upgrade.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/status_upgrade.html [运行时间：0.031883s][吞吐率：31.36req/s] [内存消耗：3,451.50kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'status_upgrade',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '51534',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryd5KwBpxE3W8KBPMB',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'enter_type' => '2',
+  'district_id' => '1',
+  'organization_name' => '机构名称',
+  'organization_site' => '机构地址',
+  'organization_facility' => '机构设施',
+  'organization_business_hours' => '机构营业时间',
+  'organization_synopsis' => '机构简介',
+  'organization_type' => '舞蹈种类',
+)
+[ info ] [ RUN ] app\api\controller\User->status_upgrade[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001575s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001342s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000964s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001219s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` WHERE  `user_id` = 2 LIMIT 1 [ RunTime:0.000951s ]
+[ error ] [1]Call to a member function move() on a non-object[/www/web/yuewu/public_html/application/api/controller/User.php:190]
+---------------------------------------------------------------
+[ 2018-11-22T16:33:42+08:00 ] 111.163.133.51 POST /index.php/api/user/status_upgrade.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/status_upgrade.html [运行时间：0.031823s][吞吐率：31.42req/s] [内存消耗：3,414.96kb] [文件加载：54]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'status_upgrade',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '51539',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryojBBbTKD8P1FPIXt',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'enter_type' => '2',
+  'district_id' => '1',
+  'organization_name' => '机构名称',
+  'organization_site' => '机构地址',
+  'organization_facility' => '机构设施',
+  'organization_business_hours' => '机构营业时间',
+  'organization_synopsis' => '机构简介',
+  'organization_type' => '舞蹈种类',
+)
+[ info ] [ RUN ] app\api\controller\User->status_upgrade[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001554s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001292s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000882s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001192s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` WHERE  `user_id` = 2 LIMIT 1 [ RunTime:0.001037s ]
+[ error ] [0]数据表字段不存在:[teacher_portrait][/www/web/yuewu/public_html/thinkphp/library/think/db/Builder.php:111]
+---------------------------------------------------------------
+[ 2018-11-22T16:34:21+08:00 ] 111.163.133.51 POST /index.php/api/user/status_upgrade.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/status_upgrade.html [运行时间：0.034837s][吞吐率：28.71req/s] [内存消耗：3,359.58kb] [文件加载：51]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'status_upgrade',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '51539',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryWoYBAY8xFEqHZEvR',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'enter_type' => '2',
+  'district_id' => '1',
+  'organization_name' => '机构名称',
+  'organization_site' => '机构地址',
+  'organization_facility' => '机构设施',
+  'organization_business_hours' => '机构营业时间',
+  'organization_synopsis' => '机构简介',
+  'organization_type' => '舞蹈种类',
+)
+[ info ] [ RUN ] app\api\controller\User->status_upgrade[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001517s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001427s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000920s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001169s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` WHERE  `user_id` = 2 LIMIT 1 [ RunTime:0.000910s ]
+[ sql ] [ SQL ] INSERT INTO `yw_organization` (`user_id` , `organization_portrait` , `organization_cover` , `organization_name` , `organization_site` , `organization_facility` , `organization_business_hours` , `organization_synopsis` , `organization_type`) VALUES (2 , '20181122/dfe52400de36aaf502a037f08f2f408f.jpg' , '20181122/dfe52400de36aaf502a037f08f2f408f.jpg' , '机构名称' , '机构地址' , '机构设施' , '机构营业时间' , '机构简介' , '舞蹈种类') [ RunTime:0.004163s ]
+---------------------------------------------------------------
+[ 2018-11-22T16:34:31+08:00 ] 111.163.133.51 POST /index.php/api/user/status_upgrade.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/status_upgrade.html [运行时间：0.029364s][吞吐率：34.06req/s] [内存消耗：3,358.94kb] [文件加载：51]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'status_upgrade',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '51539',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary0fXSAfEVUxwHJy5F',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'enter_type' => '2',
+  'district_id' => '1',
+  'organization_name' => '机构名称',
+  'organization_site' => '机构地址',
+  'organization_facility' => '机构设施',
+  'organization_business_hours' => '机构营业时间',
+  'organization_synopsis' => '机构简介',
+  'organization_type' => '舞蹈种类',
+)
+[ info ] [ RUN ] app\api\controller\User->status_upgrade[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001441s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001305s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000930s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_organization` [ RunTime:0.001231s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_organization` WHERE  `user_id` = 2 LIMIT 1 [ RunTime:0.000950s ]
+---------------------------------------------------------------
+[ 2018-11-22T17:25:40+08:00 ] 111.163.133.51 POST /index.php/api/user/user_videos.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_videos.html [运行时间：0.030392s][吞吐率：32.90req/s] [内存消耗：3,324.45kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_videos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryPjpnZMSG8J58ficE',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_videos[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001605s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001399s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.001066s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001174s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.user_id' in 'where clause'[/www/web/yuewu/public_html/thinkphp/library/think/db/Connection.php:390]
+---------------------------------------------------------------
+[ 2018-11-22T17:28:31+08:00 ] 111.163.133.51 POST /index.php/api/user/user_videos.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_videos.html [运行时间：0.031704s][吞吐率：31.54req/s] [内存消耗：3,325.02kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_videos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryaQwKBZsK3CfI98IT',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_videos[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001922s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001407s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000999s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001182s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.user_id' in 'where clause'[/www/web/yuewu/public_html/thinkphp/library/think/db/Connection.php:390]
+---------------------------------------------------------------
+[ 2018-11-22T17:29:06+08:00 ] 111.163.133.51 POST /index.php/api/user/user_videos.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_videos.html [运行时间：0.030661s][吞吐率：32.61req/s] [内存消耗：3,275.06kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_videos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary2l6E32c12BFR9gY0',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_videos[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001547s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001470s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001121s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_file` `a` LEFT JOIN `yw_file_user` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user` `c` ON `b`.`user_id`=`c`.`user_id` WHERE  `c`.`user_id` = 2 [ RunTime:0.001130s ]
+---------------------------------------------------------------
+[ 2018-11-22T17:30:00+08:00 ] 111.163.133.51 POST /index.php/api/user/user_videos.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_videos.html [运行时间：0.029626s][吞吐率：33.75req/s] [内存消耗：3,277.46kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_videos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryvb64DeWATW4Ir0SH',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_videos[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001548s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001300s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000860s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001178s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_file` `a` LEFT JOIN `yw_file_user` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user` `c` ON `b`.`user_id`=`c`.`user_id` WHERE  `c`.`user_id` = 2 [ RunTime:0.001073s ]
+---------------------------------------------------------------
+[ 2018-11-22T17:38:13+08:00 ] 111.163.133.51 POST /index.php/api/user/user_videos.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_videos.html [运行时间：0.031506s][吞吐率：31.74req/s] [内存消耗：3,329.04kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_videos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary2VDYHHFcfGC9kAa7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_videos[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001592s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001328s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000850s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001247s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column '' in 'field list'[/www/web/yuewu/public_html/thinkphp/library/think/db/Connection.php:390]
+---------------------------------------------------------------
+[ 2018-11-22T17:38:28+08:00 ] 111.163.133.51 POST /index.php/api/user/user_videos.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_videos.html [运行时间：0.029289s][吞吐率：34.14req/s] [内存消耗：3,269.50kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_videos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary7Jk2pRAvfHaTga7F',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_videos[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001536s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001335s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000962s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001205s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`d`.`dance_type_name`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_collection`,`a`.`file_type` FROM `yw_file` `a` LEFT JOIN `yw_file_user` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user` `c` ON `b`.`user_id`=`c`.`user_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `c`.`user_id` = 2  AND `file_category` = 1  AND `file_state` = 1  AND `file_false_delete` = 1 ORDER BY `a`.`file_creattime` DESC [ RunTime:0.001108s ]
+---------------------------------------------------------------
+[ 2018-11-22T17:45:18+08:00 ] 111.163.133.51 POST /index.php/api/user/user_videos.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_videos.html [运行时间：0.030625s][吞吐率：32.65req/s] [内存消耗：3,272.58kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_videos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary1Yra8hlLysAkOAAS',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_videos[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001449s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001285s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.001005s ]
+[ sql ] [ SQL ] SELECT `user_name`,`user_sex`,`user_signature`,`user_role` FROM `yw_user` WHERE  `user_id` = 2 LIMIT 1 [ RunTime:0.000941s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001142s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`d`.`dance_type_name`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_collection`,`a`.`file_type` FROM `yw_file` `a` LEFT JOIN `yw_file_user` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user` `c` ON `b`.`user_id`=`c`.`user_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `c`.`user_id` = 2  AND `file_category` = 1  AND `file_state` = 1  AND `file_false_delete` = 1 ORDER BY `a`.`file_creattime` DESC [ RunTime:0.000874s ]
+---------------------------------------------------------------
+[ 2018-11-22T17:51:31+08:00 ] 111.163.133.51 POST /index.php/api/user/user_videos.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_videos.html [运行时间：0.029896s][吞吐率：33.45req/s] [内存消耗：3,272.58kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_videos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '144',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarypDkqBDmaT7zlptes',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+)
+[ info ] [ RUN ] app\api\controller\User->user_videos[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001385s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001245s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000954s ]
+[ sql ] [ SQL ] SELECT `user_name`,`user_sex`,`user_signature`,`user_role` FROM `yw_user` WHERE  `user_id` = 2 LIMIT 1 [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001146s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`d`.`dance_type_name`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_collection`,`a`.`file_type` FROM `yw_file` `a` LEFT JOIN `yw_file_user` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user` `c` ON `b`.`user_id`=`c`.`user_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `c`.`user_id` = 2  AND `file_category` = 1  AND `file_state` = 1  AND `file_false_delete` = 1 ORDER BY `a`.`file_creattime` DESC [ RunTime:0.000909s ]
+---------------------------------------------------------------
+[ 2018-11-22T17:51:41+08:00 ] 111.163.133.51 POST /index.php/api/user/user_videos.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_videos.html [运行时间：0.031037s][吞吐率：32.22req/s] [内存消耗：3,272.75kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_videos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryinAPGbCL1AnBuvMV',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'file_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\User->user_videos[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001665s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001212s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000861s ]
+[ sql ] [ SQL ] SELECT `user_name`,`user_sex`,`user_signature`,`user_role` FROM `yw_user` WHERE  `user_id` = 2 LIMIT 1 [ RunTime:0.000843s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001111s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`d`.`dance_type_name`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_collection`,`a`.`file_type` FROM `yw_file` `a` LEFT JOIN `yw_file_user` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user` `c` ON `b`.`user_id`=`c`.`user_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `c`.`user_id` = 2  AND `file_category` = 1  AND `file_state` = 1  AND `file_false_delete` = 1 ORDER BY `a`.`file_creattime` DESC [ RunTime:0.000884s ]
+---------------------------------------------------------------
+[ 2018-11-22T18:04:16+08:00 ] 111.163.133.51 POST /index.php/api/user/user_videos.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_videos.html [运行时间：0.030504s][吞吐率：32.78req/s] [内存消耗：3,282.77kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_videos',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary1hiBzyPeNDNDOXs5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'file_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\User->user_videos[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001607s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001410s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000953s ]
+[ sql ] [ SQL ] SELECT `user_name`,`user_sex`,`user_signature`,`user_role` FROM `yw_user` WHERE  `user_id` = 2 LIMIT 1 [ RunTime:0.000821s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001132s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`d`.`dance_type_name`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_collection`,`a`.`file_type` FROM `yw_file` `a` LEFT JOIN `yw_file_user` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user` `c` ON `b`.`user_id`=`c`.`user_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `c`.`user_id` = 2  AND `file_category` = 1  AND `file_state` = 1  AND `file_false_delete` = 1 ORDER BY `a`.`file_creattime` DESC [ RunTime:0.000930s ]
+---------------------------------------------------------------
+[ 2018-11-22T18:04:32+08:00 ] 111.163.133.51 POST /index.php/api/user/user_videos_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_videos_details.html [运行时间：0.032712s][吞吐率：30.57req/s] [内存消耗：3,340.97kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_videos_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary1ZQNmscDPAUKeAmQ',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'file_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\User->user_videos_details[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001599s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001272s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000978s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001239s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'file_id' in where clause is ambiguous[/www/web/yuewu/public_html/thinkphp/library/think/db/Connection.php:390]
+---------------------------------------------------------------
+[ 2018-11-22T18:05:00+08:00 ] 111.163.133.51 POST /index.php/api/user/user_videos_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_videos_details.html [运行时间：0.029735s][吞吐率：33.63req/s] [内存消耗：3,280.59kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_videos_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryGLGY6p19V17I3dIi',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'file_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\User->user_videos_details[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001530s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001307s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000887s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001237s ]
+[ sql ] [ SQL ] SELECT `a`.`file_id`,`d`.`dance_type_name`,`a`.`file_cover`,`a`.`file_name`,`a`.`file_collection`,`a`.`file_type` FROM `yw_file` `a` LEFT JOIN `yw_file_user` `b` ON `a`.`file_id`=`b`.`file_id` LEFT JOIN `yw_user` `c` ON `b`.`user_id`=`c`.`user_id` LEFT JOIN `yw_dance_type` `d` ON `a`.`dance_type_id`=`d`.`dance_type_id` WHERE  `c`.`user_id` = 2  AND `file_category` = 1  AND `file_state` = 1  AND `file_false_delete` = 1  AND `a`.`file_id` = 2 ORDER BY `a`.`file_creattime` DESC LIMIT 1 [ RunTime:0.001166s ]
+---------------------------------------------------------------
+[ 2018-11-22T18:10:44+08:00 ] 111.163.133.51 POST /index.php/api/user/user_videos_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_videos_details.html [运行时间：0.030410s][吞吐率：32.88req/s] [内存消耗：3,337.52kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_videos_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryOwLodzdA7b6Xs9RI',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'file_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\User->user_videos_details[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001486s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001256s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000934s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001084s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column '' in 'field list'[/www/web/yuewu/public_html/thinkphp/library/think/db/Connection.php:390]
+---------------------------------------------------------------
+[ 2018-11-22T18:11:04+08:00 ] 111.163.133.51 POST /index.php/api/user/user_videos_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_videos_details.html [运行时间：0.053478s][吞吐率：18.70req/s] [内存消耗：3,276.23kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_videos_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarySWOEAcPWfLhnYd0F',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'file_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\User->user_videos_details[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001940s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001417s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000895s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001112s ]
+[ sql ] [ SQL ] SELECT `file_id`,`dance_type_name`,`file_content`,`file_name`,`file_collection` FROM `yw_file` `a` LEFT JOIN `yw_dance_type` `b` ON `a`.`dance_type_id`=`b`.`dance_type_id` WHERE  `a`.`file_id` = 2  AND `file_state` = 1  AND `file_false_delete` = 1 ORDER BY `a`.`file_creattime` DESC LIMIT 1 [ RunTime:0.001088s ]
+---------------------------------------------------------------
+[ 2018-11-22T18:16:03+08:00 ] 111.163.133.51 POST /index.php/api/user/user_videos_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_videos_details.html [运行时间：0.031040s][吞吐率：32.22req/s] [内存消耗：3,287.35kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_videos_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary6RlFAigCvMpshOMA',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'file_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\User->user_videos_details[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002020s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001401s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000862s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001202s ]
+[ sql ] [ SQL ] SELECT `file_id`,`dance_type_name`,`file_content`,`file_name`,`file_collection` FROM `yw_file` `a` LEFT JOIN `yw_dance_type` `b` ON `a`.`dance_type_id`=`b`.`dance_type_id` WHERE  `a`.`file_id` = 2  AND `file_state` = 1  AND `file_false_delete` = 1 ORDER BY `a`.`file_creattime` DESC LIMIT 1 [ RunTime:0.001049s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_file` `a` LEFT JOIN `yw_comments` `b` ON `a`.`file_id`=`b`.`file_id` [ RunTime:0.000984s ]
+---------------------------------------------------------------
+[ 2018-11-22T18:20:39+08:00 ] 111.163.133.51 POST /index.php/api/user/user_videos_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_videos_details.html [运行时间：0.032565s][吞吐率：30.71req/s] [内存消耗：3,347.88kb] [文件加载：54]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_videos_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarySIyTuy7FkB42dv6r',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'file_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\User->user_videos_details[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002536s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.002141s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000952s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001114s ]
+[ error ] [8]未定义数组下标: 1[/www/web/yuewu/public_html/thinkphp/library/think/db/Builder.php:319]
+---------------------------------------------------------------
+[ 2018-11-22T18:21:25+08:00 ] 111.163.133.51 POST /index.php/api/user/user_videos_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_videos_details.html [运行时间：0.030546s][吞吐率：32.74req/s] [内存消耗：3,340.36kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_videos_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryrSin3Mp4Fs1zqf4F',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'file_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\User->user_videos_details[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001426s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001246s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000979s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001234s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.file_id' in 'where clause'[/www/web/yuewu/public_html/thinkphp/library/think/db/Connection.php:390]
+---------------------------------------------------------------
+[ 2018-11-22T18:21:57+08:00 ] 111.163.133.51 POST /index.php/api/user/user_videos_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_videos_details.html [运行时间：0.030465s][吞吐率：32.82req/s] [内存消耗：3,285.25kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_videos_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryw0ebBsteRom95IYI',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'file_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\User->user_videos_details[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001547s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001376s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.001076s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001103s ]
+[ sql ] [ SQL ] SELECT `file_id`,`dance_type_name`,`file_content`,`file_name`,`file_collection` FROM `yw_file` `a` LEFT JOIN `yw_dance_type` `b` ON `a`.`dance_type_id`=`b`.`dance_type_id` WHERE  ( `a`.`file_id` = 2 AND `a`.`file_id` = '1' )  AND `file_state` = 1  AND `file_false_delete` = 1 ORDER BY `a`.`file_creattime` DESC LIMIT 1 [ RunTime:0.001069s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_file` `a` LEFT JOIN `yw_comments` `b` ON `a`.`file_id`=`b`.`file_id` WHERE  `b`.`file_id` = '1' [ RunTime:0.000982s ]
+---------------------------------------------------------------
+[ 2018-11-22T18:22:11+08:00 ] 111.163.133.51 POST /index.php/api/user/user_videos_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_videos_details.html [运行时间：0.030288s][吞吐率：33.02req/s] [内存消耗：3,286.31kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_videos_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryBhnLhqMFBCZunSXq',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'file_id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\User->user_videos_details[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001623s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001341s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000868s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001105s ]
+[ sql ] [ SQL ] SELECT `file_id`,`dance_type_name`,`file_content`,`file_name`,`file_collection` FROM `yw_file` `a` LEFT JOIN `yw_dance_type` `b` ON `a`.`dance_type_id`=`b`.`dance_type_id` WHERE  ( `a`.`file_id` = 2 AND `a`.`file_id` = '2' )  AND `file_state` = 1  AND `file_false_delete` = 1 ORDER BY `a`.`file_creattime` DESC LIMIT 1 [ RunTime:0.001146s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_file` `a` LEFT JOIN `yw_comments` `b` ON `a`.`file_id`=`b`.`file_id` WHERE  `b`.`file_id` = '2' [ RunTime:0.000938s ]
+---------------------------------------------------------------
+[ 2018-11-22T18:31:10+08:00 ] 111.163.133.51 POST /index.php/api/user/user_videos_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_videos_details.html [运行时间：0.033798s][吞吐率：29.59req/s] [内存消耗：3,346.98kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_videos_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryLCgJP7QqI8s8vZbx',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'file_id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\User->user_videos_details[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001683s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001342s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.001044s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001335s ]
+[ sql ] [ SQL ] SELECT `file_id`,`dance_type_name`,`file_content`,`file_name`,`file_collection` FROM `yw_file` `a` LEFT JOIN `yw_dance_type` `b` ON `a`.`dance_type_id`=`b`.`dance_type_id` WHERE  ( `a`.`file_id` = 2 AND `a`.`file_id` = '2' )  AND `file_state` = 1  AND `file_false_delete` = 1 ORDER BY `a`.`file_creattime` DESC LIMIT 1 [ RunTime:0.001051s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_comments` [ RunTime:0.001198s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.comments_content' in 'field list'[/www/web/yuewu/public_html/thinkphp/library/think/db/Connection.php:390]
+---------------------------------------------------------------
+[ 2018-11-22T18:31:37+08:00 ] 111.163.133.51 POST /index.php/api/user/user_videos_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_videos_details.html [运行时间：0.033971s][吞吐率：29.44req/s] [内存消耗：3,346.99kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_videos_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarySHotDrhFrKxW1pB3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'file_id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\User->user_videos_details[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001637s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001441s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000841s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001260s ]
+[ sql ] [ SQL ] SELECT `file_id`,`dance_type_name`,`file_content`,`file_name`,`file_collection` FROM `yw_file` `a` LEFT JOIN `yw_dance_type` `b` ON `a`.`dance_type_id`=`b`.`dance_type_id` WHERE  ( `a`.`file_id` = 2 AND `a`.`file_id` = '2' )  AND `file_state` = 1  AND `file_false_delete` = 1 ORDER BY `a`.`file_creattime` DESC LIMIT 1 [ RunTime:0.000963s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_comments` [ RunTime:0.001189s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.user_name' in 'field list'[/www/web/yuewu/public_html/thinkphp/library/think/db/Connection.php:390]
+---------------------------------------------------------------
+[ 2018-11-22T18:32:04+08:00 ] 111.163.133.51 POST /index.php/api/user/user_videos_details.html
+[ info ] yuewu.dazhu-ltd.cn/index.php/api/user/user_videos_details.html [运行时间：0.031859s][吞吐率：31.39req/s] [内存消耗：3,283.36kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/yuewu/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'user_videos_details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'yuewu.dazhu-ltd.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '239',
+  'accept' => '*/*',
+  'origin' => 'chrome-extension://geobniafmelcledgickglbajofpkllpl',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryZLhmiu9YQFV18RRQ',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_token' => '456',
+  'file_id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\User->user_videos_details[ /www/web/yuewu/public_html/application/api/controller/User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001703s ] mysql:host=114.115.205.226;port=3306;dbname=yuewu;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user` [ RunTime:0.001298s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`user_sex`,`user_role`,`user_portrait`,`user_signature`,`user_token`,`user_status`,`user_false_delete` FROM `yw_user` WHERE  `user_token` = '456' LIMIT 1 [ RunTime:0.000873s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_file` [ RunTime:0.001129s ]
+[ sql ] [ SQL ] SELECT `file_id`,`dance_type_name`,`file_content`,`file_name`,`file_collection` FROM `yw_file` `a` LEFT JOIN `yw_dance_type` `b` ON `a`.`dance_type_id`=`b`.`dance_type_id` WHERE  ( `a`.`file_id` = 2 AND `a`.`file_id` = '2' )  AND `file_state` = 1  AND `file_false_delete` = 1 ORDER BY `a`.`file_creattime` DESC LIMIT 1 [ RunTime:0.000900s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_comments` [ RunTime:0.001209s ]
+[ sql ] [ SQL ] SELECT `a`.`comments_content`,`b`.`user_name`,`b`.`user_portrait`,`a`.`comments_creattime` FROM `yw_comments` `a` LEFT JOIN `yw_user` `b` ON `a`.`user_id`=`b`.`user_id` WHERE  `a`.`file_id` = '2' [ RunTime:0.001037s ]
